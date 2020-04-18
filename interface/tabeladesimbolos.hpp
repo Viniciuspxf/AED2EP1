@@ -12,6 +12,7 @@ class noLista {
 template <class Chave, class Item> 
 class noArvore {
     public:
+        noArvore *pai;
         noArvore *esq;
         noArvore *dir;
         Chave chave;
@@ -73,6 +74,10 @@ class listaOrd {
 template <class Chave, class Item>
 class arvoreBin {
     private:
+        int contaNos(noArvore<Chave, Item> *no);
+        Item devolveR(noArvore<Chave, Item> *no, Chave chave)
+        noArvore<Chave, Item> *insereR(noArvore<Chave, Item> *no, Chave chave, Item valor);
+        void excluiArvore(noArvore<Chave, Item> *no);
         noArvore<Chave, Item> *raiz;
     public:
         arvoreBin(string nome_arquivo);
