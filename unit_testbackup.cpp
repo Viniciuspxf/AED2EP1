@@ -76,7 +76,7 @@ main(int argc, char *argv[])
 
     if (tipo == "VD"){
         start = clock(); 
-        vetorDes<string, int> *st = new vetorDes<string, int>(nome_arquivo);
+        vetorDes<String,Integer> *st = new vetorDes<String, Integer>(nome_arquivo);
         end = clock();
 
         /* calcule o tempo */
@@ -88,7 +88,7 @@ main(int argc, char *argv[])
     }
     else if (tipo == "VO"){
         start = clock(); 
-        vetorOrd<string, int> *st = new vetorOrd<string, int>(nome_arquivo);
+        vetorOrd<String,Integer> *st = new vetorOrd<String,Integer>(nome_arquivo);
         end = clock();
 
         /* calcule o tempo */
@@ -100,7 +100,7 @@ main(int argc, char *argv[])
     }
     else if (tipo == "LD"){
         start = clock(); 
-        listaDes<string, int> *st = new listaDes<string, int>(nome_arquivo);
+        listaDes<String,Integer> *st = new listaDes<String,Integer>(nome_arquivo);
         end = clock();
 
         /* calcule o tempo */
@@ -112,7 +112,7 @@ main(int argc, char *argv[])
     }
     else if (tipo == "LO"){
         start = clock(); 
-        listaOrd<string, int> *st = new listaOrd<string, int>(nome_arquivo);
+        listaOrd<String,Integer> *st = new listaOrd<String,Integer>(nome_arquivo);
         end = clock();
 
         /* calcule o tempo */
@@ -124,7 +124,7 @@ main(int argc, char *argv[])
     }
     else if (tipo == "AB"){
         start = clock(); 
-        arvoreBin<string, int> *st = new arvoreBin<string, int>(nome_arquivo);
+        arvoreBin<String,Integer> *st = new arvoreBin<String,Integer>(nome_arquivo);
         end = clock();
 
         /* calcule o tempo */
@@ -136,7 +136,7 @@ main(int argc, char *argv[])
     }
     else if (tipo == "TR"){
         start = clock(); 
-        treap<string, int> *st = new treap<string, int>(nome_arquivo);
+        treap<String,Integer> *st = new treap<String,Integer>(nome_arquivo);
         end = clock();
 
         /* calcule o tempo */
@@ -148,7 +148,7 @@ main(int argc, char *argv[])
     }
     else if (tipo == "A23"){
         start = clock(); 
-        arvore23<string, int> *st = new arvore23<string, int>(nome_arquivo);
+        arvore23<String,Integer> *st = new arvore23<String,Integer>(nome_arquivo);
         end = clock();
 
         /* calcule o tempo */
@@ -160,7 +160,7 @@ main(int argc, char *argv[])
     }
     else if (tipo == "RN"){
         start = clock(); 
-        arvoreRN<string, int> *st = new arvoreRN<string, int>(nome_arquivo);
+        arvoreRN<String,Integer> *st = new arvoreRN<String,Integer>(nome_arquivo);
         end = clock();
 
         /* calcule o tempo */
@@ -172,7 +172,7 @@ main(int argc, char *argv[])
     }
     else if (tipo == "HS"){
         start = clock(); 
-        hashTable<string, int> *st = new hashTable<string, int>(nome_arquivo);
+        hashTable<String,Integer> *st = new hashTable<String,Integer>(nome_arquivo);
         end = clock();
 
         /* calcule o tempo */
@@ -204,29 +204,32 @@ template <class ST>
 void 
 testeOperacoes(ST st)
 {
+    String linha    = NULL;
     
     /* mostre uso */
     cout << "Possiveis operacoes do teste interativo:\n";
     cout << "minST, delminST, getST <chave>; rankST <chave>, deleteST <chave>, selectST <int>\n";
     cout << "CRTL-D para encerrar.\n";
     PROMPT;
-    while (true) {
+    while ((linha = getLine(stdin))) {
         /* pegue operacao a ser testada */
-        string operacao;
-        cin >> operacao;
+        String operacao = getNextToken(linha);
+        if (operacao == NULL) {
+             ERROR(operacao esperada);
+        }
         /*---------------------------------*/
-        if (operacao == MIN_ST) {
-            string key = st->seleciona(0);
-            if (key == "") {
+        else if (!strcmp(operacao, MIN_ST)) {
+            String key = st->seleciona(0);
+            if (key == NULL) {
                 cout << "ST vazia\n";
             } else {
                 cout << key << "\n";
             }
         }
         /*---------------------------------*/
-        else if (operacao == DELMIN_ST) {
-            string key = st->seleciona(0);
-            if (key == "") {
+        else if (!strcmp(operacao,DELMIN_ST)) {
+            String key = st->seleciona(0);
+            if (key == NULL) {
                 cout << "ST já está vazia\n";
             } else {
                 cout << "\"" << key; 
@@ -237,42 +240,44 @@ testeOperacoes(ST st)
         /*---------------------------------*/
         else {
             /* operaÃ§Ã£o necessita de argumento key */
-            string key;
-            
-            /*---------------------------------*/
-            if (operacao == GET_ST) {
-                cin >> key;
-                int frequencia = -1;
-                frequencia = st->devolve(key); /* consulte a ST */
-                /* mostre o resultado da consulta */
-                if (frequencia == -1) {
-                    cout << key << ": 0\n";
-                } else {
-                    cout << key << ": " << frequencia << "\n";
+            String key = getNextToken(NULL);
+            if (key == NULL) {
+                ERROR(operacao necessita uma palavra);
+            } else {
+                /*---------------------------------*/
+                if (!strcmp(operacao,GET_ST)) {
+                    Integer frequencia = NULL;
+                    frequencia = st->devolve(key); /* consulte a ST */
+                    /* mostre o resultado da consulta */
+                    if (frequencia == NULL) {
+                        cout << key << ": 0\n";
+                    } else {
+                        cout << key << ": " << *frequencia << "\n";
+                    }
+                }
+                /*---------------------------------*/
+                else if (!strcmp(operacao,RANK_ST)) {
+                    int r = st->rank(key);
+                    cout << r << "\n";
+                }
+                /*---------------------------------*/
+                else if (!strcmp(operacao,DELETE_ST)) {
+                    st->remove(key);
+                    cout << "\"" << key << "\" foi removida\n";
+                }
+                else if (!strcmp(operacao,SELECT_ST)) {
+                    int pos = atoi(key);
+                    String chave = st->seleciona(pos);
+                    cout << "Posição " << key << " = " << chave << "\n";
+                }
+                else {
+                    ERROR(operacao nao reconhecida);
                 }
             }
-            /*---------------------------------*/
-            else if (operacao == RANK_ST) {
-                cin >> key;
-                int r = st->rank(key);
-                cout << r << "\n";
-            }
-            /*---------------------------------*/
-            else if (operacao == DELETE_ST) {
-                cin >> key;
-                st->remove(key);
-                cout << "\"" << key << "\" foi removida\n";
-            }
-            else if (operacao == SELECT_ST) {
-                int pos;
-                cin >> pos;
-                string chave = st->seleciona(pos);
-                cout << "Posição " << pos << " = " << chave << "\n";
-            }
-            else {
-                ERROR(operacao nao reconhecida);
-            }   
+            free(key);
         }
+        if (operacao != NULL) free(operacao);
+        free(linha);
         PROMPT;
     }
     cout << "\n";

@@ -26,7 +26,7 @@ void listaDes<Chave, Item>::insere(Chave chave, Item valor) {
     noLista<Chave, Item> *aux, *anterior;
 
     while (aux != nullptr) {
-        if (chave.compare(aux->chave) == 0) {
+        if (strCmp(chave, aux->chave) == 0) {
             aux->valor = valor;
             return;
         }
@@ -46,7 +46,7 @@ void listaDes<Chave, Item>::remove(Chave chave) {
     noLista<Chave, Item> *anterior = cabeca, *atual = cabeca->proximo;
     
     while (atual != nullptr) {
-        if (chave.compare(atual->chave) == 0) {
+        if (strCmp(chave, atual->chave) == 0) {
             anterior->proximo = atual->proximo;
             delete [] atual;
             break;
@@ -61,13 +61,13 @@ Item listaDes<Chave, Item>::devolve(Chave chave) {
     noLista<Chave, Item> *anterior = cabeca, *atual = cabeca->proximo;
     
     while (atual != nullptr) {
-        if (chave.compare(atual->chave) == 0) {
+        if (strCmp(chave, atual->chave) == 0) {
             return atual->valor;
         }
         anterior = atual;
         atual = atual->proximo;
     }
-    return -1;
+    return nullptr;
 }
 
 template <class Chave, class Item>
@@ -75,7 +75,7 @@ int listaDes<Chave, Item>::rank(Chave chave) {
     int contador = 0;
     noLista<Chave, Item> *aux;
     for (aux = cabeca->proximo; aux != nullptr; aux = aux->proximo) {
-        if (aux->chave.compare(chave) < 0) contador++;
+        if (strCmp(aux->chave, chave) < 0) contador++;
     }
 
     return contador;
@@ -119,7 +119,7 @@ void listaOrd<Chave, Item>::insere(Chave chave, Item valor) {
     noLista<Chave, Item> *atual = cabeca->proximo, *anterior = cabeca;
     int comparacao;
     while (atual != nullptr) {
-        comparacao = chave.compare(atual->chave);
+        comparacao = strCmp(chave, atual->chave);
         if (comparacao == 0) {
             atual->chave = chave;
             return;
@@ -139,7 +139,7 @@ void listaOrd<Chave, Item>::remove(Chave chave) {
     noLista<Chave, Item> *atual = cabeca->proximo, *anterior = cabeca;
     int comparacao;
     while (atual != nullptr) {
-        comparacao = chave.compare(atual->chave);
+        comparacao = strCmp(chave, atual->chave);
         if (comparacao == 0) {
             anterior->proximo = atual->proximo;
             delete [] atual;
@@ -156,7 +156,7 @@ Item listaOrd<Chave, Item>::devolve(Chave chave) {
     noLista<Chave, Item> *atual = cabeca->proximo, *anterior = cabeca;
     int comparacao;
     while (atual != nullptr) {
-        comparacao = chave.compare(atual->chave);
+        comparacao = strCmp(chave, atual->chave);
         if (comparacao == 0) {
             return atual->valor;
         }
@@ -164,7 +164,7 @@ Item listaOrd<Chave, Item>::devolve(Chave chave) {
         anterior = atual;
         atual = atual->proximo;
     }
-    return -1;
+    return nullptr;
 }
 
 template <class Chave, class Item>
@@ -172,7 +172,7 @@ int listaOrd<Chave, Item>::rank(Chave chave) {
     int contador = 0, comparacao;
     noLista<Chave, Item> *atual;
     while (atual != nullptr) {
-        comparacao = chave.compare(atual->chave);
+        comparacao = strCmp(chave, atual->chave);
         if (comparacao == 0) break;
         else if (comparacao > 0) contador++;
     }
@@ -226,7 +226,7 @@ noArvore<Chave, Item> * arvoreBin<Chave, Item>::insereR(noArvore<Chave, Item> *n
         no->pai = nullptr;
     }
     else {
-        comparacao = no->chave.compare(chave);
+        comparacao = strCmp(no->chave, chave);
         if (comparacao == 0)
             no->valor = valor;
         else if (comparacao > 0) {
@@ -251,7 +251,7 @@ template <class Chave, class Item>
 Item arvoreBin<Chave, Item>::devolveR(noArvore<Chave, Item> *no, Chave chave) {
     int comparacao;
     if (no != nullptr) {
-        comparacao = no->chave.compare(chave);
+        comparacao = strCmp(no->chave, chave);
         if (comparacao == 0) 
             return no->valor;
         else if (comparacao > 0) 
@@ -259,7 +259,7 @@ Item arvoreBin<Chave, Item>::devolveR(noArvore<Chave, Item> *no, Chave chave) {
         else 
             return devolveR(no->dir, chave);
     }
-    return -1;
+    return nullptr;
 }
 
 template <class Chave, class Item>
@@ -268,7 +268,7 @@ int arvoreBin<Chave, Item>::rank(Chave chave) {
     no = raiz;
     int comparacao, contador = 0;
     while (no != nullptr) {
-        comparacao = no->chave.compare(chave);
+        comparacao = strCmp(no->chave, chave);
         if (comparacao == 0)
             break;
         else if (comparacao > 0)
@@ -331,7 +331,7 @@ noArvore<Chave, Item> * arvoreBin<Chave, Item>::removeR(noArvore<Chave, Item> *n
     int comparacao;
     noArvore<Chave, Item> *aux;
     if (no != nullptr) {
-        comparacao = no->chave.compare(chave);
+        comparacao = strCmp(no->chave, chave);
         if (comparacao == 0) {
             if (no->esq == nullptr) {
                 if (no->dir != nullptr) {
@@ -528,12 +528,12 @@ Chave arvore23<Chave, Item>::seleciona(int k){}
 /*rank , remoção, seleção, etc* para chave inválida*/
 /*Depois, implementar diferentes lados para árvore binária (se sobrar tempo)*/
 
-template class vetorOrd<string, int>;
-template class vetorDes<string, int>;
-template class listaOrd<string, int>;
-template class listaDes<string, int>;
-template class arvoreBin<string, int>;
-template class arvore23<string, int>;
-template class arvoreRN<string, int>;
-template class hashTable<string, int>;
-template class treap<string, int>;
+template class vetorOrd<string, Integer>;
+template class vetorDes<string, Integer>;
+template class listaOrd<string, Integer>;
+template class listaDes<string, Integer>;
+template class arvoreBin<string, Integer>;
+template class arvore23<string, Integer>;
+template class arvoreRN<string, Integer>;
+template class hashTable<string, Integer>;
+template class treap<string, Integer>;
