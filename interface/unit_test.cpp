@@ -15,6 +15,7 @@
 #include <fstream>
 #include <cstdlib>
 #include <string.h>
+#include <sstream>
 #include <time.h>
 using namespace std;
 
@@ -204,18 +205,21 @@ template <class ST>
 void 
 testeOperacoes(ST st)
 {
-    
+    string linha;
     /* mostre uso */
     cout << "Possiveis operacoes do teste interativo:\n";
     cout << "minST, delminST, getST <chave>; rankST <chave>, deleteST <chave>, selectST <int>\n";
     cout << "CRTL-D para encerrar.\n";
     PROMPT;
-    while (true) {
+    while (getline(cin, linha)) {
         /* pegue operacao a ser testada */
         string operacao;
-        cin >> operacao;
+        stringstream stream(linha);
+        if (!(stream >> operacao)) {
+            ERROR(operacao esperada);
+        }
         /*---------------------------------*/
-        if (operacao == MIN_ST) {
+        else if (operacao == MIN_ST) {
             string key = st->seleciona(0);
             if (key == "") {
                 cout << "ST vazia\n";
@@ -238,10 +242,11 @@ testeOperacoes(ST st)
         else {
             /* operaÃ§Ã£o necessita de argumento key */
             string key;
-            
+            if (!(stream >> key)) {
+                ERROR(operacao necessita uma palavra);
+            }
             /*---------------------------------*/
-            if (operacao == GET_ST) {
-                cin >> key;
+            else if (operacao == GET_ST) {
                 int frequencia = -1;
                 frequencia = st->devolve(key); /* consulte a ST */
                 /* mostre o resultado da consulta */
@@ -253,19 +258,16 @@ testeOperacoes(ST st)
             }
             /*---------------------------------*/
             else if (operacao == RANK_ST) {
-                cin >> key;
                 int r = st->rank(key);
                 cout << r << "\n";
             }
             /*---------------------------------*/
             else if (operacao == DELETE_ST) {
-                cin >> key;
                 st->remove(key);
                 cout << "\"" << key << "\" foi removida\n";
             }
             else if (operacao == SELECT_ST) {
-                int pos;
-                cin >> pos;
+                int pos = stoi(key);
                 string chave = st->seleciona(pos);
                 cout << "Posição " << pos << " = " << chave << "\n";
             }

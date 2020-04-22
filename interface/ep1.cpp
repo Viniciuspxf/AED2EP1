@@ -7,6 +7,19 @@ using namespace std;
 template <class Chave, class Item>
 listaDes<Chave, Item>::listaDes(string nome_arquivo): cabeca(new noLista<Chave, Item>[1]) {
     cabeca->proximo = nullptr;
+    ifstream arquivo;
+    Chave atual;
+    Item valor;
+    while (!arquivo.eof()) {
+        arquivo >> atual;
+        valor = devolve(atual);
+        if (valor == -1) valor = 1;
+        else valor++;
+        insere(atual, valor);
+    }
+    arquivo.open(nome_arquivo);
+
+    arquivo.close();
 };
 
 template <class Chave, class Item>
@@ -525,7 +538,14 @@ Chave arvore23<Chave, Item>::seleciona(int k){}
 
 /*------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------*/
-/*rank , remoção, seleção, etc* para chave inválida*/
+/*  insere garantir que está funcionando
+    remove nada acontece
+    devolve inválido retorna -1
+    rank inválido retorna -1
+    seleciona inválido retorna ""
+    
+
+*/
 /*Depois, implementar diferentes lados para árvore binária (se sobrar tempo)*/
 
 template class vetorOrd<string, int>;
