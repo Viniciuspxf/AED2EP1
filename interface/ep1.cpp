@@ -10,6 +10,9 @@ listaDes<Chave, Item>::listaDes(string nome_arquivo): cabeca(new noLista<Chave, 
     ifstream arquivo;
     Chave atual;
     Item valor;
+
+    arquivo.open(nome_arquivo);
+
     while (!arquivo.eof()) {
         arquivo >> atual;
         valor = devolve(atual);
@@ -17,7 +20,7 @@ listaDes<Chave, Item>::listaDes(string nome_arquivo): cabeca(new noLista<Chave, 
         else valor++;
         insere(atual, valor);
     }
-    arquivo.open(nome_arquivo);
+    
 
     arquivo.close();
 };
@@ -36,14 +39,15 @@ listaDes<Chave, Item>::~listaDes() {
 
 template <class Chave, class Item>
 void listaDes<Chave, Item>::insere(Chave chave, Item valor) {
-    noLista<Chave, Item> *aux, *anterior;
+    noLista<Chave, Item> *aux;
+
+    aux = cabeca->proximo;
 
     while (aux != nullptr) {
         if (chave.compare(aux->chave) == 0) {
             aux->valor = valor;
             return;
         }
-        anterior = aux;
         aux = aux->proximo;
     }
     noLista<Chave, Item> *novo = new noLista<Chave, Item>[1];
@@ -71,13 +75,12 @@ void listaDes<Chave, Item>::remove(Chave chave) {
 
 template <class Chave, class Item>
 Item listaDes<Chave, Item>::devolve(Chave chave) {
-    noLista<Chave, Item> *anterior = cabeca, *atual = cabeca->proximo;
+    noLista<Chave, Item> *atual = cabeca->proximo;
     
     while (atual != nullptr) {
         if (chave.compare(atual->chave) == 0) {
             return atual->valor;
         }
-        anterior = atual;
         atual = atual->proximo;
     }
     return -1;
@@ -87,9 +90,14 @@ template <class Chave, class Item>
 int listaDes<Chave, Item>::rank(Chave chave) {
     int contador = 0;
     noLista<Chave, Item> *aux;
+    bool achou = false;
+    int comparacao;
     for (aux = cabeca->proximo; aux != nullptr; aux = aux->proximo) {
-        if (aux->chave.compare(chave) < 0) contador++;
+        comparacao = aux->chave.compare(chave);
+        if (comparacao < 0) contador++;
+        else if (comparacao == 0) achou = true;
     }
+    if (!achou) contador = -1;
 
     return contador;
 }
@@ -103,7 +111,7 @@ Chave listaDes<Chave, Item>::seleciona(int k) {
             return aux->chave;
         }
     }
-    return nullptr;
+    return "";
 }
 
 /*------------------------------------------------------------------------------------------------------*/
@@ -113,6 +121,22 @@ Chave listaDes<Chave, Item>::seleciona(int k) {
 template <class Chave, class Item>
 listaOrd<Chave, Item>::listaOrd(string nome_arquivo): cabeca(new noLista<Chave, Item>[1]) {
     cabeca->proximo = nullptr;
+    ifstream arquivo;
+    Chave atual;
+    Item valor;
+
+    arquivo.open(nome_arquivo);
+
+    while (!arquivo.eof()) {
+        arquivo >> atual;
+        valor = devolve(atual);
+        if (valor == -1) valor = 1;
+        else valor++;
+        insere(atual, valor);
+    }
+    
+
+    arquivo.close();
 };
 
 template <class Chave, class Item>
@@ -142,9 +166,9 @@ void listaOrd<Chave, Item>::insere(Chave chave, Item valor) {
         anterior = atual;
         atual = atual->proximo;
     }
-
-    anterior->proximo = new noLista<Chave, Item>[1];
-    anterior->proximo->proximo = atual;
+    noLista<Chave, Item> *novo = new noLista<Chave, Item>[1];
+    anterior->proximo = novo;
+    novo->proximo = atual;
 }
 
 template <class Chave, class Item>
@@ -166,7 +190,7 @@ void listaOrd<Chave, Item>::remove(Chave chave) {
 
 template <class Chave, class Item>
 Item listaOrd<Chave, Item>::devolve(Chave chave) {
-    noLista<Chave, Item> *atual = cabeca->proximo, *anterior = cabeca;
+    noLista<Chave, Item> *atual = cabeca->proximo;
     int comparacao;
     while (atual != nullptr) {
         comparacao = chave.compare(atual->chave);
@@ -174,7 +198,6 @@ Item listaOrd<Chave, Item>::devolve(Chave chave) {
             return atual->valor;
         }
         else if (comparacao < 0) break;
-        anterior = atual;
         atual = atual->proximo;
     }
     return -1;
@@ -183,12 +206,19 @@ Item listaOrd<Chave, Item>::devolve(Chave chave) {
 template <class Chave, class Item>
 int listaOrd<Chave, Item>::rank(Chave chave) {
     int contador = 0, comparacao;
-    noLista<Chave, Item> *atual;
+    bool achou = false;
+    noLista<Chave, Item> *atual = cabeca->proximo;
     while (atual != nullptr) {
         comparacao = chave.compare(atual->chave);
-        if (comparacao == 0) break;
+        if (comparacao == 0) {
+            achou = true;
+            break;
+        }
         else if (comparacao > 0) contador++;
+        else break;
+        atual = atual->proximo;
     }
+    if (!achou) contador = -1;
     return contador;
 }
 
@@ -196,8 +226,10 @@ template <class Chave, class Item>
 Chave listaOrd<Chave, Item>::seleciona(int k) {
     noLista<Chave, Item> *atual;
     int i;
-    for (atual = cabeca->proximo, i = 0; i < k; atual = atual->proximo, i++);
+    for (atual = cabeca->proximo, i = 0; i < k && atual != nullptr; atual = atual->proximo, i++);
     
+    if (atual == nullptr) return "";
+
     return atual->chave;
 }
 
