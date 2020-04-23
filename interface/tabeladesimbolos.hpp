@@ -25,6 +25,7 @@ class vetorDes {
     public:
         vetorDes(string nome_arquivo);
         ~vetorDes();
+        void printa();
         void insere(Chave chave, Item valor);
         Item devolve(Chave chave);
         void remove(Chave chave);
@@ -37,6 +38,7 @@ class vetorOrd {
     public:
         vetorOrd(string nome_arquivo);
         ~vetorOrd();
+        void printa();
         void insere(Chave chave, Item valor);
         Item devolve(Chave chave);
         void remove(Chave chave);
@@ -51,6 +53,7 @@ class listaDes {
     public:
         listaDes(string nome_arquivo);
         ~listaDes();
+        void printa();
         void insere(Chave chave, Item valor);
         Item devolve(Chave chave);
         void remove(Chave chave);
@@ -65,6 +68,7 @@ class listaOrd {
     public:
         listaOrd(string nome_arquivo);
         ~listaOrd();
+        void printa();
         void insere(Chave chave, Item valor);
         Item devolve(Chave chave);
         void remove(Chave chave);
@@ -75,6 +79,7 @@ class listaOrd {
 template <class Chave, class Item>
 class arvoreBin {
     private:
+        void printaR(noArvore<Chave, Item> *no);
         noArvore<Chave, Item> * removeR(noArvore<Chave, Item> *no, Chave chave);
         noArvore<Chave, Item> * insereR(noArvore<Chave, Item> *no, Chave chave, Item valor);
         Chave selecionaR(noArvore<Chave, Item> *no, int k, int *contador);
@@ -85,6 +90,7 @@ class arvoreBin {
     public:
         arvoreBin(string nome_arquivo);
         ~arvoreBin();
+        void printa();
         void insere(Chave chave, Item valor);
         Item devolve(Chave chave);
         void remove(Chave chave);
@@ -97,6 +103,7 @@ class treap {
     public:
         treap(string nome_arquivo);
         ~treap();
+        void printa();
         void insere(Chave chave, Item valor);
         Item devolve(Chave chave);
         void remove(Chave chave);
@@ -109,6 +116,7 @@ class arvore23 {
     public:
         arvore23(string nome_arquivo);
         ~arvore23();
+        void printa();
         void insere(Chave chave, Item valor);
         Item devolve(Chave chave);
         void remove(Chave chave);
@@ -121,6 +129,7 @@ class arvoreRN {
     public:
         arvoreRN(string nome_arquivo);
         ~arvoreRN();
+        void printa();
         void insere(Chave chave, Item valor);
         Item devolve(Chave chave);
         void remove(Chave chave);
@@ -133,6 +142,7 @@ class hashTable {
     public:
         hashTable(string nome_arquivo);
         ~hashTable();
+        void printa();
         void insere(Chave chave, Item valor);
         Item devolve(Chave chave);
         void remove(Chave chave);

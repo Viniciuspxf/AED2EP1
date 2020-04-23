@@ -1,8 +1,62 @@
 #include "tabeladesimbolos.hpp"
 #include "util.hpp"
+#include <iostream>
 #include <string>
 #include <fstream>
 using namespace std;
+
+bool ehSimbolo(char caracter) {
+
+    switch (caracter) {
+        case '*':
+            return true;
+            break;
+        case '?':
+            return true;
+            break;
+        case '"':
+            return true;
+            break;
+        case ';':
+            return true;
+            break;
+        case ':':
+            return true;
+            break;
+        case '{':
+            return true;
+            break;
+        case '}':
+            return true;
+            break;
+        case '[':
+            return true;
+            break;
+        case ']':
+            return true;
+            break;
+        case '-':
+            return true;
+            break;
+        case '.':
+            return true;
+            break;
+        case ',':
+            return true;
+            break;
+        case '!':
+            return true;
+            break;
+        case '(':
+            return true;
+            break;
+        case ')':
+            return true;
+            break;
+    }
+
+    return false;
+}
 
 template <class Chave, class Item>
 listaDes<Chave, Item>::listaDes(string nome_arquivo): cabeca(new noLista<Chave, Item>[1]) {
@@ -10,15 +64,25 @@ listaDes<Chave, Item>::listaDes(string nome_arquivo): cabeca(new noLista<Chave, 
     ifstream arquivo;
     Chave atual;
     Item valor;
+    long unsigned int i;
 
     arquivo.open(nome_arquivo);
 
     while (!arquivo.eof()) {
         arquivo >> atual;
-        valor = devolve(atual);
-        if (valor == -1) valor = 1;
-        else valor++;
-        insere(atual, valor);
+
+        for (i = 0; i < atual.size() && ehSimbolo(atual[i]); i++);
+        atual.erase(0, i);
+
+        while (atual.size() != 0 && ehSimbolo(atual.back()))
+            atual.pop_back();
+
+        if (atual.size() != 0) {
+            valor = devolve(atual);
+            if (valor == -1) valor = 1;
+            else valor++;
+            insere(atual, valor);
+        }
     }
     
 
@@ -36,6 +100,17 @@ listaDes<Chave, Item>::~listaDes() {
     }
     
 }
+
+template <class Chave, class Item>
+void listaDes<Chave, Item>::printa() {
+    noLista<Chave, Item> *atual;
+
+    for (atual = cabeca->proximo; atual != nullptr; atual = atual->proximo) {
+        cout << atual->chave << ": "<< atual->valor << endl;
+    } 
+    
+}
+
 
 template <class Chave, class Item>
 void listaDes<Chave, Item>::insere(Chave chave, Item valor) {
@@ -125,14 +200,25 @@ listaOrd<Chave, Item>::listaOrd(string nome_arquivo): cabeca(new noLista<Chave, 
     Chave atual;
     Item valor;
 
+    long unsigned int i;
+
     arquivo.open(nome_arquivo);
 
     while (!arquivo.eof()) {
         arquivo >> atual;
-        valor = devolve(atual);
-        if (valor == -1) valor = 1;
-        else valor++;
-        insere(atual, valor);
+
+        for (i = 0; i < atual.size() && ehSimbolo(atual[i]); i++);
+        atual.erase(0, i);
+
+        while (atual.size() != 0 && ehSimbolo(atual.back()))
+            atual.pop_back();
+
+        if (atual.size() != 0) {
+            valor = devolve(atual);
+            if (valor == -1) valor = 1;
+            else valor++;
+            insere(atual, valor);
+        }
     }
     
 
@@ -152,13 +238,23 @@ listaOrd<Chave, Item>::~listaOrd() {
 }
 
 template <class Chave, class Item>
+void listaOrd<Chave, Item>::printa() {
+    noLista<Chave, Item> *atual;
+
+    for (atual = cabeca->proximo; atual != nullptr; atual = atual->proximo) {
+        cout << atual->chave << ": "<< atual->valor << endl;
+    } 
+    
+}
+
+template <class Chave, class Item>
 void listaOrd<Chave, Item>::insere(Chave chave, Item valor) {
     noLista<Chave, Item> *atual = cabeca->proximo, *anterior = cabeca;
     int comparacao;
     while (atual != nullptr) {
         comparacao = chave.compare(atual->chave);
         if (comparacao == 0) {
-            atual->chave = chave;
+            atual->valor = valor;
             return;
         }
         else if (comparacao < 0) break;
@@ -167,6 +263,8 @@ void listaOrd<Chave, Item>::insere(Chave chave, Item valor) {
         atual = atual->proximo;
     }
     noLista<Chave, Item> *novo = new noLista<Chave, Item>[1];
+    novo->chave = chave;
+    novo->valor = valor;
     anterior->proximo = novo;
     novo->proximo = atual;
 }
@@ -237,7 +335,34 @@ Chave listaOrd<Chave, Item>::seleciona(int k) {
 /*------------------------------------------------------------------------------------------------------*/
 
 template <class Chave, class Item>
-arvoreBin<Chave, Item>::arvoreBin(string nome_arquivo): raiz(nullptr){};
+arvoreBin<Chave, Item>::arvoreBin(string nome_arquivo): raiz(nullptr){
+    ifstream arquivo;
+    Chave atual;
+    Item valor;
+    long unsigned int i;
+
+    arquivo.open(nome_arquivo);
+
+    while (!arquivo.eof()) {
+        arquivo >> atual;
+
+        for (i = 0; i < atual.size() && ehSimbolo(atual[i]); i++);
+        atual.erase(0, i);
+
+        while (atual.size() != 0 && ehSimbolo(atual.back()))
+            atual.pop_back();
+
+        if (atual.size() != 0) {
+            valor = devolve(atual);
+            if (valor == -1) valor = 1;
+            else valor++;
+            insere(atual, valor);
+        }
+    }
+    
+
+    arquivo.close();
+};
 
 template <class Chave, class Item>
 arvoreBin<Chave, Item>::~arvoreBin() {
@@ -250,6 +375,20 @@ void arvoreBin<Chave, Item>::excluiArvore(noArvore<Chave, Item> *no) {
         excluiArvore(no->dir);
         excluiArvore(no->esq);
         delete [] no;
+    }
+}
+
+template <class Chave, class Item>
+void arvoreBin<Chave, Item>::printa(){
+    printaR(raiz);
+}
+
+template <class Chave, class Item>
+void arvoreBin<Chave, Item>::printaR(noArvore<Chave, Item> *no){
+    if (no != nullptr) {
+        printaR(no->esq);
+        cout << no->chave << ": "<< no->valor << endl;
+        printaR(no->dir);
     }
 }
 
@@ -355,7 +494,7 @@ template <class Chave, class Item>
 Chave arvoreBin<Chave, Item>::selecionaR(noArvore<Chave, Item> *no, int k, int *contador) {
     Chave chave;
     if (no == nullptr) {
-        return nullptr;
+        return "";
     }
     else {
         chave = selecionaR(no->esq, k, contador);
@@ -388,8 +527,11 @@ noArvore<Chave, Item> * arvoreBin<Chave, Item>::removeR(noArvore<Chave, Item> *n
                     no->esq = aux->esq;
                     no->dir = aux->dir;
 
-                    no->esq->pai = no;
-                    no->dir->pai = no;
+                    if (no->esq != nullptr)
+                        no->esq->pai = no;
+
+                    if (no->dir != nullptr)
+                        no->dir->pai = no;
                 }
                 else {
                     aux = no;
@@ -405,11 +547,13 @@ noArvore<Chave, Item> * arvoreBin<Chave, Item>::removeR(noArvore<Chave, Item> *n
 
                 if (aux == aux->pai->dir) {
                     aux->pai->dir = aux->esq;
-                    aux->esq->pai = aux->pai;
+                    if (aux->esq != nullptr)
+                        aux->esq->pai = aux->pai;
                 }
                 else {
                     aux->pai->esq = aux->esq;
-                    aux->esq->pai = aux->pai;
+                    if (aux->esq != nullptr)
+                        aux->esq->pai = aux->pai;
                 }
             }
 
@@ -432,6 +576,9 @@ vetorDes<Chave, Item>::vetorDes(string nome_arquivo){}
 
 template <class Chave, class Item>
 vetorDes<Chave, Item>::~vetorDes(){}
+
+template <class Chave, class Item>
+void vetorDes<Chave, Item>::printa(){}
 
 template <class Chave, class Item>
 void vetorDes<Chave, Item>::insere(Chave chave, Item valor){}
@@ -458,6 +605,9 @@ template <class Chave, class Item>
 vetorOrd<Chave, Item>::~vetorOrd(){}
 
 template <class Chave, class Item>
+void vetorOrd<Chave, Item>::printa(){}
+
+template <class Chave, class Item>
 void vetorOrd<Chave, Item>:: insere(Chave chave, Item valor){}
 
 template <class Chave, class Item>
@@ -480,6 +630,9 @@ treap<Chave, Item>::treap(string nome_arquivo){}
 
 template <class Chave, class Item>
 treap<Chave, Item>::~treap(){}
+
+template <class Chave, class Item>
+void treap<Chave, Item>::printa(){}
 
 template <class Chave, class Item>
 void treap<Chave, Item>:: insere(Chave chave, Item valor){}
@@ -506,6 +659,9 @@ template <class Chave, class Item>
 hashTable<Chave, Item>::~hashTable(){}
 
 template <class Chave, class Item>
+void hashTable<Chave, Item>::printa(){}
+
+template <class Chave, class Item>
 void hashTable<Chave, Item>:: insere(Chave chave, Item valor){}
 
 template <class Chave, class Item>
@@ -530,6 +686,9 @@ template <class Chave, class Item>
 arvoreRN<Chave, Item>::~arvoreRN(){}
 
 template <class Chave, class Item>
+void arvoreRN<Chave, Item>::printa(){}
+
+template <class Chave, class Item>
 void arvoreRN<Chave, Item>:: insere(Chave chave, Item valor){}
 
 template <class Chave, class Item>
@@ -552,6 +711,9 @@ arvore23<Chave, Item>::arvore23(string nome_arquivo){}
 
 template <class Chave, class Item>
 arvore23<Chave, Item>::~arvore23(){}
+
+template <class Chave, class Item>
+void arvore23<Chave, Item>::printa(){}
 
 template <class Chave, class Item>
 void arvore23<Chave, Item>:: insere(Chave chave, Item valor){}

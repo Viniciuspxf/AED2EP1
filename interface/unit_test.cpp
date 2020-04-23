@@ -239,6 +239,10 @@ testeOperacoes(ST st)
             }
         }
         /*---------------------------------*/
+        else if (operacao == "printST") {
+            st->printa();
+        }
+        /*---------------------------------*/
         else {
             /* operaÃ§Ã£o necessita de argumento key */
             string key;
