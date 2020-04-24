@@ -1,0 +1,7 @@
+#!/bin/bash
+
+make
+make testando
+./unit_test thecinnamoncub.txt AB > AB.txt
+./unit_test thecinnamoncub.txt LD > LD.txt
+./testando

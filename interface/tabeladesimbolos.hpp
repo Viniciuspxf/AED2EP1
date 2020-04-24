@@ -3,6 +3,13 @@
 using namespace std;
 
 template <class Chave, class Item>
+class celula {
+    public:
+        Chave chave;
+        Item valor;
+};
+
+template <class Chave, class Item>
 class noLista {
     public:
         noLista *proximo;
@@ -22,6 +29,11 @@ class noArvore {
 
 template <class Chave, class Item>
 class vetorDes {
+    private:
+        void resize();
+        int n;
+        int max;
+        celula<Chave, Item> *vetor;
     public:
         vetorDes(string nome_arquivo);
         ~vetorDes();
@@ -35,6 +47,11 @@ class vetorDes {
 
 template <class Chave, class Item>
 class vetorOrd {
+    private:
+        void resize();
+        int n;
+        int max;
+        celula<Chave, Item> *vetor;
     public:
         vetorOrd(string nome_arquivo);
         ~vetorOrd();

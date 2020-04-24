@@ -572,55 +572,299 @@ noArvore<Chave, Item> * arvoreBin<Chave, Item>::removeR(noArvore<Chave, Item> *n
 /*------------------------------------------------------------------------------------------------------*/
 
 template <class Chave, class Item>
-vetorDes<Chave, Item>::vetorDes(string nome_arquivo){}
+vetorDes<Chave, Item>::vetorDes(string nome_arquivo) {
+    n = 0;
+    max = 2000;
+    vetor = new celula<Chave, Item>[max];
+
+    ifstream arquivo;
+    Chave atual;
+    Item valor;
+    long unsigned int i;
+
+    arquivo.open(nome_arquivo);
+
+    while (!arquivo.eof()) {
+        arquivo >> atual;
+
+        for (i = 0; i < atual.size() && ehSimbolo(atual[i]); i++);
+        atual.erase(0, i);
+
+        while (atual.size() != 0 && ehSimbolo(atual.back()))
+            atual.pop_back();
+
+        if (atual.size() != 0) {
+            valor = devolve(atual);
+            if (valor == -1) valor = 1;
+            else valor++;
+            insere(atual, valor);
+        }
+    }
+
+    arquivo.close();
+}
 
 template <class Chave, class Item>
-vetorDes<Chave, Item>::~vetorDes(){}
+vetorDes<Chave, Item>::~vetorDes() {
+    delete [] vetor;
+}
 
 template <class Chave, class Item>
-void vetorDes<Chave, Item>::printa(){}
+void vetorDes<Chave, Item>::printa() {
+    int i;
+    
+    for (i = 0; i < n; i++)
+        cout << vetor[i].chave << ": " << vetor[i].valor << endl;
+}
 
 template <class Chave, class Item>
-void vetorDes<Chave, Item>::insere(Chave chave, Item valor){}
+void vetorDes<Chave, Item>::insere(Chave chave, Item valor) {
+    int i;
+
+    for (i = 0; i < n; i++) {
+        if (chave.compare(vetor[i].chave) == 0) {
+            vetor[i].valor =  valor;
+            return;
+        }
+    }
+
+    if (n + 1 > max)
+        resize();
+
+    vetor[n].chave = chave;
+    vetor[n].valor = valor;
+    n++; 
+}
 
 template <class Chave, class Item>
-Item vetorDes<Chave, Item>::devolve(Chave chave){}
+void vetorDes<Chave, Item>::resize() {
+    int i;
+    celula<Chave, Item> *novo = new celula<Chave, Item>[2*max], *aux;
+    max = 2*max;
+    for (i = 0; i < n; i++)
+        novo[i] = vetor[i];
+
+    aux = vetor;
+    vetor = novo;
+    delete [] aux;
+
+}
+
 
 template <class Chave, class Item>
-void vetorDes<Chave, Item>::remove(Chave chave){}
+Item vetorDes<Chave, Item>::devolve(Chave chave) {
+    int i;
+
+    for (i = 0; i < n; i++) {
+        if (chave.compare(vetor[i].chave) == 0) 
+            return vetor[i].valor;
+    }
+
+    return -1;
+}
 
 template <class Chave, class Item>
-int vetorDes<Chave, Item>::rank(Chave chave){}
+void vetorDes<Chave, Item>::remove(Chave chave) {
+    int i;
+
+    for (i = 0; i < n; i++) {
+        if (chave.compare(vetor[i].chave) == 0) {
+            for (; i < n - 1; i++) {
+                vetor[i].chave = vetor[i + 1].chave;
+                vetor[i].valor = vetor[i + 1].valor;
+            }
+            n--;
+            return;
+        }
+    }
+}
 
 template <class Chave, class Item>
-Chave vetorDes<Chave, Item>::seleciona(int k){}
+int vetorDes<Chave, Item>::rank(Chave chave) {
+    int i, contador = 0, comparacao;
+    bool achou = false;
+
+    for (i = 0; i < n; i++) {
+        comparacao = chave.compare(vetor[i].chave);
+        if (comparacao == 0) 
+            achou = true;
+        else if (comparacao > 0)
+            contador++;
+    }
+
+    if (!achou) contador = -1;
+
+    return contador;
+}
+
+template <class Chave, class Item>
+Chave vetorDes<Chave, Item>::seleciona(int k) {
+    int i;
+    
+    for (i = 0; i < n; i++) {
+        if (rank(vetor[i].chave) == k)
+            return vetor[i].chave;
+    }
+
+    return "";
+}
 
 /*------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------*/
 
 template <class Chave, class Item>
-vetorOrd<Chave, Item>::vetorOrd(string nome_arquivo){}
+vetorOrd<Chave, Item>::vetorOrd(string nome_arquivo){
+    n = 0;
+    max = 2000;
+    vetor = new celula<Chave, Item>[max];
+
+    ifstream arquivo;
+    Chave atual;
+    Item valor;
+    long unsigned int i;
+
+    arquivo.open(nome_arquivo);
+
+    while (!arquivo.eof()) {
+        arquivo >> atual;
+
+        for (i = 0; i < atual.size() && ehSimbolo(atual[i]); i++);
+        atual.erase(0, i);
+
+        while (atual.size() != 0 && ehSimbolo(atual.back()))
+            atual.pop_back();
+
+        if (atual.size() != 0) {
+            valor = devolve(atual);
+            if (valor == -1) valor = 1;
+            else valor++;
+            insere(atual, valor);
+        }
+    }
+
+    arquivo.close();
+}
 
 template <class Chave, class Item>
-vetorOrd<Chave, Item>::~vetorOrd(){}
+vetorOrd<Chave, Item>::~vetorOrd(){
+    delete [] vetor;
+}
 
 template <class Chave, class Item>
-void vetorOrd<Chave, Item>::printa(){}
+void vetorOrd<Chave, Item>::printa(){
+    int i;
+    for (i = 0; i < n; i++)
+        cout << vetor[i].chave << ": " << vetor[i].valor << endl;
+}
 
 template <class Chave, class Item>
-void vetorOrd<Chave, Item>:: insere(Chave chave, Item valor){}
+void vetorOrd<Chave, Item>:: insere(Chave chave, Item valor) {
+    if (n + 1 > max) resize();
+    int i, k, a, b, comparacao;
+
+    a = 0;
+    b = n - 1;
+
+    while (a <= b) {
+        i = (a+b)/2;
+        comparacao = chave.compare(vetor[i].chave);
+        if (comparacao < 0)
+            b = i - 1;
+        else if (comparacao > 0)
+            a = i + 1;
+        else {
+            vetor[i].valor = valor;
+            return;
+        }
+    }
+
+    i = a;
+
+    for (k = n; k > i; k--) {
+        vetor[k].chave = vetor[k - 1].chave;
+        vetor[k].valor = vetor[k - 1].valor;
+    }
+    vetor[i].valor = valor;
+    vetor[i].chave = chave;
+    
+    n++;
+}
 
 template <class Chave, class Item>
-Item vetorOrd<Chave, Item>::devolve(Chave chave){}
+void vetorOrd<Chave, Item>::resize() {
+    int i;
+    celula<Chave, Item> *novo = new celula<Chave, Item>[2*max], *aux;
+    max = 2*max;
+    for (i = 0; i < n; i++)
+        novo[i] = vetor[i];
+
+    aux = vetor;
+    vetor = novo;
+    delete [] aux;
+}
 
 template <class Chave, class Item>
-void vetorOrd<Chave, Item>::remove(Chave chave){}
+Item vetorOrd<Chave, Item>::devolve(Chave chave){
+    int a, b, comparacao, i;
+    a = 0;
+    b = n - 1;
+
+    while (a <= b) {
+        i = (a+b)/2;
+        comparacao = chave.compare(vetor[i].chave);
+        if (comparacao < 0)
+            b = i - 1;
+        else if (comparacao > 0)
+            a = i + 1;
+        else {
+            return vetor[i].valor;
+        }
+    }
+    return -1;
+}
 
 template <class Chave, class Item>
-int vetorOrd<Chave, Item>::rank(Chave chave){}
+void vetorOrd<Chave, Item>::remove(Chave chave){
+    int a, b, comparacao, i, j;
+    a = 0;
+    b = n - 1;
+
+    while (a <= b) {
+        i = (a+b)/2;
+        comparacao = chave.compare(vetor[i].chave);
+        if (comparacao < 0)
+            b = i - 1;
+        else if (comparacao > 0)
+            a = i + 1;
+        else {
+            for (j = i; j < n - 1; j++) {
+                vetor[j].chave = vetor[j + 1].chave;
+                vetor[j].valor = vetor[j + 1].valor;
+                n--;
+                break;
+            }
+
+        }
+    }
+}
 
 template <class Chave, class Item>
-Chave vetorOrd<Chave, Item>::seleciona(int k){}
+int vetorOrd<Chave, Item>::rank(Chave chave){
+    int i;
+
+    for (i = 0; i < n && chave.compare(vetor[i].chave) > 0; i++)
+
+    if (i < n && chave.compare(vetor[i].chave) == 0) return i;
+    
+    return -1;
+}
+
+template <class Chave, class Item>
+Chave vetorOrd<Chave, Item>::seleciona(int k){
+    if (k >= 0 && k < n) return vetor[k].chave;
+    
+    return "";
+}
 
 /*------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------*/
