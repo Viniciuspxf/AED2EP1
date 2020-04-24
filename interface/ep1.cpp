@@ -870,28 +870,275 @@ Chave vetorOrd<Chave, Item>::seleciona(int k){
 /*------------------------------------------------------------------------------------------------------*/
 
 template <class Chave, class Item>
-treap<Chave, Item>::treap(string nome_arquivo){}
+treap<Chave, Item>::treap(string nome_arquivo): raiz(nullptr) {
+    ifstream arquivo;
+    Chave atual;
+    Item valor;
+    long unsigned int i;
+
+    arquivo.open(nome_arquivo);
+
+    while (!arquivo.eof()) {
+        arquivo >> atual;
+
+        for (i = 0; i < atual.size() && ehSimbolo(atual[i]); i++);
+        atual.erase(0, i);
+
+        while (atual.size() != 0 && ehSimbolo(atual.back()))
+            atual.pop_back();
+
+        if (atual.size() != 0) {
+            valor = devolve(atual);
+            if (valor == -1) valor = 1;
+            else valor++;
+            insere(atual, valor);
+        }
+    }
+    
+
+    arquivo.close();
+};
 
 template <class Chave, class Item>
-treap<Chave, Item>::~treap(){}
+treap<Chave, Item>::~treap(){
+    excluiArvore(raiz);
+}
 
 template <class Chave, class Item>
-void treap<Chave, Item>::printa(){}
+void treap<Chave, Item>::excluiArvore(noTreap<Chave, Item> *no) {
+    if (no != nullptr) {
+        excluiArvore(no->dir);
+        excluiArvore(no->esq);
+        delete [] no;
+    }
+}
+
+
 
 template <class Chave, class Item>
-void treap<Chave, Item>:: insere(Chave chave, Item valor){}
+void treap<Chave, Item>::printa(){
+    printaR(raiz);
+}
 
 template <class Chave, class Item>
-Item treap<Chave, Item>::devolve(Chave chave){}
+void treap<Chave, Item>::printaR(noTreap<Chave, Item> *no){
+    if (no != nullptr) {
+        printaR(no->esq);
+        cout << no->chave << ": "<< no->valor << endl;
+        printaR(no->dir);
+    }
+}
 
 template <class Chave, class Item>
-void treap<Chave, Item>::remove(Chave chave){}
+void treap<Chave, Item>::insere(Chave chave, Item valor) {
+    raiz = insereR(raiz, chave, valor);
+}
 
 template <class Chave, class Item>
-int treap<Chave, Item>::rank(Chave chave){}
+noTreap<Chave, Item> * treap<Chave, Item>::insereR(noTreap<Chave, Item> *no, Chave chave, Item valor) {
+    int comparacao;
+
+    if (no == nullptr) {
+        no = new noTreap<Chave, Item>[1];
+        no->dir = nullptr;
+        no->esq = nullptr;
+        no->chave = chave;
+        no->valor = valor;
+        no->pai = nullptr;
+        no->prioridade = rand();
+    }
+    else {
+        comparacao = no->chave.compare(chave);
+        if (comparacao == 0)
+            no->valor = valor;
+        else if (comparacao > 0) {
+            no->esq = insereR(no->esq, chave, valor);
+            no->esq->pai = no;
+
+            if (no->esq->prioridade > no->prioridade) {
+                noTreap<Chave, Item> *aux;
+                aux = no;
+                no = no->esq;
+
+                no->pai = nullptr;
+                aux->esq = no->dir;
+
+                if (aux->esq != nullptr) 
+                    aux->esq->pai = aux;
+
+                no->dir = aux;
+                aux->pai = no;
+            }
+        }
+        else {
+            no->dir = insereR(no->dir, chave, valor);
+            no->dir->pai = no;
+
+            if (no->dir->prioridade > no->prioridade) {
+                noTreap<Chave, Item> *aux;
+                aux = no;
+                no = no->dir;
+
+                no->pai = nullptr;
+                aux->dir = no->esq;
+
+                if (aux->dir != nullptr) 
+                    aux->dir->pai = aux;
+
+                no->esq = aux;
+                aux->pai = no;
+            }
+        }
+    }
+
+    return no;
+}
+
 
 template <class Chave, class Item>
-Chave treap<Chave, Item>::seleciona(int k){}
+Item treap<Chave, Item>::devolve(Chave chave){
+    return devolveR(raiz, chave);
+}
+
+template <class Chave, class Item>
+Item treap<Chave, Item>::devolveR(noTreap<Chave, Item> *no, Chave chave) {
+    int comparacao;
+    if (no != nullptr) {
+        comparacao = no->chave.compare(chave);
+        if (comparacao == 0) 
+            return no->valor;
+        else if (comparacao > 0) 
+            return devolveR(no->esq, chave);
+        else 
+            return devolveR(no->dir, chave);
+    }
+    return -1;
+}
+
+
+template <class Chave, class Item>
+void treap<Chave, Item>::remove(Chave chave){
+    raiz = removeR(raiz, chave);
+}
+
+template <class Chave, class Item>
+noTreap<Chave, Item> * treap<Chave, Item>::removeR(noTreap<Chave, Item> *no, Chave chave) {
+    int comparacao;
+    noTreap<Chave, Item> *aux;
+    if (no != nullptr) {
+        comparacao = no->chave.compare(chave);
+        if (comparacao == 0) {
+            if (no->esq == nullptr) {
+                if (no->dir != nullptr) {
+                    aux = no->dir;
+                    
+                    no->chave = aux->chave;
+                    no->valor = aux->valor;
+
+                    no->esq = aux->esq;
+                    no->dir = aux->dir;
+
+                    if (no->esq != nullptr)
+                        no->esq->pai = no;
+
+                    if (no->dir != nullptr)
+                        no->dir->pai = no;
+                }
+                else {
+                    aux = no;
+                    no = nullptr;
+                }
+            }
+            else {
+                aux = no->esq;
+                while (aux->dir != nullptr) aux = aux->dir; 
+
+                no->chave = aux->chave;
+                no->valor = aux->valor;
+
+                if (aux == aux->pai->dir) {
+                    aux->pai->dir = aux->esq;
+                    if (aux->esq != nullptr)
+                        aux->esq->pai = aux->pai;
+                }
+                else {
+                    aux->pai->esq = aux->esq;
+                    if (aux->esq != nullptr)
+                        aux->esq->pai = aux->pai;
+                }
+            }
+
+            delete [] aux;
+        }
+        else if (comparacao > 0) {
+            no->esq = removeR(no->esq, chave);
+        }
+        else {
+            no->dir = removeR(no->dir, chave);
+        }
+    }
+    return no;
+}
+
+template <class Chave, class Item>
+int treap<Chave, Item>::rank(Chave chave) {
+    noTreap<Chave, Item> *no;
+    no = raiz;
+    int comparacao, contador = 0;
+    while (no != nullptr) {
+        comparacao = no->chave.compare(chave);
+        if (comparacao == 0)
+            break;
+        else if (comparacao > 0)
+            no = no->esq;
+        else no = no->dir;
+    }
+    if (no == nullptr) return -1;
+
+    contador = contaNos(no->esq) + 1;
+
+    while (no->pai != nullptr && no->pai->dir == no) {
+        no = no->pai;
+        contador++;
+        contador += contaNos(no->esq) + 1;
+    }
+    return contador;
+}
+
+template<class Chave, class Item>
+int treap<Chave, Item>::contaNos(noTreap<Chave, Item> *no) {
+    int contador = 0;
+    if (no == nullptr) {
+        return -1;
+    }
+    else {
+        contador = contaNos(no->esq) + 1;
+        contador += contaNos(no->dir) + 1;
+    }
+    return contador;
+}
+
+template <class Chave, class Item>
+Chave treap<Chave, Item>::seleciona(int k){
+    int contador = -1;
+    return selecionaR(raiz, k, &contador);
+}
+
+template <class Chave, class Item>
+Chave treap<Chave, Item>::selecionaR(noTreap<Chave, Item> *no, int k, int *contador) {
+    Chave chave;
+    if (no == nullptr) {
+        return "";
+    }
+    else {
+        chave = selecionaR(no->esq, k, contador);
+        if (*contador == k) return chave;
+        *contador += 1;
+        if (k == *contador) return no->chave;
+        return selecionaR(no->dir, k, contador);
+    }
+}
+
 
 /*------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------*/
