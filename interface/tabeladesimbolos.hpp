@@ -176,6 +176,10 @@ class arvoreRN {
 
 template <class Chave, class Item>
 class hashTable {
+    private:
+        int m;
+        noLista<Chave, Item> **table;
+        int hash(Chave chave);
     public:
         hashTable(string nome_arquivo);
         ~hashTable();

@@ -1144,28 +1144,135 @@ Chave treap<Chave, Item>::selecionaR(noTreap<Chave, Item> *no, int k, int *conta
 /*------------------------------------------------------------------------------------------------------*/
 
 template <class Chave, class Item>
-hashTable<Chave, Item>::hashTable(string nome_arquivo){}
+int hashTable<Chave, Item>::hash(Chave chave) {
+    int i, potencia = 1, valor = 0;
+
+    for (i = 0; i < (int) chave.size(); i++) {
+        valor += chave[i]*potencia;
+        potencia = potencia*128;
+    }
+
+    return valor%m;
+}
 
 template <class Chave, class Item>
-hashTable<Chave, Item>::~hashTable(){}
+hashTable<Chave, Item>::hashTable(string nome_arquivo) {
+    m = 3989;
+    int i;
+    table = new noLista<Chave, Item>*[m];
+    for (i = 0; i < m; i++) {
+        table[i] = new noLista<Chave, Item>[1];
+        table[i]->proximo = nullptr;
+    }
+}
 
 template <class Chave, class Item>
-void hashTable<Chave, Item>::printa(){}
+hashTable<Chave, Item>::~hashTable() {
+    noLista<Chave,Item> *aux;
+    int i;
+    for (i = 0; i < m; i++) {
+        for (aux = table[i]; aux != nullptr; aux = aux->proximo)
+            delete [] aux;
+    }
+
+    delete [] table;
+}
 
 template <class Chave, class Item>
-void hashTable<Chave, Item>:: insere(Chave chave, Item valor){}
+void hashTable<Chave, Item>::printa() {
+    int i;
+    noLista<Chave,Item> *aux;
+    for (i = 0; i < m; i++) {
+        for (aux = table[i]->proximo; aux != nullptr; aux = aux->proximo)
+            cout << table[i]->chave << ": " << table[i]->valor << endl;
+    }
+}
 
 template <class Chave, class Item>
-Item hashTable<Chave, Item>::devolve(Chave chave){}
+void hashTable<Chave, Item>:: insere(Chave chave, Item valor){
+    int indice = hash(chave);
+    noLista<Chave,Item> *aux;
+
+    for (aux = table[indice]->proximo; aux != nullptr; aux = aux->proximo) {
+        if (aux->chave == chave) {
+            aux->valor = valor;
+            return;
+        }
+    }
+
+    aux = table[indice]->proximo;
+    noLista<Chave,Item> *novo = new noLista<Chave, Item>[1];
+    novo->chave = chave;
+    novo->valor = valor;
+    novo->proximo = aux;
+    table[indice]->proximo = novo;
+}
 
 template <class Chave, class Item>
-void hashTable<Chave, Item>::remove(Chave chave){}
+Item hashTable<Chave, Item>::devolve(Chave chave){
+    int indice = hash(chave);
+    noLista<Chave,Item> *aux;
+
+    for (aux = table[indice]->proximo; aux != nullptr; aux = aux->proximo) {
+        if (aux->chave == chave) {   
+            return aux->valor;
+        }
+    }
+    return -1;
+}
 
 template <class Chave, class Item>
-int hashTable<Chave, Item>::rank(Chave chave){}
+void hashTable<Chave, Item>::remove(Chave chave) {
+    int indice = hash(chave);
+    noLista<Chave,Item> *aux, *anterior;
+
+    anterior = table[indice];
+    for (aux = table[indice]->proximo; aux != nullptr; aux = aux->proximo) {
+        if (aux->chave == chave) {   
+            anterior->proximo = aux->proximo;
+            delete [] aux;
+            return;
+        }
+        anterior = aux;
+    }
+}
 
 template <class Chave, class Item>
-Chave hashTable<Chave, Item>::seleciona(int k){}
+int hashTable<Chave, Item>::rank(Chave chave) {
+    int indice = hash(chave), i;
+    noLista<Chave,Item> *aux;
+    bool achou = false;
+
+    for (aux = table[indice]->proximo; aux != nullptr; aux = aux->proximo) {
+        if (aux->chave == chave) {   
+            achou = true;
+        }
+    }
+
+    if (achou) {
+        int contador = 0;
+        for (i = 0;  i < m; i++ ) {
+            for (aux = table[i]->proximo; aux != nullptr; aux = aux->proximo) {
+                if (aux->chave < chave) contador++;
+            }
+        }
+
+        return contador;
+    }
+    return -1;
+}
+
+template <class Chave, class Item>
+Chave hashTable<Chave, Item>::seleciona(int k) {
+    int i;
+    noLista<Chave,Item> *aux;
+    for (i = 0;  i < m; i++ ) {
+        for (aux = table[i]->proximo; aux != nullptr; aux = aux->proximo) {
+            if (rank(aux->chave) == k) return aux->chave;
+        }
+    }
+    return "";
+}
 
 /*------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------*/
