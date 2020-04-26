@@ -38,6 +38,17 @@ class noTreap {
         Item valor;
 };
 
+template <class Chave, class Item> 
+class noRN {
+    public:
+        noRN *pai;
+        noRN *esq;
+        noRN *dir;
+        int black;
+        Chave chave;
+        Item valor;
+};
+
 template <class Chave, class Item>
 class vetorDes {
     private:
@@ -163,6 +174,13 @@ class arvore23 {
 
 template <class Chave, class Item>
 class arvoreRN {
+    private:
+        void printaR(noRN<Chave, Item> *no);
+        void excluiArvore(noRN<Chave, Item> *no);
+        int contaNos(noRN<Chave, Item> *no);
+        Item devolveR(noRN<Chave, Item> *no, Chave chave);
+        Chave selecionaR(noRN<Chave, Item> *no, int k, int *contador);
+        noRN<Chave, Item> *raiz;
     public:
         arvoreRN(string nome_arquivo);
         ~arvoreRN();

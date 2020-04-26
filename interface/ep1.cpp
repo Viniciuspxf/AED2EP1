@@ -1278,28 +1278,332 @@ Chave hashTable<Chave, Item>::seleciona(int k) {
 /*------------------------------------------------------------------------------------------------------*/
 
 template <class Chave, class Item>
-arvoreRN<Chave, Item>::arvoreRN(string nome_arquivo){}
+arvoreRN<Chave, Item>::arvoreRN(string nome_arquivo): raiz(nullptr){
+    ifstream arquivo;
+    Chave atual;
+    Item valor;
+    long unsigned int i;
+
+    arquivo.open(nome_arquivo);
+
+    while (!arquivo.eof()) {
+        arquivo >> atual;
+
+        for (i = 0; i < atual.size() && ehSimbolo(atual[i]); i++);
+        atual.erase(0, i);
+
+        while (atual.size() != 0 && ehSimbolo(atual.back()))
+            atual.pop_back();
+
+        if (atual.size() != 0) {
+            valor = devolve(atual);
+            if (valor == -1) valor = 1;
+            else valor++;
+            insere(atual, valor);
+        }
+    }
+    
+
+    arquivo.close();
+};
 
 template <class Chave, class Item>
-arvoreRN<Chave, Item>::~arvoreRN(){}
+arvoreRN<Chave, Item>::~arvoreRN() {
+    excluiArvore(raiz);
+}
 
 template <class Chave, class Item>
-void arvoreRN<Chave, Item>::printa(){}
+void arvoreRN<Chave, Item>::excluiArvore(noRN<Chave, Item> *no) {
+    if (no != nullptr) {
+        excluiArvore(no->dir);
+        excluiArvore(no->esq);
+        delete [] no;
+    }
+}
 
 template <class Chave, class Item>
-void arvoreRN<Chave, Item>:: insere(Chave chave, Item valor){}
+void arvoreRN<Chave, Item>::printa() {
+    printaR(raiz);
+}
 
 template <class Chave, class Item>
-Item arvoreRN<Chave, Item>::devolve(Chave chave){}
+void arvoreRN<Chave, Item>::printaR(noRN<Chave, Item> *no){
+    if (no != nullptr) {
+        printaR(no->esq);
+        cout << no->chave << ": "<< no->valor << endl;
+        printaR(no->dir);
+    }
+}
 
 template <class Chave, class Item>
-void arvoreRN<Chave, Item>::remove(Chave chave){}
+void arvoreRN<Chave, Item>:: insere(Chave chave, Item valor) {
+    int comparacao;
+    bool desbalanceado;
+    if (raiz == nullptr) {
+        raiz = new noRN<Chave, Item>[1];
+        raiz->pai = nullptr;
+        raiz->esq = nullptr;
+        raiz->dir = nullptr;
+        raiz->chave = chave;
+        raiz->valor = valor;
+        raiz->black = 1;
+        return;
+    }
+
+
+    noRN<Chave, Item> *atual = raiz, *anterior;
+
+    while (atual != nullptr) {
+        comparacao = chave.compare(atual->chave);
+        if (comparacao == 0) {
+            atual->valor = valor;
+            return;
+        }
+        else {
+            anterior = atual;
+            if (comparacao < 0) {
+                atual = atual->esq;
+            }
+            else {
+                atual = atual->dir;
+            }
+        }
+    }
+
+    atual = new noRN<Chave, Item>[1];
+    atual->chave = chave;
+    atual->valor = valor;
+    atual->pai = anterior;
+    atual->esq = nullptr;
+    atual->dir = nullptr;
+    atual->black = 0;
+
+    if (comparacao < 0) 
+        anterior->esq = atual;
+    else
+        anterior->dir = atual;
+    
+    desbalanceado = true;
+
+    while (desbalanceado) {
+        noRN<Chave, Item> *pai, *avo, *tio, *aux, *aux2;
+        pai = atual->pai;
+    
+        if (pai == nullptr) {
+            atual->black = 1;
+            desbalanceado = false;
+        }
+        else if (pai->black == 1)
+            desbalanceado = false;
+        else {
+            avo = atual->pai->pai;
+            tio = (avo->esq == pai ? avo->dir : avo->esq); 
+            
+            if (tio != nullptr && tio->black == 0) {
+                avo->black = 0;
+                pai->black = tio->black = 1;
+                atual = avo;
+            }
+            else if (avo->esq == tio && pai->esq == atual) {
+                atual->pai = avo;
+                avo->dir = atual;
+
+                aux = atual->dir;
+
+                atual->dir = pai;
+                pai->pai = atual;
+
+                pai->esq = aux;
+
+                if (aux != nullptr)
+                    aux->pai = pai;
+                
+                atual = pai;
+            }
+            else if (avo->dir == tio && pai->dir == atual) {
+                atual->pai = avo;
+                avo->esq = atual;
+
+                aux = atual->esq;
+
+                atual->esq = pai;
+                pai->pai = atual;
+
+                pai->dir = aux;
+
+                if (aux != nullptr)
+                    aux->pai = pai;
+
+                atual = pai;
+            }
+            else if (avo->esq == tio && pai->dir == atual) {
+                aux2 = avo->pai;
+                aux = pai->esq;
+
+                pai->pai = aux2;
+
+                if (aux2 != nullptr) {
+                    if (aux2->esq == avo)
+                        aux2->esq = pai;
+                    else 
+                        aux2->dir = pai;
+                }
+
+                avo->pai = pai;
+                pai->esq = avo;
+
+                avo->dir = aux;
+
+                if (aux != nullptr) {
+                    aux->pai = avo;
+                }
+
+                pai->black = 1;
+                avo->black = 0;
+
+            }
+            else if (avo->dir == tio && pai->esq == atual) {
+                aux2 = avo->pai;
+                aux = pai->dir;
+
+                pai->pai = aux2;
+
+                if (aux2 != nullptr) {
+                    if (aux2->esq == avo)
+                        aux2->esq = pai;
+                    else 
+                        aux2->dir = pai;
+                }
+
+                avo->pai = pai;
+                pai->dir = avo;
+
+                avo->esq = aux;
+
+                if (aux != nullptr) {
+                    aux->pai = avo;
+                }
+
+                pai->black = 1;
+                avo->black = 0;
+
+            }
+            
+            
+        }
+    }
+
+
+}
 
 template <class Chave, class Item>
-int arvoreRN<Chave, Item>::rank(Chave chave){}
+Item arvoreRN<Chave, Item>::devolve(Chave chave) {
+    return devolveR(raiz, chave);
+}
 
 template <class Chave, class Item>
-Chave arvoreRN<Chave, Item>::seleciona(int k){}
+Item arvoreRN<Chave, Item>::devolveR(noRN<Chave, Item> *no, Chave chave) {
+    int comparacao;
+    if (no != nullptr) {
+        comparacao = no->chave.compare(chave);
+        if (comparacao == 0) 
+            return no->valor;
+        else if (comparacao > 0) 
+            return devolveR(no->esq, chave);
+        else 
+            return devolveR(no->dir, chave);
+    }
+    return -1;
+}
+
+template <class Chave, class Item>
+void arvoreRN<Chave, Item>::remove(Chave chave) {
+    noRN<Chave, Item> *atual = raiz, *aux;
+    int comparacao;
+
+    while (atual != nullptr) {
+        comparacao = chave.compare(atual->chave);
+        if (comparacao == 0) 
+            break;
+        else if (comparacao < 0)
+            atual = atual->esq;
+        else 
+            atual = atual->dir;
+    }
+
+    if (atual != nullptr) {
+        if (atual->esq == nullptr) {
+        }
+        else {
+            aux = atual->esq;
+
+            while (aux->dir != nullptr) aux = aux->dir;
+            
+            atual->chave = aux->chave;
+            atual->valor = atual->valor;
+
+        }
+    }
+}
+
+template <class Chave, class Item>
+int arvoreRN<Chave, Item>::rank(Chave chave) {
+    noRN<Chave, Item> *no;
+    no = raiz;
+    int comparacao, contador = 0;
+    while (no != nullptr) {
+        comparacao = no->chave.compare(chave);
+        if (comparacao == 0)
+            break;
+        else if (comparacao > 0)
+            no = no->esq;
+        else no = no->dir;
+    }
+    if (no == nullptr) return -1;
+
+    contador = contaNos(no->esq) + 1;
+
+    while (no->pai != nullptr && no->pai->dir == no) {
+        no = no->pai;
+        contador++;
+        contador += contaNos(no->esq) + 1;
+    }
+    return contador;
+}
+
+template<class Chave, class Item>
+int arvoreRN<Chave, Item>::contaNos(noRN<Chave, Item> *no) {
+    int contador = 0;
+    if (no == nullptr) {
+        return -1;
+    }
+    else {
+        contador = contaNos(no->esq) + 1;
+        contador += contaNos(no->dir) + 1;
+    }
+    return contador;
+}
+
+template <class Chave, class Item>
+Chave arvoreRN<Chave, Item>::seleciona(int k) {
+    int contador = -1;
+    return selecionaR(raiz, k, &contador);
+}
+
+template <class Chave, class Item>
+Chave arvoreRN<Chave, Item>::selecionaR(noRN<Chave, Item> *no, int k, int *contador) {
+    Chave chave;
+    if (no == nullptr) {
+        return "";
+    }
+    else {
+        chave = selecionaR(no->esq, k, contador);
+        if (*contador == k) return chave;
+        *contador += 1;
+        if (k == *contador) return no->chave;
+        return selecionaR(no->dir, k, contador);
+    }
+}
 
 /*------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------*/
