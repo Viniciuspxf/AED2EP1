@@ -1282,7 +1282,7 @@ arvoreRN<Chave, Item>::arvoreRN(string nome_arquivo): raiz(nullptr){
     ifstream arquivo;
     Chave atual;
     Item valor;
-    long unsigned int i;
+    long unsigned int i, j = 0;
 
     arquivo.open(nome_arquivo);
 
@@ -1301,6 +1301,10 @@ arvoreRN<Chave, Item>::arvoreRN(string nome_arquivo): raiz(nullptr){
             else valor++;
             insere(atual, valor);
         }
+        cout << endl;
+        cout << j << ":" << endl;
+        printa();
+        j++;
     }
     
 
@@ -1386,7 +1390,7 @@ void arvoreRN<Chave, Item>:: insere(Chave chave, Item valor) {
     desbalanceado = true;
 
     while (desbalanceado) {
-        noRN<Chave, Item> *pai, *avo, *tio, *aux, *aux2;
+        noRN<Chave, Item> *pai, *avo, *tio;
         pai = atual->pai;
     
         if (pai == nullptr) {
@@ -1405,91 +1409,26 @@ void arvoreRN<Chave, Item>:: insere(Chave chave, Item valor) {
                 atual = avo;
             }
             else if (avo->esq == tio && pai->esq == atual) {
-                atual->pai = avo;
-                avo->dir = atual;
-
-                aux = atual->dir;
-
-                atual->dir = pai;
-                pai->pai = atual;
-
-                pai->esq = aux;
-
-                if (aux != nullptr)
-                    aux->pai = pai;
-                
+                rotacionaDir(pai);
                 atual = pai;
             }
             else if (avo->dir == tio && pai->dir == atual) {
-                atual->pai = avo;
-                avo->esq = atual;
-
-                aux = atual->esq;
-
-                atual->esq = pai;
-                pai->pai = atual;
-
-                pai->dir = aux;
-
-                if (aux != nullptr)
-                    aux->pai = pai;
-
+                rotacionaEsq(pai);
                 atual = pai;
             }
             else if (avo->esq == tio && pai->dir == atual) {
-                aux2 = avo->pai;
-                aux = pai->esq;
-
-                pai->pai = aux2;
-
-                if (aux2 != nullptr) {
-                    if (aux2->esq == avo)
-                        aux2->esq = pai;
-                    else 
-                        aux2->dir = pai;
-                }
-
-                avo->pai = pai;
-                pai->esq = avo;
-
-                avo->dir = aux;
-
-                if (aux != nullptr) {
-                    aux->pai = avo;
-                }
+                rotacionaEsq(avo);
 
                 pai->black = 1;
                 avo->black = 0;
-
             }
             else if (avo->dir == tio && pai->esq == atual) {
-                aux2 = avo->pai;
-                aux = pai->dir;
-
-                pai->pai = aux2;
-
-                if (aux2 != nullptr) {
-                    if (aux2->esq == avo)
-                        aux2->esq = pai;
-                    else 
-                        aux2->dir = pai;
-                }
-
-                avo->pai = pai;
-                pai->dir = avo;
-
-                avo->esq = aux;
-
-                if (aux != nullptr) {
-                    aux->pai = avo;
-                }
+                rotacionaDir(avo);
 
                 pai->black = 1;
                 avo->black = 0;
 
-            }
-            
-            
+            }       
         }
     }
 
@@ -1518,7 +1457,7 @@ Item arvoreRN<Chave, Item>::devolveR(noRN<Chave, Item> *no, Chave chave) {
 
 template <class Chave, class Item>
 void arvoreRN<Chave, Item>::remove(Chave chave) {
-    noRN<Chave, Item> *atual = raiz, *aux;
+    noRN<Chave, Item> *atual = raiz, *aux, *aux2, *pai, *irmao, *excluido;
     int comparacao;
 
     while (atual != nullptr) {
@@ -1532,18 +1471,228 @@ void arvoreRN<Chave, Item>::remove(Chave chave) {
     }
 
     if (atual != nullptr) {
-        if (atual->esq == nullptr) {
-        }
-        else {
+        if (atual->esq != nullptr) {
             aux = atual->esq;
 
             while (aux->dir != nullptr) aux = aux->dir;
             
             atual->chave = aux->chave;
             atual->valor = atual->valor;
-
         }
     }
+    else return;
+
+    if (aux->black == 0) {
+        if (aux->dir != nullptr || aux->esq != nullptr ) {
+            if (aux->dir != nullptr)
+                aux2 = aux->dir;
+            else
+                aux2 = aux->esq;
+
+            aux->chave = aux2->chave;
+            aux->valor = aux2->valor;
+            aux->black = aux2->black;
+
+            aux->esq = aux2->esq;
+            aux->dir = aux2->dir;
+
+            if (aux->esq != nullptr)
+                aux->esq->pai = aux;
+
+            if (aux->dir != nullptr)
+                aux->dir->pai = aux;
+        }
+        else {
+            if (aux->pai->esq == aux) {
+                aux->pai->esq = nullptr;
+            }
+
+            if (aux->pai->dir == aux) {
+                aux->pai->dir = nullptr;
+            }
+            aux2 = aux;
+        }
+
+        delete [] aux2;
+        return;
+    }
+    else {
+        if (aux->esq != nullptr && aux->esq->black == 0) {
+            aux2 = aux->esq;
+            aux->chave = aux2->chave;
+            aux->valor = aux2->valor;
+            aux->esq = nullptr;
+            delete [] aux2;
+            return;
+        }
+        else if (aux->dir != nullptr && aux->dir->black == 0) {
+            aux2 = aux->dir;
+            aux->chave = aux2->chave;
+            aux->valor = aux2->valor;
+            aux->dir = nullptr;
+            delete [] aux2;
+            return;
+        }
+    }
+    
+    aux->chave = "";
+    aux->black = 2;
+    excluido = aux;
+
+    while (aux->black == 2) {
+        if (aux == raiz) {
+            raiz->black = 1;
+        }
+        else {
+            pai = aux->pai;
+            irmao = (pai->esq == aux ? pai->dir : pai->esq);
+
+            if (irmao != nullptr && irmao->black == 0) {
+                pai->black = 0;
+                irmao->black = 1;
+                
+                if (pai->esq == aux) 
+                    rotacionaEsq(pai);
+                
+                else 
+                    rotacionaDir(pai);
+                
+            }
+            else if (pai->esq == aux && irmao->dir != nullptr && irmao->dir->black == 0) {
+                int cor;
+
+                cor = pai->black;
+                pai->black = irmao->black;
+                irmao->black = cor;
+                rotacionaEsq(pai);
+                aux->black--;
+                irmao->dir->black = 1;
+            }
+
+            else if (pai->dir == aux && irmao->esq != nullptr && irmao->esq->black == 0) {
+                int cor;
+
+                cor = pai->black;
+                pai->black = irmao->black;
+                irmao->black = cor;
+                rotacionaDir(pai);
+                aux->black--;
+                irmao->esq->black = 1;
+            }
+
+            else if (pai->esq == aux && irmao->esq != nullptr && irmao->esq->black == 0) {
+                irmao->black = 0;
+                irmao->esq->black = 1;
+                rotacionaDir(irmao);
+            }
+
+            else if (pai->dir == aux && irmao->dir != nullptr && irmao->dir->black == 0) {
+                irmao->black = 0;
+                irmao->dir->black = 1;
+                rotacionaEsq(irmao);
+            }
+            else {
+                aux->black--;
+                pai->black++;
+                irmao->black = 0;
+                aux = pai;
+            }
+        }
+    }
+
+    if (excluido->pai != nullptr) {
+        pai = excluido->pai;
+        if (pai->dir == excluido) {
+
+            if (excluido->dir != nullptr) {
+                pai->dir = excluido->dir;
+                pai->dir->pai = pai;
+                
+            }
+            else if (excluido->esq != nullptr) {
+                pai->dir = excluido->esq;
+                pai->dir->pai = pai;
+            
+            }
+            else {
+                pai->dir = nullptr;
+            }
+
+        }
+        else if (pai->esq == excluido) {
+            if (excluido->dir != nullptr) {
+                pai->esq = excluido->dir;
+                pai->esq->pai = pai;
+                
+            }
+            else if (excluido->esq != nullptr) {
+                pai->esq = excluido->esq;
+                pai->esq->pai = pai;
+            
+            }
+            else {
+                pai->esq = nullptr;
+            }
+        }
+
+    }
+    else {
+        raiz = nullptr;
+    }
+    delete [] excluido;
+}
+
+
+template <class Chave, class Item>
+void arvoreRN<Chave, Item>::rotacionaEsq(noRN<Chave, Item> *no) {
+    noRN<Chave, Item> *aux, *pai;
+
+    pai = no->pai;
+    aux = no->dir;
+
+    no->dir  = aux->esq;
+
+    if (no->dir != nullptr) 
+        no->dir->pai = nullptr;
+    
+    aux->esq  = no;
+    no->pai = aux;
+
+    if (pai != nullptr) {
+        if (pai->esq == no)
+            pai->esq = aux;
+        else 
+            pai->dir = aux;
+
+        aux->pai = pai;
+    }
+    else raiz = aux;
+}
+
+template <class Chave, class Item>
+void arvoreRN<Chave, Item>::rotacionaDir(noRN<Chave, Item> *no) {
+noRN<Chave, Item> *aux, *pai;
+
+    pai = no->pai;
+    aux = no->esq;
+
+    no->esq  = aux->dir;
+
+    if (no->esq != nullptr) 
+        no->esq->pai = nullptr;
+    
+    aux->dir  = no;
+    no->pai = aux;
+
+    aux->pai = pai;
+
+    if (pai != nullptr) {
+        if (pai->esq == no)
+            pai->esq = aux;
+        else 
+            pai->dir = aux;  
+    }
+    else raiz = aux;
 }
 
 template <class Chave, class Item>

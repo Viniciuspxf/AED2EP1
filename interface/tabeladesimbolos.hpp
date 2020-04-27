@@ -175,6 +175,8 @@ class arvore23 {
 template <class Chave, class Item>
 class arvoreRN {
     private:
+        void rotacionaEsq(noRN<Chave, Item> *no);
+        void rotacionaDir(noRN<Chave, Item> *no);
         void printaR(noRN<Chave, Item> *no);
         void excluiArvore(noRN<Chave, Item> *no);
         int contaNos(noRN<Chave, Item> *no);
