@@ -53,6 +53,15 @@ bool ehSimbolo(char caracter) {
         case ')':
             return true;
             break;
+        case '\357':
+            return true;
+            break;
+        case '\273':
+            return true;
+            break;
+        case '\277':
+            return true;
+            break;
     }
 
     return false;
@@ -463,10 +472,12 @@ int arvoreBin<Chave, Item>::rank(Chave chave) {
 
     contador = contaNos(no->esq) + 1;
 
-    while (no->pai != nullptr && no->pai->dir == no) {
+    while (no->pai != nullptr) {
+        if (no->pai->dir == no){        
+            contador++;
+            contador += contaNos(no->pai->esq) + 1;
+        }
         no = no->pai;
-        contador++;
-        contador += contaNos(no->esq) + 1;
     }
     return contador;
 }
@@ -852,7 +863,7 @@ template <class Chave, class Item>
 int vetorOrd<Chave, Item>::rank(Chave chave){
     int i;
 
-    for (i = 0; i < n && chave.compare(vetor[i].chave) > 0; i++)
+    for (i = 0; i < n && chave.compare(vetor[i].chave) > 0; i++);
 
     if (i < n && chave.compare(vetor[i].chave) == 0) return i;
     
@@ -1097,10 +1108,12 @@ int treap<Chave, Item>::rank(Chave chave) {
 
     contador = contaNos(no->esq) + 1;
 
-    while (no->pai != nullptr && no->pai->dir == no) {
+    while (no->pai != nullptr) {
+        if (no->pai->dir == no){        
+            contador++;
+            contador += contaNos(no->pai->esq) + 1;
+        }
         no = no->pai;
-        contador++;
-        contador += contaNos(no->esq) + 1;
     }
     return contador;
 }
@@ -1145,9 +1158,9 @@ Chave treap<Chave, Item>::selecionaR(noTreap<Chave, Item> *no, int k, int *conta
 
 template <class Chave, class Item>
 int hashTable<Chave, Item>::hash(Chave chave) {
-    int i, potencia = 1, valor = 0;
+    long unsigned int i, potencia = 1, valor = 0;
 
-    for (i = 0; i < (int) chave.size(); i++) {
+    for (i = 0; i < chave.size(); i++) {
         valor += chave[i]*potencia;
         potencia = potencia*128;
     }
@@ -1164,15 +1177,46 @@ hashTable<Chave, Item>::hashTable(string nome_arquivo) {
         table[i] = new noLista<Chave, Item>[1];
         table[i]->proximo = nullptr;
     }
+    ifstream arquivo;
+    Chave atual;
+    Item valor;
+    long unsigned int j;
+
+    arquivo.open(nome_arquivo);
+
+    while (!arquivo.eof()) {
+        arquivo >> atual;
+
+        for (j = 0; j < atual.size() && ehSimbolo(atual[j]); j++);
+        atual.erase(0, j);
+
+        while (atual.size() != 0 && ehSimbolo(atual.back()))
+            atual.pop_back();
+
+        if (atual.size() != 0) {
+            valor = devolve(atual);
+            if (valor == -1) valor = 1;
+            else valor++;
+            insere(atual, valor);
+        }
+    }
+    
+
+    arquivo.close();
 }
 
 template <class Chave, class Item>
 hashTable<Chave, Item>::~hashTable() {
-    noLista<Chave,Item> *aux;
+    noLista<Chave,Item> *aux, *proximo;
     int i;
     for (i = 0; i < m; i++) {
-        for (aux = table[i]; aux != nullptr; aux = aux->proximo)
+        aux = table[i];
+        
+        while (aux != nullptr) {
+            proximo = aux->proximo;
             delete [] aux;
+            aux = proximo;
+        }
     }
 
     delete [] table;
@@ -1282,7 +1326,7 @@ arvoreRN<Chave, Item>::arvoreRN(string nome_arquivo): raiz(nullptr){
     ifstream arquivo;
     Chave atual;
     Item valor;
-    long unsigned int i, j = 0;
+    long unsigned int i = 0;
 
     arquivo.open(nome_arquivo);
 
@@ -1301,10 +1345,6 @@ arvoreRN<Chave, Item>::arvoreRN(string nome_arquivo): raiz(nullptr){
             else valor++;
             insere(atual, valor);
         }
-        cout << endl;
-        cout << j << ":" << endl;
-        printa();
-        j++;
     }
     
 
@@ -1431,8 +1471,6 @@ void arvoreRN<Chave, Item>:: insere(Chave chave, Item valor) {
             }       
         }
     }
-
-
 }
 
 template <class Chave, class Item>
@@ -1653,18 +1691,18 @@ void arvoreRN<Chave, Item>::rotacionaEsq(noRN<Chave, Item> *no) {
     no->dir  = aux->esq;
 
     if (no->dir != nullptr) 
-        no->dir->pai = nullptr;
+        no->dir->pai = no;
     
     aux->esq  = no;
     no->pai = aux;
+
+    aux->pai = pai;
 
     if (pai != nullptr) {
         if (pai->esq == no)
             pai->esq = aux;
         else 
-            pai->dir = aux;
-
-        aux->pai = pai;
+            pai->dir = aux;      
     }
     else raiz = aux;
 }
@@ -1679,7 +1717,7 @@ noRN<Chave, Item> *aux, *pai;
     no->esq  = aux->dir;
 
     if (no->esq != nullptr) 
-        no->esq->pai = nullptr;
+        no->esq->pai = no;
     
     aux->dir  = no;
     no->pai = aux;
@@ -1712,10 +1750,12 @@ int arvoreRN<Chave, Item>::rank(Chave chave) {
 
     contador = contaNos(no->esq) + 1;
 
-    while (no->pai != nullptr && no->pai->dir == no) {
+    while (no->pai != nullptr) {
+        if (no->pai->dir == no) {        
+            contador++;
+            contador += contaNos(no->pai->esq) + 1;
+        }
         no = no->pai;
-        contador++;
-        contador += contaNos(no->esq) + 1;
     }
     return contador;
 }

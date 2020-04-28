@@ -1,4322 +1,4321 @@
 criando ST...
-arquivo lido e ST construida em 1.24864 segundos
+arquivo lido e ST construida em 1.23463 segundos
 Possiveis operacoes do teste interativo:
 minST, delminST, getST <chave>; rankST <chave>, deleteST <chave>, selectST <int>
 CRTL-D para encerrar.
+>>> #61888: 1
+>>> $1: 1
+>>> $5,000: 1
+>>> 'AS-IS': 1
+>>> 1: 1
+>>> 1.A: 1
+>>> 1.B: 1
+>>> 1.C: 2
+>>> 1.D: 1
+>>> 1.E: 2
+>>> 1.E.1: 5
+>>> 1.E.2: 1
+>>> 1.E.3: 1
+>>> 1.E.4: 1
+>>> 1.E.5: 1
+>>> 1.E.6: 1
+>>> 1.E.7: 3
+>>> 1.E.8: 4
+>>> 1.E.9: 3
+>>> 1.F: 1
+>>> 1.F.1: 1
+>>> 1.F.2: 1
+>>> 1.F.3: 5
+>>> 1.F.4: 1
+>>> 1.F.5: 1
+>>> 1.F.6: 1
+>>> 1500: 1
+>>> 1924: 1
+>>> 2: 1
+>>> 20%: 1
+>>> 2001: 1
+>>> 2020: 1
+>>> 22: 1
+>>> 3: 3
+>>> 30: 1
+>>> 4: 3
+>>> 5: 1
+>>> 50: 1
+>>> 501(c)(3: 1
+>>> 596-1887: 1
+>>> 60: 1
+>>> 61888-0.txt: 1
+>>> 61888-0.zip: 1
+>>> 64-6221541: 1
+>>> 750175: 1
+>>> 801: 1
+>>> 809: 1
+>>> 84116: 1
+>>> 90: 2
+>>> 99775: 1
+>>> A: 17
+>>> ACTUAL: 1
+>>> AGREE: 2
+>>> AGREEMENT: 1
+>>> AK: 1
+>>> ALLEN: 1
+>>> AMERICA: 1
+>>> AND: 3
+>>> ANY: 3
+>>> ANYTHING: 1
+>>> ASCII: 2
+>>> About: 2
+>>> Above: 1
+>>> Additional: 1
+>>> After: 7
+>>> Alaska: 1
+>>> All: 3
+>>> Allen: 4
+>>> American: 1
+>>> And: 12
+>>> Another: 1
+>>> Any: 1
+>>> April: 2
+>>> Archive: 15
+>>> As: 18
+>>> At: 12
+>>> August: 1
+>>> Author: 2
+>>> Away: 3
+>>> B: 1
+>>> BE: 1
+>>> BEAR: 1
+>>> BEAVER: 1
+>>> BEFORE: 1
+>>> BIG: 1
+>>> BOY: 1
+>>> BRADLEY: 2
+>>> BREACH: 2
+>>> BUT: 1
+>>> BY: 2
+>>> Baby,”: 1
+>>> Balance: 3
+>>> Bat: 1
+>>> Bear: 72
+>>> Bear,”: 2
+>>> Bears: 1
+>>> Bear’s: 4
+>>> Beaver: 1
+>>> Bees: 1
+>>> Besides: 2
+>>> Better: 2
+>>> Big: 3
+>>> Birds: 1
+>>> Biting: 1
+>>> Black: 1
+>>> Books: 1
+>>> Box: 1
+>>> Boy: 61
+>>> Boy’s: 3
+>>> Bradley: 1
+>>> Brown: 73
+>>> But: 64
+>>> By: 9
+>>> CALIFORNIA: 1
+>>> CHAFFEE: 1
+>>> CHAPTER: 20
+>>> CHINOOK: 5
+>>> CINNAMON: 4
+>>> CLOWN: 1
+>>> COASTING: 1
+>>> COMPANY: 3
+>>> CONSEQUENTIAL: 1
+>>> CONTENTS: 1
+>>> CONTRACT: 1
+>>> COUGAR: 1
+>>> CUB: 4
+>>> CUBS: 1
+>>> California: 5
+>>> Camp: 1
+>>> Cats: 1
+>>> Chaffee: 3
+>>> Chaffee’s: 1
+>>> Character: 1
+>>> Chief: 1
+>>> Chinook: 109
+>>> Chinook!”: 1
+>>> Chinook’s: 5
+>>> Chipping: 1
+>>> Chuck!”: 1
+>>> Cinnamon: 5
+>>> City: 1
+>>> Clown: 1
+>>> Coast: 2
+>>> Coasting: 1
+>>> Company: 1
+>>> Compliance: 1
+>>> Contact: 1
+>>> Contributions: 1
+>>> Copyright: 2
+>>> Cougar: 32
+>>> Cougar!”: 2
+>>> Cougar,”: 1
+>>> Cougar?”: 1
+>>> Cougar’s: 1
+>>> Creating: 1
+>>> Crouched: 1
+>>> Cub: 3
+>>> Cubs: 1
+>>> DA: 1
+>>> DAMAGE: 1
+>>> DAMAGES: 2
+>>> DIRECT: 1
+>>> DISCLAIMER: 1
+>>> DISTRIBUTE: 1
+>>> DISTRIBUTOR: 1
+>>> DONATIONS: 1
+>>> DOUGLAS: 1
+>>> Da: 1
+>>> Dad: 1
+>>> Date: 1
+>>> Dead: 1
+>>> Defect: 1
+>>> Defects: 1
+>>> Despite: 1
+>>> Dewdrops: 1
+>>> Did: 1
+>>> Director: 1
+>>> Distributed: 2
+>>> Do: 3
+>>> Donations: 2
+>>> Don’t: 1
+>>> Douglas: 35
+>>> Douglas’: 1
+>>> Down: 2
+>>> Dr: 1
+>>> EBOOK: 2
+>>> EBook: 2
+>>> EIN: 1
+>>> END: 2
+>>> EVEN: 1
+>>> EXCEPT: 1
+>>> EXPRESS: 1
+>>> EYES: 1
+>>> Eh!”: 1
+>>> Email: 1
+>>> End: 1
+>>> England: 1
+>>> English: 1
+>>> Enraged: 1
+>>> European: 1
+>>> Even: 3
+>>> Ever: 1
+>>> Every: 1
+>>> Except: 2
+>>> Executive: 1
+>>> FITNESS: 1
+>>> FOG: 1
+>>> FOR: 3
+>>> FOREWORD: 1
+>>> FOUNDATION: 1
+>>> FULL: 2
+>>> Face: 1
+>>> Fairbanks: 2
+>>> Far: 1
+>>> Father: 11
+>>> Finally: 2
+>>> First: 2
+>>> Five: 1
+>>> Fog: 1
+>>> Following: 1
+>>> For: 20
+>>> Forest: 1
+>>> Foundation: 21
+>>> Foundation's: 3
+>>> Foxes: 1
+>>> Frank: 2
+>>> From: 2
+>>> Full: 1
+>>> Fully: 1
+>>> GIVE: 1
+>>> GOES: 1
+>>> GUTENBERG: 3
+>>> GUTENBERG-tm: 1
+>>> General: 3
+>>> Gently: 1
+>>> Gila: 1
+>>> Gingerly: 1
+>>> Go: 1
+>>> Goes: 1
+>>> Going: 1
+>>> Great: 1
+>>> Gregory: 1
+>>> Gutenberg: 27
+>>> Gutenberg's: 1
+>>> Gutenberg-tm: 55
+>>> Gutenberg-tm's: 1
+>>> HAS: 1
+>>> HAVE: 1
+>>> HOME: 1
+>>> Had: 1
+>>> Hallowe’en: 1
+>>> Hart: 1
+>>> Has: 1
+>>> He: 39
+>>> Her: 2
+>>> Here: 3
+>>> He’s: 1
+>>> His: 9
+>>> Home: 1
+>>> How: 2
+>>> However: 1
+>>> I: 59
+>>> I?”: 1
+>>> IF: 1
+>>> II: 2
+>>> III: 2
+>>> ILLUSTRATED: 1
+>>> IMPLIED: 1
+>>> IN: 5
+>>> INCIDENTAL: 1
+>>> INCLUDING: 1
+>>> INDEMNITY: 1
+>>> INDIAN: 1
+>>> INDIRECT: 1
+>>> IRS: 1
+>>> IV: 2
+>>> IX: 2
+>>> If: 24
+>>> Illustration: 3
+>>> Illustrator: 1
+>>> In: 16
+>>> Indian: 6
+>>> Indians: 3
+>>> Indian’s: 1
+>>> Information: 5
+>>> Inside!_”: 1
+>>> Instantly: 1
+>>> Instead: 1
+>>> Internal: 1
+>>> International: 1
+>>> Internet: 2
+>>> Is: 1
+>>> It: 54
+>>> Its: 3
+>>> It’s: 1
+>>> I’d: 3
+>>> I’ll: 8
+>>> I’m: 2
+>>> I’ve: 2
+>>> June: 4
+>>> Just: 10
+>>> KIND: 1
+>>> LEARN: 1
+>>> LIABILITY: 1
+>>> LIABLE: 1
+>>> LICENSE: 2
+>>> LIMITED: 3
+>>> LION: 1
+>>> LIVE: 1
+>>> LLC: 1
+>>> LOST: 1
+>>> Lake: 1
+>>> Language: 1
+>>> Larger: 1
+>>> Later: 1
+>>> Learn: 1
+>>> Let: 1
+>>> License: 10
+>>> Lion: 1
+>>> Literary: 14
+>>> Little: 3
+>>> Live: 1
+>>> Logging: 1
+>>> Look: 1
+>>> Lookout: 4
+>>> Lost: 1
+>>> Luis: 1
+>>> MASSACHUSETTS: 1
+>>> MAZAMA: 1
+>>> MERCHANTABILITY: 1
+>>> MILTON: 2
+>>> MOUNTAIN: 1
+>>> MOUSE: 2
+>>> MR: 1
+>>> MRS: 1
+>>> MYSTERIOUS: 1
+>>> Many: 2
+>>> Massachusetts: 1
+>>> May: 1
+>>> Mazama: 10
+>>> Mazama?”: 1
+>>> Merrily: 1
+>>> Mexican: 2
+>>> Mexico: 1
+>>> Michael: 1
+>>> Mission: 1
+>>> Mississippi: 1
+>>> More: 1
+>>> Most: 1
+>>> Mother: 81
+>>> Mother?”: 1
+>>> Mother’s: 1
+>>> Mountain: 1
+>>> Mouse: 17
+>>> Mouse’s: 1
+>>> Mr: 3
+>>> Mrs: 11
+>>> My: 5
+>>> Mysterious: 3
+>>> NEGLIGENCE: 1
+>>> NEST: 2
+>>> NO: 2
+>>> NOT: 2
+>>> NOTICE: 1
+>>> National: 1
+>>> Nature: 4
+>>> Nearly: 1
+>>> Nest: 2
+>>> Never: 1
+>>> New: 2
+>>> Newby: 1
+>>> Next: 1
+>>> No: 2
+>>> Nor: 1
+>>> North: 1
+>>> Norway: 1
+>>> Not: 2
+>>> November’s: 1
+>>> Now: 17
+>>> Nyc-ter-is: 1
+>>> OF: 11
+>>> ON: 1
+>>> OR: 6
+>>> OTHER: 1
+>>> OWNER: 1
+>>> Of: 4
+>>> On: 6
+>>> Once: 3
+>>> One: 9
+>>> Online: 2
+>>> Oregon: 6
+>>> Others: 1
+>>> Out: 1
+>>> Over: 1
+>>> PARAGRAPH: 1
+>>> PETER: 1
+>>> PG: 1
+>>> PGLAF: 1
+>>> PLAYS: 1
+>>> PLEASE: 1
+>>> PO: 1
+>>> POSSIBILITY: 1
+>>> PRINTED: 1
+>>> PROJECT: 4
+>>> PROVIDED: 1
+>>> PUNITIVE: 1
+>>> PURPOSE: 1
+>>> Pacific: 2
+>>> Paddy: 3
+>>> Paddy-paws: 10
+>>> Park: 1
+>>> Pass: 5
+>>> Peak: 4
+>>> Perhaps: 2
+>>> Peter: 1
+>>> Pied: 2
+>>> Piper: 2
+>>> Plain: 2
+>>> Plays: 1
+>>> Please: 1
+>>> Post_: 1
+>>> Potosi: 1
+>>> Produced: 2
+>>> Professor: 1
+>>> Project: 84
+>>> Proofreading: 2
+>>> Publishers: 1
+>>> Puffing: 1
+>>> Puffy: 1
+>>> Quality: 1
+>>> Quick: 2
+>>> RAT: 1
+>>> RAVEN’S: 1
+>>> READ: 1
+>>> REFUND: 1
+>>> REMEDIES: 1
+>>> REPLACEMENT: 1
+>>> RIGHT: 1
+>>> RU: 1
+>>> Ranger: 19
+>>> Ranger’s: 10
+>>> Rat: 6
+>>> Raven: 2
+>>> Raven’s: 1
+>>> Red: 1
+>>> Redistributing: 1
+>>> Redistribution: 1
+>>> Redwoods: 1
+>>> Refund: 1
+>>> Release: 1
+>>> Replacement: 1
+>>> Reserved: 1
+>>> Revenue: 1
+>>> Review: 1
+>>> Right: 1
+>>> Rights: 1
+>>> Roger: 2
+>>> Royalty: 2
+>>> Ru: 1
+>>> Rufus: 2
+>>> S: 1
+>>> SEND: 1
+>>> SMUGGLER: 1
+>>> SNOWBALL: 1
+>>> SPRINGFIELD: 1
+>>> SQUIRREL: 1
+>>> SQUIRREL’S: 1
+>>> START: 2
+>>> STATES: 1
+>>> STRICT: 1
+>>> SUCH: 1
+>>> SWIM: 1
+>>> Salt: 1
+>>> Sam’s: 1
+>>> San: 1
+>>> Section: 7
+>>> Sections: 1
+>>> See: 3
+>>> Sempervirens: 1
+>>> September: 2
+>>> Sequoia: 1
+>>> Service: 1
+>>> Several: 2
+>>> She: 10
+>>> Slowly: 1
+>>> Smuggler: 1
+>>> Sniffing: 1
+>>> Snookie: 58
+>>> Snookie,”: 1
+>>> Snookie’s: 2
+>>> Snow: 1
+>>> Snowball: 1
+>>> So: 2
+>>> Softly: 1
+>>> Some: 5
+>>> Somehow: 1
+>>> Someone: 1
+>>> Sometimes: 4
+>>> Soon: 3
+>>> South: 3
+>>> Special: 1
+>>> Springfield: 1
+>>> Squirrel: 1
+>>> Squirrel’s: 1
+>>> States: 15
+>>> Stepping: 1
+>>> Still: 4
+>>> Stretched: 1
+>>> Striking: 1
+>>> Stumbling: 1
+>>> Suddenly: 3
+>>> Sure: 2
+>>> Swim: 1
+>>> Swinging: 1
+>>> TEAM: 1
+>>> THAT: 2
+>>> THE: 21
+>>> THIS: 5
+>>> THOSE: 1
+>>> TO: 3
+>>> TOWN: 1
+>>> TRADEMARK: 1
+>>> TRAPPER: 1
+>>> TREE: 1
+>>> Team: 3
+>>> Terms: 2
+>>> Thank: 1
+>>> That: 17
+>>> The: 110
+>>> Their: 5
+>>> Then: 37
+>>> There: 11
+>>> Thereafter: 1
+>>> There’s: 1
+>>> These: 6
+>>> They: 30
+>>> They’re: 1
+>>> This: 16
+>>> Those: 2
+>>> Though: 1
+>>> Thus: 1
+>>> Title: 1
+>>> To: 7
+>>> Today: 1
+>>> Town: 5
+>>> Town.”: 1
+>>> Trademark: 1
+>>> Trapper: 7
+>>> Tree: 16
+>>> Trees: 1
+>>> U.S: 7
+>>> UNDER: 1
+>>> UNITED: 1
+>>> USE: 1
+>>> UT: 1
+>>> UTF-8: 1
+>>> Um: 1
+>>> Uncle: 1
+>>> United: 15
+>>> Unless: 1
+>>> Up: 2
+>>> Updated: 1
+>>> Use: 2
+>>> V: 2
+>>> VI: 2
+>>> VII: 2
+>>> VIII: 2
+>>> Vanilla: 2
+>>> Volunteers: 1
+>>> WAPITI: 1
+>>> WARRANTIES: 2
+>>> WARRANTY: 2
+>>> WILL: 1
+>>> WINGS: 1
+>>> WITH: 1
+>>> WORK: 2
+>>> WUZZ: 1
+>>> Wapiti: 1
+>>> We: 2
+>>> Web: 3
+>>> Weird: 1
+>>> Well: 3
+>>> Were: 1
+>>> West: 2
+>>> We’d: 1
+>>> What: 10
+>>> When: 13
+>>> Where: 4
+>>> While: 3
+>>> Who: 1
+>>> Why: 8
+>>> Wings: 1
+>>> With: 8
+>>> Work: 1
+>>> Would: 2
+>>> X: 2
+>>> XI: 2
+>>> XII: 2
+>>> XIII: 2
+>>> XIV: 2
+>>> XIX: 2
+>>> XV: 2
+>>> XVI: 2
+>>> XVII: 2
+>>> XVIII: 2
+>>> XX: 2
+>>> YOU: 6
+>>> Yellow: 1
+>>> Yes: 1
+>>> York: 1
+>>> You: 18
+>>> _Evening: 1
+>>> _his_: 1
+>>> _home_: 1
+>>> _my_: 3
+>>> _she_: 1
+>>> _we_: 1
+>>> a: 596
+>>> abandoned: 4
+>>> abductor: 1
+>>> abide: 1
+>>> able: 5
+>>> about: 48
+>>> about.”: 1
+>>> above: 15
+>>> abruptly: 1
+>>> absence: 1
+>>> abundance.”: 1
+>>> accept: 1
+>>> accepted: 2
+>>> accepting: 1
+>>> access: 10
+>>> accessed: 1
+>>> accessible: 1
+>>> accidents: 1
+>>> accomplished: 1
+>>> accordance: 2
+>>> accustomed: 1
+>>> ache: 1
+>>> ached: 1
+>>> acquired: 1
+>>> acrobats: 1
+>>> across: 15
+>>> action: 2
+>>> active: 2
+>>> actual: 1
+>>> addition: 1
+>>> additional: 3
+>>> additions: 1
+>>> address: 2
+>>> addresses: 1
+>>> adorn: 1
+>>> advancing: 1
+>>> adventure: 1
+>>> adventures: 1
+>>> advice: 2
+>>> advised: 1
+>>> affectionate: 1
+>>> afraid: 7
+>>> afraid,”: 1
+>>> after: 36
+>>> afternoon: 2
+>>> again: 19
+>>> again,”: 1
+>>> again.”: 1
+>>> again?”: 1
+>>> against: 9
+>>> agent: 1
+>>> aggressively: 1
+>>> agile: 2
+>>> ago: 4
+>>> ago?”: 1
+>>> agonizingly: 1
+>>> agree: 7
+>>> agreed: 5
+>>> agreement: 17
+>>> ahead: 5
+>>> air: 7
+>>> alarm: 2
+>>> alarmed: 1
+>>> alder: 1
+>>> alert: 2
+>>> alive: 5
+>>> alive!”: 1
+>>> alive.”: 1
+>>> all: 100
+>>> allow: 1
+>>> allowed: 5
+>>> alluring: 1
+>>> almost: 12
+>>> alone: 4
+>>> alone!”: 1
+>>> alone.”: 1
+>>> along: 42
+>>> along?”: 1
+>>> alongshore: 1
+>>> aloud: 2
+>>> alpine: 1
+>>> already: 4
+>>> also: 11
+>>> alteration: 1
+>>> altered: 1
+>>> alternate: 1
+>>> altitude: 2
+>>> altitudes: 2
+>>> altogether: 4
+>>> always: 21
+>>> amazed: 2
+>>> amazement: 2
+>>> amazing: 2
+>>> among: 9
+>>> an: 40
+>>> ancient: 1
+>>> and: 705
+>>> and—on: 1
+>>> anew: 1
+>>> anger: 1
+>>> angles: 1
+>>> angrily: 2
+>>> angry: 5
+>>> anguish: 1
+>>> animal: 4
+>>> animals: 2
+>>> announced: 1
+>>> another: 24
+>>> another,”: 1
+>>> answered: 2
+>>> anticipation: 1
+>>> antics: 2
+>>> antlered: 1
+>>> antlers: 3
+>>> antlers?”: 1
+>>> ants: 1
+>>> anxious: 3
+>>> any: 54
+>>> anyone: 8
+>>> anything: 8
+>>> anyway: 1
+>>> anyway?”: 2
+>>> anywhere: 5
+>>> apartment: 1
+>>> apartments: 1
+>>> apiece: 2
+>>> apparently: 1
+>>> appear: 1
+>>> appeared: 4
+>>> appearing: 1
+>>> appears: 1
+>>> appetite: 3
+>>> applicable: 3
+>>> apply: 1
+>>> approach: 3
+>>> approached: 1
+>>> approaching: 3
+>>> appropriated: 2
+>>> arboreal: 1
+>>> are: 57
+>>> aren’t: 4
+>>> arise: 2
+>>> arm: 1
+>>> armfuls: 1
+>>> arms: 2
+>>> around: 29
+>>> array: 1
+>>> arrived: 1
+>>> as: 176
+>>> ashamed: 1
+>>> ask: 2
+>>> asked: 8
+>>> asleep: 5
+>>> aspen: 1
+>>> asserting: 1
+>>> assistance: 2
+>>> associated: 8
+>>> assure: 1
+>>> assured: 3
+>>> at: 96
+>>> ate: 3
+>>> attached: 1
+>>> attack: 3
+>>> attempted: 1
+>>> attention: 3
+>>> attired: 1
+>>> attitude: 1
+>>> aught: 1
+>>> available: 4
+>>> avoided: 1
+>>> awake: 2
+>>> awakened: 3
+>>> aware: 1
+>>> away: 32
+>>> away!”: 1
+>>> away--you: 1
+>>> awe: 1
+>>> awesome: 1
+>>> awful: 1
+>>> awfullest: 1
+>>> awfully: 1
+>>> awhile: 1
+>>> awkwardness—a: 1
+>>> awoke: 3
+>>> axe: 3
+>>> b: 1
+>>> babies: 15
+>>> baby: 4
+>>> bachelor: 1
+>>> back: 45
+>>> back.”: 2
+>>> backed: 2
+>>> backs: 1
+>>> bacon: 5
+>>> bad: 2
+>>> bade: 3
+>>> baffling: 1
+>>> bag: 2
+>>> baited: 1
+>>> balance: 3
+>>> ball: 5
+>>> bank: 8
+>>> banks: 1
+>>> barbed: 5
+>>> bare: 1
+>>> barely: 5
+>>> bargain: 1
+>>> bark: 12
+>>> barked: 2
+>>> barking: 3
+>>> barn-owl: 1
+>>> bars: 2
+>>> based: 2
+>>> bat: 10
+>>> bats: 8
+>>> bats!”: 1
+>>> be: 82
+>>> be!”: 1
+>>> be.”: 1
+>>> beady: 1
+>>> beak: 4
+>>> beakful: 1
+>>> bear: 54
+>>> bear-scented: 1
+>>> bearing: 1
+>>> bearlike: 1
+>>> bears: 23
+>>> bear’s: 4
+>>> beasts.”: 1
+>>> beat: 1
+>>> beating: 2
+>>> beautifully: 1
+>>> beaver: 3
+>>> beavers: 1
+>>> became: 2
+>>> because: 21
+>>> become: 4
+>>> bed: 2
+>>> bee: 4
+>>> been: 79
+>>> bees: 4
+>>> before: 31
+>>> began: 25
+>>> begged: 1
+>>> begin: 1
+>>> beginning: 3
+>>> begun: 1
+>>> behind: 8
+>>> behind.”: 1
+>>> being: 9
+>>> belfries: 1
+>>> believe: 1
+>>> belong: 1
+>>> belonged: 2
+>>> below: 7
+>>> belt: 3
+>>> beneath: 19
+>>> berries: 4
+>>> beside: 3
+>>> besides: 1
+>>> best: 4
+>>> bet: 5
+>>> betrayed: 1
+>>> better: 20
+>>> better,”: 1
+>>> better.”: 1
+>>> between: 9
+>>> beyond: 5
+>>> biff: 1
+>>> big: 18
+>>> big-eared: 1
+>>> big?”: 1
+>>> bigger: 1
+>>> binary: 1
+>>> biped: 1
+>>> bird: 9
+>>> bird,”: 1
+>>> birdlike: 1
+>>> birds: 7
+>>> bird’s: 1
+>>> biscuit: 3
+>>> biscuits: 1
+>>> bit: 8
+>>> bite: 3
+>>> biting: 1
+>>> bits: 3
+>>> black: 17
+>>> blackberries: 2
+>>> blankets: 1
+>>> bleat: 1
+>>> bleeding: 2
+>>> blew: 7
+>>> blind: 2
+>>> blindly: 1
+>>> blinking: 1
+>>> bloody: 1
+>>> blossoms: 2
+>>> blowing: 2
+>>> blows: 1
+>>> blue: 4
+>>> blue-overalled: 1
+>>> blueberries: 1
+>>> bluffing: 1
+>>> boarded: 1
+>>> boast,”: 1
+>>> bob: 1
+>>> bobbed: 1
+>>> bobcat: 8
+>>> bobcats: 6
+>>> bodies: 2
+>>> body: 5
+>>> boggy: 1
+>>> bold: 1
+>>> bone: 1
+>>> bones: 1
+>>> book: 1
+>>> books: 1
+>>> boot: 4
+>>> boots: 2
+>>> bordered: 1
+>>> born: 2
+>>> boss: 1
+>>> both: 8
+>>> bother: 1
+>>> boughs: 1
+>>> bought: 1
+>>> boulder: 1
+>>> boulders: 3
+>>> bound: 2
+>>> bounds: 1
+>>> bouts: 1
+>>> boxed: 1
+>>> boy: 4
+>>> boylike: 1
+>>> boys: 1
+>>> bracing: 1
+>>> bracken: 1
+>>> brains: 1
+>>> brainy: 1
+>>> branch: 9
+>>> branches: 11
+>>> branching: 2
+>>> bravado: 1
+>>> brave: 1
+>>> brazen: 1
+>>> breakfast: 6
+>>> breakfast,”: 1
+>>> breast: 1
+>>> breath: 6
+>>> breathed: 1
+>>> breeze: 4
+>>> brief: 1
+>>> bright: 2
+>>> bright-eyed: 1
+>>> brightened: 1
+>>> brilliant: 1
+>>> brilliant-hued: 1
+>>> bring: 2
+>>> bringing: 2
+>>> bristling: 2
+>>> broad: 4
+>>> broken: 4
+>>> broken—she: 1
+>>> brother: 4
+>>> brothers: 2
+>>> brought: 6
+>>> brown: 17
+>>> brushed: 1
+>>> build: 6
+>>> building: 2
+>>> buildings: 1
+>>> built: 3
+>>> bulbs: 3
+>>> bull: 8
+>>> bull,”: 1
+>>> bumped: 2
+>>> bumps.”: 1
+>>> bunch: 1
+>>> bundles: 1
+>>> bunk: 3
+>>> bunk?”: 1
+>>> bunnies: 1
+>>> bunny: 1
+>>> buried: 3
+>>> burned: 3
+>>> burrow: 9
+>>> burrs: 1
+>>> burst: 1
+>>> bushes: 1
+>>> busily: 1
+>>> business: 1
+>>> but: 87
+>>> butt: 1
+>>> butter: 2
+>>> butterflies: 5
+>>> buttery: 1
+>>> button: 1
+>>> buy: 1
+>>> by: 87
+>>> c: 1
+>>> cabbage: 1
+>>> cabin: 10
+>>> cabins: 2
+>>> cache: 2
+>>> calamity: 1
+>>> calculate: 1
+>>> calculated: 1
+>>> call: 5
+>>> called: 7
+>>> calling: 2
+>>> came: 64
+>>> camp: 2
+>>> campers: 1
+>>> camping: 4
+>>> can: 36
+>>> candle: 1
+>>> cannot: 6
+>>> canopy: 1
+>>> canyon: 11
+>>> can’t: 4
+>>> captured: 1
+>>> card: 1
+>>> care: 3
+>>> careful: 1
+>>> carpeted: 2
+>>> carried: 6
+>>> carry: 3
+>>> carrying: 1
+>>> cascades: 2
+>>> cascading: 3
+>>> case: 2
+>>> cat: 21
+>>> catch: 21
+>>> catch.”: 1
+>>> catches: 1
+>>> catching: 1
+>>> catlike: 2
+>>> cats: 1
+>>> caught: 22
+>>> caught.”: 1
+>>> cause: 2
+>>> cautious: 2
+>>> cave: 8
+>>> cease: 1
+>>> ceased: 1
+>>> cedar: 2
+>>> centre: 2
+>>> certain: 4
+>>> certainly: 10
+>>> chafed: 1
+>>> challenge: 1
+>>> challenged: 1
+>>> challenges: 1
+>>> chamber: 2
+>>> chance: 2
+>>> change: 1
+>>> changed: 2
+>>> characters: 1
+>>> charge: 7
+>>> charges: 1
+>>> chariot: 1
+>>> charitable: 1
+>>> charities: 1
+>>> chase: 5
+>>> chased: 5
+>>> chasing: 5
+>>> chastened: 1
+>>> chatter: 1
+>>> chattered: 1
+>>> check: 4
+>>> checks: 1
+>>> cheeks: 1
+>>> chest: 3
+>>> chewed: 3
+>>> chewing: 1
+>>> chief: 1
+>>> child: 1
+>>> children: 8
+>>> children,”: 1
+>>> child’s: 1
+>>> chill: 4
+>>> chilly: 1
+>>> chin: 1
+>>> chipmunk: 2
+>>> chipmunks: 2
+>>> chips: 1
+>>> chirped: 1
+>>> chittered: 1
+>>> choked: 1
+>>> choose: 1
+>>> church: 1
+>>> churning: 1
+>>> cinnamon: 2
+>>> cinnamon-brown: 1
+>>> circle: 4
+>>> circled: 2
+>>> circling: 6
+>>> circus: 2
+>>> city: 2
+>>> claim: 2
+>>> claimed: 1
+>>> clamor: 1
+>>> clap: 1
+>>> clapped: 1
+>>> claw: 1
+>>> clawed: 3
+>>> claws: 6
+>>> clean: 3
+>>> cleansed: 1
+>>> clear: 5
+>>> clearly: 1
+>>> cliff: 1
+>>> climate: 1
+>>> climb: 1
+>>> climbed: 8
+>>> climbing: 1
+>>> cling: 1
+>>> clinging: 6
+>>> clip: 1
+>>> close: 4
+>>> closely: 2
+>>> closer: 2
+>>> clothed: 1
+>>> cloud: 3
+>>> clouds: 1
+>>> clown: 1
+>>> clumsy: 1
+>>> clung: 8
+>>> cluster: 1
+>>> clusters: 1
+>>> clutched: 1
+>>> clutching: 1
+>>> coarse: 1
+>>> coast: 1
+>>> coasted: 1
+>>> coasting: 3
+>>> coat: 5
+>>> coats: 3
+>>> coaxed: 2
+>>> cocked: 1
+>>> cocker-spaniel: 1
+>>> cocking: 1
+>>> codes: 1
+>>> coffee: 1
+>>> coiled: 1
+>>> cold: 8
+>>> coldness: 1
+>>> cold—then: 1
+>>> collar,”: 1
+>>> collect: 2
+>>> collection: 4
+>>> colony: 2
+>>> combat: 1
+>>> come: 41
+>>> comers: 1
+>>> comes: 4
+>>> comfortably: 1
+>>> comforted: 1
+>>> comic: 1
+>>> coming: 9
+>>> commanded: 3
+>>> commercial: 1
+>>> committed: 1
+>>> common: 1
+>>> company: 1
+>>> compilation: 1
+>>> complained: 2
+>>> completely: 4
+>>> compliance: 4
+>>> comply: 6
+>>> complying: 3
+>>> compressed: 1
+>>> computer: 2
+>>> computers: 2
+>>> concept: 2
+>>> concerning: 2
+>>> cone: 4
+>>> cones: 5
+>>> confirmation: 1
+>>> confirmed: 1
+>>> confusion: 1
+>>> connecting: 1
+>>> consider: 2
+>>> considerable: 2
+>>> considered: 1
+>>> constant: 1
+>>> consumed: 1
+>>> contact: 3
+>>> contain: 2
+>>> containing: 1
+>>> content: 1
+>>> contention: 1
+>>> contents: 1
+>>> contributions: 1
+>>> convenient: 1
+>>> convert: 1
+>>> converted: 2
+>>> convulsed: 1
+>>> cooked: 1
+>>> cool: 4
+>>> copied: 2
+>>> copies: 7
+>>> copy: 12
+>>> copying: 4
+>>> copyright: 18
+>>> corner: 5
+>>> cornered: 1
+>>> corporation: 1
+>>> corrupt: 1
+>>> cost: 3
+>>> costs: 2
+>>> cottontail: 1
+>>> cottontails: 1
+>>> could: 99
+>>> couldn’t: 8
+>>> count: 2
+>>> countless: 1
+>>> countries: 1
+>>> country: 6
+>>> couple: 2
+>>> courage: 1
+>>> course: 7
+>>> course!”: 1
+>>> courts: 1
+>>> cousins: 3
+>>> covered: 4
+>>> covering: 1
+>>> cow.”: 1
+>>> cows: 1
+>>> coyotes: 1
+>>> crack: 1
+>>> cracked: 2
+>>> craftily: 1
+>>> crags: 1
+>>> cranny: 3
+>>> crashing: 1
+>>> crawled: 2
+>>> created: 2
+>>> creating: 3
+>>> creation: 1
+>>> creature: 7
+>>> creatures: 2
+>>> credit: 1
+>>> creek: 1
+>>> creep: 1
+>>> creeping: 4
+>>> crept: 3
+>>> crevice: 1
+>>> crickets: 2
+>>> cried: 2
+>>> cries: 1
+>>> crisscross: 1
+>>> critical: 1
+>>> crop: 1
+>>> crops: 4
+>>> cross: 3
+>>> cross-cut: 1
+>>> crossed: 5
+>>> crossing: 1
+>>> crotch: 2
+>>> crouched: 5
+>>> crow: 1
+>>> crowded: 1
+>>> crunched: 1
+>>> crunching: 1
+>>> crusted: 1
+>>> cry: 3
+>>> cub: 20
+>>> cub!”: 1
+>>> cub?”: 1
+>>> cubs: 89
+>>> cub’s: 2
+>>> cuddled: 1
+>>> cunning: 1
+>>> curiosity: 2
+>>> curious: 1
+>>> curiously: 3
+>>> curl: 2
+>>> curled: 4
+>>> current: 1
+>>> curved: 1
+>>> cut: 8
+>>> cutting: 2
+>>> daintily: 1
+>>> damage: 1
+>>> damage.”: 1
+>>> damaged: 1
+>>> damages: 2
+>>> dampness: 1
+>>> danced: 2
+>>> dancing: 1
+>>> danger: 5
+>>> dangling: 1
+>>> dare: 5
+>>> dark: 7
+>>> dart: 2
+>>> darted: 5
+>>> darting: 2
+>>> dash: 4
+>>> dashed: 1
+>>> data: 1
+>>> date: 2
+>>> dawn: 3
+>>> day: 24
+>>> day,”: 1
+>>> daylight: 1
+>>> days: 8
+>>> deal: 1
+>>> death: 1
+>>> decided: 14
+>>> decorated: 1
+>>> deductible: 1
+>>> deep: 13
+>>> deeper: 2
+>>> deer: 5
+>>> defect: 2
+>>> defective: 3
+>>> deletions: 1
+>>> delicacy: 1
+>>> delicious: 6
+>>> delight: 2
+>>> delightedly: 1
+>>> demand: 1
+>>> demanded: 3
+>>> demolish: 1
+>>> den: 17
+>>> dens: 1
+>>> dense: 1
+>>> densely: 1
+>>> depend: 1
+>>> depends: 1
+>>> depleted: 1
+>>> depths: 1
+>>> derivative: 3
+>>> derive: 1
+>>> derived: 1
+>>> described: 1
+>>> desert: 1
+>>> deserted: 1
+>>> deserves: 1
+>>> despairing: 1
+>>> despite: 1
+>>> destiny: 1
+>>> destroy: 4
+>>> destroyed: 1
+>>> destroying: 1
+>>> detach: 1
+>>> detect: 3
+>>> detected: 1
+>>> determine: 1
+>>> determined: 2
+>>> developed: 1
+>>> devices: 2
+>>> devotion: 1
+>>> devour: 1
+>>> diamonds: 1
+>>> did: 23
+>>> did,”: 1
+>>> didn’t: 12
+>>> die: 1
+>>> diet: 1
+>>> difference: 1
+>>> different: 7
+>>> differently: 1
+>>> dig: 2
+>>> digging: 8
+>>> dinner: 1
+>>> direction: 2
+>>> directly: 3
+>>> disagreeable: 1
+>>> disappear: 2
+>>> disappointed: 1
+>>> disclaim: 1
+>>> disclaimer: 2
+>>> disclaimers: 1
+>>> discontinue: 1
+>>> discover: 1
+>>> discovered: 4
+>>> discovery: 2
+>>> discussed: 1
+>>> disease-spreading: 1
+>>> disgust: 1
+>>> disgustedly: 1
+>>> disk: 1
+>>> display: 1
+>>> displayed: 1
+>>> displaying: 4
+>>> dissolved: 1
+>>> distance: 3
+>>> distance.”: 1
+>>> distant: 4
+>>> distinctly: 2
+>>> distract: 1
+>>> distracted: 1
+>>> distribute: 5
+>>> distributed: 4
+>>> distributing: 7
+>>> distribution: 6
+>>> districts: 1
+>>> disturbed: 1
+>>> dive: 1
+>>> dizzy: 1
+>>> dizzying: 1
+>>> do: 43
+>>> does: 6
+>>> doesn’t: 4
+>>> dog: 1
+>>> dogwood: 1
+>>> doing: 1
+>>> domain: 3
+>>> donate: 3
+>>> donation: 1
+>>> donations: 12
+>>> done: 4
+>>> donors: 1
+>>> don’t: 7
+>>> door: 3
+>>> doors: 2
+>>> doorway: 2
+>>> doorways: 2
+>>> doubled: 1
+>>> down: 60
+>>> downhill: 2
+>>> downloading: 1
+>>> downstream: 3
+>>> downward: 2
+>>> dozed: 1
+>>> dozen: 5
+>>> dozens: 1
+>>> drag: 1
+>>> dragged: 2
+>>> dragging: 1
+>>> drank: 2
+>>> draw: 3
+>>> dreaded: 1
+>>> dreadful: 2
+>>> dreadfully: 1
+>>> dream: 3
+>>> dreamed: 3
+>>> dreaming: 1
+>>> dreams: 1
+>>> drew: 3
+>>> dried: 2
+>>> drier: 1
+>>> drifts: 1
+>>> drink: 2
+>>> drinking: 1
+>>> dripping: 1
+>>> drive: 1
+>>> driven: 3
+>>> driving: 1
+>>> dropped: 1
+>>> dropping: 1
+>>> drops: 2
+>>> drouth: 1
+>>> drowsily: 1
+>>> drowsy: 3
+>>> drum: 1
+>>> dry: 7
+>>> ducked: 1
+>>> dug: 8
+>>> dumb: 1
+>>> dump: 1
+>>> dusk: 2
+>>> dusky: 1
+>>> dust: 2
+>>> dusty: 1
+>>> dwarf: 1
+>>> dwarfed: 2
+>>> dwellers: 1
+>>> e-mail: 1
+>>> eBook: 6
+>>> eBooks: 8
+>>> each: 5
+>>> eager: 2
+>>> ear: 3
+>>> earlier: 1
+>>> earn: 1
+>>> ears: 16
+>>> earshot: 1
+>>> earth: 9
+>>> earthquake: 5
+>>> earthquake,”: 1
+>>> easier: 1
+>>> easiest: 1
+>>> easily: 6
+>>> eastern: 1
+>>> eastward: 1
+>>> easy: 3
+>>> eat: 10
+>>> eat,”: 1
+>>> eaten: 4
+>>> eaten.”: 1
+>>> eating: 4
+>>> eaves: 1
+>>> ebook: 2
+>>> echoed: 1
+>>> edge: 4
+>>> edges: 1
+>>> edition: 1
+>>> editions: 4
+>>> education: 1
+>>> educational: 1
+>>> eerie: 1
+>>> effect: 1
+>>> effort: 4
+>>> efforts: 3
+>>> egg: 1
+>>> eggs: 4
+>>> either: 3
+>>> either.”: 1
+>>> elderberries: 1
+>>> elect: 1
+>>> electronic: 27
+>>> electronically: 2
+>>> element: 1
+>>> eleven-thousand-foot: 1
+>>> elk: 5
+>>> else: 6
+>>> else?”: 1
+>>> email: 1
+>>> emergency: 3
+>>> employee: 1
+>>> employees: 2
+>>> emptied: 1
+>>> empty: 1
+>>> encampment: 1
+>>> encoding: 1
+>>> encrusted: 1
+>>> end: 10
+>>> ends: 2
+>>> enemies: 3
+>>> enemy: 1
+>>> enough: 19
+>>> ensuring: 1
+>>> entered: 2
+>>> enticing: 1
+>>> entity: 3
+>>> entrances: 1
+>>> equal: 1
+>>> equally: 1
+>>> equipment: 3
+>>> errors: 1
+>>> eruption: 1
+>>> escape: 1
+>>> escaped: 1
+>>> escaping: 1
+>>> especially: 2
+>>> etc: 1
+>>> even: 22
+>>> evening: 1
+>>> ever: 25
+>>> every: 23
+>>> everything: 5
+>>> everywhere: 2
+>>> evidence: 1
+>>> evidently: 2
+>>> except: 5
+>>> exciting: 1
+>>> exclaimed: 3
+>>> exclusion: 1
+>>> exempt: 2
+>>> exercise: 1
+>>> exhibiting: 1
+>>> exists: 1
+>>> exit: 1
+>>> expanse: 1
+>>> expect: 1
+>>> expected: 1
+>>> expedition: 2
+>>> expend: 1
+>>> expense: 1
+>>> expenses: 2
+>>> experience: 4
+>>> experienced: 3
+>>> experiment: 1
+>>> explained: 3
+>>> explanation: 2
+>>> explore: 2
+>>> explorer: 1
+>>> exploring: 6
+>>> exporting: 1
+>>> exposed: 1
+>>> extent: 1
+>>> exterminate: 1
+>>> exulted: 2
+>>> eye: 5
+>>> eyed: 1
+>>> eyes: 32
+>>> face: 15
+>>> faces: 1
+>>> facility: 1
+>>> facing: 1
+>>> fact: 2
+>>> failed: 2
+>>> faint: 1
+>>> fairly: 5
+>>> fall: 4
+>>> fall,”: 1
+>>> fallen: 15
+>>> falls: 1
+>>> familiar: 1
+>>> families: 2
+>>> family: 12
+>>> family,”: 1
+>>> famished: 2
+>>> famous: 1
+>>> fans: 3
+>>> far: 9
+>>> fare: 1
+>>> faring: 1
+>>> farmer: 1
+>>> farmers: 1
+>>> farther: 1
+>>> fast: 16
+>>> faster: 2
+>>> fat: 3
+>>> father: 9
+>>> father’s: 2
+>>> fatigue: 1
+>>> fatter: 2
+>>> fault: 1
+>>> favorite: 3
+>>> fear: 4
+>>> fearful: 2
+>>> fearless: 1
+>>> feast: 3
+>>> feasted: 2
+>>> feathered: 1
+>>> feathers: 1
+>>> feathers.”: 1
+>>> fed: 1
+>>> federal: 2
+>>> fee: 8
+>>> feed: 3
+>>> feeding: 3
+>>> feel: 6
+>>> feeling: 8
+>>> feels: 1
+>>> fees: 4
+>>> feet: 35
+>>> fell: 4
+>>> felling: 1
+>>> fellow: 5
+>>> fellow,”: 2
+>>> fellows: 8
+>>> fellow’s: 1
+>>> felt: 9
+>>> fern: 2
+>>> ferns: 2
+>>> ferny: 2
+>>> ferocious: 2
+>>> ferociously: 2
+>>> feverish: 1
+>>> few: 17
+>>> field: 1
+>>> fields: 1
+>>> fiend!”: 1
+>>> fight: 9
+>>> fighter: 1
+>>> fights: 1
+>>> filched: 1
+>>> file: 4
+>>> files: 2
+>>> fill: 1
+>>> filled: 2
+>>> final: 1
+>>> finally: 3
+>>> financial: 1
+>>> find: 27
+>>> finding: 5
+>>> fine: 3
+>>> fingers: 1
+>>> finished: 3
+>>> finny: 1
+>>> fir: 8
+>>> fire: 4
+>>> fireplace: 1
+>>> fires: 3
+>>> firm: 4
+>>> first: 24
+>>> fish: 6
+>>> fished: 1
+>>> fishing: 4
+>>> fishy: 1
+>>> fit: 3
+>>> fits: 1
+>>> five: 3
+>>> fix: 1
+>>> flames: 1
+>>> flapping: 1
+>>> flat: 9
+>>> flattened: 3
+>>> flavor: 2
+>>> fleeing: 1
+>>> fleet-footed: 1
+>>> flew: 2
+>>> floating: 1
+>>> floor: 7
+>>> floundered: 1
+>>> flour: 2
+>>> flower: 1
+>>> flowers: 2
+>>> fluffy: 1
+>>> fly: 2
+>>> fly?”: 1
+>>> flying: 1
+>>> foaming: 1
+>>> focus: 1
+>>> foe: 1
+>>> fog: 7
+>>> folded: 2
+>>> folk: 6
+>>> folks: 1
+>>> follow: 11
+>>> followed: 4
+>>> following: 8
+>>> fond: 3
+>>> fondness: 1
+>>> food: 3
+>>> foolish: 1
+>>> foot: 6
+>>> football: 1
+>>> foothold: 1
+>>> footing: 1
+>>> footprint: 4
+>>> footprints: 7
+>>> foot—that: 1
+>>> for: 214
+>>> forbidden: 1
+>>> force: 1
+>>> fore: 6
+>>> forehead: 1
+>>> forepaws: 2
+>>> forest: 6
+>>> forest-cruising: 1
+>>> forests: 1
+>>> forever: 1
+>>> forget: 1
+>>> forgot: 3
+>>> forgotten: 2
+>>> form: 5
+>>> format: 4
+>>> formats: 2
+>>> forth: 11
+>>> forty: 1
+>>> forward: 1
+>>> fought: 2
+>>> found: 42
+>>> foundation: 1
+>>> four: 7
+>>> four-footed: 3
+>>> four-toed: 1
+>>> fours: 3
+>>> fox: 1
+>>> foxes: 3
+>>> fragment: 1
+>>> fragments: 1
+>>> framework: 1
+>>> free: 11
+>>> freely: 4
+>>> fresh: 1
+>>> friend: 1
+>>> friendly,”: 1
+>>> friends: 5
+>>> fright: 1
+>>> frighten: 1
+>>> frightened: 7
+>>> fringe: 1
+>>> fringed: 1
+>>> frog: 1
+>>> from: 103
+>>> fronds: 1
+>>> front: 4
+>>> frosty: 1
+>>> frozen: 3
+>>> full: 16
+>>> fun: 6
+>>> funnel-like: 1
+>>> funny: 2
+>>> fur: 25
+>>> furiously: 2
+>>> furnish: 1
+>>> furred: 1
+>>> furry: 10
+>>> further: 3
+>>> fury: 2
+>>> future: 3
+>>> fuzzy: 1
+>>> gallop: 1
+>>> galloped: 1
+>>> galloping: 2
+>>> game: 4
+>>> garnering: 1
+>>> gather: 1
+>>> gathered: 1
+>>> gathering: 1
+>>> gave: 16
+>>> gay: 1
+>>> gbnewby@pglaf.org: 1
+>>> generally: 3
+>>> generations: 2
+>>> generously: 2
+>>> gentle: 1
+>>> gently: 1
+>>> genuinely: 1
+>>> get: 18
+>>> gets: 2
+>>> getting: 10
+>>> giant: 4
+>>> girdled: 1
+>>> give: 7
+>>> given: 5
+>>> giving: 1
+>>> glad: 4
+>>> glanced: 1
+>>> glands: 1
+>>> gleamed: 2
+>>> gleaming: 3
+>>> gleefully: 2
+>>> glimpse: 3
+>>> glittered: 1
+>>> globe: 1
+>>> gloom: 1
+>>> glow: 2
+>>> glowed: 1
+>>> gnaw: 3
+>>> gnawing: 2
+>>> gnome: 1
+>>> gnomes: 1
+>>> go: 20
+>>> go!”: 1
+>>> go?”: 1
+>>> goals: 1
+>>> gobbling: 1
+>>> goes: 2
+>>> going: 16
+>>> golden: 1
+>>> gone: 9
+>>> good: 24
+>>> good!”: 1
+>>> goodness: 3
+>>> goody: 1
+>>> gooseberries: 1
+>>> got: 12
+>>> gotten: 2
+>>> govern: 1
+>>> grabbed: 1
+>>> granted: 1
+>>> grass: 3
+>>> grasses: 1
+>>> grasshoppers: 3
+>>> grated: 1
+>>> gratefully: 1
+>>> gravel: 1
+>>> gravelly: 2
+>>> gray: 11
+>>> gray-brown: 3
+>>> gray-green: 1
+>>> grazed: 2
+>>> greasy: 2
+>>> great: 49
+>>> greatest: 1
+>>> green: 8
+>>> greenery: 1
+>>> grew: 3
+>>> gripping: 1
+>>> gross: 1
+>>> grotesque: 1
+>>> grouch: 1
+>>> ground: 33
+>>> grounds!”: 1
+>>> group: 1
+>>> grove: 5
+>>> growing: 1
+>>> growl: 1
+>>> growled: 5
+>>> growling: 2
+>>> grown: 5
+>>> grubs: 1
+>>> grunted: 1
+>>> guard: 3
+>>> guess: 1
+>>> guessed: 1
+>>> guest: 1
+>>> gulch: 8
+>>> ha!”: 1
+>>> had: 313
+>>> hadn’t: 11
+>>> hail: 2
+>>> hair: 2
+>>> half: 17
+>>> half-grown: 3
+>>> half-starved: 1
+>>> halfway: 2
+>>> hallway: 1
+>>> hammocking: 1
+>>> hand: 1
+>>> handful: 2
+>>> handle: 1
+>>> handlike: 4
+>>> hands: 1
+>>> handsome: 6
+>>> handsomest: 1
+>>> hanging: 3
+>>> happen: 8
+>>> happened: 9
+>>> happens: 1
+>>> happier: 1
+>>> happy: 1
+>>> hard: 12
+>>> hard,”: 1
+>>> harder: 2
+>>> hardest: 1
+>>> hardly: 1
+>>> hardwood: 1
+>>> hare: 13
+>>> hare,”: 3
+>>> hare.”: 1
+>>> harem: 1
+>>> harm: 2
+>>> harmed: 2
+>>> harmless: 1
+>>> harsh: 1
+>>> has: 14
+>>> hastily: 1
+>>> hat: 1
+>>> hatched: 1
+>>> hate: 2
+>>> hauled: 1
+>>> haunt: 1
+>>> haunts: 1
+>>> have: 99
+>>> haven’t: 2
+>>> having: 12
+>>> hawks: 2
+>>> hay: 1
+>>> haze: 1
+>>> he: 298
+>>> head: 22
+>>> headed: 1
+>>> hear: 4
+>>> heard: 5
+>>> hearing: 1
+>>> heart: 3
+>>> hearty: 1
+>>> heavier: 2
+>>> heavy: 8
+>>> heeding: 1
+>>> heels: 6
+>>> held: 6
+>>> help: 12
+>>> helpers: 1
+>>> helping: 1
+>>> helpless: 4
+>>> her: 142
+>>> herd: 8
+>>> here: 14
+>>> here!”: 1
+>>> here.”: 1
+>>> herself: 11
+>>> he’d: 4
+>>> he’ll: 3
+>>> he’s: 4
+>>> hibernate: 1
+>>> hibernates: 1
+>>> hibernating: 1
+>>> hid: 1
+>>> hidden: 7
+>>> hide: 8
+>>> hiding: 6
+>>> high: 21
+>>> high-pitched: 2
+>>> higher: 2
+>>> highest: 1
+>>> highway: 1
+>>> hiking: 1
+>>> him: 103
+>>> him!”: 1
+>>> him,—only: 1
+>>> him?”: 1
+>>> himself: 19
+>>> him—for: 1
+>>> hind: 14
+>>> his: 281
+>>> hissed: 2
+>>> hissing.”: 1
+>>> hit: 1
+>>> hoary: 1
+>>> hoisting: 1
+>>> hold: 7
+>>> holder: 4
+>>> holding: 3
+>>> hole: 10
+>>> holes: 1
+>>> hollow: 4
+>>> home: 7
+>>> home!”: 1
+>>> homelike: 1
+>>> homes: 5
+>>> honey: 4
+>>> honey-lupin: 2
+>>> honeycombed: 1
+>>> hoof-beats: 1
+>>> hoofs: 1
+>>> hooked: 2
+>>> hoot: 1
+>>> hope: 2
+>>> hoped: 1
+>>> hopeful: 2
+>>> hopping: 1
+>>> hordes: 1
+>>> horns.”: 1
+>>> horseback: 1
+>>> hot: 2
+>>> hotly: 1
+>>> hour: 1
+>>> hours: 1
+>>> house: 3
+>>> how: 21
+>>> however: 1
+>>> howled: 1
+>>> http://www.gutenberg.org/6/1/8/8/61888/: 1
+>>> https://www.pgdp.net: 2
+>>> huge: 11
+>>> hugged: 1
+>>> human: 5
+>>> hummed: 1
+>>> humor: 1
+>>> hundred: 2
+>>> hundreds: 3
+>>> hung: 5
+>>> hungrily: 2
+>>> hungry: 5
+>>> hunt: 4
+>>> hunted: 4
+>>> hunted.”: 1
+>>> hunting: 5
+>>> hurl: 2
+>>> hurled: 1
+>>> hurt: 5
+>>> hurting: 1
+>>> hustling: 1
+>>> hypertext: 1
+>>> ice: 1
+>>> icy: 2
+>>> idea: 2
+>>> identification: 1
+>>> identify: 1
+>>> if: 60
+>>> images: 2
+>>> imagine: 3
+>>> immediate: 2
+>>> immigrant: 1
+>>> impale: 1
+>>> impatient: 1
+>>> implied: 1
+>>> important: 1
+>>> imposed: 1
+>>> impossible: 1
+>>> impression: 2
+>>> impudence.”: 1
+>>> impudently: 1
+>>> in: 310
+>>> inaccurate: 1
+>>> incense: 1
+>>> inches: 2
+>>> include: 1
+>>> included: 3
+>>> includes: 1
+>>> including: 7
+>>> incomplete: 1
+>>> increasing: 2
+>>> incredible: 1
+>>> indeed: 2
+>>> indemnify: 1
+>>> indicate: 1
+>>> indicating: 1
+>>> indirectly: 1
+>>> individual: 4
+>>> indoors: 1
+>>> information: 4
+>>> infringement: 1
+>>> ingratiatingly: 1
+>>> inhabitants: 1
+>>> innermost: 1
+>>> inquiring: 2
+>>> inquiringly: 2
+>>> insect-eating: 1
+>>> insects: 3
+>>> inside: 3
+>>> insisted: 1
+>>> inspect: 1
+>>> instant: 5
+>>> instantly: 1
+>>> instead: 4
+>>> instrument: 1
+>>> insulting: 1
+>>> insults: 2
+>>> intellectual: 2
+>>> intended: 1
+>>> intently: 1
+>>> interested: 2
+>>> interesting: 1
+>>> interlacing: 1
+>>> interpreted: 1
+>>> into: 52
+>>> intoxicated: 1
+>>> intruding: 1
+>>> invaded: 1
+>>> invalidity: 1
+>>> investigating: 1
+>>> invited: 1
+>>> is: 58
+>>> is,”: 1
+>>> is.”: 1
+>>> islands: 1
+>>> isn’t: 6
+>>> issued: 1
+>>> it: 218
+>>> it!”: 2
+>>> it,”: 2
+>>> it.”: 2
+>>> it?”: 3
+>>> itched: 1
+>>> its: 36
+>>> itself: 3
+>>> it’s: 7
+>>> jar: 1
+>>> jaw: 1
+>>> jaws: 2
+>>> jeers: 1
+>>> jerk: 2
+>>> jerking: 2
+>>> joined: 1
+>>> jolly: 1
+>>> jolted: 1
+>>> journeyed: 1
+>>> joy: 1
+>>> joyous: 1
+>>> joyously: 1
+>>> joys: 1
+>>> judge: 2
+>>> jug: 5
+>>> jugs: 1
+>>> juicy: 1
+>>> jungle: 1
+>>> juniper: 1
+>>> junipers: 2
+>>> just: 44
+>>> keen: 1
+>>> keep: 19
+>>> keeping: 2
+>>> keeps: 1
+>>> kept: 14
+>>> kernels: 1
+>>> kicked: 1
+>>> kill: 1
+>>> killed: 2
+>>> killing: 1
+>>> kind: 5
+>>> kinds: 1
+>>> kingdom: 1
+>>> kitten: 4
+>>> kittens: 8
+>>> kitten’s: 1
+>>> knew: 15
+>>> knife: 1
+>>> knocked: 1
+>>> knot: 1
+>>> knothole: 5
+>>> knotted: 1
+>>> know: 16
+>>> know,”: 2
+>>> knowing: 1
+>>> known: 6
+>>> knows: 2
+>>> laid: 4
+>>> landed: 1
+>>> landscape: 1
+>>> landslide: 1
+>>> language: 1
+>>> lantern: 1
+>>> lapped: 1
+>>> lapping: 1
+>>> larder: 1
+>>> large: 10
+>>> larger: 7
+>>> largest: 2
+>>> last: 13
+>>> lasted: 1
+>>> late: 1
+>>> later: 5
+>>> latter: 1
+>>> laugh: 1
+>>> laughed: 6
+>>> laughing: 2
+>>> laughter: 1
+>>> law: 7
+>>> laws: 10
+>>> lay: 8
+>>> lead: 3
+>>> leading: 1
+>>> leaning: 1
+>>> leap: 6
+>>> leaping: 4
+>>> leaps: 1
+>>> leapt: 6
+>>> learn: 12
+>>> learned: 2
+>>> leash: 1
+>>> least: 1
+>>> leave: 7
+>>> leaves: 10
+>>> leaving: 2
+>>> led: 10
+>>> ledge: 5
+>>> ledges: 1
+>>> leeward: 2
+>>> left: 17
+>>> leg: 3
+>>> legal: 2
+>>> legally: 1
+>>> legs: 17
+>>> legs.”: 1
+>>> less: 4
+>>> let: 7
+>>> level: 2
+>>> levels: 1
+>>> liability: 2
+>>> library: 1
+>>> license: 3
+>>> licensed: 1
+>>> lichen: 2
+>>> lick: 3
+>>> licked: 3
+>>> lid: 2
+>>> lidded: 1
+>>> lids: 1
+>>> lie: 1
+>>> lieu: 2
+>>> life: 8
+>>> life.”: 1
+>>> life?”: 1
+>>> lift: 1
+>>> lifted: 3
+>>> lifting: 1
+>>> light: 3
+>>> light-colored: 1
+>>> like: 46
+>>> liked: 3
+>>> likely: 3
+>>> lilies: 1
+>>> lily: 6
+>>> limb: 13
+>>> limbs: 2
+>>> limitation: 3
+>>> limited: 2
+>>> limp: 1
+>>> limped: 1
+>>> limping: 1
+>>> line: 4
+>>> lined: 2
+>>> linked: 1
+>>> links: 3
+>>> lion: 8
+>>> lips: 3
+>>> liquor: 1
+>>> listen: 1
+>>> listened: 2
+>>> listening: 1
+>>> literally: 1
+>>> litter: 1
+>>> litters: 1
+>>> little: 86
+>>> littlest: 1
+>>> live: 8
+>>> lived: 5
+>>> lively: 2
+>>> lives: 1
+>>> living: 3
+>>> livings: 1
+>>> located: 8
+>>> locations: 2
+>>> lodged: 1
+>>> lodgepole: 3
+>>> log: 9
+>>> logs: 7
+>>> long: 30
+>>> long-legged: 1
+>>> longer: 5
+>>> longing: 1
+>>> longingly: 1
+>>> look: 11
+>>> look!”: 1
+>>> looked: 12
+>>> looking: 8
+>>> lookouts: 1
+>>> looks: 1
+>>> loose: 2
+>>> loose?”: 1
+>>> lose: 1
+>>> lost: 7
+>>> lot: 2
+>>> lots: 1
+>>> louder: 1
+>>> love: 3
+>>> loved: 4
+>>> loves: 1
+>>> low: 3
+>>> low-flung: 1
+>>> lower: 5
+>>> lowering: 1
+>>> luck: 1
+>>> lucky: 1
+>>> lumber: 3
+>>> lumbering: 3
+>>> lumberingly: 1
+>>> lumbermen: 1
+>>> lump: 4
+>>> lumps: 2
+>>> lunch: 3
+>>> lying: 4
+>>> lynx: 1
+>>> machine: 1
+>>> made: 31
+>>> madly: 2
+>>> mailing: 1
+>>> main: 2
+>>> maintaining: 1
+>>> make: 21
+>>> makes: 2
+>>> making: 5
+>>> malarial: 2
+>>> mammal: 1
+>>> mammoth: 7
+>>> man: 9
+>>> manage: 1
+>>> managed: 2
+>>> manner: 3
+>>> manners!”: 1
+>>> many: 12
+>>> map: 1
+>>> maple: 1
+>>> march: 2
+>>> marked: 3
+>>> market: 1
+>>> marks: 2
+>>> marvelled: 2
+>>> mass: 3
+>>> massage: 1
+>>> massive: 2
+>>> match: 1
+>>> matched: 3
+>>> mate: 6
+>>> matted: 1
+>>> matter: 1
+>>> maximum: 1
+>>> may: 20
+>>> maze: 1
+>>> me: 5
+>>> me!”: 1
+>>> me,”: 2
+>>> me.”: 1
+>>> meadow: 6
+>>> meadows: 1
+>>> meal: 1
+>>> mean: 2
+>>> meaning: 1
+>>> means: 5
+>>> meant: 4
+>>> meant,”: 1
+>>> meat: 2
+>>> medicine: 1
+>>> medium: 5
+>>> meek: 1
+>>> meet: 1
+>>> melt: 1
+>>> melted: 4
+>>> melting: 1
+>>> memory: 1
+>>> men: 1
+>>> mental: 1
+>>> mercy,”: 1
+>>> merely: 1
+>>> merrily: 2
+>>> merry: 1
+>>> message: 3
+>>> met: 1
+>>> method: 1
+>>> methods: 1
+>>> mice: 19
+>>> midair: 1
+>>> middle: 3
+>>> middle-aged: 1
+>>> might: 28
+>>> migrate: 1
+>>> migrating: 2
+>>> mild: 2
+>>> mildly: 1
+>>> mile: 1
+>>> miles: 4
+>>> milk: 4
+>>> milk,”: 1
+>>> million: 2
+>>> millions: 1
+>>> mimulas: 1
+>>> mind: 5
+>>> mind,”: 1
+>>> mining: 1
+>>> minute: 4
+>>> minutes: 7
+>>> miracle: 1
+>>> mirth: 1
+>>> mischief: 1
+>>> miserable: 1
+>>> missed: 1
+>>> mission: 3
+>>> mist: 1
+>>> mistletoe: 1
+>>> mite: 2
+>>> mites: 2
+>>> mixture: 1
+>>> moccasins: 1
+>>> modification: 1
+>>> modified: 1
+>>> moist: 8
+>>> moistened: 2
+>>> molasses: 1
+>>> moment: 8
+>>> moments: 1
+>>> momentum: 2
+>>> moment’s: 1
+>>> money: 3
+>>> monster: 1
+>>> monsters: 2
+>>> monstrous: 1
+>>> months: 1
+>>> mood: 1
+>>> moon: 2
+>>> moonlight: 2
+>>> moons: 2
+>>> moose: 1
+>>> more: 43
+>>> morning: 3
+>>> mornings: 1
+>>> mosquitoes: 3
+>>> moss: 2
+>>> mossy: 1
+>>> most: 19
+>>> mostly: 1
+>>> mother: 47
+>>> mother’s: 4
+>>> moths: 1
+>>> motion: 2
+>>> mountain: 20
+>>> mountains: 1
+>>> mountainside: 3
+>>> mountainsides: 6
+>>> mouse: 25
+>>> mouse-like: 1
+>>> mouselets: 1
+>>> mouser: 4
+>>> mouser.’”: 1
+>>> mousers: 2
+>>> mouse’s: 1
+>>> mousing: 2
+>>> mousy: 2
+>>> mouth: 6
+>>> mouthful: 1
+>>> mouths: 1
+>>> move: 5
+>>> moved: 6
+>>> movement: 1
+>>> moving: 1
+>>> much: 19
+>>> much-gnawed: 1
+>>> mud: 2
+>>> mud-plastered: 1
+>>> mule: 1
+>>> muscles: 2
+>>> mushroom: 2
+>>> mushrooms: 5
+>>> music: 1
+>>> muskrats: 1
+>>> musky: 1
+>>> must: 27
+>>> mutual: 1
+>>> my: 9
+>>> mysterious: 3
+>>> mystic: 1
+>>> mystified: 1
+>>> nab: 1
+>>> nails: 1
+>>> naked: 2
+>>> name: 3
+>>> named: 4
+>>> nap: 8
+>>> nap,”: 1
+>>> narrow: 1
+>>> narrowed: 1
+>>> nasal: 1
+>>> natural: 1
+>>> naturally: 2
+>>> nature: 1
+>>> near: 16
+>>> nearer: 7
+>>> nearest: 3
+>>> nearing: 1
+>>> nearly: 4
+>>> neatly: 1
+>>> neat’s-foot: 1
+>>> necessarily: 1
+>>> necessary: 3
+>>> neck: 3
+>>> necks: 1
+>>> need: 9
+>>> need,”: 1
+>>> needed: 2
+>>> needles: 5
+>>> needn’t: 1
+>>> neighbor: 1
+>>> neighborhood: 1
+>>> neighboring: 1
+>>> neighbors: 2
+>>> neither: 2
+>>> nerves: 1
+>>> nervous: 1
+>>> nest: 18
+>>> nesting: 1
+>>> nestling: 1
+>>> nests: 3
+>>> network: 2
+>>> never: 30
+>>> new: 13
+>>> newcomer: 1
+>>> newcomers: 1
+>>> newly: 1
 >>> newsletter: 1
-email: 1
-subscribe: 1
-produce: 1
-includes: 1
-facility: 1
-search: 1
-PG: 1
-Most: 1
-edition: 1
-necessarily: 1
-Thus: 1
-confirmed: 1
-volunteer: 1
-forty: 1
-shared: 1
-library: 1
-originator: 1
-Hart: 1
-S: 1
-Michael: 1
-Professor: 1
-5: 1
-please: 1
-card: 1
-credit: 1
-checks: 1
-ways: 1
-addresses: 1
-methods: 1
-donation: 1
-current: 1
-pages: 1
-Web: 3
-Please: 1
-staff: 1
-treatment: 1
-statements: 1
-accepted: 2
-gratefully: 1
-International: 1
-offers: 1
-donors: 1
-unsolicited: 1
-accepting: 1
-prohibition: 1
-solicitation: 1
-met: 1
-contributions: 1
-www.gutenberg.org/donate: 2
-determine: 1
-DONATIONS: 1
-SEND: 1
-confirmation: 1
-solicit: 2
-meet: 1
-paperwork: 1
-uniform: 1
-Compliance: 1
-50: 1
-charitable: 1
-charities: 1
-regulating: 1
-committed: 1
-IRS: 1
-maintaining: 1
-important: 1
-particularly: 1
-$5,000: 1
-$1: 1
-outdated: 1
-array: 1
-accessible: 1
-machine: 1
-licensed: 1
-survive: 1
-depends: 1
-Donations: 2
-gbnewby@pglaf.org: 1
-Director: 1
-Executive: 1
-Chief: 1
-Newby: 1
-B: 1
-Gregory: 1
-Dr: 1
-www.gutenberg.org/contact: 1
-contact: 3
-Email: 1
-596-1887: 1
-801: 1
-84116: 1
-UT: 1
-City: 1
-Lake: 1
-Salt: 1
-1500: 1
-North: 1
-809: 1
-business: 1
-locations: 2
-numerous: 1
-throughout: 1
-scattered: 1
-99775: 1
-AK: 1
-750175: 1
-Box: 1
-PO: 1
-mailing: 1
-Alaska: 1
-Fairbanks: 2
-office: 2
-principal: 1
-state's: 1
-extent: 1
-deductible: 1
-Contributions: 1
-64-6221541: 1
-identification: 1
-federal: 2
-EIN: 1
-Foundation's: 3
-Service: 1
-Revenue: 1
-Internal: 1
-exempt: 2
-granted: 1
-Mississippi: 1
-organized: 1
-corporation: 1
-educational: 1
-501(c)(3: 1
-non: 1
-page: 2
-information: 4
-Sections: 1
-permanent: 1
-created: 2
-2001: 1
-generations: 2
-remain: 1
-ensuring: 1
-goals: 1
-Gutenberg-tm's: 1
-critical: 1
-financial: 1
-Volunteers: 1
-walks: 1
-exists: 1
-middle-aged: 1
-obsolete: 1
-computers: 2
-variety: 1
-widest: 2
-readable: 2
-synonymous: 1
-Mission: 1
-2: 1
-Defect: 1
-c: 1
-deletions: 1
-additions: 1
-modification: 1
-alteration: 1
-b: 1
-occur: 1
-cause: 2
-indirectly: 1
-harmless: 1
-promotion: 1
-production: 1
-employee: 1
-agent: 1
-indemnify: 1
-INDEMNITY: 1
-1.F.6: 1
-provisions: 1
-remaining: 1
-void: 1
-provision: 1
-unenforceability: 1
-invalidity: 1
-permitted: 2
-maximum: 1
-interpreted: 1
-shall: 2
-violates: 1
-disclaimer: 2
-types: 1
-limitation: 3
-exclusion: 1
-warranties: 1
-implied: 1
-disclaimers: 1
-allow: 1
-states: 4
-1.F.5: 1
-PURPOSE: 1
-FITNESS: 1
-MERCHANTABILITY: 1
-BUT: 1
-INCLUDING: 1
-IMPLIED: 1
-EXPRESS: 1
-KIND: 1
-WARRANTIES: 2
-OTHER: 1
-WITH: 1
-'AS-IS': 1
-1.F.4: 1
-problem: 1
-fix: 1
-opportunities: 1
-demand: 1
-opportunity: 1
-choose: 1
-electronically: 2
-lieu: 2
-elect: 1
-explanation: 2
-written: 3
-receiving: 1
-discover: 1
-REFUND: 1
-REPLACEMENT: 1
-RIGHT: 1
-DAMAGE: 1
-SUCH: 1
-POSSIBILITY: 1
-NOTICE: 1
-GIVE: 1
-IF: 1
-EVEN: 1
-INCIDENTAL: 1
-PUNITIVE: 1
-CONSEQUENTIAL: 1
-INDIRECT: 1
-DIRECT: 1
-ACTUAL: 1
-LIABLE: 1
-BE: 1
-NOT: 2
-WILL: 1
-AGREEMENT: 1
-UNDER: 1
-DISTRIBUTOR: 1
-ANY: 3
-OWNER: 1
-TRADEMARK: 1
-FOUNDATION: 1
-PARAGRAPH: 1
-PROVIDED: 1
-THOSE: 1
-EXCEPT: 1
-CONTRACT: 1
-BREACH: 2
-LIABILITY: 1
-STRICT: 1
-NEGLIGENCE: 1
-FOR: 3
-REMEDIES: 1
-NO: 2
-HAVE: 1
-THAT: 2
-AGREE: 2
-legal: 2
-expenses: 2
-costs: 2
-damages: 2
-liability: 2
-disclaim: 1
-party: 1
-described: 1
-Refund: 1
-Replacement: 1
-Right: 1
-Except: 2
-DAMAGES: 2
-DISCLAIMER: 1
-WARRANTY: 2
-LIMITED: 3
-1.F.2: 1
-equipment: 3
-damage: 1
-codes: 1
-virus: 1
-computer: 2
-disk: 1
-damaged: 1
-defective: 3
-infringement: 1
-errors: 1
-transcription: 1
-data: 1
-corrupt: 1
-inaccurate: 1
-incomplete: 1
-limited: 2
-Defects: 1
-stored: 1
-efforts: 3
-Despite: 1
-proofread: 1
-transcribe: 1
-identify: 1
-considerable: 2
-expend: 1
-employees: 2
-volunteers: 5
-1.F.1: 1
-1.F: 1
-3: 3
-Contact: 1
-LLC: 1
-Trademark: 1
-group: 1
-90: 2
-reported: 1
-defect: 2
-replacement: 3
-1.F.3: 5
-accordance: 2
-discontinue: 1
-medium: 5
-physical: 2
-possessed: 1
-require: 1
-s/he: 1
-receipt: 2
-30: 1
-e-mail: 1
-writing: 3
-notifies: 1
-money: 3
-donations: 12
-Information: 5
-4: 3
-address: 2
-clearly: 1
-returns: 1
-tax: 6
-periodic: 1
-required: 1
-legally: 1
-prepare: 2
-date: 2
-60: 1
-payments: 3
-Royalty: 2
-donate: 3
-owed: 1
-taxes: 1
-applicable: 3
-calculate: 1
-method: 1
-calculated: 1
-derive: 1
-profits: 1
-gross: 1
-20%: 1
-royalty: 1
-pay: 1
-provided: 3
-viewing: 1
-specified: 2
-include: 1
-alternate: 1
-Any: 1
-original: 1
-request: 1
-exporting: 1
-user: 3
-expense: 1
-site: 4
-version: 1
-official: 3
-ASCII: 2
-Vanilla: 2
-Plain: 2
-provide: 7
-However: 1
-hypertext: 1
-processing: 1
-including: 7
-proprietary: 1
-nonproprietary: 1
-compressed: 1
-binary: 1
-convert: 1
-1.E.6: 1
-redistribute: 1
-perform: 1
-display: 1
-1.E.5: 1
-containing: 1
-remove: 1
-detach: 1
-unlink: 1
-Do: 3
-1.E.4: 1
-linked: 1
-Additional: 1
-imposed: 1
-additional: 3
-1.E.3: 1
-1.E.9: 3
-1.E.7: 3
-paragraphs: 3
-requirements: 4
-appearing: 1
-providing: 4
-redistributing: 1
-charges: 1
-fees: 4
-holder: 4
-posted: 4
-indicating: 1
-contain: 2
-texts: 1
-derived: 1
-1.E.2: 1
-distributed: 4
-copied: 2
-viewed: 1
-displayed: 1
-accessed: 1
-appears: 1
-whenever: 1
-prominently: 2
-appear: 1
-immediate: 2
-links: 3
-active: 2
-sentence: 2
-1.E.1: 5
-Unless: 1
-status: 4
-concerning: 2
-representations: 1
-downloading: 1
-addition: 1
-outside: 3
-change: 1
-constant: 1
-countries: 1
-govern: 1
-1.D: 1
-share: 1
-attached: 1
-format: 4
-keeping: 2
-compliance: 4
-sharing: 1
-freely: 4
-support: 4
-removed: 2
-references: 2
-based: 2
-creating: 3
-displaying: 4
-public: 3
-individual: 4
-Nearly: 1
-collection: 4
-compilation: 1
-PGLAF: 1
-1.E: 2
-future: 3
-preserve: 1
-1.C: 2
-1.B: 1
-1.E.8: 4
-paragraph: 10
-whom: 1
-entity: 3
-refund: 8
-obtain: 3
-bound: 2
-access: 10
-obtaining: 2
-fee: 8
-paid: 6
-cease: 1
-abide: 1
-agreement: 17
-trademark/copyright: 1
-intellectual: 2
-accept: 1
-read: 2
-indicate: 1
-reading: 1
-1.A: 1
-Redistributing: 1
-1: 1
-Section: 7
-www.gutenberg.org/license: 1
-Full: 1
-comply: 6
-agree: 7
-distribution: 6
-promoting: 2
-mission: 3
-USE: 1
-OR: 6
-DISTRIBUTE: 1
-YOU: 6
-BEFORE: 1
-READ: 1
-PLEASE: 1
-LICENSE: 2
-FULL: 2
-redistribution: 1
-commercial: 1
-subject: 1
-Redistribution: 1
-ANYTHING: 1
-practically: 1
-away--you: 1
-printed: 2
-modified: 1
-research: 2
-performances: 1
-reports: 1
-derivative: 3
-creation: 1
-purpose: 1
-complying: 3
-copies: 7
-specific: 1
-receive: 3
-eBooks: 8
-registered: 2
-trademark: 9
-concept: 2
-GUTENBERG-tm: 1
-electronic: 27
-Gutenberg-tm: 55
-distributing: 7
-copying: 4
-apply: 1
-license: 3
-Use: 2
-Terms: 2
-General: 3
-rules: 2
-Special: 1
-royalties: 2
-paying: 2
-permission: 7
-distribute: 5
-Foundation: 21
-owns: 2
-law: 7
-copyright: 18
-U.S: 7
-works: 32
-Creating: 1
-renamed: 1
-one--the: 1
-previous: 1
-replace: 1
-editions: 4
-Updated: 1
-http://www.gutenberg.org/6/1/8/8/61888/: 1
-formats: 2
-various: 1
-files: 2
-associated: 8
-61888-0.zip: 1
-61888-0.txt: 1
-Gutenberg's: 1
-End: 1
-END: 2
-true: 1
-twinkle: 1
-dissolved: 1
-fright: 1
-speeding: 1
-hugged: 1
-tumult: 1
-comic: 1
-landscape: 1
-altered: 1
-crack: 1
-confusion: 1
-withstood: 1
-pellets: 1
-ducked: 1
-sheets: 1
-driving: 1
-hail: 2
-roiling: 1
-fault: 1
-loose: 2
-jolted: 1
-slab: 1
-anew: 1
-pounded: 1
-crashing: 1
-Dead: 1
-louder: 1
-deal: 1
-sapling: 2
-wisely: 1
-structure: 1
-chips: 1
-pull: 1
-swayed: 1
-scared: 1
-dens: 1
-raising: 1
-summer’s: 1
-thundered: 1
-rock-slides: 1
-Larger: 1
-shooting: 1
-’quake: 1
-dizzying: 1
-over?”: 1
-quivering: 1
-snap: 1
-Instantly: 1
-second: 3
-earthquake,”: 1
-seemingly: 1
-tremble: 1
-snooze: 1
-him?”: 1
-“Confound: 1
-steaming: 1
-hibernates: 1
-feels: 1
-awake: 2
-cub?”: 1
-tackle: 1
-mercy,”: 1
-sneak: 1
-big?”: 1
-we’re: 1
-courage: 1
-woke,”: 1
-spring!”: 1
-earlier: 1
-thicker: 1
-lots: 1
-looks: 1
-“This: 1
-November’s: 1
-wishing: 1
-home!”: 1
-wish: 3
-’QUAKE: 1
-BIG: 1
-baffling: 1
-depleted: 1
-rebuilding: 1
-storing: 1
-neatly: 1
-stems: 1
-dropping: 1
-bundles: 1
-carrying: 1
-Others: 1
-stalk: 1
-risen: 1
-fare: 1
-hearty: 1
-fill: 1
-fed: 1
-girdled: 1
-juicy: 1
-storerooms: 1
-mud-plastered: 1
-necks: 1
-backs: 1
-pair: 1
-impatient: 1
-holes: 1
-exit: 1
-lie: 1
-Somehow: 1
-runways: 1
-connecting: 1
-escaping: 1
-tired: 1
-honeycombed: 1
-oozy: 1
-developed: 1
-woodchucks: 1
-beavers: 1
-beaver: 3
-bunnies: 1
-muskrats: 1
-dwellers: 1
-rodent: 1
-fleeing: 1
-catching: 1
-hour: 1
-snapping: 1
-growling: 2
-retreating: 1
-branching: 2
-Merrily: 1
-woodchuck: 1
-dump: 1
-scrapings: 1
-scufflings: 1
-movement: 1
-trails: 1
-network: 2
-creatures: 2
-approached: 1
-thicket: 1
-alder: 1
-richness: 1
-tropic: 1
-shaded: 1
-densely: 1
-Above: 1
-BEAVER: 1
-MOUNTAIN: 1
-snowballs: 1
-biting: 1
-disgustedly: 1
-thirty: 1
-Fully: 1
-yowled: 1
-steeper: 2
-gripping: 1
-yield: 1
-winter’s: 1
-covering: 1
-intended: 1
-knocked: 1
-force: 1
-trailed: 1
-arrived: 1
-zigzag: 1
-stone: 1
-kicked: 1
-occasionally: 1
-rear: 1
-narrow: 1
-strung: 1
-cows: 1
-longing: 1
-muscles: 2
-Cougar’s: 1
-hoof-beats: 1
-clap: 1
-evidence: 1
-unmistakable: 1
-notch: 1
-snow-covered: 1
-narrowed: 1
-snoozed: 1
-juniper: 1
-Stretched: 1
-north: 1
-overlooked: 1
-haunt: 1
-haunts: 1
-cross-cut: 1
-travellers: 1
-countless: 1
-hoofs: 1
-marked: 3
-highway: 1
-gather: 1
-whiteness: 1
-melting: 1
-restlessly: 1
-whirling: 1
-death: 1
-startle: 1
-spruces: 1
-depths: 1
-root: 2
-upturned: 1
-alpine: 1
-trod: 1
-COASTING: 1
-GOES: 1
-COUGAR: 1
-surer: 1
-pikas: 1
-Were: 1
-cornered: 1
-hours: 1
-spent: 2
-Thereafter: 1
-buried: 3
-highest: 1
-lives: 1
-hay: 1
-makes: 2
-chief: 1
-“little: 1
-bunny: 1
-rock-slide: 4
-glanced: 1
-cottontail: 1
-peak: 2
-warmingly: 1
-ventriloquism: 1
-begin: 1
-Eh!”: 1
-“Eh: 1
-nasal: 1
-hardest: 1
-bleat: 1
-curious: 1
-hearing: 1
-slide-rock: 1
-timberline: 1
-Down: 2
-whatever: 1
-brilliant: 1
-brief: 1
-prepared: 1
-fatter: 2
-luck: 1
-mouths: 1
-kinds: 1
-gooseberries: 1
-spiny: 1
-seed: 1
-dogwood: 1
-elderberries: 1
-thimbleberries: 1
-pawfuls: 1
-stuffing: 1
-apiece: 2
-frog: 1
-boggy: 1
-neighbor: 1
-sleeps: 1
-happier: 1
-comers: 1
-staking: 1
-seriously: 1
-chance: 2
-tagging: 1
-slightly: 1
-aspen: 1
-stars: 2
-harem: 1
-antlered: 1
-centre: 2
-picked: 1
-actual: 1
-awhile: 1
-aught: 1
-spots.”: 1
-facing: 1
-turn: 3
-swallowed: 1
-mystified: 1
-gathering: 1
-patches: 2
-fringe: 1
-cow.”: 1
-he’d: 4
-bull,”: 1
-season: 2
-rutting: 1
-mule: 1
-wounded: 1
-them,”: 1
-“He’ll: 1
-craftily: 1
-sinuously: 1
-Far: 1
-Cougar!”: 2
-There’s: 1
-reason,”: 1
-“There’s: 1
-plainly.”: 1
-“their: 1
-reasoned: 2
-expect: 1
-shifted: 2
-woods.”: 1
-trailing: 1
-“Look: 1
-reflected: 1
-right,”: 1
-wore: 1
-rump: 3
-referring: 1
-patch?”: 1
-light-colored: 1
-Don’t: 1
-“How?”: 1
-horns.”: 1
-antlers?”: 1
-“By: 2
-observed: 1
-off,”: 2
-bull: 8
-“I’d: 1
-antlers: 3
-stag: 1
-European: 1
-American: 1
-wapiti: 10
-herd: 8
-grazed: 2
-valley: 2
-journeyed: 1
-ridge: 1
-rabbits,”: 2
-WAPITI: 1
-volunteered: 1
-impudence.”: 1
-rheumatic: 1
-jaw: 1
-“To: 1
-again.”: 1
-sir,”: 1
-manners!”: 1
-surface: 1
-rubs: 1
-calamity: 1
-nature: 1
-exhibiting: 1
-grouch: 1
-wager: 1
-ours.”: 1
-saw,”: 1
-plainest: 1
-adorn: 1
-stripes: 1
-Chuck!”: 1
-“Chuck: 1
-sociable: 1
-passer-by: 1
-chipmunk: 2
-prefer: 1
-disgust: 1
-“Douglas?”: 1
-ventured: 2
-fellow,”: 2
-either.”: 1
-forest-cruising: 1
-Every: 1
-agile: 2
-region: 1
-map: 1
-mental: 1
-ramble: 1
-go?”: 1
-caught.”: 1
-another,”: 1
-life?”: 1
-Did: 1
-spaces: 2
-crossing: 1
-awfullest: 1
-refugee: 1
-chirped: 1
-“My!”: 1
-print: 2
-retorted: 1
-squirrels,”: 1
-stealing: 1
-reasonable: 2
-bother: 1
-others: 3
-“to: 1
-listen: 1
-fall,”: 1
-immigrant: 1
-dozens: 1
-challenged: 1
-alive!”: 1
-family,”: 1
-won’t: 3
-hope: 2
-invaded: 1
-pantries: 1
-ashamed: 1
-half-starved: 1
-drive: 1
-threaten: 1
-listening: 1
-here.”: 1
-softened: 1
-assure: 1
-touching: 1
-intruding: 1
-_we_: 1
-“that: 1
-mildly: 1
-chittered: 1
-phrase: 5
-else?”: 1
-question: 1
-_home_: 1
-“Because: 1
-patiently: 1
-yourself?”: 1
-else: 6
-rude: 1
-ago?”: 1
-abundance.”: 1
-weren’t: 2
-No: 2
-crop: 1
-year’s: 1
-drouth: 1
-youth: 1
-mile: 1
-weary: 1
-traveled: 1
-impudently: 1
-these?”: 1
-about.”: 1
-lodgepole: 3
-mean: 2
-“Personally: 1
-nut: 3
-bare: 1
-scale: 1
-wearily: 1
-eat,”: 1
-“For: 1
-folks: 1
-cautious: 2
-younger: 1
-meat: 2
-hordes: 1
-starving: 2
-undisturbed: 1
-lasted: 1
-riches: 1
-rocks—all: 1
-nut-filled: 1
-onslaught: 1
-particle: 1
-refugees: 2
-barked: 2
-scolded: 1
-swore: 1
-owned: 1
-flames: 1
-angles: 1
-escape: 1
-eastward: 1
-glowed: 1
-stifling: 1
-yellowed: 2
-swarmed: 1
-numbers—gray: 1
-greatest: 1
-hungrily: 2
-gnawing: 2
-cottontails: 1
-bracken: 1
-increasing: 2
-Birds: 1
-terrible: 1
-fox: 1
-angrily: 2
-plumy: 1
-littlest: 1
-bearlike: 1
-skunk: 1
-striped: 2
-protecting: 1
-unafraid: 2
-fearless: 1
-unknown: 1
-aware: 1
-slunk: 1
-Foxes: 1
-belong: 1
-feathered: 1
-furred: 1
-number: 5
-About: 2
-raged: 1
-drier: 1
-trench: 1
-helpers: 1
-summon: 1
-lookouts: 1
-moment’s: 1
-smoke: 4
-HAS: 1
-SQUIRREL: 1
-DOUGLAS: 1
-tree.”: 1
-mind,”: 1
-“Never: 1
-contents: 1
-smashed: 1
-jugs: 1
-smuggled: 1
-related: 1
-stuff!”: 1
-keeps: 1
-announced: 1
-“Father!”: 1
-idea: 2
-veil: 1
-dancing: 1
-joyous: 1
-somersaults: 1
-clown: 1
-hoisting: 1
-reeled: 1
-intoxicated: 1
-similar: 1
-arise: 2
-attempted: 1
-emptied: 1
-scarcely: 1
-tipped: 1
-leaning: 1
-spilling: 1
-forepaws: 2
-jug: 5
-alert: 2
-usually: 1
-antics: 2
-performing: 4
-trees—was: 1
-there—in: 1
-whiffed: 1
-enticing: 1
-issued: 1
-Sniffing: 1
-destiny: 1
-instrument: 1
-hands: 1
-cache: 2
-neither: 2
-alongshore: 1
-rum: 2
-bringing: 2
-smuggler: 3
-suspected: 1
-drinking: 1
-men: 1
-felling: 1
-accidents: 1
-serious: 1
-forbidden: 1
-complained: 2
-boss: 1
-liquor: 1
-pass: 1
-lumbermen: 1
-disturbed: 1
-puzzled: 1
-SMUGGLER: 1
-gently: 1
-marvelled: 2
-life.”: 1
-kill: 1
-insect-eating: 1
-deserves: 1
-farmer: 1
-desert: 1
-big-eared: 1
-“Be: 1
-scheme: 1
-incredible: 1
-devour: 1
-exterminate: 1
-helping: 1
-districts: 1
-malarial: 2
-smelly: 1
-pest: 1
-unmitigated: 1
-“People: 1
-anyway?”: 2
-rattle-snakes.”: 1
-Gila: 1
-pictures?”: 1
-Hallowe’en: 1
-“And: 2
-ruins—”: 1
-eaves: 1
-Mexican: 2
-impossible: 1
-wherever: 1
-belfries: 1
-church: 1
-buildings: 1
-literally: 1
-collect: 2
-musky: 1
-disagreeable: 1
-species: 2
-Mexico: 1
-clean: 3
-hoary: 1
-tropics: 1
-islands: 1
-hundreds: 3
-fly: 2
-sailors: 1
-September: 2
-migrate: 1
-“Most: 1
-ferociously: 2
-treat: 1
-pets: 1
-gentle: 1
-tamed: 1
-milk,”: 1
-die: 1
-tame: 1
-thumb: 1
-gnome: 1
-grotesque: 1
-Its: 3
-hand: 1
-Gently: 1
-accustomed: 1
-uncommonly: 1
-observation: 1
-escaped: 1
-tint: 1
-orange: 2
-seedling: 1
-mammal: 1
-equal: 1
-devotion: 1
-powerful: 2
-bats: 8
-amazement: 2
-sign: 2
-flew: 2
-dusk: 2
-teats: 2
-bats!”: 1
-“she’s: 1
-look!”: 1
-“Oh: 2
-nap,”: 1
-Bat: 1
-Red: 1
-downward: 2
-talk: 1
-eerie: 1
-to!”: 1
-us?”: 1
-threatening: 1
-“Are: 1
-fiend!”: 1
-warningly: 1
-grated: 1
-viciously: 1
-squeaked: 1
-quicker: 1
-mosquitoes: 3
-crickets: 2
-moths: 1
-person: 5
-queerest: 1
-wondered: 2
-hooked: 2
-upper: 1
-halfway: 2
-thumbs: 3
-umbrella: 1
-ribs: 1
-wing: 2
-fingers: 1
-rounder: 1
-particular: 4
-Nyc-ter-is: 1
-maple: 1
-thin: 1
-perfectly: 2
-not,”: 1
-you?”: 1
-scornfully: 1
-fly?”: 1
-“Did: 1
-guessed: 1
-then,”: 1
-feathers.”: 1
-bird,”: 1
-sparrow’s: 1
-prey: 2
-flying: 1
-crow: 1
-orange-winged: 1
-course!”: 1
-evening: 1
-WINGS: 1
-ON: 1
-chastened: 1
-cleansed: 1
-floundered: 1
-washed: 1
-churning: 1
-lucky: 1
-whirlpool: 1
-vigorously: 1
-Striking: 1
-splash: 1
-stumbled: 1
-wandering: 1
-begun: 1
-feverish: 1
-headed: 1
-vulnerable: 1
-Enraged: 1
-pricked: 2
-predicament: 1
-senseless: 1
-tighter: 1
-plastering: 1
-lids: 1
-pawing: 1
-wandered: 1
-bumped: 2
-twice: 1
-clumsy: 1
-tripped: 1
-slapping: 1
-blindly: 1
-Stumbling: 1
-covered: 4
-wipe: 1
-matter: 1
-Biting: 1
-stuck: 1
-strewn: 1
-leaving: 2
-quickly: 2
-Face: 1
-given: 5
-stings: 2
-worth: 1
-considered: 1
-joys: 1
-joy: 1
-oh: 1
-burned: 3
-sensitive: 1
-insects: 3
-slaps: 1
-sting: 2
-hotly: 1
-objected: 2
-owners: 1
-swarm: 1
-tantalizing: 2
-Sure: 2
-somewhere: 3
-occurred: 2
-hummed: 1
-Bees: 1
-widened: 1
-fringed: 1
-sending: 2
-lowering: 1
-growing: 1
-adventure: 1
-fished: 1
-CLOWN: 1
-PLAYS: 1
-comforted: 1
-sore: 1
-ravens: 2
-dwarf: 1
-beakful: 1
-pecked: 1
-raven: 1
-driven: 3
-protest: 2
-exposed: 1
-hid: 1
-beating: 2
-surprised: 1
-visitor: 1
-clamor: 1
-joined: 1
-cries: 1
-insults: 2
-Raven: 2
-chin: 1
-egg: 1
-lick: 3
-meal: 1
-tasting: 1
-inspect: 1
-winged: 1
-speck: 1
-rim: 3
-cranny: 3
-tucked: 2
-bird’s: 1
-play: 2
-canopy: 1
-upright: 1
-rooflike: 1
-low: 3
-grew: 3
-ancient: 1
-protection: 1
-mutual: 1
-matted: 1
-closely: 2
-low-flung: 1
-walk: 2
-steadily: 1
-leeward: 2
-dwarfed: 2
-foothold: 1
-reaching: 2
-hatched: 1
-newly: 1
-shallows: 2
-rapids: 1
-upstream: 1
-falls: 1
-spearing: 1
-swollen: 1
-waters: 1
-foaming: 1
-cliff: 1
-explore: 2
-notion: 1
-May: 1
-nuisance: 1
-blind: 2
-twelve-month: 1
-ourselves.”: 1
-good!”: 1
-They’re: 1
-“Huh: 1
-months: 1
-clothed: 1
-cocker-spaniel: 1
-long-legged: 1
-brothers: 2
-baby: 4
-mites: 2
-yearling: 3
-crowded: 1
-learned: 2
-exercise: 1
-sally: 1
-cold—then: 1
-weeks: 3
-while—say: 1
-notice: 7
-squeeze: 2
-Several: 2
-wax-white: 1
-mistletoe: 1
-gray-green: 1
-clusters: 1
-hibernate: 1
-Ever: 1
-RAVEN’S: 1
-trouble.”: 1
-there’s: 1
-we’d: 1
-guess: 1
-eaten.”: 1
-killed: 2
-“your: 1
-you,”: 2
-four-toed: 1
-forever: 1
-foot—that: 1
-bloody: 1
-bad: 2
-volley: 1
-final: 1
-limping: 1
-anguish: 1
-jerk: 2
-awful: 1
-latter: 1
-trapper: 1
-agonizingly: 1
-midair: 1
-swinging: 1
-growl: 1
-action: 2
-scene: 2
-wholly: 1
-effect: 1
-Indian’s: 1
-hurled: 1
-fury: 2
-small-sized: 1
-psychological: 1
-strike: 1
-Swinging: 1
-rug: 1
-axe: 3
-ribbon: 1
-detected: 1
-worriedly: 1
-pain: 1
-yell: 1
-middle: 3
-trap: 2
-lynx: 1
-stepped: 1
-week: 1
-toes: 2
-hollow: 4
-hibernating: 1
-sleepy: 2
-rains: 1
-nutting: 1
-moccasins: 1
-trap-wise: 1
-steel: 4
-neighborhood: 1
-avoided: 1
-baited: 1
-steely-smelling: 1
-pitifully: 1
-cried: 2
-bob: 1
-skunks: 2
-traps: 1
-nor: 3
-devices: 2
-squeaking: 1
-reduced: 1
-mysterious: 3
-trained: 1
-larder: 1
-garnering: 1
-busily: 1
-chattered: 1
-mornings: 1
-frosty: 1
-haze: 1
-rambling: 1
-despite: 1
-loves: 1
-familiar: 1
-thankful: 1
-vacation: 3
-tiniest: 1
-disappointed: 1
-kingdom: 1
-vegetable: 1
-monsters: 2
-prehistoric: 1
-thousand: 1
-seedlings: 1
-awesome: 1
-Trees: 1
-climate: 1
-Sempervirens: 1
-Sequoia: 1
-Redwoods: 1
-grove: 5
-seashore: 1
-levels: 1
-acquired: 1
-tree-learning: 1
-education: 1
-fronds: 1
-yellow-green: 1
-ferny: 2
-incense: 1
-rained: 1
-terribly: 1
-stiff: 1
-sorry: 1
-porcupine: 2
-pouncing: 1
-football: 1
-equally: 1
-diet: 1
-spiced: 1
-undergrowth: 1
-dense: 1
-unseen: 1
-tinkled: 1
-gloom: 1
-days: 8
-several: 11
-travelled: 1
-southward: 1
-return: 5
-pause: 1
-safer: 2
-hustling: 1
-shown: 1
-TRAPPER: 1
-INDIAN: 1
-hunted.”: 1
-Park: 1
-National: 1
-I?”: 1
-“Isn’t: 1
-reassured: 1
-believe: 1
-collar,”: 1
-furiously: 2
-spoke: 1
-smiled: 1
-need,”: 1
-loose?”: 1
-“Could: 1
-slid: 2
-tether: 1
-abruptly: 1
-rapidly: 3
-harsh: 1
-grunted: 1
-broken—she: 1
-bones: 1
-nuzzling: 1
-that—after: 1
-captured: 1
-nervous: 1
-faring: 1
-sugary: 1
-right!”: 1
-“Aw: 1
-indoors: 1
-abductor: 1
-demolish: 1
-necessary: 3
-alarmed: 1
-revolver: 1
-drew: 3
-Out: 1
-Inside!_”: 1
-“_Quick: 1
-story: 1
-shoulders: 2
-massive: 2
-stones’: 1
-accomplished: 1
-miracle: 1
-twilight: 1
-friend: 1
-consider: 2
-suspicions: 1
-received: 6
-knotted: 1
-moments: 1
-amazing: 2
-forget: 1
-whole-heartedly: 1
-focus: 1
-quite: 2
-intently: 1
-sweets: 1
-unalarmingly: 1
-Softly: 1
-language: 1
-understand: 3
-taught: 2
-however: 1
-suspicion: 1
-biped: 1
-blue-overalled: 1
-eyed: 1
-longingly: 1
-tempting: 1
-view: 2
-Stepping: 1
-respond: 1
-performed: 2
-experiment: 1
-delightedly: 1
-crunched: 1
-tooth: 1
-Bears: 1
-tasted: 1
-Never: 1
-Um: 1
-goody: 1
-draw: 3
-Gingerly: 1
-tussle: 1
-unhurt: 1
-Not: 2
-famished: 2
-realized: 1
-suddenly: 4
-tidbit: 1
-chewing: 1
-beginning: 3
-choked: 1
-knot: 1
-tie: 1
-Had: 1
-leash: 1
-chafed: 1
-lumps: 2
-pocketful: 1
-Chipping: 1
-lump: 4
-dampness: 1
-sugar: 4
-pail: 1
-lidded: 1
-shelf: 1
-hastily: 1
-watch!”: 1
-guest: 1
-unexpected: 1
-him!”: 1
-tied: 1
-triumphant: 1
-completely: 4
-bleeding: 2
-scratched: 1
-later: 5
-Five: 1
-assistance: 2
-struggling: 1
-leading: 1
-alone!”: 1
-“Leave: 1
-arm: 1
-rope: 6
-coiled: 1
-clinging: 6
-coat: 5
-stripping: 1
-shouted: 1
-cub!”: 1
-snowball: 2
-standstill: 1
-rolling: 1
-sticking: 1
-momentum: 2
-turning: 3
-succeeded: 1
-level: 2
-plaster: 1
-sticky: 4
-partly: 1
-inches: 2
-ice: 1
-skimmed: 1
-crusted: 1
-field: 1
-object: 1
-that?”: 2
-“What’s: 2
-reddening: 1
-glittered: 1
-expanse: 1
-unbroken: 1
-sloped: 2
-nosed: 1
-coast: 1
-content: 1
-boylike: 1
-shove: 1
-sturdy: 2
-easier: 1
-northern: 2
-camping: 4
-Nor: 1
-spires: 1
-dreamed: 3
-slide: 4
-wear: 2
-searched: 2
-Over: 1
-bumps.”: 1
-“belly: 1
-stomachs: 1
-oftener: 1
-coasting: 3
-sake: 1
-snowbanks: 2
-steep: 1
-climbing: 1
-melted: 4
-stuff: 4
-lapped: 1
-feasted: 2
-dug: 8
-snowbank: 4
-delicacy: 1
-grasshoppers: 3
-fields: 1
-South: 3
-honey: 4
-gathered: 1
-bees: 4
-meadows: 1
-traveller: 1
-honey-lupin: 2
-gay: 1
-danced: 2
-butterflies: 5
-swarms: 2
-amazed: 2
-snow-fed: 1
-drink: 2
-fresh: 1
-summit: 1
-towered: 1
-pussy-paws: 1
-purple: 2
-mimulas: 1
-Yellow: 1
-riot: 1
-sky-meadow: 1
-eleven-thousand-foot: 1
-slopes: 3
-surrounding: 1
-visited: 2
-SNOWBALL: 1
-LIVE: 1
-merry: 1
-giving: 1
-it!”: 2
-beat: 1
-“Can: 1
-property: 3
-bunk?”: 1
-dragging: 1
-fellow’s: 1
-knife: 1
-Is: 1
-Look: 1
-cooked: 1
-stalls: 1
-market: 1
-sell: 1
-Potosi: 1
-Luis: 1
-San: 1
-they?”: 1
-mostly: 1
-vegetarians: 1
-nurseries.”: 1
-reforesting: 1
-plant: 1
-pound: 1
-occasional: 2
-’cute: 1
-“Altogether: 1
-rascals.”: 1
-cunning: 1
-“They’re: 1
-distance.”: 1
-alarm: 2
-drum: 1
-I’ve: 2
-rabbitlike: 1
-“Just: 1
-winter?”: 1
-store: 1
-“Dad: 3
-trash.”: 1
-altitudes: 2
-higher: 2
-plateaus: 1
-sandy: 2
-nesting: 1
-spite: 1
-snowy: 3
-naked: 2
-hair: 2
-coarse: 1
-noticing: 2
-aloud: 2
-rats,”: 2
-holding: 3
-squirrel-wise: 1
-fragment: 1
-plate: 1
-filched: 1
-table: 1
-mirth: 1
-convulsed: 1
-howled: 1
-things!”: 1
-brazen: 1
-work.”: 1
-strength: 1
-hardwood: 1
-See: 3
-agreed: 5
-did,”: 1
-too.”: 1
-placed: 1
-biscuit: 3
-Thank: 1
-biscuits: 1
-sighed: 1
-breakfast,”: 1
-“Well: 4
-us.”: 1
-square: 1
-trade: 1
-think: 5
-raided: 2
-butter: 2
-that!”: 1
-salvage: 1
-trading: 1
-campers: 1
-rats,’: 1
-‘Trade: 1
-wharves: 1
-city: 2
-disease-spreading: 1
-Norway: 1
-common: 1
-thank: 1
-music: 1
-restored: 1
-food: 3
-natural: 1
-animals: 2
-coyotes: 1
-foxes: 3
-owls: 2
-hawks: 2
-along?”: 1
-Piper: 2
-Pied: 2
-Going: 1
-Dad: 1
-out,’: 1
-‘clean: 1
-damage.”: 1
-doing: 1
-destroying: 1
-settlements: 1
-migrating: 2
-millions: 1
-I’d: 3
-Balance: 3
-destroyed: 1
-numbers: 4
-weasel: 1
-litter: 1
-litters: 1
-producing: 1
-boarded: 1
-windows: 1
-camp: 2
-mining: 1
-pronounced: 1
-pest,”: 1
-“Pack-rats: 1
-laughter: 1
-doubled: 1
-telltale: 1
-decorated: 1
-thoroughly: 1
-uncovered: 1
-safekeeping: 1
-stowed: 1
-tin: 4
-wall: 4
-paw-marked: 1
-nowhere: 1
-itself: 3
-bacon: 5
-paper: 2
-greasy: 2
-fragments: 1
-treasured: 1
-burrs: 1
-pencil: 1
-much-gnawed: 1
-sleeve: 1
-button: 1
-fireplace: 1
-thrown: 4
-saddle-bags: 1
-brought: 6
-nuts: 10
-mixture: 1
-Next: 1
-edges: 1
-soap: 1
-sought: 1
-stores: 9
-filled: 2
-appropriated: 2
-anyway: 1
-happens: 1
-care: 3
-state: 6
-optimistically: 1
-window: 3
-lift: 1
-knowing: 1
-assured: 3
-drag: 1
-dragged: 2
-split: 1
-scraping: 1
-edge: 4
-hauled: 1
-boot: 4
-tugged: 4
-evidently: 2
-oil: 1
-neat’s-foot: 1
-smeared: 1
-moose: 1
-smoked-tanned: 1
-rodents: 1
-him—for: 1
-advised: 1
-boots: 2
-hiking: 1
-thump: 1
-third: 1
-forehead: 1
-tickled: 1
-nails: 1
-toe: 5
-Another: 1
-squeals: 1
-squeaks: 1
-scurrying: 1
-scuffling: 1
-opposite: 1
-boughs: 1
-bunk: 3
-slept: 5
-lantern: 1
-candle: 1
-bold: 1
-laugh: 1
-times: 4
-marks: 2
-dusty: 1
-manage: 1
-tightly: 2
-appeared: 4
-molasses: 1
-tugging: 1
-chipmunks: 2
-mouse-like: 1
-spied: 1
-doorway: 2
-dusky: 1
-untouched: 1
-relish: 3
-jar: 1
-tea: 2
-lifted: 3
-lid: 2
-acrobats: 1
-circus: 2
-prickly: 3
-unlike: 1
-corner: 5
-spilled: 1
-couldn’t: 8
-porcupines: 1
-rafters: 2
-hung: 5
-bag: 2
-bed: 2
-presumably: 1
-torn: 1
-chewed: 3
-blankets: 1
-absence: 1
-possession: 3
-To: 7
-cabin: 10
-spend: 1
-buy: 1
-company: 1
-lumber: 3
-cutting: 2
-ripe: 2
-timber: 2
-father: 9
-Peak: 4
-Lookout: 4
-shelter: 3
-convenient: 1
-mountains: 1
-trips: 1
-horseback: 1
-Forest: 1
-experience: 4
-paradise: 1
-appetite: 3
-keen: 1
-indeed: 2
-legs.”: 1
-none: 1
-think,”: 1
-easy: 3
-them!”: 1
-exulted: 2
-“Hurray!”: 1
-tent: 1
-terrified: 2
-scampered: 2
-stamped: 2
-roof-tops: 1
-sitting: 2
-sentinel: 1
-squirrel-like: 2
-stick: 3
-setting: 1
-dozen: 5
-How: 2
-doorways: 2
-crawled: 2
-Some: 5
-secure: 2
-twigs: 3
-armfuls: 1
-packing: 1
-scurried: 1
-so-called: 1
-inhabitants: 1
-trash: 2
-encampment: 1
-toy: 1
-approaching: 3
-village: 1
-TOWN: 1
-RAT: 1
-nearing: 1
-judge: 2
-preach,”: 1
-other.”: 1
-brainy: 1
-team: 2
-Chinook’s: 5
-flattened: 3
-past: 3
-couple: 2
-proud: 1
-work!”: 1
-“Good: 1
-lead: 3
-saved: 2
-Quick: 2
-profit: 2
-rat: 11
-sudden: 1
-together: 4
-bigger: 1
-livings: 1
-earn: 1
-meaning: 1
-schooling: 1
-curiously: 3
-pack-rat: 2
-footprint: 4
-brightened: 1
-further: 3
-word: 2
-Town.”: 1
-children,”: 1
-yawned: 1
-match: 1
-wrestling: 1
-downhill: 2
-sent: 4
-biff: 1
-landed: 1
-hard,”: 1
-hit: 1
-needn’t: 1
-hare.”: 1
-slap: 1
-resounding: 2
-Snookie,”: 1
-“Hey: 1
-popping: 1
-teamwork: 1
-hungry: 5
-satisfy: 1
-harder: 2
-lunch: 3
-cats: 1
-seven: 1
-sir: 2
-Yes: 1
-worn: 1
-kitten’s: 1
-kitten: 4
-nearest: 3
-_she_: 1
-winded: 1
-circle: 4
-relay: 2
-stationed: 1
-quarry: 1
-hopping: 1
-chase: 5
-Well: 3
-parents: 2
-bright-eyed: 1
-half-grown: 3
-five: 3
-‘rabbit’: 1
-“when: 1
-night,”: 1
-foolish: 1
-circled: 2
-begged: 1
-“Tell: 1
-teamwork.”: 1
-careful: 1
-rabbit’: 1
-bring: 2
-partners: 1
-runs: 1
-pursuer: 2
-strategy: 1
-straightaway: 1
-funnel-like: 1
-catches: 1
-weeniest: 1
-teeniest: 1
-can’t: 4
-takes: 3
-gets: 2
-blows: 1
-doesn’t: 4
-curled: 4
-wind’s: 1
-pounces: 1
-sinks: 1
-drifts: 1
-winter: 12
-snowshoe: 2
-“They: 5
-outrun: 1
-“you: 1
-chasing: 5
-“In: 1
-sprawled: 1
-seating: 1
-while,”: 1
-try.”: 1
-“Let’s: 3
-demanded: 3
-not?”: 2
-“Why: 6
-years,”: 1
-“You’d: 1
-bounds: 1
-pursuing: 1
-folded: 2
-newcomers: 1
-sounds: 1
-forward: 1
-staying: 1
-hare: 13
-rabbit.’”: 1
-‘snowshoe: 2
-“a: 1
-signalled: 2
-hare,”: 3
-broad: 4
-bunch: 1
-leaps: 1
-streaming: 1
-fours: 3
-scuttling: 1
-Instead: 1
-known: 6
-differently: 1
-noticed: 5
-Soon: 3
-Of: 4
-shallow: 1
-WORK: 2
-TEAM: 1
-advice: 2
-remember: 4
-glad: 4
-dream: 3
-pieces.”: 1
-shake: 2
-“If: 2
-again,”: 1
-awe: 1
-again?”: 1
-“Will: 1
-places: 4
-thunder: 3
-sliding: 2
-hard: 12
-shaken: 2
-hundred: 2
-eruption: 1
-volcano: 1
-fire: 4
-white-topped: 1
-memory: 1
-Coast: 2
-Pacific: 2
-volcanic: 1
-spouted: 2
-fires: 3
-subterranean: 2
-steam: 2
-happen: 8
-quaking: 2
-ceased: 1
-quiver: 1
-dizzy: 1
-fairly: 5
-motion: 2
-sidewise: 2
-playing: 1
-fatigue: 1
-forgot: 3
-bracing: 1
-sky: 1
-clouds: 1
-Puffy: 1
-sweetish: 1
-mild: 2
-flowers: 2
-pink: 2
-singing: 1
-belt: 3
-Up: 2
-cloud: 3
-altitude: 2
-shorter: 1
-heavier: 2
-steeply: 1
-clip: 1
-lively: 2
-merrily: 2
-meek: 1
-seasick: 2
-worse: 2
-insisted: 1
-medicine: 1
-such: 16
-swallow: 1
-peppery: 1
-puckery: 1
-instantly: 1
-toadstool: 1
-obediently: 1
-better.”: 1
-you’ll: 1
-“and: 1
-that,”: 1
-“Eat: 1
-certain: 4
-until: 5
-ache: 1
-spank: 1
-happy: 1
-swamp: 2
-maze: 1
-mystic: 1
-step: 2
-retracing: 1
-dog: 1
-strong: 2
-perfume: 1
-peculiar: 1
-trace: 1
-leaves: 10
-everywhere: 2
-glands: 1
-folk: 6
-four-footed: 3
-work: 51
-rescued: 1
-unless: 4
-rescue: 1
-Slowly: 1
-disappear: 2
-troubles: 2
-wise: 1
-ached: 1
-fondness: 1
-noise: 3
-dare: 5
-dreadfully: 1
-hurting: 1
-weaned: 1
-yet: 4
-besides: 1
-stomach: 4
-missed: 1
-More: 1
-wonder: 4
-possibly: 2
-After: 7
-rounded: 2
-mud: 2
-streaked: 1
-gobbling: 1
-smelled: 6
-hopeful: 2
-interested: 2
-bulbs: 3
-onionlike: 1
-boy: 4
-bee: 4
-lily: 6
-lilies: 1
-brushed: 1
-sank: 1
-swampy: 2
-presently: 1
-Following: 1
-odor: 5
-sniff: 2
-paused: 2
-padded: 1
-depend: 1
-enemy: 1
-sing: 1
-strangely: 1
-dinner: 1
-cabbage: 1
-onions: 1
-whether: 2
-difference: 1
-weather: 1
-wonderful: 2
-ahead: 5
-hardly: 1
-shut: 2
-mist: 1
-Though: 1
-starting: 3
-trip.”: 1
-our: 16
-summer: 8
-exciting: 1
-“there: 2
-peaks,”: 1
-“Away: 1
-winter.”: 2
-today,”: 1
-“Snow: 1
-streams.”: 1
-icy: 2
-spawn: 1
-bite: 3
-snow: 18
-melt: 1
-winds: 2
-West: 2
-fits: 1
-name: 3
-“We: 3
-snow-eater,”: 1
-means: 5
-“You: 7
-cool: 4
-ocean: 2
-fog: 7
-white: 9
-salt-smelling: 1
-hot: 2
-August: 1
-FOG: 1
-LOST: 1
-mouser.’”: 1
-‘some: 1
-“But: 3
-laughed: 6
-tonight,”: 1
-scrappy: 1
-“He’s: 1
-stinging: 1
-massage: 1
-perhaps: 4
-catch.”: 1
-million: 2
-they’re: 1
-miserable: 1
-scrapped: 1
-“not: 1
-better,”: 1
-“How: 5
-feathers: 1
-handful: 2
-clutched: 1
-claw: 1
-punishing: 1
-scratch: 2
-contention: 1
-bone: 1
-bearing: 1
-sailed: 2
-raised: 2
-slashed: 1
-rage: 1
-hoot: 1
-free: 11
-slapped: 1
-go!”: 1
-Let: 1
-“_Pht-t-t!_”: 1
-mouse’s: 1
-snapped: 2
-Paddy: 3
-pitiless: 1
-distracted: 1
-tenant: 1
-pounce: 3
-Crouched: 1
-yelled: 1
-grounds!”: 1
-“Keep: 1
-yowl: 1
-angry: 5
-answered: 2
-spots: 3
-tawny: 1
-handsome: 6
-pounced: 3
-body: 5
-stealthily: 1
-hissing.”: 1
-frighten: 1
-you’re: 1
-suppose: 8
-“but: 6
-friendly,”: 1
-pointed: 7
-bobbed: 1
-leaping: 4
-hissed: 2
-“_P-f-f-f!_”: 1
-wondering: 1
-ingratiatingly: 1
-pussy!”: 1
-“Pussy: 1
-tiger: 2
-handsomest: 1
-largest: 2
-merely: 1
-see,”: 3
-Mazama?”: 1
-it.”: 2
-“It: 7
-boast,”: 1
-be.”: 1
-bet: 5
-“Huh!”: 2
-alone.”: 1
-alone: 4
-courts: 1
-size: 5
-fights: 1
-Mother?”: 1
-fighter: 1
-is.”: 1
-“Not: 2
-arms: 2
-clutching: 1
-too,”: 1
-“He: 4
-it,”: 2
-goes: 2
-lot: 2
-He’s: 1
-Paddy-paws: 10
-It’s: 1
-it’s: 7
-“Yes: 2
-Cougar,”: 1
-“It’s: 4
-inquiringly: 2
-wriggled: 1
-faces: 1
-newcomer: 1
-approach: 3
-circling: 6
-is,”: 1
-“No: 2
-Cougar?”: 1
-“Is: 4
-owner: 5
-betrayed: 1
-catlike: 2
-screeching: 1
-startlingly: 1
-pierced: 1
-terrifying: 2
-There: 11
-him,—only: 1
-So: 2
-wings: 9
-swooped: 4
-While: 3
-suppers: 1
-hunt: 4
-brains: 1
-skin!”: 1
-_his_: 1
-I’m: 2
-goodness: 3
-“Thank: 1
-earshot: 1
-within: 6
-victim: 1
-despairing: 1
-talon: 1
-silent: 3
-winging: 1
-owl: 4
-dart: 2
-swift: 2
-dash: 4
-swords: 1
-curved: 1
-scimitar: 1
-beak: 4
-barn-owl: 1
-round-eyed: 1
-bird: 9
-soundlessly: 1
-shape: 1
-gray: 11
-opening: 3
-of.”: 1
-you’ve: 2
-“You’ll: 2
-now!”: 1
-“Watch: 3
-against: 9
-shrank: 1
-shivered: 2
-cry: 3
-Suddenly: 3
-peeped: 1
-moon: 2
-fleet-footed: 1
-secret: 1
-chased: 5
-red-backed: 2
-joyously: 1
-anxious: 3
-wasn’t: 4
-tunnel: 5
-digging: 8
-spry: 1
-dig: 2
-sometimes: 5
-cannot: 6
-smell: 7
-sod: 1
-underneath: 3
-pop: 1
-threatens: 1
-overhanging: 6
-stumps: 1
-hidden: 7
-entrances: 1
-threaded: 1
-forest: 6
-farmers: 1
-crops: 4
-destroy: 4
-underground: 5
-tunnels: 7
-stupid: 1
-favorite: 3
-expedition: 2
-mousing: 2
-waving: 1
-grasses: 1
-its: 36
-startled: 2
-call: 5
-impression: 2
-Weird: 1
-moonlight: 2
-hunted: 4
-hunting: 5
-wits: 2
-shadowy: 1
-peer: 2
-screech: 4
-unearthly: 2
-weird: 3
-awakened: 3
-MYSTERIOUS: 1
-MAZAMA: 1
-comes: 4
-“we: 3
-know,”: 2
-“Do: 1
-watched: 9
-tumbling: 3
-darted: 5
-knothole: 5
-remembered: 5
-tip: 1
-clapped: 1
-altogether: 4
-working: 2
-ruse: 2
-heels: 6
-space: 4
-raced: 8
-dropped: 1
-terror: 2
-thumped: 1
-heart: 3
-Mouse’s: 1
-limped: 1
-barely: 5
-limp: 1
-leg: 3
-pretended: 1
-sleepily: 1
-blinking: 1
-trying: 6
-scuttled: 1
-mite: 2
-brave: 1
-high-pitched: 2
-investigating: 1
-attention: 3
-distract: 1
-stretch: 2
-yawn: 1
-finished: 3
-four: 7
-gotten: 2
-tell: 15
-awfully: 1
-promptly: 3
-bargain: 1
-really: 11
-living: 3
-imagine: 3
-homelike: 1
-thick: 3
-nights: 2
-cold: 8
-apartment: 1
-plants: 1
-seeds: 2
-moistened: 2
-rain: 2
-dust: 2
-doors: 2
-forth: 11
-visit: 3
-hallway: 1
-main: 2
-resting: 2
-apartments: 1
-colony: 2
-quarters: 1
-experienced: 3
-became: 2
-people: 7
-tips: 1
-cabins: 2
-one-room: 1
-satisfied: 3
-generally: 3
-bachelor: 1
-creep: 1
-bits: 3
-cedar: 2
-beautifully: 1
-carpeted: 2
-These: 6
-rooms: 1
-palace: 1
-converted: 2
-framework: 1
-squirrel’s: 3
-Sometimes: 4
-raise: 1
-nests: 3
-roomy: 2
-balance: 3
-tails: 3
-needed: 2
-Great: 1
-Finally: 2
-daylight: 1
-plainly: 4
-showed: 6
-rufous: 1
-greenery: 1
-feeding: 3
-pretty: 3
-dark: 7
-gave: 16
-gnaw: 3
-stronger: 3
-limbs: 2
-coats: 3
-changed: 2
-Nature: 4
-neighbors: 2
-arboreal: 1
-families: 2
-stayed: 2
-relatives: 1
-tribe: 3
-ends: 2
-butt: 1
-fans: 3
-nibbled: 4
-things: 8
-grass: 3
-Where: 4
-looking: 8
-homes: 5
-either: 3
-top: 8
-Those: 2
-finally: 3
-safe: 9
-building: 2
-situation: 1
-discussed: 1
-sang: 1
-birdlike: 1
-sweet: 3
-trilled: 1
-why: 7
-ask: 2
-rate: 6
-flavor: 2
-morning: 3
-snug: 3
-tops: 9
-refuge: 1
-pursued: 1
-bobcats: 6
-rest: 3
-wiser: 2
-thousands: 2
-Once: 3
-frozen: 3
-gone: 9
-count: 2
-kind: 5
-meadow: 6
-understands: 1
-MOUSE: 2
-TREE: 1
-MRS: 1
-MR: 1
-awoke: 3
-monstrous: 1
-planned: 2
-able: 5
-Would: 2
-trembled: 2
-squeak: 5
-signal: 4
-sounding: 1
-mate: 6
-since: 4
-end: 10
-shack: 2
-sleeping: 2
-green: 8
-nice: 4
-and—on: 1
-twig: 2
-want: 7
-didn’t: 12
-interlacing: 1
-among: 9
-post: 1
-plastered: 3
-tight: 2
-roof: 3
-handle: 1
-foundation: 1
-firm: 4
-laid: 4
-daintily: 1
-floor: 7
-lined: 2
-move: 5
-shame: 2
-thinking: 3
-kittens: 8
-does: 6
-mouselets: 1
-nursing: 1
-sure,”: 1
-wake: 2
-they’ll: 2
-squealing: 1
-sleep: 9
-feed: 3
-“All: 4
-way.”: 1
-me: 5
-he’ll: 3
-plain: 3
-wakes: 1
-monster: 1
-minute: 4
-worry: 2
-explained: 3
-meant,”: 1
-isn’t: 6
-“That: 3
-behind.”: 1
-We’d: 1
-We: 2
-“Nor: 1
-soothed: 1
-run,”: 1
-how: 21
-forgotten: 2
-haven’t: 2
-“I: 13
-alive.”: 1
-eating: 4
-pieces: 3
-tearing: 1
-prevent: 2
-door: 3
-peek: 1
-we: 28
-us: 12
-“Here: 2
-walls: 4
-nursery: 3
-lichen: 2
-mouthful: 1
-Father: 11
-whispered: 4
-me,”: 2
-“Dear: 1
-yard: 2
-front: 4
-asleep: 5
-feel: 6
-make: 21
-noonday: 2
-stillness: 3
-drowsy: 3
-crevice: 1
-hammocking: 1
-lodged: 1
-comfortably: 1
-crotch: 2
-curl: 2
-odors: 2
-mousy: 2
-alluring: 1
-deserted: 1
-apparently: 1
-trembling: 5
-waited: 4
-house: 3
-chamber: 2
-innermost: 1
-inside: 3
-cuddled: 1
-“hush!”: 1
-advancing: 1
-abandoned: 4
-Rufus: 2
-determined: 2
-neighboring: 1
-leapt: 6
-instead: 4
-scrambled: 2
-rainy: 1
-mushroom: 2
-stuffed: 2
-cheeks: 1
-Today: 1
-telling: 4
-taller: 1
-larger: 7
-built: 3
-often: 6
-fact: 2
-nest: 18
-Douglas’: 1
-needles: 5
-dried: 2
-moss: 2
-sticks: 4
-therefore: 1
-guard: 3
-order: 1
-stay: 4
-trip: 7
-empty: 1
-throw: 2
-taste: 4
-watered: 2
-bear’s: 4
-kernels: 1
-delicious: 6
-nibble: 1
-cone: 4
-seat: 1
-out!”: 1
-don’t: 7
-alive: 5
-eat: 10
-retort: 1
-At: 12
-away!”: 1
-Go: 1
-My: 5
-cones: 5
-pine: 21
-“My: 1
-asserting: 1
-woods,”: 1
-_my_: 3
-“These: 2
-wrath: 1
-jerking: 2
-trunk: 9
-around: 29
-race: 6
-threats: 4
-perch: 1
-quick: 7
-Bear’s: 4
-His: 9
-easily: 6
-trees: 15
-climb: 1
-well: 7
-racing: 4
-cub’s: 2
-whisking: 1
-challenge: 1
-sort: 1
-“catch-me-if-you-can”: 1
-hear: 4
-scream: 2
-chatter: 1
-overhead: 1
-branch: 9
-place: 18
-hiding: 6
-spy: 1
-slip: 2
-surely: 2
-teasing: 1
-seem: 3
-used: 7
-part: 12
-Indians: 3
-explorer: 1
-famous: 1
-named: 4
-squirrels: 11
-red: 16
-cousins: 3
-eastern: 1
-saucy: 2
-whose: 13
-NEST: 2
-SQUIRREL’S: 1
-HOME: 1
-nosing: 1
-dreaming: 1
-dreams: 1
-And: 12
-drowsily: 1
-nodding: 2
-head: 22
-heavy: 8
-pantherlike: 1
-slender: 3
-matched: 3
-ledge: 5
-rock: 14
-stretched: 4
-telescope: 1
-pocket: 2
-father’s: 2
-being: 9
-whiff: 1
-purring: 1
-glimpse: 3
-much: 19
-done: 4
-slope: 6
-climbed: 8
-expected: 1
-hadn’t: 11
-mountainside: 3
-sawing: 1
-heard: 5
-coffee: 1
-flour: 2
-bought: 1
-Camp: 1
-Logging: 1
-pack-horse: 3
-Pass: 5
-One: 9
-track: 3
-old: 21
-each: 5
-protected: 8
-Sam’s: 1
-Uncle: 1
-deer: 5
-killing: 1
-very: 17
-emergency: 3
-except: 5
-swum: 1
-hate: 2
-Cats: 1
-become: 4
-lost: 7
-crossed: 5
-anticipation: 1
-pleased: 2
-lips: 3
-whiskered: 1
-licked: 3
-be!”: 1
-feast: 3
-young: 17
-tender: 4
-“Juicy: 1
-sniffed: 9
-ha!”: 1
-“Ah: 1
-footprints: 7
-bear-scented: 1
-happened: 9
-thus: 1
-farther: 1
-eaten: 4
-supper: 6
-tawny-brown: 1
-discovery: 2
-safely: 5
-got: 12
-least: 1
-wants: 1
-mouser: 4
-pad: 1
-can: 36
-weight: 3
-Now: 17
-unprotected: 2
-leave: 7
-hole: 10
-mouse: 25
-entered: 2
-scent: 9
-lose: 1
-should: 7
-lower: 5
-cross: 3
-blowing: 2
-quietly: 2
-protect: 3
-watch: 9
-close: 4
-From: 2
-territory: 4
-moved: 6
-year: 8
-rabbit: 2
-poor: 2
-Perhaps: 2
-dangling: 1
-shelving: 2
-crouched: 5
-boulder: 1
-peering: 1
-miles: 4
-supposed: 1
-rabbits: 2
-wait: 6
-lying: 4
-range: 2
-distant: 4
-ago: 4
-Many: 2
-grown: 5
-attack: 3
-rash: 1
-combat: 1
-single: 1
-enemies: 3
-dreaded: 1
-distinctly: 2
-foe: 1
-here: 14
-telegraphed: 1
-nostrils: 2
-inquiring: 2
-night: 18
-pool: 3
-lapping: 1
-faint: 1
-bushes: 1
-salmon-berry: 1
-stirred: 2
-gray-brown: 3
-moving: 1
-Away: 3
-spines: 2
-tiny: 9
-rising: 1
-closer: 2
-crept: 3
-mood: 1
-feeling: 8
-anger: 1
-tensed: 2
-nerves: 1
-spine: 1
-breathed: 1
-“Hush!”: 1
-questioned: 1
-“What: 4
-wriggle: 2
-began: 25
-Her: 2
-downstream: 3
-swept: 3
-caught: 22
-crunching: 1
-upon: 13
-creeping: 4
-left: 17
-light: 3
-globe: 1
-ruddy: 1
-cut: 8
-already: 4
-westward: 1
-sunset: 2
-late: 1
-started: 13
-three: 9
-fellow: 5
-try: 7
-flapping: 1
-send: 2
-big: 18
-darting: 2
-ones: 4
-finny: 1
-shining: 2
-clear: 5
-afternoon: 2
-sampled: 5
-drank: 2
-watching: 5
-sat: 8
-toss: 1
-fellows: 8
-slippery: 2
-impale: 1
-sharp: 9
-fish: 6
-spear: 3
-held: 6
-barbed: 5
-log: 9
-floating: 1
-simply: 3
-riffles: 1
-swam: 2
-teeth: 9
-towed: 1
-home: 7
-roots: 6
-full: 16
-streams: 3
-fishing: 4
-found: 42
-swimming: 2
-next: 13
-anything: 8
-fluffy: 1
-dry: 7
-breeze: 4
-sunny: 2
-tongue: 3
-wet: 2
-shakings: 1
-warmth: 3
-glow: 2
-bodies: 2
-shivering: 1
-stop: 5
-willing: 1
-reason: 6
-LION: 1
-CALIFORNIA: 1
-today: 2
-unkind: 1
-Why: 8
-galloped: 1
-panted: 3
-“Wait!”: 1
-squealed: 1
-me!”: 1
-“Wait: 1
-gallop: 1
-rested: 1
-chilly: 1
-dripping: 1
-panting: 1
-Puffing: 1
-soon: 17
-tow: 1
-hold: 7
-grabbed: 1
-jaws: 2
-near: 16
-tail: 16
-stub: 2
-seeing: 1
-towards: 3
-bank: 8
-waiting: 2
-twin: 1
-frightened: 7
-noses: 5
-keep: 19
-served: 1
-paddling: 1
-vigorous: 1
-scooping: 1
-wider: 1
-spreading: 1
-discovered: 4
-ought: 3
-same: 12
-worked: 3
-clawed: 3
-pawed: 1
-footing: 1
-wildly: 2
-struggled: 4
-naturally: 2
-help: 12
-squeal: 3
-strangling: 1
-Snookie’s: 2
-heeding: 1
-once: 17
-paddled: 1
-shook: 2
-dive: 1
-unseated: 1
-suddenness: 1
-last: 13
-chariot: 1
-Still: 4
-mother’s: 4
-faster: 2
-clung: 8
-line: 4
-receding: 1
-deeper: 2
-taking: 4
-gleefully: 2
-youngsters: 3
-both: 8
-Chinook!”: 1
-paws: 17
-handlike: 4
-hanging: 3
-Mother’s: 1
-ride: 2
-liked: 3
-willingly: 1
-back.”: 2
-my: 9
-“climb: 1
-wading: 1
-called: 7
-“Snookie!”: 1
-solid: 2
-madly: 2
-dashed: 1
-panic: 1
-turned: 8
-lifting: 1
-start: 4
-instant: 5
-bravado: 1
-coaxed: 2
-afraid,”: 1
-your: 19
-show: 6
-“Chinook: 1
-whimpered: 3
-ordered: 1
-here!”: 1
-“Snookie: 1
-drops: 2
-sparkling: 1
-shower: 1
-shaking: 1
-stood: 6
-shore: 7
-splashing: 2
-ran: 18
-steps: 2
-followed: 4
-wetness: 1
-coldness: 1
-wary: 2
-fearful: 2
-less: 4
-me.”: 1
-“Follow: 1
-whimpering: 1
-backed: 2
-pebbly: 1
-straight: 8
-air: 7
-element: 1
-strange: 11
-then: 24
-paw: 15
-fore: 6
-first: 24
-tried: 7
-slowly: 4
-waded: 3
-chill: 4
-took: 23
-banks: 1
-gravelly: 2
-shallowly: 1
-spread: 2
-affectionate: 1
-“Come!”: 1
-find: 27
-sure: 10
-especially: 2
-trouble: 4
-getting: 10
-possible: 5
-if: 60
-water: 13
-fall: 4
-likely: 3
-swim: 3
-teach: 2
-decided: 14
-beneath: 19
-directly: 3
-shadow: 4
-sun: 8
-own: 18
-warm: 9
-pats: 1
-love: 3
-pat: 1
-seek: 1
-played: 2
-boxed: 1
-coasted: 1
-rolled: 3
-cascades: 2
-tinkling: 1
-barking: 3
-birds: 7
-nestling: 1
-calling: 2
-sound: 16
-slightest: 1
-cocked: 1
-ear: 3
-open: 17
-half: 17
-eye: 5
-dozed: 1
-Even: 3
-nap: 8
-cat: 21
-invited: 1
-spot: 3
-returned: 4
-bark: 12
-rough: 3
-cling: 1
-claws: 6
-put: 6
-slipping: 1
-moment: 8
-Besides: 2
-hurt: 5
-did: 23
-round: 7
-fell: 4
-When: 13
-walking: 1
-practise: 1
-allowed: 5
-sight: 8
-passed: 4
-supper.”: 1
-having: 12
-fond: 3
-knows: 2
-bluffing: 1
-“Douglas: 1
-us,”: 1
-he’s: 4
-“That’s: 4
-challenges: 1
-insulting: 1
-jeers: 1
-hurl: 2
-limb: 13
-safety: 3
-domain: 3
-trespassing: 1
-belonged: 2
-claimed: 1
-time: 48
-nick: 1
-reach: 10
-leap: 6
-managed: 2
-only: 28
-nab: 1
-thing: 15
-easiest: 1
-till: 31
-across: 15
-right: 28
-running: 8
-catch: 21
-red-brown: 3
-finding: 5
-grubs: 1
-buttery: 1
-ants: 1
-sour-tasting: 1
-First: 2
-him: 103
-interesting: 1
-What: 10
-know: 16
-curiosity: 2
-consumed: 1
-As: 18
-more: 43
-going: 16
-himself: 19
-promised: 3
-march: 2
-best: 4
-thought: 26
-go: 20
-Better: 2
-“G-r-r: 1
-SWIM: 1
-TO: 3
-LEARN: 1
-CUBS: 1
-roguishly: 1
-twinkling: 2
-saucier: 1
-even: 22
-struck: 4
-time,”: 2
-“I’ll: 10
-words: 1
-attitude: 1
-quiet: 1
-tone: 1
-Boy’s: 3
-understood: 2
-reassuring: 1
-day,”: 1
-some: 30
-friends: 5
-making: 5
-mind: 5
-aren’t: 4
-scrapper: 1
-regular: 2
-“A: 2
-rascal,”: 1
-funny: 2
-“You’re: 2
-distance: 3
-kept: 14
-run: 15
-need: 9
-than: 35
-better: 20
-knew: 15
-new: 13
-saw: 15
-laughing: 2
-windfall: 1
-side: 9
-softly: 4
-exclaimed: 3
-there!”: 1
-“Hello: 1
-furry: 10
-on!”: 4
-“Come: 5
-growled: 5
-beside: 3
-itched: 1
-fit: 3
-fine: 3
-so: 93
-felt: 9
-far: 9
-stare: 1
-tracks: 2
-stopped: 5
-again: 19
-“G-r-r!”: 1
-themselves: 12
-look: 11
-moons: 2
-many: 12
-still: 29
-helpless: 4
-different: 7
-babies: 15
-rangers: 1
-family: 12
-whole: 10
-off: 45
-fought: 2
-enough: 19
-herself: 11
-told: 28
-course: 7
-harmed: 2
-never: 30
-charge: 7
-Ranger: 19
-fuzzy: 1
-harm: 2
-afraid: 7
-you.”: 2
-dreadful: 2
-something: 13
-do: 43
-I’ll: 8
-nearer: 7
-any: 54
-come: 41
-“Don’t: 5
-warned: 6
-“Grr!”: 1
-string: 2
-surprise: 7
-shoulder: 3
-rod: 1
-smelling: 2
-fishy: 1
-carried: 6
-walked: 3
-hat: 1
-straw: 1
-wide: 8
-overalls: 1
-blue: 4
-attired: 1
-someone: 2
-voice: 5
-wee: 7
-“Whoof!”: 1
-aggressively: 1
-son: 5
-echoed: 1
-“_Whoof!_”: 1
-breath: 6
-asked: 8
-it?”: 3
-Who: 1
-“Whoof: 2
-worst: 1
-get: 18
-seemed: 14
-brother: 4
-bouts: 1
-cub: 20
-smaller: 3
-wouldn’t: 16
-wished: 3
-privately: 1
-scrap: 2
-hoped: 1
-genuinely: 1
-while: 30
-behind: 8
-stand: 8
-take: 16
-preferred: 5
-looked: 12
-pose: 2
-reared: 1
-though: 28
-see: 61
-effort: 4
-ears: 16
-cocking: 1
-sniffing: 3
-too: 36
-fight: 9
-ready: 14
-also: 11
-message: 3
-carry: 3
-direction: 2
-wrong: 3
-blew: 7
-wind: 16
-But: 64
-ferocious: 2
-large: 10
-must: 27
-fear: 4
-without: 18
-meant: 4
-That: 17
-cracked: 2
-animal: 4
-noisy: 2
-certainly: 10
-creature: 7
-manner: 3
-what: 44
-detect: 3
-nose: 21
-wriggling: 3
-listened: 2
-rose: 4
-neck: 3
-bristling: 2
-With: 8
-trail: 19
-coming: 9
-Someone: 1
-throat: 2
-warning: 6
-note: 1
-sounded: 4
-danger: 5
-case: 2
-hide: 8
-could: 99
-ground: 33
-shadows: 7
-long: 30
-threw: 6
-branches: 11
-broken: 4
-man: 9
-high: 21
-breast: 1
-propped: 1
-point: 5
-reached: 11
-nearly: 4
-They: 30
-exploring: 6
-taken: 11
-eager: 2
-claim: 2
-staked: 1
-wilderness: 1
-bit: 8
-splendid: 1
-failed: 2
-berries: 4
-when: 78
-sport: 1
-good: 24
-furnish: 1
-rats: 8
-wood: 4
-lived: 5
-ledges: 1
-above: 15
-gnomes: 1
-twisted: 3
-junipers: 2
-wind-swept: 2
-mountainsides: 6
-On: 6
-gravel: 1
-eggs: 4
-sea: 3
-salmon: 4
-beyond: 5
-river: 23
-trout: 5
-led: 10
-streamlet: 1
-stream: 1
-sunlight: 3
-shone: 1
-blossoms: 2
-pale: 2
-blackberries: 2
-blueberries: 1
-be: 82
-there: 63
-Later: 1
-loved: 4
-brilliant-hued: 1
-encrusted: 1
-were: 105
-these: 25
-now: 20
-soil: 3
-moist: 8
-throve: 1
-ferns: 2
-mammoth: 7
-jungle: 1
-overgrown: 1
-crisscross: 1
-piled: 1
-tangle: 1
-lay: 8
-below: 7
-Just: 10
-tossed: 1
-earthquake: 5
-an: 40
-landslide: 1
-years: 9
-boulders: 3
-mossy: 1
-rocks: 10
-tumbled: 3
-mass: 3
-spring: 7
-born: 2
-been: 79
-canyon: 11
-let: 7
-would: 86
-sides: 8
-fat: 3
-fast: 16
-after: 36
-scrambling: 3
-went: 24
-ate: 3
-everything: 5
-sample: 3
-wanted: 6
-always: 21
-but: 87
-milk: 4
-mushrooms: 5
-cluster: 1
-great: 49
-breakfast: 6
-might: 28
-stump: 4
-logs: 7
-fallen: 15
-crags: 1
-over: 41
-lumberingly: 1
-way: 48
-She: 10
-follow: 11
-them: 98
-bade: 3
-chest: 3
-down: 60
-deep: 13
-rumble: 2
-lumbering: 3
-came: 64
-form: 5
-huge: 11
-cinnamon-brown: 1
-gleaming: 3
-fur: 25
-It: 54
-fun: 6
-twinkled: 1
-foot: 6
-child’s: 1
-human: 5
-earth: 9
-soft: 15
-prints: 2
-feet: 35
-flat: 9
-Their: 5
-tag: 2
-game: 4
-about: 48
-galloping: 2
-another: 24
-one: 82
-pummel: 1
-legs: 17
-hind: 14
-short: 4
-up: 68
-standing: 3
-boys: 1
-wrestled: 2
-minutes: 7
-few: 17
-For: 20
-seen: 17
-she: 110
-brown: 17
-roly-poly: 1
-burst: 1
-sunshine: 6
-warming: 1
-out: 83
-Then: 37
-mouth: 6
-cave: 8
-peeked: 4
-face: 15
-roguish: 2
-small: 16
-eyes: 32
-beady: 1
-bright: 2
-peered: 4
-creek: 1
-bordered: 1
-that: 292
-web: 3
-spider: 1
-fern: 2
-flower: 1
-every: 23
-diamonds: 1
-like: 46
-gleamed: 2
-Dewdrops: 1
-den: 17
-her: 142
-had: 313
-Mother: 81
-gulch: 8
-rocky: 2
-into: 52
-pines: 6
-yellow: 11
-trunks: 8
-tall: 5
-between: 9
-bars: 2
-slant: 2
-streamed: 2
-day: 24
-June: 4
-dawn: 3
-golden: 1
-BEAR: 1
-AND: 3
-BOY: 1
-CHAPTER: 20
-’Quake: 2
-Big: 3
-XX: 2
-Beaver: 1
-Mountain: 1
-XIX: 2
-Coasting: 1
-Goes: 1
-Cougar: 32
-XVIII: 2
-Wapiti: 1
-XVII: 2
-Company: 1
-Has: 1
-Squirrel: 1
-XVI: 2
-Smuggler: 1
-XV: 2
-Wings: 1
-on: 134
-XIV: 2
-Clown: 1
-Plays: 1
-XIII: 2
-Raven’s: 1
-XII: 2
-Trapper: 7
-Indian: 6
-XI: 2
-Snowball: 1
-Live: 1
-X: 2
-Town: 5
-Rat: 6
-IX: 2
-Work: 1
-VIII: 2
-Fog: 1
-Lost: 1
-VII: 2
-Mysterious: 3
-Mazama: 10
-VI: 2
-Mouse: 17
-Tree: 16
-Mrs: 11
-Mr: 3
-V: 2
-Nest: 2
-Squirrel’s: 1
-Home: 1
-IV: 2
-Lion: 1
-III: 2
-Swim: 1
-Learn: 1
-Cubs: 1
-II: 2
-Bear: 72
-A: 17
-I: 59
-CONTENTS: 1
-Publishers: 1
-beasts.”: 1
-dumb: 1
-longer: 5
-characters: 1
-truth: 1
-humor: 1
-vivacity: 1
-unusual: 1
-books: 1
-Chaffee’s: 1
-real: 4
-awkwardness—a: 1
-sagacity: 1
-mischief: 1
-ball: 5
-he: 298
-because: 21
-just: 44
-children: 8
-all: 100
-delight: 2
-“The: 3
-book: 1
-a: 596
-said: 12
-has: 14
-Post_: 1
-_Evening: 1
-York: 1
-Review: 1
-Literary: 14
-live: 8
-they: 263
-which: 51
-cubs: 89
-two: 16
-as: 176
-rivers: 1
-cascading: 3
-along: 42
-back: 45
-peaks: 7
-snow-clad: 2
-fir: 8
-spruce: 17
-forests: 1
-through: 27
-wander: 1
-He: 39
-squirrel: 27
-Douglas: 35
-present: 1
-ever: 25
-rabbit,”: 3
-“snowshoe: 3
-elk: 5
-pika: 3
-bat: 10
-nothing: 14
-say: 5
-lion: 8
-California: 5
-bobcat: 8
-mousers: 2
-giant: 4
-those: 13
-tepees: 4
-build: 6
-who: 52
-pack-rats: 6
-mountain: 20
-little: 86
-burrow: 9
-mice: 19
-tree: 55
-learn: 12
-will: 18
-child: 1
-Boy: 61
-Ranger’s: 10
-England: 1
-New: 2
-bears: 23
-black: 17
-jolly: 1
-prototypes: 1
-western: 2
-Snookie: 58
-sister: 10
-his: 281
-bear: 54
-cinnamon: 2
-adventures: 1
-following: 8
-In: 16
-Oregon: 6
-woods: 34
-rich: 3
-life: 8
-wild: 10
-stories: 1
-Here: 3
-FOREWORD: 1
-AMERICA: 1
-STATES: 1
-UNITED: 1
-IN: 5
-PRINTED: 1
-Books: 1
-Quality: 1
-Bradley: 1
-Reserved: 1
-Rights: 1
-All: 3
-Massachusetts: 1
-Springfield: 1
-By: 9
-1924: 1
-Copyright: 2
-MASSACHUSETTS: 1
-SPRINGFIELD: 1
-COMPANY: 3
-BRADLEY: 2
-MILTON: 2
-RU: 1
-DA: 1
-PETER: 1
-ILLUSTRATED: 1
-etc: 1
-Black: 1
-EYES: 1
-“TWINKLY: 1
-Bear,”: 2
-Brown: 73
-Little: 3
-WUZZ: 1
-“FUZZY: 1
-Baby,”: 1
-Snow: 1
-“SITKA: 1
-CHAFFEE: 1
-ALLEN: 1
-BY: 2
-mother: 47
-their: 153
-commanded: 3
-swim!”: 2
-“Now: 5
-Illustration: 3
-Archive: 15
-Internet: 2
-The: 109
-available: 4
-made: 31
-generously: 2
-images: 2
-from: 103
-produced: 3
-was: 272
-file: 4
-https://www.pgdp.net: 2
-Team: 3
-Proofreading: 2
-Distributed: 2
-Online: 2
-Frank: 2
-Roger: 2
-Produced: 2
-CUB: 4
-CINNAMON: 4
-THE: 21
-CHINOOK: 5
-EBOOK: 2
-GUTENBERG: 3
-PROJECT: 4
-THIS: 5
-OF: 11
-START: 2
-UTF-8: 1
-encoding: 1
-set: 19
-Character: 1
-English: 1
-Language: 1
-#61888: 1
-2020: 1
-22: 1
-April: 2
-Date: 1
-Release: 1
-Ru: 1
-Da: 1
-Peter: 1
-Illustrator: 1
-Author: 2
-Title: 1
-ebook: 2
-using: 7
-before: 31
-where: 82
-country: 6
-laws: 10
-check: 4
-to: 608
-have: 99
-you'll: 2
-located: 8
-not: 88
-are: 57
-you: 102
-If: 24
-www.gutenberg.org: 5
-online: 4
-this: 69
-included: 3
-License: 10
-terms: 19
-under: 24
-re-use: 2
-or: 99
-away: 32
-give: 7
-it: 218
-copy: 12
-may: 20
-You: 18
-whatsoever: 2
-restrictions: 2
-almost: 12
-with: 209
-cost: 3
-no: 37
-at: 96
-world: 10
-parts: 2
-other: 28
-most: 19
-and: 705
-States: 15
-United: 15
-in: 310
-anywhere: 5
-anyone: 8
-use: 11
-for: 214
-is: 58
-eBook: 6
-This: 16
-Chaffee: 3
-Allen: 4
-by: 87
-Cub: 3
-Cinnamon: 5
-the: 1402
-Chinook: 109
-of: 529
-EBook: 2
-Gutenberg: 27
-Project: 84
-﻿The: 1
+>>> next: 13
+>>> nibble: 1
+>>> nibbled: 4
+>>> nice: 4
+>>> nick: 1
+>>> night: 18
+>>> night,”: 1
+>>> nights: 2
+>>> no: 37
+>>> nodding: 2
+>>> noise: 3
+>>> noisy: 2
+>>> non: 1
+>>> none: 1
+>>> nonproprietary: 1
+>>> noonday: 2
+>>> nor: 3
+>>> north: 1
+>>> northern: 2
+>>> nose: 21
+>>> nosed: 1
+>>> noses: 5
+>>> nosing: 1
+>>> nostrils: 2
+>>> not: 88
+>>> not,”: 1
+>>> not?”: 2
+>>> notch: 1
+>>> note: 1
+>>> nothing: 14
+>>> notice: 7
+>>> noticed: 5
+>>> noticing: 2
+>>> notifies: 1
+>>> notion: 1
+>>> now: 20
+>>> now!”: 1
+>>> nowhere: 1
+>>> nuisance: 1
+>>> number: 5
+>>> numbers: 4
+>>> numbers—gray: 1
+>>> numerous: 1
+>>> nurseries.”: 1
+>>> nursery: 3
+>>> nursing: 1
+>>> nut: 3
+>>> nut-filled: 1
+>>> nuts: 10
+>>> nutting: 1
+>>> nuzzling: 1
+>>> obediently: 1
+>>> object: 1
+>>> objected: 2
+>>> observation: 1
+>>> observed: 1
+>>> obsolete: 1
+>>> obtain: 3
+>>> obtaining: 2
+>>> occasional: 2
+>>> occasionally: 1
+>>> occur: 1
+>>> occurred: 2
+>>> ocean: 2
+>>> odor: 5
+>>> odors: 2
+>>> of: 529
+>>> of.”: 1
+>>> off: 45
+>>> off,”: 2
+>>> offers: 1
+>>> office: 2
+>>> official: 3
+>>> often: 6
+>>> oftener: 1
+>>> oh: 1
+>>> oil: 1
+>>> old: 21
+>>> on: 134
+>>> on!”: 4
+>>> once: 17
+>>> one: 82
+>>> one--the: 1
+>>> one-room: 1
+>>> ones: 4
+>>> onionlike: 1
+>>> onions: 1
+>>> online: 4
+>>> only: 28
+>>> onslaught: 1
+>>> oozy: 1
+>>> open: 17
+>>> opening: 3
+>>> opportunities: 1
+>>> opportunity: 1
+>>> opposite: 1
+>>> optimistically: 1
+>>> or: 99
+>>> orange: 2
+>>> orange-winged: 1
+>>> order: 1
+>>> ordered: 1
+>>> organized: 1
+>>> original: 1
+>>> originator: 1
+>>> other: 28
+>>> other.”: 1
+>>> others: 3
+>>> ought: 3
+>>> our: 16
+>>> ours.”: 1
+>>> ourselves.”: 1
+>>> out: 83
+>>> out!”: 1
+>>> out,’: 1
+>>> outdated: 1
+>>> outrun: 1
+>>> outside: 3
+>>> over: 41
+>>> over?”: 1
+>>> overalls: 1
+>>> overgrown: 1
+>>> overhanging: 6
+>>> overhead: 1
+>>> overlooked: 1
+>>> owed: 1
+>>> owl: 4
+>>> owls: 2
+>>> own: 18
+>>> owned: 1
+>>> owner: 5
+>>> owners: 1
+>>> owns: 2
+>>> pack-horse: 3
+>>> pack-rat: 2
+>>> pack-rats: 6
+>>> packing: 1
+>>> pad: 1
+>>> padded: 1
+>>> paddled: 1
+>>> paddling: 1
+>>> page: 2
+>>> pages: 1
+>>> paid: 6
+>>> pail: 1
+>>> pain: 1
+>>> pair: 1
+>>> palace: 1
+>>> pale: 2
+>>> panic: 1
+>>> panted: 3
+>>> pantherlike: 1
+>>> panting: 1
+>>> pantries: 1
+>>> paper: 2
+>>> paperwork: 1
+>>> paradise: 1
+>>> paragraph: 10
+>>> paragraphs: 3
+>>> parents: 2
+>>> part: 12
+>>> particle: 1
+>>> particular: 4
+>>> particularly: 1
+>>> partly: 1
+>>> partners: 1
+>>> parts: 2
+>>> party: 1
+>>> pass: 1
+>>> passed: 4
+>>> passer-by: 1
+>>> past: 3
+>>> pat: 1
+>>> patch?”: 1
+>>> patches: 2
+>>> patiently: 1
+>>> pats: 1
+>>> pause: 1
+>>> paused: 2
+>>> paw: 15
+>>> paw-marked: 1
+>>> pawed: 1
+>>> pawfuls: 1
+>>> pawing: 1
+>>> paws: 17
+>>> pay: 1
+>>> paying: 2
+>>> payments: 3
+>>> peak: 2
+>>> peaks: 7
+>>> peaks,”: 1
+>>> pebbly: 1
+>>> pecked: 1
+>>> peculiar: 1
+>>> peek: 1
+>>> peeked: 4
+>>> peeped: 1
+>>> peer: 2
+>>> peered: 4
+>>> peering: 1
+>>> pellets: 1
+>>> pencil: 1
+>>> people: 7
+>>> peppery: 1
+>>> perch: 1
+>>> perfectly: 2
+>>> perform: 1
+>>> performances: 1
+>>> performed: 2
+>>> performing: 4
+>>> perfume: 1
+>>> perhaps: 4
+>>> periodic: 1
+>>> permanent: 1
+>>> permission: 7
+>>> permitted: 2
+>>> person: 5
+>>> pest: 1
+>>> pest,”: 1
+>>> pets: 1
+>>> phrase: 5
+>>> physical: 2
+>>> picked: 1
+>>> pictures?”: 1
+>>> pieces: 3
+>>> pieces.”: 1
+>>> pierced: 1
+>>> pika: 3
+>>> pikas: 1
+>>> piled: 1
+>>> pine: 21
+>>> pines: 6
+>>> pink: 2
+>>> pitifully: 1
+>>> pitiless: 1
+>>> place: 18
+>>> placed: 1
+>>> places: 4
+>>> plain: 3
+>>> plainest: 1
+>>> plainly: 4
+>>> plainly.”: 1
+>>> planned: 2
+>>> plant: 1
+>>> plants: 1
+>>> plaster: 1
+>>> plastered: 3
+>>> plastering: 1
+>>> plate: 1
+>>> plateaus: 1
+>>> play: 2
+>>> played: 2
+>>> playing: 1
+>>> please: 1
+>>> pleased: 2
+>>> plumy: 1
+>>> pocket: 2
+>>> pocketful: 1
+>>> point: 5
+>>> pointed: 7
+>>> pool: 3
+>>> poor: 2
+>>> pop: 1
+>>> popping: 1
+>>> porcupine: 2
+>>> porcupines: 1
+>>> pose: 2
+>>> possessed: 1
+>>> possession: 3
+>>> possible: 5
+>>> possibly: 2
+>>> post: 1
+>>> posted: 4
+>>> pounce: 3
+>>> pounced: 3
+>>> pounces: 1
+>>> pouncing: 1
+>>> pound: 1
+>>> pounded: 1
+>>> powerful: 2
+>>> practically: 1
+>>> practise: 1
+>>> preach,”: 1
+>>> predicament: 1
+>>> prefer: 1
+>>> preferred: 5
+>>> prehistoric: 1
+>>> prepare: 2
+>>> prepared: 1
+>>> present: 1
+>>> presently: 1
+>>> preserve: 1
+>>> presumably: 1
+>>> pretended: 1
+>>> pretty: 3
+>>> prevent: 2
+>>> previous: 1
+>>> prey: 2
+>>> pricked: 2
+>>> prickly: 3
+>>> principal: 1
+>>> print: 2
+>>> printed: 2
+>>> prints: 2
+>>> privately: 1
+>>> problem: 1
+>>> processing: 1
+>>> produce: 1
+>>> produced: 3
+>>> producing: 1
+>>> production: 1
+>>> profit: 2
+>>> profits: 1
+>>> prohibition: 1
+>>> prominently: 2
+>>> promised: 3
+>>> promoting: 2
+>>> promotion: 1
+>>> promptly: 3
+>>> pronounced: 1
+>>> proofread: 1
+>>> property: 3
+>>> propped: 1
+>>> proprietary: 1
+>>> protect: 3
+>>> protected: 8
+>>> protecting: 1
+>>> protection: 1
+>>> protest: 2
+>>> prototypes: 1
+>>> proud: 1
+>>> provide: 7
+>>> provided: 3
+>>> providing: 4
+>>> provision: 1
+>>> provisions: 1
+>>> psychological: 1
+>>> public: 3
+>>> puckery: 1
+>>> pull: 1
+>>> pummel: 1
+>>> punishing: 1
+>>> purple: 2
+>>> purpose: 1
+>>> purring: 1
+>>> pursued: 1
+>>> pursuer: 2
+>>> pursuing: 1
+>>> pussy!”: 1
+>>> pussy-paws: 1
+>>> put: 6
+>>> puzzled: 1
+>>> quaking: 2
+>>> quarry: 1
+>>> quarters: 1
+>>> queerest: 1
+>>> question: 1
+>>> questioned: 1
+>>> quick: 7
+>>> quicker: 1
+>>> quickly: 2
+>>> quiet: 1
+>>> quietly: 2
+>>> quite: 2
+>>> quiver: 1
+>>> quivering: 1
+>>> rabbit: 2
+>>> rabbit,”: 3
+>>> rabbit.’”: 1
+>>> rabbitlike: 1
+>>> rabbits: 2
+>>> rabbits,”: 2
+>>> rabbit’: 1
+>>> race: 6
+>>> raced: 8
+>>> racing: 4
+>>> rafters: 2
+>>> rage: 1
+>>> raged: 1
+>>> raided: 2
+>>> rain: 2
+>>> rained: 1
+>>> rains: 1
+>>> rainy: 1
+>>> raise: 1
+>>> raised: 2
+>>> raising: 1
+>>> ramble: 1
+>>> rambling: 1
+>>> ran: 18
+>>> range: 2
+>>> rangers: 1
+>>> rapidly: 3
+>>> rapids: 1
+>>> rascal,”: 1
+>>> rascals.”: 1
+>>> rash: 1
+>>> rat: 11
+>>> rate: 6
+>>> rats: 8
+>>> rats,’: 1
+>>> rats,”: 2
+>>> rattle-snakes.”: 1
+>>> raven: 1
+>>> ravens: 2
+>>> re-use: 2
+>>> reach: 10
+>>> reached: 11
+>>> reaching: 2
+>>> read: 2
+>>> readable: 2
+>>> reading: 1
+>>> ready: 14
+>>> real: 4
+>>> realized: 1
+>>> really: 11
+>>> rear: 1
+>>> reared: 1
+>>> reason: 6
+>>> reason,”: 1
+>>> reasonable: 2
+>>> reasoned: 2
+>>> reassured: 1
+>>> reassuring: 1
+>>> rebuilding: 1
+>>> receding: 1
+>>> receipt: 2
+>>> receive: 3
+>>> received: 6
+>>> receiving: 1
+>>> red: 16
+>>> red-backed: 2
+>>> red-brown: 3
+>>> reddening: 1
+>>> redistribute: 1
+>>> redistributing: 1
+>>> redistribution: 1
+>>> reduced: 1
+>>> reeled: 1
+>>> references: 2
+>>> referring: 1
+>>> reflected: 1
+>>> reforesting: 1
+>>> refuge: 1
+>>> refugee: 1
+>>> refugees: 2
+>>> refund: 8
+>>> region: 1
+>>> registered: 2
+>>> regular: 2
+>>> regulating: 1
+>>> related: 1
+>>> relatives: 1
+>>> relay: 2
+>>> relish: 3
+>>> remain: 1
+>>> remaining: 1
+>>> remember: 4
+>>> remembered: 5
+>>> remove: 1
+>>> removed: 2
+>>> renamed: 1
+>>> replace: 1
+>>> replacement: 3
+>>> reported: 1
+>>> reports: 1
+>>> representations: 1
+>>> request: 1
+>>> require: 1
+>>> required: 1
+>>> requirements: 4
+>>> rescue: 1
+>>> rescued: 1
+>>> research: 2
+>>> resounding: 2
+>>> respond: 1
+>>> rest: 3
+>>> rested: 1
+>>> resting: 2
+>>> restlessly: 1
+>>> restored: 1
+>>> restrictions: 2
+>>> retort: 1
+>>> retorted: 1
+>>> retracing: 1
+>>> retreating: 1
+>>> return: 5
+>>> returned: 4
+>>> returns: 1
+>>> revolver: 1
+>>> rheumatic: 1
+>>> ribbon: 1
+>>> ribs: 1
+>>> rich: 3
+>>> riches: 1
+>>> richness: 1
+>>> ride: 2
+>>> ridge: 1
+>>> riffles: 1
+>>> right: 28
+>>> right!”: 1
+>>> right,”: 1
+>>> rim: 3
+>>> riot: 1
+>>> ripe: 2
+>>> risen: 1
+>>> rising: 1
+>>> river: 23
+>>> rivers: 1
+>>> rock: 14
+>>> rock-slide: 4
+>>> rock-slides: 1
+>>> rocks: 10
+>>> rocks—all: 1
+>>> rocky: 2
+>>> rod: 1
+>>> rodent: 1
+>>> rodents: 1
+>>> roguish: 2
+>>> roguishly: 1
+>>> roiling: 1
+>>> rolled: 3
+>>> rolling: 1
+>>> roly-poly: 1
+>>> roof: 3
+>>> roof-tops: 1
+>>> rooflike: 1
+>>> rooms: 1
+>>> roomy: 2
+>>> root: 2
+>>> roots: 6
+>>> rope: 6
+>>> rose: 4
+>>> rough: 3
+>>> round: 7
+>>> round-eyed: 1
+>>> rounded: 2
+>>> rounder: 1
+>>> royalties: 2
+>>> royalty: 1
+>>> rubs: 1
+>>> ruddy: 1
+>>> rude: 1
+>>> rufous: 1
+>>> rug: 1
+>>> ruins—”: 1
+>>> rules: 2
+>>> rum: 2
+>>> rumble: 2
+>>> rump: 3
+>>> run: 15
+>>> run,”: 1
+>>> running: 8
+>>> runs: 1
+>>> runways: 1
+>>> ruse: 2
+>>> rutting: 1
+>>> s/he: 1
+>>> saddle-bags: 1
+>>> safe: 9
+>>> safekeeping: 1
+>>> safely: 5
+>>> safer: 2
+>>> safety: 3
+>>> sagacity: 1
+>>> said: 12
+>>> sailed: 2
+>>> sailors: 1
+>>> sake: 1
+>>> sally: 1
+>>> salmon: 4
+>>> salmon-berry: 1
+>>> salt-smelling: 1
+>>> salvage: 1
+>>> same: 12
+>>> sample: 3
+>>> sampled: 5
+>>> sandy: 2
+>>> sang: 1
+>>> sank: 1
+>>> sapling: 2
+>>> sat: 8
+>>> satisfied: 3
+>>> satisfy: 1
+>>> saucier: 1
+>>> saucy: 2
+>>> saved: 2
+>>> saw: 15
+>>> saw,”: 1
+>>> sawing: 1
+>>> say: 5
+>>> scale: 1
+>>> scampered: 2
+>>> scarcely: 1
+>>> scared: 1
+>>> scattered: 1
+>>> scene: 2
+>>> scent: 9
+>>> scheme: 1
+>>> schooling: 1
+>>> scimitar: 1
+>>> scolded: 1
+>>> scooping: 1
+>>> scornfully: 1
+>>> scrambled: 2
+>>> scrambling: 3
+>>> scrap: 2
+>>> scraping: 1
+>>> scrapings: 1
+>>> scrapped: 1
+>>> scrapper: 1
+>>> scrappy: 1
+>>> scratch: 2
+>>> scratched: 1
+>>> scream: 2
+>>> screech: 4
+>>> screeching: 1
+>>> scuffling: 1
+>>> scufflings: 1
+>>> scurried: 1
+>>> scurrying: 1
+>>> scuttled: 1
+>>> scuttling: 1
+>>> sea: 3
+>>> search: 1
+>>> searched: 2
+>>> seashore: 1
+>>> seasick: 2
+>>> season: 2
+>>> seat: 1
+>>> seating: 1
+>>> second: 3
+>>> secret: 1
+>>> secure: 2
+>>> see: 61
+>>> see,”: 3
+>>> seed: 1
+>>> seedling: 1
+>>> seedlings: 1
+>>> seeds: 2
+>>> seeing: 1
+>>> seek: 1
+>>> seem: 3
+>>> seemed: 14
+>>> seemingly: 1
+>>> seen: 17
+>>> sell: 1
+>>> send: 2
+>>> sending: 2
+>>> senseless: 1
+>>> sensitive: 1
+>>> sent: 4
+>>> sentence: 2
+>>> sentinel: 1
+>>> serious: 1
+>>> seriously: 1
+>>> served: 1
+>>> set: 19
+>>> setting: 1
+>>> settlements: 1
+>>> seven: 1
+>>> several: 11
+>>> shack: 2
+>>> shaded: 1
+>>> shadow: 4
+>>> shadows: 7
+>>> shadowy: 1
+>>> shake: 2
+>>> shaken: 2
+>>> shaking: 1
+>>> shakings: 1
+>>> shall: 2
+>>> shallow: 1
+>>> shallowly: 1
+>>> shallows: 2
+>>> shame: 2
+>>> shape: 1
+>>> share: 1
+>>> shared: 1
+>>> sharing: 1
+>>> sharp: 9
+>>> she: 110
+>>> sheets: 1
+>>> shelf: 1
+>>> shelter: 3
+>>> shelving: 2
+>>> shifted: 2
+>>> shining: 2
+>>> shivered: 2
+>>> shivering: 1
+>>> shone: 1
+>>> shook: 2
+>>> shooting: 1
+>>> shore: 7
+>>> short: 4
+>>> shorter: 1
+>>> should: 7
+>>> shoulder: 3
+>>> shoulders: 2
+>>> shouted: 1
+>>> shove: 1
+>>> show: 6
+>>> showed: 6
+>>> shower: 1
+>>> shown: 1
+>>> shrank: 1
+>>> shut: 2
+>>> side: 9
+>>> sides: 8
+>>> sidewise: 2
+>>> sighed: 1
+>>> sight: 8
+>>> sign: 2
+>>> signal: 4
+>>> signalled: 2
+>>> silent: 3
+>>> similar: 1
+>>> simply: 3
+>>> since: 4
+>>> sing: 1
+>>> singing: 1
+>>> single: 1
+>>> sinks: 1
+>>> sinuously: 1
+>>> sir: 2
+>>> sir,”: 1
+>>> sister: 10
+>>> site: 4
+>>> sitting: 2
+>>> situation: 1
+>>> size: 5
+>>> skimmed: 1
+>>> skin!”: 1
+>>> skunk: 1
+>>> skunks: 2
+>>> sky: 1
+>>> sky-meadow: 1
+>>> slab: 1
+>>> slant: 2
+>>> slap: 1
+>>> slapped: 1
+>>> slapping: 1
+>>> slaps: 1
+>>> slashed: 1
+>>> sleep: 9
+>>> sleepily: 1
+>>> sleeping: 2
+>>> sleeps: 1
+>>> sleepy: 2
+>>> sleeve: 1
+>>> slender: 3
+>>> slept: 5
+>>> slid: 2
+>>> slide: 4
+>>> slide-rock: 1
+>>> sliding: 2
+>>> slightest: 1
+>>> slightly: 1
+>>> slip: 2
+>>> slippery: 2
+>>> slipping: 1
+>>> slope: 6
+>>> sloped: 2
+>>> slopes: 3
+>>> slowly: 4
+>>> slunk: 1
+>>> small: 16
+>>> small-sized: 1
+>>> smaller: 3
+>>> smashed: 1
+>>> smeared: 1
+>>> smell: 7
+>>> smelled: 6
+>>> smelling: 2
+>>> smelly: 1
+>>> smiled: 1
+>>> smoke: 4
+>>> smoked-tanned: 1
+>>> smuggled: 1
+>>> smuggler: 3
+>>> snap: 1
+>>> snapped: 2
+>>> snapping: 1
+>>> sneak: 1
+>>> sniff: 2
+>>> sniffed: 9
+>>> sniffing: 3
+>>> snooze: 1
+>>> snoozed: 1
+>>> snow: 18
+>>> snow-clad: 2
+>>> snow-covered: 1
+>>> snow-eater,”: 1
+>>> snow-fed: 1
+>>> snowball: 2
+>>> snowballs: 1
+>>> snowbank: 4
+>>> snowbanks: 2
+>>> snowshoe: 2
+>>> snowy: 3
+>>> snug: 3
+>>> so: 93
+>>> so-called: 1
+>>> soap: 1
+>>> sociable: 1
+>>> sod: 1
+>>> soft: 15
+>>> softened: 1
+>>> softly: 4
+>>> soil: 3
+>>> solicit: 2
+>>> solicitation: 1
+>>> solid: 2
+>>> some: 30
+>>> someone: 2
+>>> somersaults: 1
+>>> something: 13
+>>> sometimes: 5
+>>> somewhere: 3
+>>> son: 5
+>>> soon: 17
+>>> soothed: 1
+>>> sore: 1
+>>> sorry: 1
+>>> sort: 1
+>>> sought: 1
+>>> sound: 16
+>>> sounded: 4
+>>> sounding: 1
+>>> soundlessly: 1
+>>> sounds: 1
+>>> sour-tasting: 1
+>>> southward: 1
+>>> space: 4
+>>> spaces: 2
+>>> spank: 1
+>>> sparkling: 1
+>>> sparrow’s: 1
+>>> spawn: 1
+>>> spear: 3
+>>> spearing: 1
+>>> species: 2
+>>> specific: 1
+>>> specified: 2
+>>> speck: 1
+>>> speeding: 1
+>>> spend: 1
+>>> spent: 2
+>>> spiced: 1
+>>> spider: 1
+>>> spied: 1
+>>> spilled: 1
+>>> spilling: 1
+>>> spine: 1
+>>> spines: 2
+>>> spiny: 1
+>>> spires: 1
+>>> spite: 1
+>>> splash: 1
+>>> splashing: 2
+>>> splendid: 1
+>>> split: 1
+>>> spoke: 1
+>>> sport: 1
+>>> spot: 3
+>>> spots: 3
+>>> spots.”: 1
+>>> spouted: 2
+>>> sprawled: 1
+>>> spread: 2
+>>> spreading: 1
+>>> spring: 7
+>>> spring!”: 1
+>>> spruce: 17
+>>> spruces: 1
+>>> spry: 1
+>>> spy: 1
+>>> square: 1
+>>> squeak: 5
+>>> squeaked: 1
+>>> squeaking: 1
+>>> squeaks: 1
+>>> squeal: 3
+>>> squealed: 1
+>>> squealing: 1
+>>> squeals: 1
+>>> squeeze: 2
+>>> squirrel: 27
+>>> squirrel-like: 2
+>>> squirrel-wise: 1
+>>> squirrels: 11
+>>> squirrels,”: 1
+>>> squirrel’s: 3
+>>> staff: 1
+>>> stag: 1
+>>> staked: 1
+>>> staking: 1
+>>> stalk: 1
+>>> stalls: 1
+>>> stamped: 2
+>>> stand: 8
+>>> standing: 3
+>>> standstill: 1
+>>> stare: 1
+>>> stars: 2
+>>> start: 4
+>>> started: 13
+>>> starting: 3
+>>> startle: 1
+>>> startled: 2
+>>> startlingly: 1
+>>> starving: 2
+>>> state: 6
+>>> state's: 1
+>>> statements: 1
+>>> states: 4
+>>> stationed: 1
+>>> status: 4
+>>> stay: 4
+>>> stayed: 2
+>>> staying: 1
+>>> steadily: 1
+>>> stealing: 1
+>>> stealthily: 1
+>>> steam: 2
+>>> steaming: 1
+>>> steel: 4
+>>> steely-smelling: 1
+>>> steep: 1
+>>> steeper: 2
+>>> steeply: 1
+>>> stems: 1
+>>> step: 2
+>>> stepped: 1
+>>> steps: 2
+>>> stick: 3
+>>> sticking: 1
+>>> sticks: 4
+>>> sticky: 4
+>>> stiff: 1
+>>> stifling: 1
+>>> still: 29
+>>> stillness: 3
+>>> sting: 2
+>>> stinging: 1
+>>> stings: 2
+>>> stirred: 2
+>>> stomach: 4
+>>> stomachs: 1
+>>> stone: 1
+>>> stones’: 1
+>>> stood: 6
+>>> stop: 5
+>>> stopped: 5
+>>> store: 1
+>>> stored: 1
+>>> storerooms: 1
+>>> stores: 9
+>>> stories: 1
+>>> storing: 1
+>>> story: 1
+>>> stowed: 1
+>>> straight: 8
+>>> straightaway: 1
+>>> strange: 11
+>>> strangely: 1
+>>> strangling: 1
+>>> strategy: 1
+>>> straw: 1
+>>> streaked: 1
+>>> stream: 1
+>>> streamed: 2
+>>> streaming: 1
+>>> streamlet: 1
+>>> streams: 3
+>>> streams.”: 1
+>>> strength: 1
+>>> stretch: 2
+>>> stretched: 4
+>>> strewn: 1
+>>> strike: 1
+>>> string: 2
+>>> striped: 2
+>>> stripes: 1
+>>> stripping: 1
+>>> strong: 2
+>>> stronger: 3
+>>> struck: 4
+>>> structure: 1
+>>> struggled: 4
+>>> struggling: 1
+>>> strung: 1
+>>> stub: 2
+>>> stuck: 1
+>>> stuff: 4
+>>> stuff!”: 1
+>>> stuffed: 2
+>>> stuffing: 1
+>>> stumbled: 1
+>>> stump: 4
+>>> stumps: 1
+>>> stupid: 1
+>>> sturdy: 2
+>>> subject: 1
+>>> subscribe: 1
+>>> subterranean: 2
+>>> succeeded: 1
+>>> such: 16
+>>> sudden: 1
+>>> suddenly: 4
+>>> suddenness: 1
+>>> sugar: 4
+>>> sugary: 1
+>>> summer: 8
+>>> summer’s: 1
+>>> summit: 1
+>>> summon: 1
+>>> sun: 8
+>>> sunlight: 3
+>>> sunny: 2
+>>> sunset: 2
+>>> sunshine: 6
+>>> supper: 6
+>>> supper.”: 1
+>>> suppers: 1
+>>> support: 4
+>>> suppose: 8
+>>> supposed: 1
+>>> sure: 10
+>>> sure,”: 1
+>>> surely: 2
+>>> surer: 1
+>>> surface: 1
+>>> surprise: 7
+>>> surprised: 1
+>>> surrounding: 1
+>>> survive: 1
+>>> suspected: 1
+>>> suspicion: 1
+>>> suspicions: 1
+>>> swallow: 1
+>>> swallowed: 1
+>>> swam: 2
+>>> swamp: 2
+>>> swampy: 2
+>>> swarm: 1
+>>> swarmed: 1
+>>> swarms: 2
+>>> swayed: 1
+>>> sweet: 3
+>>> sweetish: 1
+>>> sweets: 1
+>>> swept: 3
+>>> swift: 2
+>>> swim: 3
+>>> swim!”: 2
+>>> swimming: 2
+>>> swinging: 1
+>>> swollen: 1
+>>> swooped: 4
+>>> swords: 1
+>>> swore: 1
+>>> swum: 1
+>>> synonymous: 1
+>>> table: 1
+>>> tackle: 1
+>>> tag: 2
+>>> tagging: 1
+>>> tail: 16
+>>> tails: 3
+>>> take: 16
+>>> taken: 11
+>>> takes: 3
+>>> taking: 4
+>>> talk: 1
+>>> tall: 5
+>>> taller: 1
+>>> talon: 1
+>>> tame: 1
+>>> tamed: 1
+>>> tangle: 1
+>>> tantalizing: 2
+>>> taste: 4
+>>> tasted: 1
+>>> tasting: 1
+>>> taught: 2
+>>> tawny: 1
+>>> tawny-brown: 1
+>>> tax: 6
+>>> taxes: 1
+>>> tea: 2
+>>> teach: 2
+>>> team: 2
+>>> teamwork: 1
+>>> teamwork.”: 1
+>>> tearing: 1
+>>> teasing: 1
+>>> teats: 2
+>>> teeniest: 1
+>>> teeth: 9
+>>> telegraphed: 1
+>>> telescope: 1
+>>> tell: 15
+>>> telling: 4
+>>> telltale: 1
+>>> tempting: 1
+>>> tenant: 1
+>>> tender: 4
+>>> tensed: 2
+>>> tent: 1
+>>> tepees: 4
+>>> terms: 19
+>>> terrible: 1
+>>> terribly: 1
+>>> terrified: 2
+>>> terrifying: 2
+>>> territory: 4
+>>> terror: 2
+>>> tether: 1
+>>> texts: 1
+>>> than: 35
+>>> thank: 1
+>>> thankful: 1
+>>> that: 292
+>>> that!”: 1
+>>> that,”: 1
+>>> that?”: 2
+>>> that—after: 1
+>>> the: 1402
+>>> their: 153
+>>> them: 98
+>>> them!”: 1
+>>> them,”: 1
+>>> themselves: 12
+>>> then: 24
+>>> then,”: 1
+>>> there: 63
+>>> there!”: 1
+>>> therefore: 1
+>>> there—in: 1
+>>> there’s: 1
+>>> these: 25
+>>> these?”: 1
+>>> they: 263
+>>> they?”: 1
+>>> they’ll: 2
+>>> they’re: 1
+>>> thick: 3
+>>> thicker: 1
+>>> thicket: 1
+>>> thimbleberries: 1
+>>> thin: 1
+>>> thing: 15
+>>> things: 8
+>>> things!”: 1
+>>> think: 5
+>>> think,”: 1
+>>> thinking: 3
+>>> third: 1
+>>> thirty: 1
+>>> this: 69
+>>> thoroughly: 1
+>>> those: 13
+>>> though: 28
+>>> thought: 26
+>>> thousand: 1
+>>> thousands: 2
+>>> threaded: 1
+>>> threaten: 1
+>>> threatening: 1
+>>> threatens: 1
+>>> threats: 4
+>>> three: 9
+>>> threw: 6
+>>> throat: 2
+>>> through: 27
+>>> throughout: 1
+>>> throve: 1
+>>> throw: 2
+>>> thrown: 4
+>>> thumb: 1
+>>> thumbs: 3
+>>> thump: 1
+>>> thumped: 1
+>>> thunder: 3
+>>> thundered: 1
+>>> thus: 1
+>>> tickled: 1
+>>> tidbit: 1
+>>> tie: 1
+>>> tied: 1
+>>> tiger: 2
+>>> tight: 2
+>>> tighter: 1
+>>> tightly: 2
+>>> till: 31
+>>> timber: 2
+>>> timberline: 1
+>>> time: 48
+>>> time,”: 2
+>>> times: 4
+>>> tin: 4
+>>> tiniest: 1
+>>> tinkled: 1
+>>> tinkling: 1
+>>> tint: 1
+>>> tiny: 9
+>>> tip: 1
+>>> tipped: 1
+>>> tips: 1
+>>> tired: 1
+>>> to: 608
+>>> to!”: 1
+>>> toadstool: 1
+>>> today: 2
+>>> today,”: 1
+>>> toe: 5
+>>> toes: 2
+>>> together: 4
+>>> told: 28
+>>> tone: 1
+>>> tongue: 3
+>>> tonight,”: 1
+>>> too: 36
+>>> too,”: 1
+>>> too.”: 1
+>>> took: 23
+>>> tooth: 1
+>>> top: 8
+>>> tops: 9
+>>> torn: 1
+>>> toss: 1
+>>> tossed: 1
+>>> touching: 1
+>>> tow: 1
+>>> towards: 3
+>>> towed: 1
+>>> towered: 1
+>>> toy: 1
+>>> trace: 1
+>>> track: 3
+>>> tracks: 2
+>>> trade: 1
+>>> trademark: 9
+>>> trademark/copyright: 1
+>>> trading: 1
+>>> trail: 19
+>>> trailed: 1
+>>> trailing: 1
+>>> trails: 1
+>>> trained: 1
+>>> transcribe: 1
+>>> transcription: 1
+>>> trap: 2
+>>> trap-wise: 1
+>>> trapper: 1
+>>> traps: 1
+>>> trash: 2
+>>> trash.”: 1
+>>> traveled: 1
+>>> travelled: 1
+>>> traveller: 1
+>>> travellers: 1
+>>> treasured: 1
+>>> treat: 1
+>>> treatment: 1
+>>> tree: 55
+>>> tree-learning: 1
+>>> tree.”: 1
+>>> trees: 15
+>>> trees—was: 1
+>>> tremble: 1
+>>> trembled: 2
+>>> trembling: 5
+>>> trench: 1
+>>> trespassing: 1
+>>> tribe: 3
+>>> tried: 7
+>>> trilled: 1
+>>> trip: 7
+>>> trip.”: 1
+>>> tripped: 1
+>>> trips: 1
+>>> triumphant: 1
+>>> trod: 1
+>>> tropic: 1
+>>> tropics: 1
+>>> trouble: 4
+>>> trouble.”: 1
+>>> troubles: 2
+>>> trout: 5
+>>> true: 1
+>>> trunk: 9
+>>> trunks: 8
+>>> truth: 1
+>>> try: 7
+>>> try.”: 1
+>>> trying: 6
+>>> tucked: 2
+>>> tugged: 4
+>>> tugging: 1
+>>> tumbled: 3
+>>> tumbling: 3
+>>> tumult: 1
+>>> tunnel: 5
+>>> tunnels: 7
+>>> turn: 3
+>>> turned: 8
+>>> turning: 3
+>>> tussle: 1
+>>> twelve-month: 1
+>>> twice: 1
+>>> twig: 2
+>>> twigs: 3
+>>> twilight: 1
+>>> twin: 1
+>>> twinkle: 1
+>>> twinkled: 1
+>>> twinkling: 2
+>>> twisted: 3
+>>> two: 16
+>>> types: 1
+>>> umbrella: 1
+>>> unafraid: 2
+>>> unalarmingly: 1
+>>> unbroken: 1
+>>> uncommonly: 1
+>>> uncovered: 1
+>>> under: 24
+>>> underground: 5
+>>> undergrowth: 1
+>>> underneath: 3
+>>> understand: 3
+>>> understands: 1
+>>> understood: 2
+>>> undisturbed: 1
+>>> unearthly: 2
+>>> unenforceability: 1
+>>> unexpected: 1
+>>> unhurt: 1
+>>> uniform: 1
+>>> unkind: 1
+>>> unknown: 1
+>>> unless: 4
+>>> unlike: 1
+>>> unlink: 1
+>>> unmistakable: 1
+>>> unmitigated: 1
+>>> unprotected: 2
+>>> unseated: 1
+>>> unseen: 1
+>>> unsolicited: 1
+>>> until: 5
+>>> untouched: 1
+>>> unusual: 1
+>>> up: 68
+>>> upon: 13
+>>> upper: 1
+>>> upright: 1
+>>> upstream: 1
+>>> upturned: 1
+>>> us: 12
+>>> us,”: 1
+>>> us.”: 1
+>>> us?”: 1
+>>> use: 11
+>>> used: 7
+>>> user: 3
+>>> using: 7
+>>> usually: 1
+>>> vacation: 3
+>>> valley: 2
+>>> variety: 1
+>>> various: 1
+>>> vegetable: 1
+>>> vegetarians: 1
+>>> veil: 1
+>>> ventriloquism: 1
+>>> ventured: 2
+>>> version: 1
+>>> very: 17
+>>> viciously: 1
+>>> victim: 1
+>>> view: 2
+>>> viewed: 1
+>>> viewing: 1
+>>> vigorous: 1
+>>> vigorously: 1
+>>> village: 1
+>>> violates: 1
+>>> virus: 1
+>>> visit: 3
+>>> visited: 2
+>>> visitor: 1
+>>> vivacity: 1
+>>> voice: 5
+>>> void: 1
+>>> volcanic: 1
+>>> volcano: 1
+>>> volley: 1
+>>> volunteer: 1
+>>> volunteered: 1
+>>> volunteers: 5
+>>> vulnerable: 1
+>>> waded: 3
+>>> wading: 1
+>>> wager: 1
+>>> wait: 6
+>>> waited: 4
+>>> waiting: 2
+>>> wake: 2
+>>> wakes: 1
+>>> walk: 2
+>>> walked: 3
+>>> walking: 1
+>>> walks: 1
+>>> wall: 4
+>>> walls: 4
+>>> wander: 1
+>>> wandered: 1
+>>> wandering: 1
+>>> want: 7
+>>> wanted: 6
+>>> wants: 1
+>>> wapiti: 10
+>>> warm: 9
+>>> warming: 1
+>>> warmingly: 1
+>>> warmth: 3
+>>> warned: 6
+>>> warning: 6
+>>> warningly: 1
+>>> warranties: 1
+>>> wary: 2
+>>> was: 272
+>>> washed: 1
+>>> wasn’t: 4
+>>> watch: 9
+>>> watch!”: 1
+>>> watched: 9
+>>> watching: 5
+>>> water: 13
+>>> watered: 2
+>>> waters: 1
+>>> waving: 1
+>>> wax-white: 1
+>>> way: 48
+>>> way.”: 1
+>>> ways: 1
+>>> we: 28
+>>> weaned: 1
+>>> wear: 2
+>>> wearily: 1
+>>> weary: 1
+>>> weasel: 1
+>>> weather: 1
+>>> web: 3
+>>> wee: 7
+>>> week: 1
+>>> weeks: 3
+>>> weeniest: 1
+>>> weight: 3
+>>> weird: 3
+>>> well: 7
+>>> went: 24
+>>> were: 105
+>>> weren’t: 2
+>>> western: 2
+>>> westward: 1
+>>> wet: 2
+>>> wetness: 1
+>>> we’d: 1
+>>> we’re: 1
+>>> wharves: 1
+>>> what: 44
+>>> whatever: 1
+>>> whatsoever: 2
+>>> when: 78
+>>> whenever: 1
+>>> where: 82
+>>> wherever: 1
+>>> whether: 2
+>>> which: 51
+>>> whiff: 1
+>>> whiffed: 1
+>>> while: 30
+>>> while,”: 1
+>>> while—say: 1
+>>> whimpered: 3
+>>> whimpering: 1
+>>> whirling: 1
+>>> whirlpool: 1
+>>> whiskered: 1
+>>> whisking: 1
+>>> whispered: 4
+>>> white: 9
+>>> white-topped: 1
+>>> whiteness: 1
+>>> who: 52
+>>> whole: 10
+>>> whole-heartedly: 1
+>>> wholly: 1
+>>> whom: 1
+>>> whose: 13
+>>> why: 7
+>>> wide: 8
+>>> widened: 1
+>>> wider: 1
+>>> widest: 2
+>>> wild: 10
+>>> wilderness: 1
+>>> wildly: 2
+>>> will: 18
+>>> willing: 1
+>>> willingly: 1
+>>> wind: 16
+>>> wind-swept: 2
+>>> winded: 1
+>>> windfall: 1
+>>> window: 3
+>>> windows: 1
+>>> winds: 2
+>>> wind’s: 1
+>>> wing: 2
+>>> winged: 1
+>>> winging: 1
+>>> wings: 9
+>>> winter: 12
+>>> winter.”: 2
+>>> winter?”: 1
+>>> winter’s: 1
+>>> wipe: 1
+>>> wise: 1
+>>> wisely: 1
+>>> wiser: 2
+>>> wish: 3
+>>> wished: 3
+>>> wishing: 1
+>>> with: 209
+>>> within: 6
+>>> without: 18
+>>> withstood: 1
+>>> wits: 2
+>>> woke,”: 1
+>>> wonder: 4
+>>> wondered: 2
+>>> wonderful: 2
+>>> wondering: 1
+>>> won’t: 3
+>>> wood: 4
+>>> woodchuck: 1
+>>> woodchucks: 1
+>>> woods: 34
+>>> woods,”: 1
+>>> woods.”: 1
+>>> word: 2
+>>> words: 1
+>>> wore: 1
+>>> work: 51
+>>> work!”: 1
+>>> work.”: 1
+>>> worked: 3
+>>> working: 2
+>>> works: 32
+>>> world: 10
+>>> worn: 1
+>>> worriedly: 1
+>>> worry: 2
+>>> worse: 2
+>>> worst: 1
+>>> worth: 1
+>>> would: 86
+>>> wouldn’t: 16
+>>> wounded: 1
+>>> wrath: 1
+>>> wrestled: 2
+>>> wrestling: 1
+>>> wriggle: 2
+>>> wriggled: 1
+>>> wriggling: 3
+>>> writing: 3
+>>> written: 3
+>>> wrong: 3
+>>> www.gutenberg.org: 5
+>>> www.gutenberg.org/contact: 1
+>>> www.gutenberg.org/donate: 2
+>>> www.gutenberg.org/license: 1
+>>> yard: 2
+>>> yawn: 1
+>>> yawned: 1
+>>> year: 8
+>>> yearling: 3
+>>> years: 9
+>>> years,”: 1
+>>> year’s: 1
+>>> yell: 1
+>>> yelled: 1
+>>> yellow: 11
+>>> yellow-green: 1
+>>> yellowed: 2
+>>> yet: 4
+>>> yield: 1
+>>> you: 102
+>>> you'll: 2
+>>> you,”: 2
+>>> you.”: 2
+>>> you?”: 1
+>>> young: 17
+>>> younger: 1
+>>> youngsters: 3
+>>> your: 19
+>>> yourself?”: 1
+>>> youth: 1
+>>> you’ll: 1
+>>> you’re: 1
+>>> you’ve: 2
+>>> yowl: 1
+>>> yowled: 1
+>>> zigzag: 1
+>>> ‘Trade: 1
+>>> ‘clean: 1
+>>> ‘rabbit’: 1
+>>> ‘snowshoe: 2
+>>> ‘some: 1
+>>> ’QUAKE: 1
+>>> ’Quake: 2
+>>> ’cute: 1
+>>> ’quake: 1
+>>> “A: 2
+>>> “Ah: 1
+>>> “All: 4
+>>> “Altogether: 1
+>>> “And: 2
+>>> “Are: 1
+>>> “Aw: 1
+>>> “Away: 1
+>>> “Be: 1
+>>> “Because: 1
+>>> “But: 3
+>>> “By: 2
+>>> “Can: 1
+>>> “Chinook: 1
+>>> “Chuck: 1
+>>> “Come: 5
+>>> “Come!”: 1
+>>> “Confound: 1
+>>> “Could: 1
+>>> “Dad: 3
+>>> “Dear: 1
+>>> “Did: 1
+>>> “Do: 1
+>>> “Don’t: 5
+>>> “Douglas: 1
+>>> “Douglas?”: 1
+>>> “Eat: 1
+>>> “Eh: 1
+>>> “FUZZY: 1
+>>> “Father!”: 1
+>>> “Follow: 1
+>>> “For: 1
+>>> “G-r-r: 1
+>>> “G-r-r!”: 1
+>>> “Good: 1
+>>> “Grr!”: 1
+>>> “He: 4
+>>> “Hello: 1
+>>> “Here: 2
+>>> “Hey: 1
+>>> “He’ll: 1
+>>> “He’s: 1
+>>> “How: 5
+>>> “How?”: 1
+>>> “Huh: 1
+>>> “Huh!”: 2
+>>> “Hurray!”: 1
+>>> “Hush!”: 1
+>>> “I: 13
+>>> “If: 2
+>>> “In: 1
+>>> “Is: 4
+>>> “Isn’t: 1
+>>> “It: 7
+>>> “It’s: 4
+>>> “I’d: 1
+>>> “I’ll: 10
+>>> “Juicy: 1
+>>> “Just: 1
+>>> “Keep: 1
+>>> “Leave: 1
+>>> “Let’s: 3
+>>> “Look: 1
+>>> “Most: 1
+>>> “My: 1
+>>> “My!”: 1
+>>> “Never: 1
+>>> “No: 2
+>>> “Nor: 1
+>>> “Not: 2
+>>> “Now: 5
+>>> “Oh: 2
+>>> “Pack-rats: 1
+>>> “People: 1
+>>> “Personally: 1
+>>> “Pussy: 1
+>>> “SITKA: 1
+>>> “Snookie: 1
+>>> “Snookie!”: 1
+>>> “Snow: 1
+>>> “TWINKLY: 1
+>>> “Tell: 1
+>>> “Thank: 1
+>>> “That: 3
+>>> “That’s: 4
+>>> “The: 3
+>>> “There’s: 1
+>>> “These: 2
+>>> “They: 5
+>>> “They’re: 1
+>>> “This: 1
+>>> “To: 1
+>>> “Wait: 1
+>>> “Wait!”: 1
+>>> “Watch: 3
+>>> “We: 3
+>>> “Well: 4
+>>> “What: 4
+>>> “What’s: 2
+>>> “Whoof: 2
+>>> “Whoof!”: 1
+>>> “Why: 6
+>>> “Will: 1
+>>> “Yes: 2
+>>> “You: 7
+>>> “You’d: 1
+>>> “You’ll: 2
+>>> “You’re: 2
+>>> “_P-f-f-f!_”: 1
+>>> “_Pht-t-t!_”: 1
+>>> “_Quick: 1
+>>> “_Whoof!_”: 1
+>>> “a: 1
+>>> “and: 1
+>>> “belly: 1
+>>> “but: 6
+>>> “catch-me-if-you-can”: 1
+>>> “climb: 1
+>>> “hush!”: 1
+>>> “little: 1
+>>> “not: 1
+>>> “she’s: 1
+>>> “snowshoe: 3
+>>> “that: 1
+>>> “their: 1
+>>> “there: 2
+>>> “to: 1
+>>> “we: 3
+>>> “when: 1
+>>> “you: 1
+>>> “your: 1
 >>> 
