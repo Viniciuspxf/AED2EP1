@@ -10,6 +10,7 @@ make testando
 ./unit_test thecinnamoncub.txt LD < entrada.txt > LD.txt
 ./unit_test thecinnamoncub.txt VD < entrada.txt > VD.txt
 ./unit_test thecinnamoncub.txt HS < entrada.txt > HS.txt
+./unit_test thecinnamoncub.txt A23 < entrada.txt > A23.txt
 
 
 ./testando < teste1.txt
@@ -19,3 +20,4 @@ make testando
 ./testando < teste5.txt
 ./testando < teste6.txt
 ./testando < teste7.txt
+./testando < teste8.txt

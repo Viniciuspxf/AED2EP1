@@ -1,1 +1,1 @@
-TR.txt LO.txt
+TR.txt HS.txt

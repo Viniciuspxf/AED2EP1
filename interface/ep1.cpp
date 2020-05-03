@@ -2103,7 +2103,31 @@ int arvore23<Chave, Item>::contaNos(no23<Chave, Item> *no) {
 }
 
 template <class Chave, class Item>
-Chave arvore23<Chave, Item>::seleciona(int k){}
+Chave arvore23<Chave, Item>::seleciona(int k){
+    int contador = -1;
+    return selecionaR(raiz, k, &contador);
+}
+
+template <class Chave, class Item>
+Chave arvore23<Chave, Item>::selecionaR(no23<Chave, Item> *no, int k, int *contador) {
+    Chave chave;
+    if (no == nullptr) 
+        return "";
+    
+    chave = selecionaR(no->esq, k, contador);
+    if (*contador == k) return chave;
+    *contador += 1;
+    if (k == *contador) return no->chaveEsq;
+    
+    if (no->tres) {
+        chave = selecionaR(no->meio, k, contador);
+        if (*contador == k) return chave;
+        *contador += 1;
+        if (k == *contador) return no->chaveDir;
+    }
+    return selecionaR(no->dir, k, contador);
+
+}
 
 /*------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------*/
