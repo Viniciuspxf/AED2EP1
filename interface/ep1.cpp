@@ -2066,8 +2066,40 @@ int arvore23<Chave, Item>::rank(Chave chave){
     contador = contaNos(atual->esq) + 1;
     
     if (atual->tres) {
-        
+        if (atual->chaveDir == chave)
+            contador += contaNos(atual->meio) + 2;
     }
+
+    while (atual->pai != nullptr) {
+        if (atual->pai->esq != atual) {
+            contador++;
+            contador += contaNos(atual->pai->esq) + 1;
+            if (atual->pai->tres && atual->pai->dir == atual) {
+                contador++;
+                contador += contaNos(atual->pai->meio) + 1;
+            } 
+        }
+        atual = atual->pai;
+    }
+    return contador;
+}
+
+template <class Chave, class Item>
+int arvore23<Chave, Item>::contaNos(no23<Chave, Item> *no) {
+    int contador = 0;
+    
+    if (no == nullptr) 
+        return -1;
+    
+    contador = contaNos(no->esq) + 1;
+    contador += contaNos(no->dir) + 1;
+
+    if (no->tres) {
+        contador += contaNos(no->meio) + 1;
+        contador++;
+    }
+
+    return contador;
 }
 
 template <class Chave, class Item>

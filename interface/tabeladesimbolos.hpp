@@ -177,6 +177,7 @@ template <class Chave, class Item>
 class arvore23 {
     private:
         no23<Chave, Item> *raiz;
+        int contaNos(no23<Chave, Item> *no);
         void printaR(no23<Chave, Item> *no);
     public:
         arvore23(string nome_arquivo);
