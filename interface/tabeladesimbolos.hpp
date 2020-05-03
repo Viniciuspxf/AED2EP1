@@ -50,6 +50,20 @@ class noRN {
 };
 
 template <class Chave, class Item>
+class no23 {
+    public:
+        bool tres;
+        no23 *pai;
+        no23 *esq;
+        no23 *meio;
+        no23 *dir;
+        Chave chaveEsq;
+        Chave chaveDir;
+        Item valorEsq;
+        Item valorDir;
+};
+
+template <class Chave, class Item>
 class vetorDes {
     private:
         void resize();
@@ -161,6 +175,9 @@ class treap {
 
 template <class Chave, class Item>
 class arvore23 {
+    private:
+        no23<Chave, Item> *raiz;
+        void printaR(no23<Chave, Item> *no);
     public:
         arvore23(string nome_arquivo);
         ~arvore23();

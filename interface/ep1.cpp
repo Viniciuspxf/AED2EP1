@@ -850,11 +850,10 @@ void vetorOrd<Chave, Item>::remove(Chave chave){
         else {
             for (j = i; j < n - 1; j++) {
                 vetor[j].chave = vetor[j + 1].chave;
-                vetor[j].valor = vetor[j + 1].valor;
-                n--;
-                break;
+                vetor[j].valor = vetor[j + 1].valor;  
             }
-
+            n--;
+            break;
         }
     }
 }
@@ -1517,6 +1516,7 @@ void arvoreRN<Chave, Item>::remove(Chave chave) {
             atual->chave = aux->chave;
             atual->valor = atual->valor;
         }
+        else aux = atual;
     }
     else return;
 
@@ -1798,25 +1798,277 @@ Chave arvoreRN<Chave, Item>::selecionaR(noRN<Chave, Item> *no, int k, int *conta
 /*------------------------------------------------------------------------------------------------------*/
 
 template <class Chave, class Item>
-arvore23<Chave, Item>::arvore23(string nome_arquivo){}
+arvore23<Chave, Item>::arvore23(string nome_arquivo){
+    raiz = nullptr;
+    ifstream arquivo;
+    Chave atual;
+    Item valor;
+    long unsigned int i = 0;
+
+    arquivo.open(nome_arquivo);
+
+    while (!arquivo.eof()) {
+        arquivo >> atual;
+
+        for (i = 0; i < atual.size() && ehSimbolo(atual[i]); i++);
+        atual.erase(0, i);
+
+        while (atual.size() != 0 && ehSimbolo(atual.back()))
+            atual.pop_back();
+
+        if (atual.size() != 0) {
+            valor = devolve(atual);
+
+            if (valor == -1) valor = 1;
+            else valor++;
+
+            insere(atual, valor);
+        }
+        
+    }
+    arquivo.close();
+}
 
 template <class Chave, class Item>
 arvore23<Chave, Item>::~arvore23(){}
 
 template <class Chave, class Item>
-void arvore23<Chave, Item>::printa(){}
+void arvore23<Chave, Item>::printa(){
+    printaR(raiz);
+}
 
 template <class Chave, class Item>
-void arvore23<Chave, Item>:: insere(Chave chave, Item valor){}
+void arvore23<Chave, Item>::printaR(no23<Chave, Item> *no){
+    if (no != nullptr) {
+        printaR(no->esq);
+        cout << no->chaveEsq << ": " << no->valorEsq << endl;
+        if (no->tres) {
+            printaR(no->meio);
+            cout << no->chaveDir << ": " << no->valorDir << endl;
+        }
+        printaR(no->dir);
+    }
+}
 
 template <class Chave, class Item>
-Item arvore23<Chave, Item>::devolve(Chave chave){}
+void arvore23<Chave, Item>:: insere(Chave chave, Item valor){
+    no23<Chave, Item> *novo, *anterior, *atual, *pai;
+    Chave chaveAux;
+    Item valorAux;
+
+    if (raiz == nullptr) {
+        novo = new no23<Chave, Item>[1];
+        novo->pai = nullptr;
+        novo->esq = nullptr;
+        novo->meio = nullptr;
+        novo->dir = nullptr;
+        novo->tres = false;
+        novo->chaveEsq = chave;
+        novo->valorEsq = valor;
+        raiz = novo;
+    }
+    else {
+        int comparacao;
+        anterior = nullptr;
+        atual = raiz;
+
+        while (atual != nullptr) {
+            anterior = atual;
+            comparacao = chave.compare(atual->chaveEsq);
+
+            if (comparacao < 0)
+                atual = atual->esq;
+            else if (comparacao == 0) {
+                atual->valorEsq = valor;
+                return;
+            }
+            else if (!atual->tres)
+                atual = atual->dir;
+            else {
+                comparacao = chave.compare(atual->chaveDir);
+                if (comparacao > 0) 
+                    atual = atual->dir;
+                else if (comparacao == 0)  {
+                    atual->valorDir = valor;
+                    return;
+                }
+                else
+                    atual = atual->meio;
+            }
+        }
+        while (true) {
+            comparacao = chave.compare(anterior->chaveEsq);
+            if (!anterior->tres) {
+                anterior->tres = true;  
+                if (comparacao < 0) {
+                    anterior->chaveDir = anterior->chaveEsq;
+                    anterior->valorDir = anterior->valorEsq;
+                    anterior->chaveEsq = chave;
+                    anterior->valorEsq = valor;
+                }
+                else {
+                    anterior->chaveDir = chave;
+                    anterior->valorDir = valor;
+                }
+                anterior->meio = atual;
+                if (anterior->meio != nullptr)
+                    anterior->meio->pai = anterior;
+                break;
+            }
+            else {
+                novo = new no23<Chave, Item>[1];
+                novo->pai = anterior->pai;
+                novo->tres = false;
+                anterior->tres = false;
+
+                novo->chaveEsq = anterior->chaveDir;
+                novo->valorEsq = anterior->valorDir;
+                novo->dir = anterior->dir;
+        
+                if (novo->dir != nullptr)
+                    novo->dir->pai = novo;
+
+                if (comparacao < 0) {                   
+                    novo->esq = anterior->meio;
+
+                    if (novo->esq != nullptr)
+                        novo->esq->pai = novo;
+
+                    anterior->dir = atual;
+
+                    if (anterior->dir != nullptr)
+                        anterior->dir->pai = anterior;
+                    
+                    chaveAux = anterior->chaveEsq;
+                    valorAux = anterior->valorEsq;
+
+                    anterior->chaveEsq = chave;
+                    anterior->valorEsq = valor;
+                    chave = chaveAux;
+                    valor = valorAux;
+                }
+                else {
+                    comparacao = chave.compare(anterior->chaveDir);
+                    
+                    novo->esq = atual;
+
+                    if (novo->esq != nullptr)
+                        novo->esq->pai = novo;
+
+                    anterior->dir = anterior->meio;
+
+                    if (anterior->dir != nullptr)
+                        anterior->dir->pai = anterior;
+
+                    if (comparacao > 0) {
+                        chaveAux = novo->chaveEsq;
+                        valorAux = novo->valorEsq;
+
+                        novo->chaveEsq = chave;
+                        novo->valorEsq = valor;
+                        
+                        chave = chaveAux;
+                        valor = valorAux;
+                    }
+                    
+                }
+
+                pai = anterior->pai;
+
+                if (pai == nullptr) {
+                    raiz = new no23<Chave, Item>[1];
+                    raiz->chaveEsq = chave;
+                    raiz->valorEsq = valor;
+                    raiz->tres = false;
+
+                    raiz->esq = anterior;
+                    
+                    if (raiz->esq != nullptr)
+                        raiz->esq->pai = raiz;
+                    
+                    raiz->dir = novo;
+
+                    if (raiz->dir != nullptr)
+                        raiz->dir->pai = raiz;
+                    break;
+                }
+                else if (pai->dir == anterior) {
+                    pai->dir = novo;
+                    atual = anterior;
+                }
+                else atual = novo;
+               
+               anterior = pai;
+            }
+        }
+        
+    }
+    
+}
+
+template <class Chave, class Item>
+Item arvore23<Chave, Item>::devolve(Chave chave){
+    no23<Chave, Item> *atual = raiz;
+    int comparacao;
+
+    while (atual != nullptr) {
+        comparacao = chave.compare(atual->chaveEsq);
+                
+        if (comparacao < 0)
+            atual = atual->esq;
+        else if (comparacao == 0)
+            return atual->valorEsq;  
+        else if (!atual->tres)
+            atual = atual->dir;
+        else {
+            comparacao = chave.compare(atual->chaveDir);
+            if (comparacao > 0) 
+                atual = atual->dir;
+            else if (comparacao == 0)  
+                return atual->valorDir;
+            else
+                atual = atual->meio;
+        }
+    }
+    return -1;
+}
 
 template <class Chave, class Item>
 void arvore23<Chave, Item>::remove(Chave chave){}
 
 template <class Chave, class Item>
-int arvore23<Chave, Item>::rank(Chave chave){}
+int arvore23<Chave, Item>::rank(Chave chave){
+    no23<Chave, Item> *atual = raiz;
+    int comparacao, contador = 0;
+
+    while (atual != nullptr) {
+        comparacao = chave.compare(atual->chaveEsq);
+                
+        if (comparacao < 0)
+            atual = atual->esq;
+        else if (comparacao == 0)
+            break;  
+        else if (!atual->tres)
+            atual = atual->dir;
+        else {
+            comparacao = chave.compare(atual->chaveDir);
+            if (comparacao > 0) 
+                atual = atual->dir;
+            else if (comparacao == 0)  
+                break;
+            else
+                atual = atual->meio;
+        }
+    }
+
+    if (atual == nullptr) return -1;
+
+    contador = contaNos(atual->esq) + 1;
+    
+    if (atual->tres) {
+        
+    }
+}
 
 template <class Chave, class Item>
 Chave arvore23<Chave, Item>::seleciona(int k){}
