@@ -1,5 +1,5 @@
 criando ST...
-arquivo lido e ST construida em 0.030293 segundos
+arquivo lido e ST construida em 0.030408 segundos
 Possiveis operacoes do teste interativo:
 minST, delminST, getST <chave>; rankST <chave>, deleteST <chave>, selectST <int>
 CRTL-D para encerrar.

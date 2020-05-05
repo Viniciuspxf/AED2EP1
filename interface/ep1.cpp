@@ -2083,7 +2083,7 @@ void arvore23<Chave, Item>::remove(Chave chave){
         excluido->tres = false;
         if (!(atual == excluido && atual->chaveDir == chave)) {
             excluido->chaveEsq = excluido->chaveDir;
-            excluido->valorEsq = excluido->valorEsq;
+            excluido->valorEsq = excluido->valorDir;
         }
         return;
     }
@@ -2300,10 +2300,10 @@ void arvore23<Chave, Item>::remove(Chave chave){
                     excluido->valorEsq = pai->valorEsq;
 
                     pai->chaveEsq = pai->dir->chaveEsq;
-                    pai->chaveEsq = pai->dir->valorEsq;
+                    pai->valorEsq = pai->dir->valorEsq;
 
-                    pai->dir->chaveEsq = pai->chaveDir;
-                    pai->dir->valorEsq = pai->valorEsq;
+                    pai->dir->chaveEsq = pai->dir->chaveDir;
+                    pai->dir->valorEsq = pai->dir->valorDir;
 
                     pai->dir->tres = false;
 

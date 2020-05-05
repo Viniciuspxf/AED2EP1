@@ -8,6 +8,9 @@ int main() {
     int i, j;
     while (cin >> palavra) {
         cin >> palavra;
+        cin >> palavra;
+        cin >> palavra;
+        cin >> palavra;
         palavras.push_back(palavra);
         corrente.push_back(palavra);
     }
