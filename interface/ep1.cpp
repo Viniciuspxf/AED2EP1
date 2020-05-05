@@ -1514,7 +1514,7 @@ void arvoreRN<Chave, Item>::remove(Chave chave) {
             while (aux->dir != nullptr) aux = aux->dir;
             
             atual->chave = aux->chave;
-            atual->valor = atual->valor;
+            atual->valor = aux->valor;
         }
         else aux = atual;
     }
@@ -1830,7 +1830,20 @@ arvore23<Chave, Item>::arvore23(string nome_arquivo){
 }
 
 template <class Chave, class Item>
-arvore23<Chave, Item>::~arvore23(){}
+arvore23<Chave, Item>::~arvore23(){
+    removeR(raiz);
+}
+
+template <class Chave, class Item>
+void arvore23<Chave, Item>::removeR(no23<Chave, Item> *no) {
+    if (no != nullptr) {
+        removeR(no->esq);
+        removeR(no->dir);
+        if (no->tres)
+            removeR(no->meio);
+        delete [] no;
+    }
+}
 
 template <class Chave, class Item>
 void arvore23<Chave, Item>::printa(){
