@@ -2034,7 +2034,390 @@ Item arvore23<Chave, Item>::devolve(Chave chave){
 }
 
 template <class Chave, class Item>
-void arvore23<Chave, Item>::remove(Chave chave){}
+void arvore23<Chave, Item>::remove(Chave chave){
+    no23<Chave, Item> *atual = raiz, *excluido, *pai;
+    int comparacao;
+
+    while (atual != nullptr) {
+        comparacao = chave.compare(atual->chaveEsq);
+                
+        if (comparacao < 0)
+            atual = atual->esq;
+        else if (comparacao == 0)
+            break;  
+        else if (!atual->tres)
+            atual = atual->dir;
+        else {
+            comparacao = chave.compare(atual->chaveDir);
+            if (comparacao > 0) 
+                atual = atual->dir;
+            else if (comparacao == 0)  
+                break;
+            else
+                atual = atual->meio;
+        }
+    }
+
+    if (atual == nullptr) return;
+    
+    excluido = atual;
+    
+    if (atual->chaveEsq == chave && atual->tres && atual->meio != nullptr)
+        excluido = atual->meio;
+    else if (atual->dir != nullptr)
+        excluido = atual->dir;
+
+    while (excluido->esq != nullptr)
+        excluido = excluido->esq;
+    
+    if (atual->chaveEsq == chave) {
+        atual->chaveEsq = excluido->chaveEsq;
+        atual->valorEsq = excluido->valorEsq;
+    }
+    else if (atual != excluido) {
+        atual->chaveDir  = excluido->chaveEsq;
+        atual->valorDir = excluido->valorEsq;
+    }
+
+    if (excluido->tres) {
+        excluido->tres = false;
+        if (!(atual == excluido && atual->chaveDir == chave)) {
+            excluido->chaveEsq = excluido->chaveDir;
+            excluido->valorEsq = excluido->valorEsq;
+        }
+        return;
+    }
+
+    atual = nullptr;
+
+    while (true) {
+        pai = excluido->pai;
+        if (pai == nullptr) {
+            raiz = atual;
+            atual->pai = nullptr;
+            delete [] excluido;
+            break;
+        }
+        else if (pai->tres) {
+            if (pai->esq == excluido) {
+                if (pai->meio->tres) {
+                    excluido->chaveEsq = pai->chaveEsq;
+                    excluido->valorEsq = pai->valorEsq;
+
+                    pai->chaveEsq = pai->meio->chaveEsq;
+                    pai->valorEsq = pai->meio->valorEsq;
+
+                    pai->meio->chaveEsq = pai->meio->chaveDir;
+                    pai->meio->valorEsq = pai->meio->valorDir;
+
+                    pai->meio->tres = false;
+
+                    excluido->esq = atual;
+
+                    if (excluido->esq != nullptr)
+                        excluido->esq->pai = excluido;
+                    
+                    excluido->dir = pai->meio->esq;
+
+                    if (excluido->dir != nullptr)
+                        excluido->dir->pai = excluido;
+
+                    pai->meio->esq = pai->meio->meio;
+
+                    if (pai->meio->esq != nullptr)
+                        pai->meio->esq->pai = pai->meio;
+
+                }
+                else {
+                    excluido->chaveEsq = pai->chaveEsq;
+                    excluido->valorEsq = pai->valorEsq;
+
+                    excluido->chaveDir = pai->meio->chaveEsq;
+                    excluido->valorDir = pai->meio->valorEsq;
+
+                    pai->chaveEsq = pai->chaveDir;
+                    pai->valorEsq = pai->valorDir;
+
+                    pai->tres = false;
+                    excluido->tres = true;
+
+                    excluido->esq = atual;
+
+                    if (excluido->esq != nullptr)
+                        excluido->esq->pai = excluido;
+
+                    excluido->meio = pai->meio->esq;
+
+                    if (excluido->meio != nullptr)
+                        excluido->meio->pai = excluido;
+
+                    excluido->dir = pai->meio->dir;
+
+                    if (excluido->dir != nullptr)
+                        excluido->dir->pai = excluido;
+
+                    delete [] pai->meio;
+                }
+            }
+            else if (pai->meio == excluido) {
+                if (pai->esq->tres) {
+                    excluido->chaveEsq = pai->chaveEsq;
+                    excluido->valorEsq = pai->valorEsq;
+
+                    pai->chaveEsq = pai->esq->chaveDir;
+                    pai->valorEsq = pai->esq->valorDir;
+
+                    pai->esq->tres = false;
+
+                    excluido->dir = atual;
+
+                    if (excluido->dir != nullptr)
+                        excluido->dir->pai = excluido;
+                    
+                    excluido->esq = pai->esq->dir;
+
+                    if (excluido->esq != nullptr)
+                        excluido->esq->pai = excluido;
+                    
+                    pai->esq->dir = pai->esq->meio;
+
+                    if (pai->esq->dir != nullptr)
+                        pai->esq->dir->pai = pai->esq;
+
+                }
+                else if (pai->dir->tres) {
+                    excluido->chaveEsq = pai->chaveDir;
+                    excluido->valorEsq = pai->valorDir;
+
+                    pai->chaveDir = pai->dir->chaveEsq;
+                    pai->valorDir = pai->dir->valorEsq;
+
+                    pai->dir->chaveEsq = pai->dir->chaveDir;
+                    pai->dir->valorEsq = pai->dir->valorDir;
+
+                    pai->dir->tres = false;
+
+                    excluido->esq = atual;
+
+                    if (excluido->esq != nullptr)
+                        excluido->esq->pai = excluido;
+                    
+                    excluido->dir = pai->dir->esq;
+
+                    if (excluido->dir != nullptr)
+                        excluido->dir->pai = excluido;
+                    
+                    pai->dir->esq = pai->dir->meio;
+
+                    if (pai->dir->esq != nullptr)
+                        pai->dir->esq->pai = pai->dir;
+                }
+
+                else {
+                    pai->esq->tres = true;
+
+                    pai->esq->chaveDir = pai->chaveEsq;
+                    pai->esq->valorDir = pai->valorEsq;
+
+                    pai->chaveEsq = pai->chaveDir;
+                    pai->valorEsq = pai->valorDir;
+
+                    pai->tres = false;
+
+                    pai->esq->meio = pai->esq->dir;
+
+                    pai->esq->dir = atual;
+                    
+                    if (pai->esq->dir != nullptr)
+                        pai->esq->dir->pai = pai->esq;
+
+                    delete [] excluido;
+                }
+            }
+            else {
+                if (pai->meio->tres) {
+                    excluido->chaveEsq = pai->chaveDir;
+                    excluido->valorEsq = pai->valorDir;
+
+                    pai->chaveDir = pai->meio->chaveDir;
+                    pai->valorDir = pai->meio->valorDir;
+
+                    pai->meio->tres = false;
+
+                    excluido->dir = atual;
+                    
+                    if (excluido->dir != nullptr)
+                        excluido->dir->pai = excluido;
+
+                    excluido->esq = pai->meio->dir;
+                    
+                    if (excluido->esq != nullptr)
+                        excluido->esq->pai = excluido;
+                    
+
+                    pai->meio->dir = pai->meio->meio;
+
+                    if (pai->meio->dir != nullptr) 
+                        pai->meio->dir->pai = pai->meio;
+                }
+                else {
+                    excluido->chaveEsq = pai->meio->chaveEsq;
+                    excluido->valorEsq = pai->meio->valorEsq;
+
+                    excluido->chaveDir = pai->chaveDir;
+                    excluido->valorDir = pai->valorDir;
+
+                    pai->tres = false;
+                    excluido->tres = true;
+
+                    excluido->dir = atual;
+
+                    if (excluido->dir != nullptr)
+                        excluido->dir->pai = excluido;
+                    
+                    excluido->meio = pai->meio->dir;
+
+                    if (excluido->meio != nullptr)
+                        excluido->meio->pai = excluido;
+
+                    excluido->esq = pai->meio->esq;
+
+                    if (excluido->esq)
+                        excluido->esq->pai = excluido;
+
+                    delete [] pai->meio;
+                }
+
+            }
+
+            break;
+        }
+        else {
+            if (pai->esq == excluido) {
+                if (pai->dir->tres) {
+                    
+                    excluido->chaveEsq = pai->chaveEsq;
+                    excluido->valorEsq = pai->valorEsq;
+
+                    pai->chaveEsq = pai->dir->chaveEsq;
+                    pai->chaveEsq = pai->dir->valorEsq;
+
+                    pai->dir->chaveEsq = pai->chaveDir;
+                    pai->dir->valorEsq = pai->valorEsq;
+
+                    pai->dir->tres = false;
+
+                    excluido->esq = atual;
+
+                    if (excluido->esq != nullptr)
+                        excluido->esq->pai = excluido;
+                    
+                    excluido->dir = pai->dir->esq;
+
+                    if (excluido->dir != nullptr)
+                        excluido->dir->pai = excluido;
+
+                    pai->dir->esq = pai->dir->meio;
+                    
+                    if (pai->dir->esq != nullptr)
+                        pai->dir->esq->pai = pai->dir;
+                    
+                    break;
+                }
+                else {
+                    excluido->chaveEsq = pai->chaveEsq;
+                    excluido->valorEsq = pai->valorEsq;
+
+                    excluido->chaveDir = pai->dir->chaveEsq;
+                    excluido->valorDir = pai->dir->valorEsq;
+
+                    excluido->tres = true;
+
+                    excluido->esq = atual;
+                    
+                    if (excluido->esq != nullptr)
+                        excluido->esq->pai = excluido;
+
+                    excluido->meio = pai->dir->esq;
+
+                    if (excluido->meio != nullptr) {
+                        excluido->meio->pai = excluido;
+                    }
+
+                    excluido->dir = pai->dir->dir;
+                    
+                    if (excluido->dir != nullptr)
+                        excluido->dir->pai = excluido;
+
+                    atual = excluido;
+                    excluido = pai;
+
+                    delete [] excluido->dir;
+                    
+                    excluido->dir = nullptr;
+                    excluido->esq = nullptr;
+                    atual->pai = nullptr;
+                }
+            }
+            else {
+                if (pai->esq->tres) {
+
+                    excluido->chaveEsq = pai->chaveEsq;
+                    excluido->valorEsq = pai->valorEsq;
+
+                    pai->chaveEsq = pai->esq->chaveDir;
+                    pai->valorEsq = pai->esq->valorDir;
+
+                    pai->esq->tres = false;
+
+                    excluido->dir = atual;
+                    
+                    if (excluido->dir != nullptr)
+                        excluido->dir->pai = excluido;
+
+                    excluido->esq = pai->esq->dir;
+
+                    if (excluido->esq != nullptr)
+                        excluido->esq->pai = excluido;
+                    
+                    pai->esq->dir = pai->esq->meio;
+                    
+                    if (pai->esq->dir != nullptr)
+                        pai->esq->dir->pai = pai->esq;
+
+                    break;
+                }
+                else {
+                    pai->esq->chaveDir = pai->chaveEsq;
+                    pai->esq->valorDir = pai->valorEsq;
+
+                    pai->esq->tres = true;
+
+                    pai->esq->meio = pai->esq->dir;
+                    
+                    if (pai->esq->meio != nullptr)
+                        pai->esq->meio->pai = pai->esq;
+                    
+                    pai->esq->dir = atual;
+
+                    if (pai->esq->dir != nullptr)
+                        pai->esq->dir->pai = pai->esq;
+                    
+                    delete [] excluido;
+
+                    atual = pai->esq;
+                    excluido = pai;
+                    
+                    excluido->esq = nullptr;
+                    excluido->dir = nullptr;
+                    atual->pai = nullptr;
+                }
+            }
+        }
+        
+      }
+
+}
 
 template <class Chave, class Item>
 int arvore23<Chave, Item>::rank(Chave chave){
