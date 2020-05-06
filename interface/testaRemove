@@ -2,15 +2,16 @@
 
 make
 make testando
-./unit_test thecinnamoncub.txt AB < entradaRemove.txt > AB.txt
-./unit_test thecinnamoncub.txt RN < entradaRemove.txt > RN.txt
-./unit_test thecinnamoncub.txt VO < entradaRemove.txt > VO.txt
-./unit_test thecinnamoncub.txt TR < entradaRemove.txt > TR.txt
-./unit_test thecinnamoncub.txt LO < entradaRemove.txt > LO.txt
-./unit_test thecinnamoncub.txt LD < entradaRemove.txt > LD.txt
-./unit_test thecinnamoncub.txt VD < entradaRemove.txt > VD.txt
-./unit_test thecinnamoncub.txt HS < entradaRemove.txt > HS.txt
-./unit_test thecinnamoncub.txt A23 < entradaRemove.txt > A23.txt
+
+valgrind --leak-check=full ./unit_test cassilds.txt AB < entradaRemove.txt > AB.txt
+valgrind --leak-check=full ./unit_test cassilds.txt RN < entradaRemove.txt > RN.txt
+valgrind --leak-check=full ./unit_test cassilds.txt VO < entradaRemove.txt > VO.txt
+valgrind --leak-check=full ./unit_test cassilds.txt TR < entradaRemove.txt > TR.txt
+valgrind --leak-check=full ./unit_test cassilds.txt LO < entradaRemove.txt > LO.txt
+valgrind --leak-check=full ./unit_test cassilds.txt LD < entradaRemove.txt > LD.txt
+valgrind --leak-check=full ./unit_test cassilds.txt VD < entradaRemove.txt > VD.txt
+valgrind --leak-check=full ./unit_test cassilds.txt HS < entradaRemove.txt > HS.txt
+valgrind --leak-check=full ./unit_test cassilds.txt A23 < entradaRemove.txt > A23.txt
 
 
 ./testando < teste1.txt
