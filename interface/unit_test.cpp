@@ -205,6 +205,8 @@ template <class ST>
 void 
 testeOperacoes(ST st)
 {
+    clock_t start, end; 
+    double elapsed = 0;
     string linha;
     /* mostre uso */
     cout << "Possiveis operacoes do teste interativo:\n";
@@ -220,16 +222,23 @@ testeOperacoes(ST st)
         }
         /*---------------------------------*/
         else if (operacao == MIN_ST) {
+            start = clock();
             string key = st->seleciona(0);
+            end = clock();
+            elapsed = (double (end - start)/ CLOCKS_PER_SEC);
+
             if (key == "") {
                 cout << "ST vazia\n";
             } else {
                 cout << key << "\n";
             }
+            cout << "minST executado em " << elapsed << "segundos." << endl;
         }
         /*---------------------------------*/
         else if (operacao == DELMIN_ST) {
+            start = clock();
             string key = st->seleciona(0);
+            
             if (key == "") {
                 cout << "ST já está vazia\n";
             } else {
@@ -237,6 +246,9 @@ testeOperacoes(ST st)
                 st->remove(key);
                 cout << "\" foi removida\n";
             }
+            end = clock();
+            elapsed = (double (end - start)/ CLOCKS_PER_SEC);
+            cout << "delminST executado em " << elapsed << "segundos." << endl;
         }
         /*---------------------------------*/
         else if (operacao == "printST") {
@@ -252,32 +264,61 @@ testeOperacoes(ST st)
             /*---------------------------------*/
             else if (operacao == GET_ST) {
                 int frequencia = -1;
+                start = clock();
                 frequencia = st->devolve(key); /* consulte a ST */
+                end = clock();
+                elapsed = (double (end - start)/ CLOCKS_PER_SEC);
                 /* mostre o resultado da consulta */
                 if (frequencia == -1) {
                     cout << key << ": 0\n";
                 } else {
                     cout << key << ": " << frequencia << "\n";
                 }
+                cout << "getST executado em " << elapsed << "segundos." << endl;
             }
             /*---------------------------------*/
             else if (operacao == RANK_ST) {
+                start = clock();
                 int r = st->rank(key);
+                end = clock();
+                elapsed = (double (end - start)/ CLOCKS_PER_SEC);
                 cout << r << "\n";
+                cout << "rankST executado em " << elapsed << "segundos." << endl;
             }
             /*---------------------------------*/
             else if (operacao == DELETE_ST) {
+                start = clock();                
                 st->remove(key);
+                end = clock();
+                elapsed = (double (end - start)/ CLOCKS_PER_SEC);             
                 cout << "\"" << key << "\" foi removida\n";
+                cout << "deleteST executado em " << elapsed << "segundos." << endl;
             }
             else if (operacao == SELECT_ST) {
                 int pos = stoi(key);
+                start = clock();
                 string chave = st->seleciona(pos);
+                end = clock();
+                elapsed = (double (end - start)/ CLOCKS_PER_SEC); 
                 cout << "Posição " << pos << " = " << chave << "\n";
+                cout << "selectST executado em " << elapsed << "segundos." << endl;
+            }
+            else if (operacao == "insertST") {
+                int valor;
+                if (!(stream >> valor)) {
+                    ERROR(operacao necessita um numero);
+                }
+                else {
+                    start = clock();
+                    st->insere(key, valor);
+                    end = clock();
+                    elapsed = (double (end - start)/ CLOCKS_PER_SEC);
+                    cout << "insertST executado em " << elapsed << "segundos." << endl;
+                }
             }
             else {
                 ERROR(operacao nao reconhecida);
-            }   
+            }
         }
         PROMPT;
     }

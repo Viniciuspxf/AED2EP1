@@ -16,7 +16,7 @@ int main() {
     int i = 0;
 
     while (getline(arquivo1, linha1) && getline(arquivo2, linha2)) {
-        if (linha1 != linha2) {
+        if (linha1 != linha2 && linha1.find("executado") != string::npos) {
             cout << "linha " << i << endl;
             cout << "linha do arquivo 1: " << linha1 << endl;
             cout << "linha do arquivo 2: " << linha2 << endl;

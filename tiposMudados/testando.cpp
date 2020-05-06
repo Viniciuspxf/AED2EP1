@@ -4,7 +4,6 @@ using namespace std;
 
 int main() {
     string caracteres;
-    cin >> caracteres;
-    cout << *caracteres << endl;
+    while (getline(cin, caracteres))
     return 0;
 }

@@ -1,0 +1,23 @@
+#!/bin/bash
+
+make
+make testando
+./unit_test thecinnamoncub.txt AB < entradaDevolve.txt > AB.txt
+./unit_test thecinnamoncub.txt RN < entradaDevolve.txt > RN.txt
+./unit_test thecinnamoncub.txt VO < entradaDevolve.txt > VO.txt
+./unit_test thecinnamoncub.txt TR < entradaDevolve.txt > TR.txt
+./unit_test thecinnamoncub.txt LO < entradaDevolve.txt > LO.txt
+./unit_test thecinnamoncub.txt LD < entradaDevolve.txt > LD.txt
+./unit_test thecinnamoncub.txt VD < entradaDevolve.txt > VD.txt
+./unit_test thecinnamoncub.txt HS < entradaDevolve.txt > HS.txt
+./unit_test thecinnamoncub.txt A23 < entradaDevolve.txt > A23.txt
+
+
+./testando < teste1.txt
+./testando < teste2.txt
+./testando < teste3.txt
+./testando < teste4.txt
+./testando < teste5.txt
+./testando < teste6.txt
+./testando < teste7.txt
+./testando < teste8.txt
