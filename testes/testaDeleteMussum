@@ -1,0 +1,24 @@
+#!/bin/bash
+
+make
+make testando
+
+valgrind --leak-check=full ./unit_test mussum.txt AB < entradaDeleteMussum.txt > AB.txt
+valgrind --leak-check=full ./unit_test mussum.txt RN < entradaDeleteMussum.txt > RN.txt
+valgrind --leak-check=full ./unit_test mussum.txt VO < entradaDeleteMussum.txt > VO.txt
+valgrind --leak-check=full ./unit_test mussum.txt TR < entradaDeleteMussum.txt > TR.txt
+valgrind --leak-check=full ./unit_test mussum.txt LO < entradaDeleteMussum.txt > LO.txt
+valgrind --leak-check=full ./unit_test mussum.txt LD < entradaDeleteMussum.txt > LD.txt
+valgrind --leak-check=full ./unit_test mussum.txt VD < entradaDeleteMussum.txt > VD.txt
+valgrind --leak-check=full ./unit_test mussum.txt HS < entradaDeleteMussum.txt > HS.txt
+valgrind --leak-check=full ./unit_test mussum.txt A23 < entradaDeleteMussum.txt > A23.txt
+
+
+./testando < teste1.txt
+./testando < teste2.txt
+./testando < teste3.txt
+./testando < teste4.txt
+./testando < teste5.txt
+./testando < teste6.txt
+./testando < teste7.txt
+./testando < teste8.txt

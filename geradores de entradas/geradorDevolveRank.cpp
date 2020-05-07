@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     string chave, linha, comando;
     int n, i;
-    comando = "rankST ";
+    comando = "deleteST ";
     while (getline(cin, linha)) {
         stringstream stream(linha);
         stream >> chave;

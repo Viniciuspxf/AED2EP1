@@ -1,0 +1,550 @@
+criando ST...
+arquivo lido e ST construida em 1.03747 segundos
+Possiveis operacoes do teste interativo:
+minST, delminST, getST <chave>; rankST <chave>, deleteST <chave>, selectST <int>
+CRTL-D para encerrar.
+>>> "A" foi removida
+deleteST executado em 0.001556 segundos.
+>>> "Admodum" foi removida
+deleteST executado em 0.000113 segundos.
+>>> "Aenean" foi removida
+deleteST executado em 0.000145 segundos.
+>>> "Atirei" foi removida
+deleteST executado em 0.000111 segundos.
+>>> "Casamentiss" foi removida
+deleteST executado em 0.000151 segundos.
+>>> "Cevadis" foi removida
+deleteST executado em 0.000119 segundos.
+>>> "Copo" foi removida
+deleteST executado em 0.000118 segundos.
+>>> "Delegadis" foi removida
+deleteST executado em 0.000151 segundos.
+>>> "Detraxit" foi removida
+deleteST executado em 9.8e-05 segundos.
+>>> "Diuretics" foi removida
+deleteST executado em 8.7e-05 segundos.
+>>> "Em" foi removida
+deleteST executado em 7.7e-05 segundos.
+>>> "Forevis" foi removida
+deleteST executado em 0.000102 segundos.
+>>> "In" foi removida
+deleteST executado em 8e-05 segundos.
+>>> "Interagi" foi removida
+deleteST executado em 9.4e-05 segundos.
+>>> "Interessantiss" foi removida
+deleteST executado em 7.3e-05 segundos.
+>>> "Ipsum" foi removida
+deleteST executado em 0.000151 segundos.
+>>> "Leite" foi removida
+deleteST executado em 8.9e-05 segundos.
+>>> "Mais" foi removida
+deleteST executado em 7.7e-05 segundos.
+>>> "Manduma" foi removida
+deleteST executado em 0.00014 segundos.
+>>> "Mauris" foi removida
+deleteST executado em 0.000139 segundos.
+>>> "Mussum" foi removida
+deleteST executado em 0.000146 segundos.
+>>> "Mé" foi removida
+deleteST executado em 0.000133 segundos.
+>>> "Nam" foi removida
+deleteST executado em 0.000123 segundos.
+>>> "Nec" foi removida
+deleteST executado em 6.6e-05 segundos.
+>>> "Nullam" foi removida
+deleteST executado em 0.000101 segundos.
+>>> "Não" foi removida
+deleteST executado em 8.3e-05 segundos.
+>>> "Paisis" foi removida
+deleteST executado em 0.000124 segundos.
+>>> "Per" foi removida
+deleteST executado em 9.1e-05 segundos.
+>>> "Posuere" foi removida
+deleteST executado em 0.000102 segundos.
+>>> "Pra" foi removida
+deleteST executado em 0.000102 segundos.
+>>> "Praesent" foi removida
+deleteST executado em 0.000117 segundos.
+>>> "Quem" foi removida
+deleteST executado em 0.000115 segundos.
+>>> "Sapien" foi removida
+deleteST executado em 7.7e-05 segundos.
+>>> "Sed" foi removida
+deleteST executado em 6.2e-05 segundos.
+>>> "Si" foi removida
+deleteST executado em 0.000124 segundos.
+>>> "Suco" foi removida
+deleteST executado em 8.7e-05 segundos.
+>>> "Todo" foi removida
+deleteST executado em 6.7e-05 segundos.
+>>> "Toma" foi removida
+deleteST executado em 9.8e-05 segundos.
+>>> "Tá" foi removida
+deleteST executado em 0.000119 segundos.
+>>> "Ut" foi removida
+deleteST executado em 0.000107 segundos.
+>>> "Vehicula" foi removida
+deleteST executado em 0.000109 segundos.
+>>> "Vide" foi removida
+deleteST executado em 9.2e-05 segundos.
+>>> "Viva" foi removida
+deleteST executado em 9e-05 segundos.
+>>> "Vivamus" foi removida
+deleteST executado em 0.000112 segundos.
+>>> "a" foi removida
+deleteST executado em 9.4e-05 segundos.
+>>> "abertis" foi removida
+deleteST executado em 0.000133 segundos.
+>>> "ac" foi removida
+deleteST executado em 8.3e-05 segundos.
+>>> "accumsan" foi removida
+deleteST executado em 9e-05 segundos.
+>>> "ad" foi removida
+deleteST executado em 8.7e-05 segundos.
+>>> "aguis" foi removida
+deleteST executado em 7.5e-05 segundos.
+>>> "alcoolatra" foi removida
+deleteST executado em 6.8e-05 segundos.
+>>> "alegrar" foi removida
+deleteST executado em 0.00011 segundos.
+>>> "aliquam" foi removida
+deleteST executado em 0.000118 segundos.
+>>> "aliquet" foi removida
+deleteST executado em 7.9e-05 segundos.
+>>> "altera" foi removida
+deleteST executado em 0.000125 segundos.
+>>> "amet" foi removida
+deleteST executado em 9.7e-05 segundos.
+>>> "amistosis" foi removida
+deleteST executado em 6.8e-05 segundos.
+>>> "ampola" foi removida
+deleteST executado em 9.6e-05 segundos.
+>>> "anonimis" foi removida
+deleteST executado em 6.7e-05 segundos.
+>>> "ante" foi removida
+deleteST executado em 8.6e-05 segundos.
+>>> "aptent" foi removida
+deleteST executado em 8.3e-05 segundos.
+>>> "arcu" foi removida
+deleteST executado em 0.00012 segundos.
+>>> "arma" foi removida
+deleteST executado em 9.4e-05 segundos.
+>>> "as" foi removida
+deleteST executado em 5.3e-05 segundos.
+>>> "augue" foi removida
+deleteST executado em 0.000117 segundos.
+>>> "aumento" foi removida
+deleteST executado em 7.8e-05 segundos.
+>>> "aí" foi removida
+deleteST executado em 0.000105 segundos.
+>>> "bebadis" foi removida
+deleteST executado em 9e-05 segundos.
+>>> "bibendum" foi removida
+deleteST executado em 0.000117 segundos.
+>>> "blandit" foi removida
+deleteST executado em 8.3e-05 segundos.
+>>> "boa" foi removida
+deleteST executado em 0.004352 segundos.
+>>> "bolis" foi removida
+deleteST executado em 5.7e-05 segundos.
+>>> "bota" foi removida
+deleteST executado em 0.000102 segundos.
+>>> "cabeça" foi removida
+deleteST executado em 7.1e-05 segundos.
+>>> "cachacis" foi removida
+deleteST executado em 0.000101 segundos.
+>>> "cacilds" foi removida
+deleteST executado em 0.000134 segundos.
+>>> "cair" foi removida
+deleteST executado em 6.1e-05 segundos.
+>>> "capivaris" foi removida
+deleteST executado em 7.2e-05 segundos.
+>>> "caçá" foi removida
+deleteST executado em 9.2e-05 segundos.
+>>> "ce" foi removida
+deleteST executado em 5.5e-05 segundos.
+>>> "cevadiss" foi removida
+deleteST executado em 6.6e-05 segundos.
+>>> "cochilar" foi removida
+deleteST executado em 6.1e-05 segundos.
+>>> "commodo" foi removida
+deleteST executado em 0.000101 segundos.
+>>> "conhecidiss" foi removida
+deleteST executado em 6e-05 segundos.
+>>> "conheço" foi removida
+deleteST executado em 9.6e-05 segundos.
+>>> "consectetur" foi removida
+deleteST executado em 5.1e-05 segundos.
+>>> "consequat" foi removida
+deleteST executado em 7e-05 segundos.
+>>> "copo" foi removida
+deleteST executado em 6.4e-05 segundos.
+>>> "cumpadi" foi removida
+deleteST executado em 9.5e-05 segundos.
+>>> "cursus" foi removida
+deleteST executado em 6.9e-05 segundos.
+>>> "dapibus" foi removida
+deleteST executado em 8.8e-05 segundos.
+>>> "de" foi removida
+deleteST executado em 8.1e-05 segundos.
+>>> "deitado" foi removida
+deleteST executado em 5.6e-05 segundos.
+>>> "deixa" foi removida
+deleteST executado em 4.6e-05 segundos.
+>>> "denguis" foi removida
+deleteST executado em 6e-05 segundos.
+>>> "depois" foi removida
+deleteST executado em 7.6e-05 segundos.
+>>> "deprimidis" foi removida
+deleteST executado em 9.2e-05 segundos.
+>>> "di" foi removida
+deleteST executado em 8.6e-05 segundos.
+>>> "dia" foi removida
+deleteST executado em 9.7e-05 segundos.
+>>> "diam" foi removida
+deleteST executado em 4.6e-05 segundos.
+>>> "disculpa" foi removida
+deleteST executado em 7.7e-05 segundos.
+>>> "disputationi" foi removida
+deleteST executado em 6.9e-05 segundos.
+>>> "divinis" foi removida
+deleteST executado em 5.9e-05 segundos.
+>>> "divoltis" foi removida
+deleteST executado em 7.2e-05 segundos.
+>>> "dolor" foi removida
+deleteST executado em 9.2e-05 segundos.
+>>> "dormir" foi removida
+deleteST executado em 5.2e-05 segundos.
+>>> "dos" foi removida
+deleteST executado em 9.8e-05 segundos.
+>>> "duris" foi removida
+deleteST executado em 9.5e-05 segundos.
+>>> "e" foi removida
+deleteST executado em 5.7e-05 segundos.
+>>> "egestas" foi removida
+deleteST executado em 9.5e-05 segundos.
+>>> "eget" foi removida
+deleteST executado em 6.7e-05 segundos.
+>>> "electram" foi removida
+deleteST executado em 6.6e-05 segundos.
+>>> "elementis" foi removida
+deleteST executado em 5.3e-05 segundos.
+>>> "elementum" foi removida
+deleteST executado em 8.4e-05 segundos.
+>>> "então" foi removida
+deleteST executado em 8.3e-05 segundos.
+>>> "erat" foi removida
+deleteST executado em 7.9e-05 segundos.
+>>> "eros" foi removida
+deleteST executado em 8.8e-05 segundos.
+>>> "espiritis" foi removida
+deleteST executado em 7.5e-05 segundos.
+>>> "est" foi removida
+deleteST executado em 8.9e-05 segundos.
+>>> "et" foi removida
+deleteST executado em 6.3e-05 segundos.
+>>> "eu" foi removida
+deleteST executado em 8.1e-05 segundos.
+>>> "euismod" foi removida
+deleteST executado em 7e-05 segundos.
+>>> "euzis" foi removida
+deleteST executado em 6.3e-05 segundos.
+>>> "ex" foi removida
+deleteST executado em 7e-05 segundos.
+>>> "faixa" foi removida
+deleteST executado em 5.4e-05 segundos.
+>>> "faiz" foi removida
+deleteST executado em 8.6e-05 segundos.
+>>> "fazendo" foi removida
+deleteST executado em 4.8e-05 segundos.
+>>> "felis" foi removida
+deleteST executado em 4e-05 segundos.
+>>> "fermentis" foi removida
+deleteST executado em 5.2e-05 segundos.
+>>> "filhis" foi removida
+deleteST executado em 6.9e-05 segundos.
+>>> "finis" foi removida
+deleteST executado em 8.1e-05 segundos.
+>>> "furadis" foi removida
+deleteST executado em 6.5e-05 segundos.
+>>> "gatis" foi removida
+deleteST executado em 5.6e-05 segundos.
+>>> "gente" foi removida
+deleteST executado em 8.1e-05 segundos.
+>>> "gentis" foi removida
+deleteST executado em 6.9e-05 segundos.
+>>> "girarzis" foi removida
+deleteST executado em 7.5e-05 segundos.
+>>> "gosta" foi removida
+deleteST executado em 6.9e-05 segundos.
+>>> "gostis" foi removida
+deleteST executado em 3.9e-05 segundos.
+>>> "hendrerit" foi removida
+deleteST executado em 7e-05 segundos.
+>>> "i" foi removida
+deleteST executado em 4.5e-05 segundos.
+>>> "iaculis" foi removida
+deleteST executado em 7.4e-05 segundos.
+>>> "im" foi removida
+deleteST executado em 6.2e-05 segundos.
+>>> "in" foi removida
+deleteST executado em 7.4e-05 segundos.
+>>> "inteiris" foi removida
+deleteST executado em 4.7e-05 segundos.
+>>> "interdum" foi removida
+deleteST executado em 6.1e-05 segundos.
+>>> "interessantis" foi removida
+deleteST executado em 3.4e-05 segundos.
+>>> "ipsum" foi removida
+deleteST executado em 3.6e-05 segundos.
+>>> "lacinia" foi removida
+deleteST executado em 3.6e-05 segundos.
+>>> "laoreet" foi removida
+deleteST executado em 3.5e-05 segundos.
+>>> "latim" foi removida
+deleteST executado em 4.2e-05 segundos.
+>>> "leite" foi removida
+deleteST executado em 6.6e-05 segundos.
+>>> "leo" foi removida
+deleteST executado em 6.7e-05 segundos.
+>>> "levo" foi removida
+deleteST executado em 3.6e-05 segundos.
+>>> "libero" foi removida
+deleteST executado em 5.4e-05 segundos.
+>>> "litora" foi removida
+deleteST executado em 4.9e-05 segundos.
+>>> "litro" foi removida
+deleteST executado em 7.2e-05 segundos.
+>>> "lupuliz" foi removida
+deleteST executado em 4.2e-05 segundos.
+>>> "lá" foi removida
+deleteST executado em 5.2e-05 segundos.
+>>> "magna" foi removida
+deleteST executado em 5.5e-05 segundos.
+>>> "mais" foi removida
+deleteST executado em 3.4e-05 segundos.
+>>> "malandris" foi removida
+deleteST executado em 6.7e-05 segundos.
+>>> "malesuada" foi removida
+deleteST executado em 5.9e-05 segundos.
+>>> "manda" foi removida
+deleteST executado em 5e-05 segundos.
+>>> "manquis" foi removida
+deleteST executado em 4.1e-05 segundos.
+>>> "mas" foi removida
+deleteST executado em 3.4e-05 segundos.
+>>> "matis" foi removida
+deleteST executado em 4e-05 segundos.
+>>> "mim" foi removida
+deleteST executado em 5.4e-05 segundos.
+>>> "minha" foi removida
+deleteST executado em 4.6e-05 segundos.
+>>> "molestie" foi removida
+deleteST executado em 5.9e-05 segundos.
+>>> "monti" foi removida
+deleteST executado em 3.7e-05 segundos.
+>>> "morreus" foi removida
+deleteST executado em 4.3e-05 segundos.
+>>> "motivis" foi removida
+deleteST executado em 3.7e-05 segundos.
+>>> "muito" foi removida
+deleteST executado em 4.7e-05 segundos.
+>>> "mula" foi removida
+deleteST executado em 3.9e-05 segundos.
+>>> "mundo" foi removida
+deleteST executado em 4.6e-05 segundos.
+>>> "mé" foi removida
+deleteST executado em 4.9e-05 segundos.
+>>> "na" foi removida
+deleteST executado em 4.4e-05 segundos.
+>>> "nada" foi removida
+deleteST executado em 4e-05 segundos.
+>>> "nadis" foi removida
+deleteST executado em 3.5e-05 segundos.
+>>> "nec" foi removida
+deleteST executado em 5.5e-05 segundos.
+>>> "nibh" foi removida
+deleteST executado em 4.6e-05 segundos.
+>>> "ninguém" foi removida
+deleteST executado em 3.1e-05 segundos.
+>>> "nisi" foi removida
+deleteST executado em 5.2e-05 segundos.
+>>> "nisl" foi removida
+deleteST executado em 5.9e-05 segundos.
+>>> "no" foi removida
+deleteST executado em 3.8e-05 segundos.
+>>> "nois" foi removida
+deleteST executado em 5.1e-05 segundos.
+>>> "non" foi removida
+deleteST executado em 4.6e-05 segundos.
+>>> "num" foi removida
+deleteST executado em 4.7e-05 segundos.
+>>> "nunc" foi removida
+deleteST executado em 3.5e-05 segundos.
+>>> "não" foi removida
+deleteST executado em 5.2e-05 segundos.
+>>> "o" foi removida
+deleteST executado em 5.1e-05 segundos.
+>>> "odio" foi removida
+deleteST executado em 2.5e-05 segundos.
+>>> "orci" foi removida
+deleteST executado em 2.6e-05 segundos.
+>>> "ordem" foi removida
+deleteST executado em 5.1e-05 segundos.
+>>> "ornare" foi removida
+deleteST executado em 2.5e-05 segundos.
+>>> "os" foi removida
+deleteST executado em 2.6e-05 segundos.
+>>> "pa" foi removida
+deleteST executado em 3.8e-05 segundos.
+>>> "paga" foi removida
+deleteST executado em 4.6e-05 segundos.
+>>> "palavris" foi removida
+deleteST executado em 3e-05 segundos.
+>>> "paradis" foi removida
+deleteST executado em 3.6e-05 segundos.
+>>> "pareci" foi removida
+deleteST executado em 2.8e-05 segundos.
+>>> "pau" foi removida
+deleteST executado em 3.2e-05 segundos.
+>>> "per" foi removida
+deleteST executado em 3.4e-05 segundos.
+>>> "pessoas" foi removida
+deleteST executado em 2.1e-05 segundos.
+>>> "pindureta" foi removida
+deleteST executado em 4.3e-05 segundos.
+>>> "pinga" foi removida
+deleteST executado em 3.9e-05 segundos.
+>>> "pirulitá" foi removida
+deleteST executado em 4.2e-05 segundos.
+>>> "pode" foi removida
+deleteST executado em 3.9e-05 segundos.
+>>> "porris" foi removida
+deleteST executado em 3.3e-05 segundos.
+>>> "pose" foi removida
+deleteST executado em 2.3e-05 segundos.
+>>> "pra" foi removida
+deleteST executado em 2.5e-05 segundos.
+>>> "preta" foi removida
+deleteST executado em 2.8e-05 segundos.
+>>> "preto" foi removida
+deleteST executado em 2.5e-05 segundos.
+>>> "pudia" foi removida
+deleteST executado em 2e-05 segundos.
+>>> "pão" foi removida
+deleteST executado em 4.7e-05 segundos.
+>>> "pé" foi removida
+deleteST executado em 2.2e-05 segundos.
+>>> "quam" foi removida
+deleteST executado em 2.9e-05 segundos.
+>>> "que" foi removida
+deleteST executado em 3.3e-05 segundos.
+>>> "quem" foi removida
+deleteST executado em 2.2e-05 segundos.
+>>> "qui" foi removida
+deleteST executado em 2.1e-05 segundos.
+>>> "quis" foi removida
+deleteST executado em 3.2e-05 segundos.
+>>> "quisso" foi removida
+deleteST executado em 1.9e-05 segundos.
+>>> "quium" foi removida
+deleteST executado em 3.3e-05 segundos.
+>>> "quo" foi removida
+deleteST executado em 2.4e-05 segundos.
+>>> "receita" foi removida
+deleteST executado em 1.8e-05 segundos.
+>>> "reclamis" foi removida
+deleteST executado em 2.3e-05 segundos.
+>>> "risus" foi removida
+deleteST executado em 1.6e-05 segundos.
+>>> "sadipscing" foi removida
+deleteST executado em 2.3e-05 segundos.
+>>> "santis" foi removida
+deleteST executado em 2.6e-05 segundos.
+>>> "scelerisque" foi removida
+deleteST executado em 2e-05 segundos.
+>>> "se" foi removida
+deleteST executado em 2.9e-05 segundos.
+>>> "sed" foi removida
+deleteST executado em 2.4e-05 segundos.
+>>> "sem" foi removida
+deleteST executado em 1.8e-05 segundos.
+>>> "sentado" foi removida
+deleteST executado em 1.7e-05 segundos.
+>>> "significa" foi removida
+deleteST executado em 1.8e-05 segundos.
+>>> "sit" foi removida
+deleteST executado em 2.2e-05 segundos.
+>>> "sociosqu" foi removida
+deleteST executado em 1.9e-05 segundos.
+>>> "sou" foi removida
+deleteST executado em 1.8e-05 segundos.
+>>> "sua" foi removida
+deleteST executado em 2.3e-05 segundos.
+>>> "taciti" foi removida
+deleteST executado em 1.8e-05 segundos.
+>>> "tellus" foi removida
+deleteST executado em 2e-05 segundos.
+>>> "tem" foi removida
+deleteST executado em 2.1e-05 segundos.
+>>> "tempor" foi removida
+deleteST executado em 2.2e-05 segundos.
+>>> "tendi" foi removida
+deleteST executado em 1.7e-05 segundos.
+>>> "terra" foi removida
+deleteST executado em 1.6e-05 segundos.
+>>> "tombis" foi removida
+deleteST executado em 1.3e-05 segundos.
+>>> "tomo" foi removida
+deleteST executado em 1.3e-05 segundos.
+>>> "torquent" foi removida
+deleteST executado em 1.5e-05 segundos.
+>>> "tratores" foi removida
+deleteST executado em 1.9e-05 segundos.
+>>> "tristique" foi removida
+deleteST executado em 1.6e-05 segundos.
+>>> "turmis" foi removida
+deleteST executado em 1.5e-05 segundos.
+>>> "turpis" foi removida
+deleteST executado em 1.3e-05 segundos.
+>>> "tá" foi removida
+deleteST executado em 1.4e-05 segundos.
+>>> "u" foi removida
+deleteST executado em 1.3e-05 segundos.
+>>> "ultrices" foi removida
+deleteST executado em 1e-05 segundos.
+>>> "um" foi removida
+deleteST executado em 1.3e-05 segundos.
+>>> "uma" foi removida
+deleteST executado em 1.5e-05 segundos.
+>>> "urna" foi removida
+deleteST executado em 1.4e-05 segundos.
+>>> "ut" foi removida
+deleteST executado em 1.4e-05 segundos.
+>>> "vai" foi removida
+deleteST executado em 1.2e-05 segundos.
+>>> "vale" foi removida
+deleteST executado em 1e-05 segundos.
+>>> "varius" foi removida
+deleteST executado em 1.1e-05 segundos.
+>>> "vehicula" foi removida
+deleteST executado em 1e-05 segundos.
+>>> "vel" foi removida
+deleteST executado em 1e-05 segundos.
+>>> "vermeio" foi removida
+deleteST executado em 1e-05 segundos.
+>>> "vidis" foi removida
+deleteST executado em 1.1e-05 segundos.
+>>> "vitae" foi removida
+deleteST executado em 1e-05 segundos.
+>>> "viverra" foi removida
+deleteST executado em 8e-06 segundos.
+>>> "volutpat" foi removida
+deleteST executado em 9e-06 segundos.
+>>> "vulputate" foi removida
+deleteST executado em 8e-06 segundos.
+>>> "vê" foi removida
+deleteST executado em 7e-06 segundos.
+>>> "é" foi removida
+deleteST executado em 6e-06 segundos.
+>>> 

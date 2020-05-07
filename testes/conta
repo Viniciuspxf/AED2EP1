@@ -1,0 +1,11 @@
+#!/bin/bash
+
+./contador < AB.txt > testesDeTempo/ABRankCinnamon.txt
+./contador < A23.txt > testesDeTempo/A23RankCinnamon.txt
+./contador < TR.txt > testesDeTempo/TRRankCinnamon.txt
+./contador < RN.txt > testesDeTempo/RNRankCinnamon.txt
+./contador < VO.txt > testesDeTempo/VORankCinnamon.txt
+./contador < VD.txt > testesDeTempo/VDRankCinnamon.txt
+./contador < LO.txt > testesDeTempo/LORankCinnamon.txt
+./contador < LD.txt > testesDeTempo/LDRankCinnamon.txt
+./contador < HS.txt > testesDeTempo/HSRankCinnamon.txt
