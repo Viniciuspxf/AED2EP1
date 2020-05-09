@@ -1953,7 +1953,8 @@ void arvore23<Chave, Item>::remove(Chave chave){
         pai = excluido->pai;
         if (pai == nullptr) {
             raiz = atual;
-            atual->pai = nullptr;
+            if (atual != nullptr)
+                atual->pai = nullptr;
             delete [] excluido;
             break;
         }

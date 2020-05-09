@@ -1,0 +1,550 @@
+criando ST...
+arquivo lido e ST construida em 0.006287 segundos
+Possiveis operacoes do teste interativo:
+minST, delminST, getST <chave>; rankST <chave>, deleteST <chave>, selectST <int>
+CRTL-D para encerrar.
+>>> 0
+rankST executado em 4.7e-05 segundos.
+>>> 1
+rankST executado em 3.1e-05 segundos.
+>>> 2
+rankST executado em 3.1e-05 segundos.
+>>> 3
+rankST executado em 3.1e-05 segundos.
+>>> 4
+rankST executado em 3.2e-05 segundos.
+>>> 5
+rankST executado em 3.2e-05 segundos.
+>>> 6
+rankST executado em 3e-05 segundos.
+>>> 7
+rankST executado em 3.2e-05 segundos.
+>>> 8
+rankST executado em 3.2e-05 segundos.
+>>> 9
+rankST executado em 3.2e-05 segundos.
+>>> 10
+rankST executado em 2.9e-05 segundos.
+>>> 11
+rankST executado em 3.2e-05 segundos.
+>>> 12
+rankST executado em 2.9e-05 segundos.
+>>> 13
+rankST executado em 3.2e-05 segundos.
+>>> 14
+rankST executado em 3.2e-05 segundos.
+>>> 15
+rankST executado em 3.1e-05 segundos.
+>>> 16
+rankST executado em 3.1e-05 segundos.
+>>> 17
+rankST executado em 3.1e-05 segundos.
+>>> 18
+rankST executado em 4.8e-05 segundos.
+>>> 19
+rankST executado em 3.5e-05 segundos.
+>>> 20
+rankST executado em 5.3e-05 segundos.
+>>> 21
+rankST executado em 3e-05 segundos.
+>>> 22
+rankST executado em 3e-05 segundos.
+>>> 23
+rankST executado em 3e-05 segundos.
+>>> 24
+rankST executado em 3.1e-05 segundos.
+>>> 25
+rankST executado em 3.1e-05 segundos.
+>>> 26
+rankST executado em 3.2e-05 segundos.
+>>> 27
+rankST executado em 3e-05 segundos.
+>>> 28
+rankST executado em 3.2e-05 segundos.
+>>> 29
+rankST executado em 3e-05 segundos.
+>>> 30
+rankST executado em 3.5e-05 segundos.
+>>> 31
+rankST executado em 3.1e-05 segundos.
+>>> 32
+rankST executado em 3.2e-05 segundos.
+>>> 33
+rankST executado em 3e-05 segundos.
+>>> 34
+rankST executado em 3e-05 segundos.
+>>> 35
+rankST executado em 3.1e-05 segundos.
+>>> 36
+rankST executado em 3e-05 segundos.
+>>> 37
+rankST executado em 3.1e-05 segundos.
+>>> 38
+rankST executado em 3e-05 segundos.
+>>> 39
+rankST executado em 2.9e-05 segundos.
+>>> 40
+rankST executado em 3.3e-05 segundos.
+>>> 41
+rankST executado em 3e-05 segundos.
+>>> 42
+rankST executado em 3.1e-05 segundos.
+>>> 43
+rankST executado em 3.2e-05 segundos.
+>>> 44
+rankST executado em 2.9e-05 segundos.
+>>> 45
+rankST executado em 3.2e-05 segundos.
+>>> 46
+rankST executado em 3e-05 segundos.
+>>> 47
+rankST executado em 3.2e-05 segundos.
+>>> 48
+rankST executado em 3e-05 segundos.
+>>> 49
+rankST executado em 3.1e-05 segundos.
+>>> 50
+rankST executado em 3.2e-05 segundos.
+>>> 51
+rankST executado em 3.2e-05 segundos.
+>>> 52
+rankST executado em 3.1e-05 segundos.
+>>> 53
+rankST executado em 3.2e-05 segundos.
+>>> 54
+rankST executado em 3.2e-05 segundos.
+>>> 55
+rankST executado em 3.1e-05 segundos.
+>>> 56
+rankST executado em 3.2e-05 segundos.
+>>> 57
+rankST executado em 3.2e-05 segundos.
+>>> 58
+rankST executado em 3.2e-05 segundos.
+>>> 59
+rankST executado em 3.1e-05 segundos.
+>>> 60
+rankST executado em 3.2e-05 segundos.
+>>> 61
+rankST executado em 3.1e-05 segundos.
+>>> 62
+rankST executado em 3.1e-05 segundos.
+>>> 63
+rankST executado em 3e-05 segundos.
+>>> 64
+rankST executado em 3.1e-05 segundos.
+>>> 65
+rankST executado em 3.3e-05 segundos.
+>>> 66
+rankST executado em 3e-05 segundos.
+>>> 67
+rankST executado em 3.2e-05 segundos.
+>>> 68
+rankST executado em 3.2e-05 segundos.
+>>> 69
+rankST executado em 3.2e-05 segundos.
+>>> 70
+rankST executado em 3.1e-05 segundos.
+>>> 71
+rankST executado em 3.2e-05 segundos.
+>>> 72
+rankST executado em 3.1e-05 segundos.
+>>> 73
+rankST executado em 3.3e-05 segundos.
+>>> 74
+rankST executado em 3.2e-05 segundos.
+>>> 75
+rankST executado em 3.3e-05 segundos.
+>>> 76
+rankST executado em 3.2e-05 segundos.
+>>> 77
+rankST executado em 3.3e-05 segundos.
+>>> 78
+rankST executado em 3.2e-05 segundos.
+>>> 79
+rankST executado em 3.2e-05 segundos.
+>>> 80
+rankST executado em 3.2e-05 segundos.
+>>> 81
+rankST executado em 3.3e-05 segundos.
+>>> 82
+rankST executado em 3.3e-05 segundos.
+>>> 83
+rankST executado em 3.2e-05 segundos.
+>>> 84
+rankST executado em 4.3e-05 segundos.
+>>> 85
+rankST executado em 3.2e-05 segundos.
+>>> 86
+rankST executado em 3.3e-05 segundos.
+>>> 87
+rankST executado em 3.1e-05 segundos.
+>>> 88
+rankST executado em 3.2e-05 segundos.
+>>> 89
+rankST executado em 3.2e-05 segundos.
+>>> 90
+rankST executado em 3.2e-05 segundos.
+>>> 91
+rankST executado em 3e-05 segundos.
+>>> 92
+rankST executado em 3.3e-05 segundos.
+>>> 93
+rankST executado em 3.2e-05 segundos.
+>>> 94
+rankST executado em 3.2e-05 segundos.
+>>> 95
+rankST executado em 3.2e-05 segundos.
+>>> 96
+rankST executado em 3.3e-05 segundos.
+>>> 97
+rankST executado em 3e-05 segundos.
+>>> 98
+rankST executado em 3.1e-05 segundos.
+>>> 99
+rankST executado em 3.2e-05 segundos.
+>>> 100
+rankST executado em 3.2e-05 segundos.
+>>> 101
+rankST executado em 3.2e-05 segundos.
+>>> 102
+rankST executado em 3.2e-05 segundos.
+>>> 103
+rankST executado em 3.3e-05 segundos.
+>>> 104
+rankST executado em 3.1e-05 segundos.
+>>> 105
+rankST executado em 3.2e-05 segundos.
+>>> 106
+rankST executado em 3.1e-05 segundos.
+>>> 107
+rankST executado em 3.1e-05 segundos.
+>>> 108
+rankST executado em 2.9e-05 segundos.
+>>> 109
+rankST executado em 3.3e-05 segundos.
+>>> 110
+rankST executado em 3.2e-05 segundos.
+>>> 111
+rankST executado em 3.2e-05 segundos.
+>>> 112
+rankST executado em 3.2e-05 segundos.
+>>> 113
+rankST executado em 3.3e-05 segundos.
+>>> 114
+rankST executado em 3.2e-05 segundos.
+>>> 115
+rankST executado em 3.1e-05 segundos.
+>>> 116
+rankST executado em 3.1e-05 segundos.
+>>> 117
+rankST executado em 3.3e-05 segundos.
+>>> 118
+rankST executado em 3e-05 segundos.
+>>> 119
+rankST executado em 3e-05 segundos.
+>>> 120
+rankST executado em 3e-05 segundos.
+>>> 121
+rankST executado em 3.2e-05 segundos.
+>>> 122
+rankST executado em 3.2e-05 segundos.
+>>> 123
+rankST executado em 3e-05 segundos.
+>>> 124
+rankST executado em 3.2e-05 segundos.
+>>> 125
+rankST executado em 3.1e-05 segundos.
+>>> 126
+rankST executado em 3.3e-05 segundos.
+>>> 127
+rankST executado em 3.2e-05 segundos.
+>>> 128
+rankST executado em 3.2e-05 segundos.
+>>> 129
+rankST executado em 3.2e-05 segundos.
+>>> 130
+rankST executado em 3.2e-05 segundos.
+>>> 131
+rankST executado em 3.2e-05 segundos.
+>>> 132
+rankST executado em 3.2e-05 segundos.
+>>> 133
+rankST executado em 3.1e-05 segundos.
+>>> 134
+rankST executado em 3.2e-05 segundos.
+>>> 135
+rankST executado em 3.2e-05 segundos.
+>>> 136
+rankST executado em 3.1e-05 segundos.
+>>> 137
+rankST executado em 3.2e-05 segundos.
+>>> 138
+rankST executado em 3.2e-05 segundos.
+>>> 139
+rankST executado em 2.9e-05 segundos.
+>>> 140
+rankST executado em 3.2e-05 segundos.
+>>> 141
+rankST executado em 3e-05 segundos.
+>>> 142
+rankST executado em 3e-05 segundos.
+>>> 143
+rankST executado em 3.2e-05 segundos.
+>>> 144
+rankST executado em 3.2e-05 segundos.
+>>> 145
+rankST executado em 3.3e-05 segundos.
+>>> 146
+rankST executado em 3.1e-05 segundos.
+>>> 147
+rankST executado em 3.2e-05 segundos.
+>>> 148
+rankST executado em 3.2e-05 segundos.
+>>> 149
+rankST executado em 3.2e-05 segundos.
+>>> 150
+rankST executado em 3.2e-05 segundos.
+>>> 151
+rankST executado em 3e-05 segundos.
+>>> 152
+rankST executado em 3.1e-05 segundos.
+>>> 153
+rankST executado em 3.2e-05 segundos.
+>>> 154
+rankST executado em 3.2e-05 segundos.
+>>> 155
+rankST executado em 3.2e-05 segundos.
+>>> 156
+rankST executado em 3.3e-05 segundos.
+>>> 157
+rankST executado em 3.1e-05 segundos.
+>>> 158
+rankST executado em 3.2e-05 segundos.
+>>> 159
+rankST executado em 3.1e-05 segundos.
+>>> 160
+rankST executado em 3.2e-05 segundos.
+>>> 161
+rankST executado em 3.3e-05 segundos.
+>>> 162
+rankST executado em 3.1e-05 segundos.
+>>> 163
+rankST executado em 3.2e-05 segundos.
+>>> 164
+rankST executado em 3.1e-05 segundos.
+>>> 165
+rankST executado em 3.2e-05 segundos.
+>>> 166
+rankST executado em 3.1e-05 segundos.
+>>> 167
+rankST executado em 3.1e-05 segundos.
+>>> 168
+rankST executado em 3.3e-05 segundos.
+>>> 169
+rankST executado em 3.2e-05 segundos.
+>>> 170
+rankST executado em 3.2e-05 segundos.
+>>> 171
+rankST executado em 3.2e-05 segundos.
+>>> 172
+rankST executado em 3.1e-05 segundos.
+>>> 173
+rankST executado em 3.1e-05 segundos.
+>>> 174
+rankST executado em 3.1e-05 segundos.
+>>> 175
+rankST executado em 3.1e-05 segundos.
+>>> 176
+rankST executado em 3e-05 segundos.
+>>> 177
+rankST executado em 3.1e-05 segundos.
+>>> 178
+rankST executado em 3.2e-05 segundos.
+>>> 179
+rankST executado em 3e-05 segundos.
+>>> 180
+rankST executado em 3.1e-05 segundos.
+>>> 181
+rankST executado em 3.2e-05 segundos.
+>>> 182
+rankST executado em 3.1e-05 segundos.
+>>> 183
+rankST executado em 3.1e-05 segundos.
+>>> 184
+rankST executado em 3e-05 segundos.
+>>> 185
+rankST executado em 3.2e-05 segundos.
+>>> 186
+rankST executado em 3.1e-05 segundos.
+>>> 187
+rankST executado em 3.1e-05 segundos.
+>>> 188
+rankST executado em 3.2e-05 segundos.
+>>> 189
+rankST executado em 3.1e-05 segundos.
+>>> 190
+rankST executado em 2.9e-05 segundos.
+>>> 191
+rankST executado em 3.1e-05 segundos.
+>>> 192
+rankST executado em 3.1e-05 segundos.
+>>> 193
+rankST executado em 3.2e-05 segundos.
+>>> 194
+rankST executado em 3.1e-05 segundos.
+>>> 195
+rankST executado em 3e-05 segundos.
+>>> 196
+rankST executado em 3e-05 segundos.
+>>> 197
+rankST executado em 3.2e-05 segundos.
+>>> 198
+rankST executado em 3.2e-05 segundos.
+>>> 199
+rankST executado em 3.2e-05 segundos.
+>>> 200
+rankST executado em 3.2e-05 segundos.
+>>> 201
+rankST executado em 3e-05 segundos.
+>>> 202
+rankST executado em 3e-05 segundos.
+>>> 203
+rankST executado em 3.2e-05 segundos.
+>>> 204
+rankST executado em 3.3e-05 segundos.
+>>> 205
+rankST executado em 3.1e-05 segundos.
+>>> 206
+rankST executado em 3.2e-05 segundos.
+>>> 207
+rankST executado em 3.1e-05 segundos.
+>>> 208
+rankST executado em 3.2e-05 segundos.
+>>> 209
+rankST executado em 3.1e-05 segundos.
+>>> 210
+rankST executado em 3.1e-05 segundos.
+>>> 211
+rankST executado em 3.1e-05 segundos.
+>>> 212
+rankST executado em 3.1e-05 segundos.
+>>> 213
+rankST executado em 3.1e-05 segundos.
+>>> 214
+rankST executado em 3.1e-05 segundos.
+>>> 215
+rankST executado em 3e-05 segundos.
+>>> 216
+rankST executado em 3.1e-05 segundos.
+>>> 217
+rankST executado em 3e-05 segundos.
+>>> 218
+rankST executado em 3.1e-05 segundos.
+>>> 219
+rankST executado em 3e-05 segundos.
+>>> 220
+rankST executado em 3.1e-05 segundos.
+>>> 221
+rankST executado em 3.2e-05 segundos.
+>>> 222
+rankST executado em 3.1e-05 segundos.
+>>> 223
+rankST executado em 3e-05 segundos.
+>>> 224
+rankST executado em 3.2e-05 segundos.
+>>> 225
+rankST executado em 3.2e-05 segundos.
+>>> 226
+rankST executado em 3.1e-05 segundos.
+>>> 227
+rankST executado em 3.2e-05 segundos.
+>>> 228
+rankST executado em 3.2e-05 segundos.
+>>> 229
+rankST executado em 3.2e-05 segundos.
+>>> 230
+rankST executado em 3e-05 segundos.
+>>> 231
+rankST executado em 3e-05 segundos.
+>>> 232
+rankST executado em 3e-05 segundos.
+>>> 233
+rankST executado em 3.2e-05 segundos.
+>>> 234
+rankST executado em 3.2e-05 segundos.
+>>> 235
+rankST executado em 3e-05 segundos.
+>>> 236
+rankST executado em 3.2e-05 segundos.
+>>> 237
+rankST executado em 3e-05 segundos.
+>>> 238
+rankST executado em 3e-05 segundos.
+>>> 239
+rankST executado em 3.2e-05 segundos.
+>>> 240
+rankST executado em 3.2e-05 segundos.
+>>> 241
+rankST executado em 3e-05 segundos.
+>>> 242
+rankST executado em 3.1e-05 segundos.
+>>> 243
+rankST executado em 3.1e-05 segundos.
+>>> 244
+rankST executado em 3.1e-05 segundos.
+>>> 245
+rankST executado em 3.2e-05 segundos.
+>>> 246
+rankST executado em 3.1e-05 segundos.
+>>> 247
+rankST executado em 3.2e-05 segundos.
+>>> 248
+rankST executado em 3.2e-05 segundos.
+>>> 249
+rankST executado em 3.2e-05 segundos.
+>>> 250
+rankST executado em 3.1e-05 segundos.
+>>> 251
+rankST executado em 3.1e-05 segundos.
+>>> 252
+rankST executado em 3e-05 segundos.
+>>> 253
+rankST executado em 2.8e-05 segundos.
+>>> 254
+rankST executado em 3.7e-05 segundos.
+>>> 255
+rankST executado em 3e-05 segundos.
+>>> 256
+rankST executado em 2.9e-05 segundos.
+>>> 257
+rankST executado em 3.1e-05 segundos.
+>>> 258
+rankST executado em 2.9e-05 segundos.
+>>> 259
+rankST executado em 2.9e-05 segundos.
+>>> 260
+rankST executado em 3.1e-05 segundos.
+>>> 261
+rankST executado em 3.1e-05 segundos.
+>>> 262
+rankST executado em 3.2e-05 segundos.
+>>> 263
+rankST executado em 3e-05 segundos.
+>>> 264
+rankST executado em 3.1e-05 segundos.
+>>> 265
+rankST executado em 3.1e-05 segundos.
+>>> 266
+rankST executado em 3.1e-05 segundos.
+>>> 267
+rankST executado em 3.2e-05 segundos.
+>>> 268
+rankST executado em 3.2e-05 segundos.
+>>> 269
+rankST executado em 3.1e-05 segundos.
+>>> 270
+rankST executado em 3e-05 segundos.
+>>> 271
+rankST executado em 2.9e-05 segundos.
+>>> 

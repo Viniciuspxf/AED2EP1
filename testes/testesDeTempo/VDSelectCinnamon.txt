@@ -1,3 +1,3 @@
-soma: 744.417
+soma: 744.918
 quantidade: 4332
-media: 0.171842
+media: 0.171957

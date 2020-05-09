@@ -24,6 +24,9 @@ int main() {
 
         i++;
     }
+    
+    if (getline(arquivo1, linha1) || getline(arquivo2, linha2))
+        cout << "Arquivos de tamanhos diferentes!!" << endl;
 
     arquivo1.close();
     arquivo2.close();

@@ -1,11 +1,24 @@
 #!/bin/bash
 
-./contador < AB.txt > testesDeTempo/ABRankCinnamon.txt
-./contador < A23.txt > testesDeTempo/A23RankCinnamon.txt
-./contador < TR.txt > testesDeTempo/TRRankCinnamon.txt
-./contador < RN.txt > testesDeTempo/RNRankCinnamon.txt
-./contador < VO.txt > testesDeTempo/VORankCinnamon.txt
-./contador < VD.txt > testesDeTempo/VDRankCinnamon.txt
-./contador < LO.txt > testesDeTempo/LORankCinnamon.txt
-./contador < LD.txt > testesDeTempo/LDRankCinnamon.txt
-./contador < HS.txt > testesDeTempo/HSRankCinnamon.txt
+make 
+make testando
+for TEXTO in Mussum Cinnamon 
+do
+    for FUNCAO in Devolve Rank Remove Select
+    do
+        echo texto: $TEXTO função: $FUNCAO
+        echo digite enter para continuar
+        read
+        for ED in AB A23 TR RN VO VD LO LD HS
+        do
+            ./unit_test ${TEXTO}.txt ${ED} < entradas/entrada${FUNCAO}${TEXTO}.txt > saidas/Saida${ED}${FUNCAO}${TEXTO}.txt
+            ./contador < saidas/Saida${ED}${FUNCAO}${TEXTO}.txt > testesDeTempo/${ED}${FUNCAO}${TEXTO}.txt
+            if [ $ED != "AB" ]
+            then
+                echo comparando $ED com $ANTERIOR
+                echo saidas/Saida${ED}${FUNCAO}${TEXTO}.txt saidas/Saida${ANTERIOR}${FUNCAO}${TEXTO}.txt| ./testando
+            fi
+            ANTERIOR=$ED
+        done
+    done
+done

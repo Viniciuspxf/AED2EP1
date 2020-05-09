@@ -1,3 +1,3 @@
-soma: 0.000878
+soma: 0.000873
 quantidade: 275
-media: 3.19273e-06
+media: 3.17455e-06
