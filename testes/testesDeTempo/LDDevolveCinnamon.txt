@@ -1,3 +1,0 @@
-soma: 0.142233
-quantidade: 4318
-media: 3.29396e-05

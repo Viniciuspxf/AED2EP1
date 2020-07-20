@@ -1,7 +1,6 @@
 getST #61888
 getST $1
 getST $5,000
-getST 'AS-IS'
 getST 1
 getST 1.A
 getST 1.B
@@ -58,6 +57,7 @@ getST AMERICA
 getST AND
 getST ANY
 getST ANYTHING
+getST AS-IS
 getST ASCII
 getST About
 getST Above
@@ -4566,7 +4566,7 @@ deleteST twinkling
 deleteST deductible
 deleteST impression
 deleteST email
-deleteST 1.F.3
+deleteST 1.F.4
 deleteST Here
 deleteST appropriated
 deleteST copied
@@ -4622,7 +4622,7 @@ deleteST “I
 deleteST nasal
 deleteST Gently
 deleteST Springfield
-deleteST AMERICA
+deleteST AND
 deleteST PURPOSE
 deleteST action
 deleteST sheets
@@ -4636,7 +4636,7 @@ deleteST out!”
 deleteST I’ve
 deleteST weary
 deleteST hours
-deleteST 1.E
+deleteST 1.E.1
 deleteST night
 deleteST crunching
 deleteST ribbon
@@ -4853,7 +4853,7 @@ deleteST trash
 deleteST Nearly
 deleteST RU
 deleteST softly
-deleteST 1.C
+deleteST 1.D
 deleteST tidbit
 deleteST moment’s
 deleteST Chaffee
@@ -5052,7 +5052,7 @@ deleteST fees
 deleteST easily
 deleteST sentinel
 deleteST unalarmingly
-deleteST 1.F.1
+deleteST 1.F.2
 deleteST foundation
 deleteST suppers
 deleteST somewhere
@@ -5076,7 +5076,7 @@ deleteST addresses
 deleteST cool
 deleteST sagacity
 deleteST rabbit.’”
-deleteST 1.B
+deleteST 1.C
 deleteST forehead
 deleteST sticky
 deleteST purpose
@@ -5087,7 +5087,7 @@ deleteST done
 deleteST chariot
 deleteST readable
 deleteST Snookie’s
-deleteST 1.F.1
+deleteST 1.F.2
 deleteST never
 deleteST right,”
 deleteST linked
@@ -5099,7 +5099,7 @@ deleteST New
 deleteST completely
 deleteST migrate
 deleteST an
-deleteST 2020
+deleteST 22
 deleteST ventured
 deleteST Lion
 deleteST snowbanks
@@ -5221,12 +5221,12 @@ deleteST Don’t
 deleteST any
 deleteST insects
 deleteST pointed
-deleteST AND
+deleteST ANY
 deleteST swimming
-deleteST 1.F.5
+deleteST 1.F.6
 deleteST any
 deleteST “What’s
-deleteST 1
+deleteST 1.A
 deleteST grabbed
 deleteST stick
 deleteST distance.”
@@ -5284,7 +5284,7 @@ deleteST UNDER
 deleteST himself
 deleteST expenses
 deleteST nick
-deleteST 'AS-IS'
+deleteST 1
 deleteST steps
 deleteST learned
 deleteST Release
@@ -5316,7 +5316,6 @@ deleteST grotesque
 getST #61888
 getST $1
 getST $5,000
-getST 'AS-IS'
 getST 1
 getST 1.A
 getST 1.B
@@ -5373,6 +5372,7 @@ getST AMERICA
 getST AND
 getST ANY
 getST ANYTHING
+getST AS-IS
 getST ASCII
 getST About
 getST Above
@@ -9716,7 +9716,7 @@ deleteST darted
 deleteST promptly
 deleteST “No
 deleteST slightest
-deleteST A
+deleteST ACTUAL
 deleteST detect
 deleteST aught
 deleteST vigorously
@@ -9767,7 +9767,7 @@ deleteST dusky
 deleteST meadow
 deleteST characters
 deleteST cliff
-deleteST 1.E.3
+deleteST 1.E.4
 deleteST later
 deleteST sharing
 deleteST sitting
@@ -9789,7 +9789,7 @@ deleteST slide-rock
 deleteST restlessly
 deleteST “Well
 deleteST spots
-deleteST 1.F
+deleteST 1.F.1
 deleteST bunnies
 deleteST whole-heartedly
 deleteST trailing
@@ -9843,7 +9843,7 @@ deleteST learned
 deleteST RIGHT
 deleteST again?”
 deleteST much
-deleteST 1.D
+deleteST 1.E
 deleteST down
 deleteST killed
 deleteST snowshoe
@@ -9858,7 +9858,7 @@ deleteST they’re
 deleteST human
 deleteST fearless
 deleteST Pacific
-deleteST 90
+deleteST 99775
 deleteST Cougar
 deleteST dropped
 deleteST carried
@@ -9870,7 +9870,7 @@ deleteST darted
 deleteST interesting
 deleteST part
 deleteST almost
-deleteST 2020
+deleteST 22
 deleteST scheme
 deleteST now
 deleteST tinkling
@@ -9952,7 +9952,7 @@ deleteST certainly
 deleteST now!”
 deleteST receding
 deleteST snowshoe
-deleteST AMERICA
+deleteST AND
 deleteST in
 deleteST eerie
 deleteST overhead
@@ -10092,13 +10092,13 @@ deleteST anyone
 deleteST ‘some
 deleteST obtaining
 deleteST City
-deleteST 1.D
+deleteST 1.E
 deleteST mother
 deleteST mousing
 deleteST steaming
 deleteST likely
 deleteST Where
-deleteST 64-6221541
+deleteST 750175
 deleteST ‘rabbit’
 deleteST Cougar
 deleteST mice
@@ -10142,7 +10142,7 @@ deleteST experience
 deleteST slant
 deleteST streams.”
 deleteST newsletter
-deleteST 501(c)(3
+deleteST 596-1887
 deleteST sliding
 deleteST milk
 deleteST beakful
@@ -10338,7 +10338,7 @@ deleteST hissed
 deleteST experiment
 deleteST “Can
 deleteST CLOWN
-deleteST 1
+deleteST 1.A
 deleteST ocean
 deleteST countless
 deleteST Let
@@ -10389,7 +10389,7 @@ deleteST lid
 deleteST GOES
 deleteST wipe
 deleteST panting
-deleteST 60
+deleteST 61888-0.txt
 deleteST fees
 deleteST dripping
 deleteST alluring
@@ -10466,7 +10466,7 @@ deleteST played
 deleteST wriggling
 deleteST born
 deleteST uniform
-deleteST 1.F
+deleteST 1.F.1
 deleteST clap
 deleteST similar
 deleteST Weird
@@ -10499,7 +10499,7 @@ deleteST performances
 deleteST chamber
 deleteST “I
 deleteST baby
-deleteST 2
+deleteST 20%
 deleteST fondness
 deleteST entrances
 deleteST optimistically
@@ -10529,7 +10529,7 @@ deleteST alone
 deleteST strung
 deleteST additions
 deleteST gnawing
-deleteST 5
+deleteST 50
 deleteST hammocking
 deleteST supper.”
 deleteST posted
@@ -10579,7 +10579,7 @@ deleteST equal
 deleteST retort
 deleteST agent
 deleteST litter
-deleteST 1.E.9
+deleteST 1.F
 deleteST whole
 deleteST growling
 deleteST eaten
@@ -10631,7 +10631,6 @@ deleteST appears
 getST #61888
 getST $1
 getST $5,000
-getST 'AS-IS'
 getST 1
 getST 1.A
 getST 1.B
@@ -10688,6 +10687,7 @@ getST AMERICA
 getST AND
 getST ANY
 getST ANYTHING
+getST AS-IS
 getST ASCII
 getST About
 getST Above
@@ -14950,7 +14950,7 @@ deleteST disclaimers
 deleteST strung
 deleteST seedlings
 deleteST Vanilla
-deleteST 1.F.6
+deleteST 1500
 deleteST quicker
 deleteST needn’t
 deleteST attack
@@ -14975,7 +14975,7 @@ deleteST stowed
 deleteST “Wait!”
 deleteST Stepping
 deleteST throw
-deleteST 90
+deleteST 99775
 deleteST guessed
 deleteST bacon
 deleteST THIS
@@ -15070,7 +15070,7 @@ deleteST “Could
 deleteST certainly
 deleteST tree.”
 deleteST tenant
-deleteST 2001
+deleteST 2020
 deleteST warranties
 deleteST arm
 deleteST scratched
@@ -15092,7 +15092,7 @@ deleteST alive!”
 deleteST quaking
 deleteST cold—then
 deleteST on!”
-deleteST 801
+deleteST 809
 deleteST white-topped
 deleteST reforesting
 deleteST mother
@@ -15191,7 +15191,7 @@ deleteST saw
 deleteST paw-marked
 deleteST similar
 deleteST mind
-deleteST 90
+deleteST 99775
 deleteST stinging
 deleteST Squirrel’s
 deleteST links
@@ -15234,7 +15234,7 @@ deleteST “All
 deleteST worriedly
 deleteST ON
 deleteST catlike
-deleteST 22
+deleteST 3
 deleteST scream
 deleteST reach
 deleteST perform
@@ -15290,7 +15290,7 @@ deleteST swore
 deleteST ripe
 deleteST winter
 deleteST nodding
-deleteST 1.E.7
+deleteST 1.E.8
 deleteST home!”
 deleteST direction
 deleteST lumber
@@ -15376,7 +15376,7 @@ deleteST facility
 deleteST WUZZ
 deleteST pay
 deleteST afraid,”
-deleteST 20%
+deleteST 2001
 deleteST permission
 deleteST exulted
 deleteST riffles
@@ -15446,7 +15446,6 @@ deleteST happy
 getST #61888
 getST $1
 getST $5,000
-getST 'AS-IS'
 getST 1
 getST 1.A
 getST 1.B
@@ -15503,6 +15502,7 @@ getST AMERICA
 getST AND
 getST ANY
 getST ANYTHING
+getST AS-IS
 getST ASCII
 getST About
 getST Above
@@ -19819,7 +19819,7 @@ deleteST scrapings
 deleteST by
 deleteST fringed
 deleteST spires
-deleteST 2001
+deleteST 2020
 deleteST try.”
 deleteST One
 deleteST cheeks
@@ -19859,7 +19859,7 @@ deleteST stirred
 deleteST GIVE
 deleteST you?”
 deleteST danger
-deleteST ANY
+deleteST ANYTHING
 deleteST pouncing
 deleteST eaves
 deleteST shack
@@ -19945,7 +19945,7 @@ deleteST toadstool
 deleteST younger
 deleteST animal
 deleteST refund
-deleteST 1.F.3
+deleteST 1.F.4
 deleteST Instantly
 deleteST diamonds
 deleteST mimulas
@@ -20069,7 +20069,7 @@ deleteST awful
 deleteST If
 deleteST detected
 deleteST unprotected
-deleteST 1.E
+deleteST 1.E.1
 deleteST Weird
 deleteST discovery
 deleteST rained
@@ -20140,7 +20140,7 @@ deleteST walking
 deleteST strike
 deleteST we
 deleteST Striking
-deleteST 1.F
+deleteST 1.F.1
 deleteST accordance
 deleteST landslide
 deleteST gloom
@@ -20190,14 +20190,14 @@ deleteST one--the
 deleteST build
 deleteST seedling
 deleteST chips
-deleteST A
+deleteST ACTUAL
 deleteST coat
 deleteST VIII
 deleteST each
 deleteST frog
 deleteST anyone
 deleteST Salt
-deleteST ANYTHING
+deleteST AS-IS
 deleteST rested
 deleteST redistributing
 deleteST sunlight
@@ -20233,12 +20233,12 @@ deleteST hibernating
 deleteST agreement
 deleteST relay
 deleteST stopped
-deleteST 90
+deleteST 99775
 deleteST inquiringly
 deleteST oozy
 deleteST trademark
 deleteST tag
-deleteST 1.F.2
+deleteST 1.F.3
 deleteST long
 deleteST ago?”
 deleteST should
@@ -20261,7 +20261,6 @@ deleteST “Away
 getST #61888
 getST $1
 getST $5,000
-getST 'AS-IS'
 getST 1
 getST 1.A
 getST 1.B
@@ -20318,6 +20317,7 @@ getST AMERICA
 getST AND
 getST ANY
 getST ANYTHING
+getST AS-IS
 getST ASCII
 getST About
 getST Above
@@ -24585,7 +24585,7 @@ deleteST about
 deleteST hugged
 deleteST She
 deleteST green
-deleteST 22
+deleteST 3
 deleteST medium
 deleteST bank
 deleteST low
@@ -24701,7 +24701,7 @@ deleteST protest
 deleteST terms
 deleteST dangling
 deleteST stuff!”
-deleteST 1.E.2
+deleteST 1.E.3
 deleteST Park
 deleteST dry
 deleteST sharing
@@ -24768,7 +24768,7 @@ deleteST necessary
 deleteST and
 deleteST attached
 deleteST me
-deleteST 2
+deleteST 20%
 deleteST soon
 deleteST insects
 deleteST decided
@@ -24828,7 +24828,7 @@ deleteST shaken
 deleteST scooping
 deleteST perfume
 deleteST Ranger
-deleteST 501(c)(3
+deleteST 596-1887
 deleteST Updated
 deleteST himself
 deleteST element
@@ -24858,7 +24858,7 @@ deleteST daylight
 deleteST unknown
 deleteST fern
 deleteST wise
-deleteST 1.F.3
+deleteST 1.F.4
 deleteST raised
 deleteST MYSTERIOUS
 deleteST hoof-beats
@@ -24969,7 +24969,7 @@ deleteST rabbits,”
 deleteST bag
 deleteST cutting
 deleteST entered
-deleteST 1.F
+deleteST 1.F.1
 deleteST ached
 deleteST warmth
 deleteST screech
@@ -25076,7 +25076,6 @@ deleteST undergrowth
 getST #61888
 getST $1
 getST $5,000
-getST 'AS-IS'
 getST 1
 getST 1.A
 getST 1.B
@@ -25133,6 +25132,7 @@ getST AMERICA
 getST AND
 getST ANY
 getST ANYTHING
+getST AS-IS
 getST ASCII
 getST About
 getST Above
@@ -29423,10 +29423,10 @@ deleteST dreaded
 deleteST attempted
 deleteST heard
 deleteST lay
-deleteST 5
+deleteST 50
 deleteST American
 deleteST salvage
-deleteST 4
+deleteST 5
 deleteST deal
 deleteST birdlike
 deleteST few
@@ -29463,7 +29463,7 @@ deleteST changed
 deleteST stop
 deleteST West
 deleteST trails
-deleteST 501(c)(3
+deleteST 596-1887
 deleteST nearest
 deleteST Paddy
 deleteST needles
@@ -29719,7 +29719,7 @@ deleteST joys
 deleteST arrived
 deleteST startle
 deleteST snowballs
-deleteST 'AS-IS'
+deleteST 1
 deleteST bone
 deleteST jerking
 deleteST likely
@@ -29736,7 +29736,7 @@ deleteST employees
 deleteST She
 deleteST candle
 deleteST distribution
-deleteST AND
+deleteST ANY
 deleteST emergency
 deleteST shelter
 deleteST melted
@@ -29791,7 +29791,7 @@ deleteST rattle-snakes.”
 deleteST rheumatic
 deleteST species
 deleteST fight
-deleteST 801
+deleteST 809
 deleteST men
 deleteST bunch
 deleteST purring
@@ -29862,7 +29862,7 @@ deleteST copies
 deleteST please
 deleteST rear
 deleteST completely
-deleteST 1.E.8
+deleteST 1.E.9
 deleteST bracken
 deleteST amazed
 deleteST they’re
@@ -29891,7 +29891,6 @@ deleteST claimed
 getST #61888
 getST $1
 getST $5,000
-getST 'AS-IS'
 getST 1
 getST 1.A
 getST 1.B
@@ -29948,6 +29947,7 @@ getST AMERICA
 getST AND
 getST ANY
 getST ANYTHING
+getST AS-IS
 getST ASCII
 getST About
 getST Above
@@ -34236,7 +34236,7 @@ deleteST regulating
 deleteST PETER
 deleteST inquiring
 deleteST judge
-deleteST 1.B
+deleteST 1.C
 deleteST indemnify
 deleteST throve
 deleteST vivacity
@@ -34251,7 +34251,7 @@ deleteST word
 deleteST sighed
 deleteST impudently
 deleteST Baby,”
-deleteST 1.E.9
+deleteST 1.F
 deleteST giving
 deleteST form
 deleteST slid
@@ -34373,7 +34373,7 @@ deleteST over
 deleteST does
 deleteST pets
 deleteST mousy
-deleteST 84116
+deleteST 90
 deleteST cried
 deleteST “to
 deleteST dug
@@ -34389,7 +34389,7 @@ deleteST “That’s
 deleteST IMPLIED
 deleteST work.”
 deleteST scrapped
-deleteST 1.E.9
+deleteST 1.F
 deleteST dreamed
 deleteST soft
 deleteST MOUNTAIN
@@ -34438,7 +34438,7 @@ deleteST visit
 deleteST suppers
 deleteST permitted
 deleteST II
-deleteST 90
+deleteST 99775
 deleteST howled
 deleteST bat
 deleteST manners!”
@@ -34464,7 +34464,7 @@ deleteST blowing
 deleteST License
 deleteST drowsily
 deleteST beneath
-deleteST 1.F
+deleteST 1.F.1
 deleteST machine
 deleteST Chuck!”
 deleteST we’re
@@ -34637,7 +34637,7 @@ deleteST subscribe
 deleteST License
 deleteST past
 deleteST abundance.”
-deleteST 1.E
+deleteST 1.E.1
 deleteST foothold
 deleteST To
 deleteST swooped
@@ -34706,7 +34706,6 @@ deleteST “catch-me-if-you-can”
 getST #61888
 getST $1
 getST $5,000
-getST 'AS-IS'
 getST 1
 getST 1.A
 getST 1.B
@@ -34763,6 +34762,7 @@ getST AMERICA
 getST AND
 getST ANY
 getST ANYTHING
+getST AS-IS
 getST ASCII
 getST About
 getST Above
@@ -39089,7 +39089,7 @@ deleteST “Don’t
 deleteST thus
 deleteST legal
 deleteST raising
-deleteST 1.E
+deleteST 1.E.1
 deleteST show
 deleteST cloud
 deleteST walked
@@ -39115,7 +39115,7 @@ deleteST of.”
 deleteST START
 deleteST spider
 deleteST mission
-deleteST 20%
+deleteST 2001
 deleteST Following
 deleteST rude
 deleteST stone
@@ -39289,7 +39289,7 @@ deleteST American
 deleteST very
 deleteST barking
 deleteST computers
-deleteST 501(c)(3
+deleteST 596-1887
 deleteST individual
 deleteST tinkling
 deleteST fallen
@@ -39521,7 +39521,6 @@ deleteST WILL
 getST #61888
 getST $1
 getST $5,000
-getST 'AS-IS'
 getST 1
 getST 1.A
 getST 1.B
@@ -39578,6 +39577,7 @@ getST AMERICA
 getST AND
 getST ANY
 getST ANYTHING
+getST AS-IS
 getST ASCII
 getST About
 getST Above

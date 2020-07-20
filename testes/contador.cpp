@@ -18,6 +18,6 @@ int main() {
     }
     cout << "soma: " << soma << endl;
     cout << "quantidade: " << quantidade << endl;
-    cout << "media: " << soma/quantidade << endl;
+    cout << "media: " << soma/quantidade << endl << endl;
     return 0;
 }

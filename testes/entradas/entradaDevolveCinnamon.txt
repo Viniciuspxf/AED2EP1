@@ -1,7 +1,6 @@
 getST #61888
 getST $1
 getST $5,000
-getST 'AS-IS'
 getST 1
 getST 1.A
 getST 1.B
@@ -58,6 +57,7 @@ getST AMERICA
 getST AND
 getST ANY
 getST ANYTHING
+getST AS-IS
 getST ASCII
 getST About
 getST Above

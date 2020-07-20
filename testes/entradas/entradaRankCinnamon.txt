@@ -1,7 +1,6 @@
 rankST #61888
 rankST $1
 rankST $5,000
-rankST 'AS-IS'
 rankST 1
 rankST 1.A
 rankST 1.B
@@ -58,6 +57,7 @@ rankST AMERICA
 rankST AND
 rankST ANY
 rankST ANYTHING
+rankST AS-IS
 rankST ASCII
 rankST About
 rankST Above

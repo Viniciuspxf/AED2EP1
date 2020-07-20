@@ -62,6 +62,9 @@ bool ehSimbolo(char caracter) {
         case '\277':
             return true;
             break;
+        case '\'':
+            return true;
+            break;
     }
 
     return false;

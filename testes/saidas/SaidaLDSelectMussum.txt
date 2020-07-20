@@ -1,884 +1,552 @@
 criando ST...
-arquivo lido e ST construida em 0.068103 segundos
+arquivo lido e ST construida em 0.068906 segundos
 Possiveis operacoes do teste interativo:
 minST, delminST, getST <chave>; rankST <chave>, deleteST <chave>, selectST <int>
 CRTL-D para encerrar.
 >>> Posição 0 = A
-selectST executado em 0.001284 segundos.
+selectST executado em 0.001314 segundos.
 >>> Posição 1 = Admodum
-selectST executado em 0.00061 segundos.
+selectST executado em 0.000637 segundos.
 >>> Posição 2 = Aenean
-selectST executado em 0.001119 segundos.
+selectST executado em 0.001125 segundos.
 >>> Posição 3 = Atirei
-selectST executado em 0.000531 segundos.
+selectST executado em 0.000524 segundos.
 >>> Posição 4 = Casamentiss
-selectST executado em 0.001197 segundos.
+selectST executado em 0.001182 segundos.
 >>> Posição 5 = Cevadis
-selectST executado em 0.000788 segundos.
+selectST executado em 0.000777 segundos.
 >>> Posição 6 = Copo
-selectST executado em 0.000775 segundos.
+selectST executado em 0.000755 segundos.
 >>> Posição 7 = Delegadis
-selectST executado em 0.001241 segundos.
+selectST executado em 0.001234 segundos.
 >>> Posição 8 = Detraxit
-selectST executado em 0.000493 segundos.
+selectST executado em 0.000495 segundos.
 >>> Posição 9 = Diuretics
-selectST executado em 0.000315 segundos.
+selectST executado em 0.000328 segundos.
 >>> Posição 10 = Em
-selectST executado em 0.000205 segundos.
+selectST executado em 0.000217 segundos.
 >>> Posição 11 = Forevis
-selectST executado em 0.000565 segundos.
+selectST executado em 0.000589 segundos.
 >>> Posição 12 = In
-selectST executado em 0.000252 segundos.
+selectST executado em 0.000261 segundos.
 >>> Posição 13 = Interagi
-selectST executado em 0.000468 segundos.
+selectST executado em 0.00048 segundos.
 >>> Posição 14 = Interessantiss
-selectST executado em 0.000125 segundos.
+selectST executado em 0.000131 segundos.
 >>> Posição 15 = Ipsum
-selectST executado em 0.001316 segundos.
+selectST executado em 0.00129 segundos.
 >>> Posição 16 = Leite
-selectST executado em 0.000416 segundos.
+selectST executado em 0.00041 segundos.
 >>> Posição 17 = Mais
-selectST executado em 0.00023 segundos.
+selectST executado em 0.000227 segundos.
 >>> Posição 18 = Manduma
-selectST executado em 0.001172 segundos.
+selectST executado em 0.001157 segundos.
 >>> Posição 19 = Mauris
-selectST executado em 0.001151 segundos.
+selectST executado em 0.001138 segundos.
 >>> Posição 20 = Mussum
-selectST executado em 0.001312 segundos.
+selectST executado em 0.001301 segundos.
 >>> Posição 21 = Mé
-selectST executado em 0.001074 segundos.
+selectST executado em 0.001093 segundos.
 >>> Posição 22 = Nam
-selectST executado em 0.000922 segundos.
+selectST executado em 0.000927 segundos.
 >>> Posição 23 = Nec
-selectST executado em 8.6e-05 segundos.
+selectST executado em 8.5e-05 segundos.
 >>> Posição 24 = Nullam
-selectST executado em 0.000662 segundos.
+selectST executado em 0.000649 segundos.
 >>> Posição 25 = Não
-selectST executado em 0.000385 segundos.
+selectST executado em 0.00038 segundos.
 >>> Posição 26 = Paisis
-selectST executado em 0.000859 segundos.
+selectST executado em 0.000848 segundos.
 >>> Posição 27 = Per
-selectST executado em 0.000507 segundos.
+selectST executado em 0.000501 segundos.
 >>> Posição 28 = Posuere
-selectST executado em 0.00067 segundos.
+selectST executado em 0.000678 segundos.
 >>> Posição 29 = Pra
-selectST executado em 0.000695 segundos.
+selectST executado em 0.000686 segundos.
 >>> Posição 30 = Praesent
-selectST executado em 0.000969 segundos.
+selectST executado em 0.000949 segundos.
 >>> Posição 31 = Quem
-selectST executado em 0.000907 segundos.
+selectST executado em 0.000896 segundos.
 >>> Posição 32 = Sapien
-selectST executado em 0.000293 segundos.
+selectST executado em 0.00029 segundos.
 >>> Posição 33 = Sed
 selectST executado em 5.5e-05 segundos.
 >>> Posição 34 = Si
-selectST executado em 0.001049 segundos.
+selectST executado em 0.001047 segundos.
 >>> Posição 35 = Suco
-selectST executado em 0.00036 segundos.
+selectST executado em 0.000355 segundos.
 >>> Posição 36 = Todo
-selectST executado em 0.00016 segundos.
+selectST executado em 0.000159 segundos.
 >>> Posição 37 = Toma
-selectST executado em 0.000708 segundos.
+selectST executado em 0.000693 segundos.
 >>> Posição 38 = Tá
-selectST executado em 0.001004 segundos.
+selectST executado em 0.000991 segundos.
 >>> Posição 39 = Ut
-selectST executado em 0.000832 segundos.
+selectST executado em 0.000822 segundos.
 >>> Posição 40 = Vehicula
-selectST executado em 0.000839 segundos.
+selectST executado em 0.000835 segundos.
 >>> Posição 41 = Vide
-selectST executado em 0.000593 segundos.
+selectST executado em 0.000585 segundos.
 >>> Posição 42 = Viva
-selectST executado em 0.000576 segundos.
+selectST executado em 0.000562 segundos.
 >>> Posição 43 = Vivamus
-selectST executado em 0.000821 segundos.
+selectST executado em 0.000811 segundos.
 >>> Posição 44 = a
-selectST executado em 0.00065 segundos.
+selectST executado em 0.000642 segundos.
 >>> Posição 45 = abertis
-selectST executado em 0.001286 segundos.
+selectST executado em 0.001278 segundos.
 >>> Posição 46 = ac
-selectST executado em 0.000453 segundos.
+selectST executado em 0.000447 segundos.
 >>> Posição 47 = accumsan
-selectST executado em 0.000611 segundos.
+selectST executado em 0.000597 segundos.
 >>> Posição 48 = ad
-selectST executado em 0.000545 segundos.
+selectST executado em 0.000537 segundos.
 >>> Posição 49 = aguis
-selectST executado em 0.000329 segundos.
+selectST executado em 0.000325 segundos.
 >>> Posição 50 = alcoolatra
-selectST executado em 0.000216 segundos.
+selectST executado em 0.000213 segundos.
 >>> Posição 51 = alegrar
-selectST executado em 0.00097 segundos.
+selectST executado em 0.000958 segundos.
 >>> Posição 52 = aliquam
-selectST executado em 0.001104 segundos.
+selectST executado em 0.001096 segundos.
 >>> Posição 53 = aliquet
-selectST executado em 0.000441 segundos.
+selectST executado em 0.000435 segundos.
 >>> Posição 54 = altera
-selectST executado em 0.001267 segundos.
+selectST executado em 0.001243 segundos.
 >>> Posição 55 = amet
-selectST executado em 0.000813 segundos.
+selectST executado em 0.000805 segundos.
 >>> Posição 56 = amistosis
-selectST executado em 0.000236 segundos.
+selectST executado em 0.000233 segundos.
 >>> Posição 57 = ampola
 selectST executado em 0.000778 segundos.
 >>> Posição 58 = anonimis
-selectST executado em 0.00021 segundos.
+selectST executado em 0.000208 segundos.
 >>> Posição 59 = ante
-selectST executado em 0.000648 segundos.
+selectST executado em 0.000639 segundos.
 >>> Posição 60 = aptent
-selectST executado em 0.000566 segundos.
+selectST executado em 0.000553 segundos.
 >>> Posição 61 = arcu
-selectST executado em 0.001209 segundos.
+selectST executado em 0.001194 segundos.
 >>> Posição 62 = arma
-selectST executado em 0.00077 segundos.
+selectST executado em 0.00076 segundos.
 >>> Posição 63 = as
 selectST executado em 1.6e-05 segundos.
 >>> Posição 64 = augue
-selectST executado em 0.001213 segundos.
+selectST executado em 0.001211 segundos.
 >>> Posição 65 = aumento
-selectST executado em 0.000514 segundos.
+selectST executado em 0.000497 segundos.
 >>> Posição 66 = aí
-selectST executado em 0.001013 segundos.
+selectST executado em 0.001 segundos.
 >>> Posição 67 = bebadis
-selectST executado em 0.000753 segundos.
+selectST executado em 0.000736 segundos.
 >>> Posição 68 = bibendum
-selectST executado em 0.001225 segundos.
+selectST executado em 0.001217 segundos.
 >>> Posição 69 = blandit
-selectST executado em 0.000643 segundos.
+selectST executado em 0.000634 segundos.
 >>> Posição 70 = boa
-selectST executado em 0.000896 segundos.
+selectST executado em 0.000878 segundos.
 >>> Posição 71 = bolis
-selectST executado em 0.000102 segundos.
+selectST executado em 0.0001 segundos.
 >>> Posição 72 = bota
-selectST executado em 0.001026 segundos.
+selectST executado em 0.001013 segundos.
 >>> Posição 73 = cabeça
-selectST executado em 0.000391 segundos.
+selectST executado em 0.000385 segundos.
 >>> Posição 74 = cachacis
-selectST executado em 0.000985 segundos.
+selectST executado em 0.000977 segundos.
 >>> Posição 75 = cacilds
-selectST executado em 0.001315 segundos.
+selectST executado em 0.001285 segundos.
 >>> Posição 76 = cair
-selectST executado em 0.000198 segundos.
+selectST executado em 0.000195 segundos.
 >>> Posição 77 = capivaris
-selectST executado em 0.000411 segundos.
+selectST executado em 0.000406 segundos.
 >>> Posição 78 = caçá
-selectST executado em 0.000869 segundos.
+selectST executado em 0.000858 segundos.
 >>> Posição 79 = ce
-selectST executado em 0.00011 segundos.
+selectST executado em 0.000109 segundos.
 >>> Posição 80 = cevadiss
-selectST executado em 0.000355 segundos.
+selectST executado em 0.000351 segundos.
 >>> Posição 81 = cochilar
-selectST executado em 0.000177 segundos.
+selectST executado em 0.000184 segundos.
 >>> Posição 82 = commodo
-selectST executado em 0.001126 segundos.
+selectST executado em 0.001105 segundos.
 >>> Posição 83 = conhecidiss
-selectST executado em 0.000222 segundos.
+selectST executado em 0.000219 segundos.
 >>> Posição 84 = conheço
-selectST executado em 0.00099 segundos.
+selectST executado em 0.000978 segundos.
 >>> Posição 85 = consectetur
 selectST executado em 6.1e-05 segundos.
 >>> Posição 86 = consequat
-selectST executado em 0.000487 segundos.
+selectST executado em 0.000481 segundos.
 >>> Posição 87 = copo
-selectST executado em 0.000309 segundos.
+selectST executado em 0.000306 segundos.
 >>> Posição 88 = cumpadi
-selectST executado em 0.00101 segundos.
+selectST executado em 0.001008 segundos.
 >>> Posição 89 = cursus
-selectST executado em 0.000463 segundos.
+selectST executado em 0.000458 segundos.
 >>> Posição 90 = dapibus
-selectST executado em 0.00092 segundos.
+selectST executado em 0.000903 segundos.
 >>> Posição 91 = de
-selectST executado em 0.00075 segundos.
+selectST executado em 0.00074 segundos.
 >>> Posição 92 = deitado
-selectST executado em 0.000193 segundos.
+selectST executado em 0.000192 segundos.
 >>> Posição 93 = deixa
-selectST executado em 2.1e-05 segundos.
+selectST executado em 2.2e-05 segundos.
 >>> Posição 94 = denguis
-selectST executado em 0.000299 segundos.
+selectST executado em 0.000301 segundos.
 >>> Posição 95 = depois
-selectST executado em 0.000687 segundos.
+selectST executado em 0.000709 segundos.
 >>> Posição 96 = deprimidis
-selectST executado em 0.001 segundos.
+selectST executado em 0.000989 segundos.
 >>> Posição 97 = di
-selectST executado em 0.000903 segundos.
+selectST executado em 0.0009 segundos.
 >>> Posição 98 = dia
-selectST executado em 0.001156 segundos.
+selectST executado em 0.001143 segundos.
 >>> Posição 99 = diam
-selectST executado em 3.6e-05 segundos.
+selectST executado em 3.7e-05 segundos.
 >>> Posição 100 = disculpa
-selectST executado em 0.000756 segundos.
+selectST executado em 0.000746 segundos.
 >>> Posição 101 = disputationi
-selectST executado em 0.000599 segundos.
->>> Posição 102 = divinis
-selectST executado em 0.00035 segundos.
->>> Posição 103 = divoltis
-selectST executado em 0.00069 segundos.
->>> Posição 104 = dolor
-selectST executado em 0.001133 segundos.
->>> Posição 105 = dormir
-selectST executado em 0.000187 segundos.
->>> Posição 106 = dos
-selectST executado em 0.001273 segundos.
->>> Posição 107 = duris
-selectST executado em 0.001251 segundos.
->>> Posição 108 = e
-selectST executado em 0.000325 segundos.
->>> Posição 109 = egestas
-selectST executado em 0.001219 segundos.
->>> Posição 110 = eget
-selectST executado em 0.00042 segundos.
->>> Posição 111 = electram
 selectST executado em 0.000594 segundos.
+>>> Posição 102 = divinis
+selectST executado em 0.000345 segundos.
+>>> Posição 103 = divoltis
+selectST executado em 0.000673 segundos.
+>>> Posição 104 = dolor
+selectST executado em 0.001132 segundos.
+>>> Posição 105 = dormir
+selectST executado em 0.000185 segundos.
+>>> Posição 106 = dos
+selectST executado em 0.001281 segundos.
+>>> Posição 107 = duris
+selectST executado em 0.001231 segundos.
+>>> Posição 108 = e
+selectST executado em 0.000339 segundos.
+>>> Posição 109 = egestas
+selectST executado em 0.001221 segundos.
+>>> Posição 110 = eget
+selectST executado em 0.000416 segundos.
+>>> Posição 111 = electram
+selectST executado em 0.000583 segundos.
 >>> Posição 112 = elementis
-selectST executado em 0.00025 segundos.
+selectST executado em 0.000247 segundos.
 >>> Posição 113 = elementum
-selectST executado em 0.001079 segundos.
+selectST executado em 0.001057 segundos.
 >>> Posição 114 = então
-selectST executado em 0.001032 segundos.
+selectST executado em 0.001019 segundos.
 >>> Posição 115 = erat
-selectST executado em 0.000936 segundos.
+selectST executado em 0.000932 segundos.
 >>> Posição 116 = eros
-selectST executado em 0.001124 segundos.
+selectST executado em 0.001111 segundos.
 >>> Posição 117 = espiritis
-selectST executado em 0.000857 segundos.
+selectST executado em 0.000839 segundos.
 >>> Posição 118 = est
-selectST executado em 0.001201 segundos.
+selectST executado em 0.001231 segundos.
 >>> Posição 119 = et
-selectST executado em 0.000577 segundos.
+selectST executado em 0.000571 segundos.
 >>> Posição 120 = eu
-selectST executado em 0.000995 segundos.
+selectST executado em 0.000982 segundos.
 >>> Posição 121 = euismod
-selectST executado em 0.000736 segundos.
+selectST executado em 0.000727 segundos.
 >>> Posição 122 = euzis
-selectST executado em 0.000623 segundos.
+selectST executado em 0.000607 segundos.
 >>> Posição 123 = ex
-selectST executado em 0.000826 segundos.
+selectST executado em 0.000828 segundos.
 >>> Posição 124 = faixa
-selectST executado em 0.000381 segundos.
+selectST executado em 0.000377 segundos.
 >>> Posição 125 = faiz
-selectST executado em 0.001192 segundos.
+selectST executado em 0.001202 segundos.
 >>> Posição 126 = fazendo
-selectST executado em 0.000171 segundos.
+selectST executado em 0.000169 segundos.
 >>> Posição 127 = felis
-selectST executado em 4.7e-05 segundos.
+selectST executado em 4.6e-05 segundos.
 >>> Posição 128 = fermentis
-selectST executado em 0.00032 segundos.
+selectST executado em 0.000316 segundos.
 >>> Posição 129 = filhis
-selectST executado em 0.000859 segundos.
+selectST executado em 0.000851 segundos.
 >>> Posição 130 = finis
-selectST executado em 0.00123 segundos.
+selectST executado em 0.001216 segundos.
 >>> Posição 131 = furadis
-selectST executado em 0.000761 segundos.
+selectST executado em 0.000752 segundos.
 >>> Posição 132 = gatis
-selectST executado em 0.000517 segundos.
+selectST executado em 0.000511 segundos.
 >>> Posição 133 = gente
-selectST executado em 0.001244 segundos.
+selectST executado em 0.001243 segundos.
 >>> Posição 134 = gentis
-selectST executado em 0.000886 segundos.
+selectST executado em 0.000895 segundos.
 >>> Posição 135 = girarzis
-selectST executado em 0.001064 segundos.
+selectST executado em 0.001059 segundos.
 >>> Posição 136 = gosta
-selectST executado em 0.000903 segundos.
+selectST executado em 0.000892 segundos.
 >>> Posição 137 = gostis
-selectST executado em 9.1e-05 segundos.
+selectST executado em 9e-05 segundos.
 >>> Posição 138 = hendrerit
-selectST executado em 0.000938 segundos.
+selectST executado em 0.000919 segundos.
 >>> Posição 139 = i
-selectST executado em 0.000267 segundos.
+selectST executado em 0.000264 segundos.
 >>> Posição 140 = iaculis
-selectST executado em 0.001084 segundos.
+selectST executado em 0.001076 segundos.
 >>> Posição 141 = im
-selectST executado em 0.000783 segundos.
+selectST executado em 0.000772 segundos.
 >>> Posição 142 = in
-selectST executado em 0.001128 segundos.
+selectST executado em 0.001114 segundos.
 >>> Posição 143 = inteiris
-selectST executado em 0.000365 segundos.
+selectST executado em 0.000361 segundos.
 >>> Posição 144 = interdum
-selectST executado em 0.000798 segundos.
+selectST executado em 0.000784 segundos.
 >>> Posição 145 = interessantis
-selectST executado em 7e-06 segundos.
+selectST executado em 6e-06 segundos.
 >>> Posição 146 = ipsum
 selectST executado em 5.2e-05 segundos.
 >>> Posição 147 = lacinia
-selectST executado em 7.2e-05 segundos.
+selectST executado em 7.1e-05 segundos.
 >>> Posição 148 = laoreet
-selectST executado em 3.2e-05 segundos.
+selectST executado em 3.1e-05 segundos.
 >>> Posição 149 = latim
-selectST executado em 0.000258 segundos.
+selectST executado em 0.000255 segundos.
 >>> Posição 150 = leite
-selectST executado em 0.001037 segundos.
+selectST executado em 0.001042 segundos.
 >>> Posição 151 = leo
-selectST executado em 0.001092 segundos.
+selectST executado em 0.00108 segundos.
 >>> Posição 152 = levo
-selectST executado em 0.00013 segundos.
+selectST executado em 0.000129 segundos.
 >>> Posição 153 = libero
-selectST executado em 0.000676 segundos.
+selectST executado em 0.000657 segundos.
 >>> Posição 154 = litora
-selectST executado em 0.000541 segundos.
+selectST executado em 0.000535 segundos.
 >>> Posição 155 = litro
-selectST executado em 0.001292 segundos.
+selectST executado em 0.001282 segundos.
 >>> Posição 156 = lupuliz
-selectST executado em 0.000341 segundos.
+selectST executado em 0.000336 segundos.
 >>> Posição 157 = lá
-selectST executado em 0.000691 segundos.
+selectST executado em 0.000682 segundos.
 >>> Posição 158 = magna
-selectST executado em 0.000731 segundos.
+selectST executado em 0.00072 segundos.
 >>> Posição 159 = mais
-selectST executado em 9.6e-05 segundos.
+selectST executado em 9.5e-05 segundos.
 >>> Posição 160 = malandris
-selectST executado em 0.001187 segundos.
+selectST executado em 0.001172 segundos.
 >>> Posição 161 = malesuada
-selectST executado em 0.000956 segundos.
+selectST executado em 0.000955 segundos.
 >>> Posição 162 = manda
-selectST executado em 0.000638 segundos.
+selectST executado em 0.00063 segundos.
 >>> Posição 163 = manquis
-selectST executado em 0.0004 segundos.
+selectST executado em 0.000395 segundos.
 >>> Posição 164 = mas
-selectST executado em 0.000145 segundos.
+selectST executado em 0.000143 segundos.
 >>> Posição 165 = matis
-selectST executado em 0.000334 segundos.
+selectST executado em 0.00033 segundos.
 >>> Posição 166 = mim
-selectST executado em 0.000883 segundos.
+selectST executado em 0.000866 segundos.
 >>> Posição 167 = minha
-selectST executado em 0.000628 segundos.
+selectST executado em 0.000621 segundos.
 >>> Posição 168 = molestie
-selectST executado em 0.001098 segundos.
+selectST executado em 0.001091 segundos.
 >>> Posição 169 = monti
-selectST executado em 0.000289 segundos.
+selectST executado em 0.000285 segundos.
 >>> Posição 170 = morreus
-selectST executado em 0.000513 segundos.
+selectST executado em 0.000506 segundos.
 >>> Posição 171 = motivis
-selectST executado em 0.000305 segundos.
+selectST executado em 0.000301 segundos.
 >>> Posição 172 = muito
-selectST executado em 0.000723 segundos.
+selectST executado em 0.000709 segundos.
 >>> Posição 173 = mula
-selectST executado em 0.000405 segundos.
+selectST executado em 0.000399 segundos.
 >>> Posição 174 = mundo
-selectST executado em 0.000722 segundos.
+selectST executado em 0.000724 segundos.
 >>> Posição 175 = mé
-selectST executado em 0.000894 segundos.
+selectST executado em 0.000884 segundos.
 >>> Posição 176 = na
-selectST executado em 0.000632 segundos.
+selectST executado em 0.000625 segundos.
 >>> Posição 177 = nada
-selectST executado em 0.000473 segundos.
+selectST executado em 0.000467 segundos.
 >>> Posição 178 = nadis
-selectST executado em 0.000272 segundos.
+selectST executado em 0.00027 segundos.
 >>> Posição 179 = nec
-selectST executado em 0.001144 segundos.
+selectST executado em 0.001124 segundos.
 >>> Posição 180 = nibh
-selectST executado em 0.000809 segundos.
+selectST executado em 0.000807 segundos.
 >>> Posição 181 = ninguém
-selectST executado em 0.00014 segundos.
+selectST executado em 0.000139 segundos.
 >>> Posição 182 = nisi
-selectST executado em 0.001058 segundos.
+selectST executado em 0.001044 segundos.
 >>> Posição 183 = nisl
-selectST executado em 0.001084 segundos.
+selectST executado em 0.001064 segundos.
 >>> Posição 184 = no
-selectST executado em 0.000522 segundos.
+selectST executado em 0.000515 segundos.
 >>> Posição 185 = nois
-selectST executado em 0.001151 segundos.
+selectST executado em 0.001145 segundos.
 >>> Posição 186 = non
-selectST executado em 0.000925 segundos.
+selectST executado em 0.000914 segundos.
 >>> Posição 187 = num
-selectST executado em 0.001045 segundos.
+selectST executado em 0.001032 segundos.
 >>> Posição 188 = nunc
-selectST executado em 0.000443 segundos.
+selectST executado em 0.00043 segundos.
 >>> Posição 189 = não
-selectST executado em 0.001264 segundos.
+selectST executado em 0.001263 segundos.
 >>> Posição 190 = o
-selectST executado em 0.001254 segundos.
+selectST executado em 0.00124 segundos.
 >>> Posição 191 = odio
 selectST executado em 2.6e-05 segundos.
 >>> Posição 192 = orci
-selectST executado em 8.2e-05 segundos.
+selectST executado em 8.1e-05 segundos.
 >>> Posição 193 = ordem
-selectST executado em 0.001286 segundos.
+selectST executado em 0.001263 segundos.
 >>> Posição 194 = ornare
 selectST executado em 7.7e-05 segundos.
 >>> Posição 195 = os
-selectST executado em 0.000153 segundos.
+selectST executado em 0.000151 segundos.
 >>> Posição 196 = pa
-selectST executado em 0.000773 segundos.
+selectST executado em 0.000771 segundos.
 >>> Posição 197 = paga
-selectST executado em 0.001147 segundos.
+selectST executado em 0.001134 segundos.
 >>> Posição 198 = palavris
-selectST executado em 0.000284 segundos.
+selectST executado em 0.00028 segundos.
 >>> Posição 199 = paradis
-selectST executado em 0.000708 segundos.
+selectST executado em 0.0007 segundos.
 >>> Posição 200 = pareci
-selectST executado em 0.000264 segundos.
+selectST executado em 0.000261 segundos.
 >>> Posição 201 = pau
-selectST executado em 0.00053 segundos.
+selectST executado em 0.000519 segundos.
 >>> Posição 202 = per
-selectST executado em 0.000573 segundos.
+selectST executado em 0.000566 segundos.
 >>> Posição 203 = pessoas
-selectST executado em 1.3e-05 segundos.
+selectST executado em 1.2e-05 segundos.
 >>> Posição 204 = pindureta
-selectST executado em 0.001167 segundos.
+selectST executado em 0.001168 segundos.
 >>> Posição 205 = pinga
-selectST executado em 0.001018 segundos.
+selectST executado em 0.001006 segundos.
 >>> Posição 206 = pirulitá
-selectST executado em 0.001186 segundos.
+selectST executado em 0.001163 segundos.
 >>> Posição 207 = pode
-selectST executado em 0.000975 segundos.
+selectST executado em 0.000969 segundos.
 >>> Posição 208 = porris
-selectST executado em 0.000676 segundos.
+selectST executado em 0.000667 segundos.
 >>> Posição 209 = pose
-selectST executado em 0.000165 segundos.
+selectST executado em 0.000163 segundos.
 >>> Posição 210 = pra
-selectST executado em 0.000243 segundos.
+selectST executado em 0.000241 segundos.
 >>> Posição 211 = preta
-selectST executado em 0.000375 segundos.
->>> Posição 212 = preto
 selectST executado em 0.00037 segundos.
+>>> Posição 212 = preto
+selectST executado em 0.000365 segundos.
 >>> Posição 213 = pudia
-selectST executado em 0.000115 segundos.
+selectST executado em 0.000114 segundos.
 >>> Posição 214 = pão
-selectST executado em 0.001258 segundos.
+selectST executado em 0.001235 segundos.
 >>> Posição 215 = pé
-selectST executado em 0.000202 segundos.
+selectST executado em 0.000199 segundos.
 >>> Posição 216 = quam
-selectST executado em 0.000741 segundos.
+selectST executado em 0.00074 segundos.
 >>> Posição 217 = que
-selectST executado em 0.000979 segundos.
+selectST executado em 0.000967 segundos.
 >>> Posição 218 = quem
-selectST executado em 0.00024 segundos.
+selectST executado em 0.000237 segundos.
 >>> Posição 219 = qui
-selectST executado em 0.000343 segundos.
+selectST executado em 0.000339 segundos.
 >>> Posição 220 = quis
-selectST executado em 0.000951 segundos.
+selectST executado em 0.000933 segundos.
 >>> Posição 221 = quisso
-selectST executado em 0.00012 segundos.
+selectST executado em 0.000118 segundos.
 >>> Posição 222 = quium
-selectST executado em 0.001161 segundos.
+selectST executado em 0.001151 segundos.
 >>> Posição 223 = quo
-selectST executado em 0.000482 segundos.
+selectST executado em 0.000475 segundos.
 >>> Posição 224 = receita
-selectST executado em 0.000106 segundos.
+selectST executado em 0.000104 segundos.
 >>> Posição 225 = reclamis
-selectST executado em 0.000497 segundos.
+selectST executado em 0.000491 segundos.
 >>> Posição 226 = risus
-selectST executado em 4.2e-05 segundos.
+selectST executado em 4.1e-05 segundos.
 >>> Posição 227 = sadipscing
-selectST executado em 0.000583 segundos.
+selectST executado em 0.000575 segundos.
 >>> Posição 228 = santis
-selectST executado em 0.00085 segundos.
+selectST executado em 0.000832 segundos.
 >>> Posição 229 = scelerisque
-selectST executado em 0.000425 segundos.
+selectST executado em 0.00042 segundos.
 >>> Posição 230 = se
-selectST executado em 0.001181 segundos.
+selectST executado em 0.001174 segundos.
 >>> Posição 231 = sed
-selectST executado em 0.00083 segundos.
+selectST executado em 0.000819 segundos.
 >>> Posição 232 = sem
-selectST executado em 0.000394 segundos.
+selectST executado em 0.000389 segundos.
 >>> Posição 233 = sentado
-selectST executado em 0.000181 segundos.
+selectST executado em 0.00018 segundos.
 >>> Posição 234 = significa
-selectST executado em 0.000277 segundos.
+selectST executado em 0.000274 segundos.
 >>> Posição 235 = sit
-selectST executado em 0.000821 segundos.
+selectST executado em 0.000806 segundos.
 >>> Posição 236 = sociosqu
-selectST executado em 0.00055 segundos.
+selectST executado em 0.000543 segundos.
 >>> Posição 237 = sou
-selectST executado em 0.000619 segundos.
+selectST executado em 0.00063 segundos.
 >>> Posição 238 = sua
-selectST executado em 0.000965 segundos.
+selectST executado em 0.000954 segundos.
 >>> Posição 239 = taciti
-selectST executado em 0.000555 segundos.
+selectST executado em 0.000548 segundos.
 >>> Posição 240 = tellus
-selectST executado em 0.000803 segundos.
+selectST executado em 0.000793 segundos.
 >>> Posição 241 = tem
-selectST executado em 0.001041 segundos.
+selectST executado em 0.001036 segundos.
 >>> Posição 242 = tempor
-selectST executado em 0.001114 segundos.
+selectST executado em 0.0011 segundos.
 >>> Posição 243 = tendi
-selectST executado em 0.000478 segundos.
+selectST executado em 0.000472 segundos.
 >>> Posição 244 = terra
-selectST executado em 0.000623 segundos.
+selectST executado em 0.000615 segundos.
 >>> Posição 245 = tombis
-selectST executado em 0.000135 segundos.
+selectST executado em 0.000134 segundos.
 >>> Posição 246 = tomo
-selectST executado em 0.000149 segundos.
+selectST executado em 0.000147 segundos.
 >>> Posição 247 = torquent
-selectST executado em 0.000545 segundos.
+selectST executado em 0.000529 segundos.
 >>> Posição 248 = tratores
-selectST executado em 0.001269 segundos.
+selectST executado em 0.001277 segundos.
 >>> Posição 249 = tristique
-selectST executado em 0.000799 segundos.
+selectST executado em 0.00079 segundos.
 >>> Posição 250 = turmis
-selectST executado em 0.000865 segundos.
+selectST executado em 0.000853 segundos.
 >>> Posição 251 = turpis
-selectST executado em 0.00043 segundos.
+selectST executado em 0.000425 segundos.
 >>> Posição 252 = tá
-selectST executado em 0.000728 segundos.
+selectST executado em 0.000707 segundos.
 >>> Posição 253 = u
-selectST executado em 0.000725 segundos.
+selectST executado em 0.000715 segundos.
 >>> Posição 254 = ultrices
 selectST executado em 6.6e-05 segundos.
 >>> Posição 255 = um
-selectST executado em 0.000698 segundos.
+selectST executado em 0.000697 segundos.
 >>> Posição 256 = uma
-selectST executado em 0.001022 segundos.
+selectST executado em 0.00101 segundos.
 >>> Posição 257 = urna
-selectST executado em 0.000951 segundos.
+selectST executado em 0.000938 segundos.
 >>> Posição 258 = ut
-selectST executado em 0.001204 segundos.
+selectST executado em 0.00119 segundos.
 >>> Posição 259 = vai
-selectST executado em 0.000873 segundos.
->>> Posição 260 = vale
-selectST executado em 0.000226 segundos.
->>> Posição 261 = varius
-selectST executado em 0.00066 segundos.
->>> Posição 262 = vehicula
-selectST executado em 0.000458 segundos.
->>> Posição 263 = vel
-selectST executado em 0.000449 segundos.
->>> Posição 264 = vermeio
-selectST executado em 0.001059 segundos.
->>> Posição 265 = vidis
-selectST executado em 0.001297 segundos.
->>> Posição 266 = vitae
-selectST executado em 0.001089 segundos.
->>> Posição 267 = viverra
-selectST executado em 0.000446 segundos.
->>> Posição 268 = volutpat
-selectST executado em 0.00095 segundos.
->>> Posição 269 = vulputate
-selectST executado em 0.000918 segundos.
->>> Posição 270 = vê
-selectST executado em 0.000156 segundos.
->>> Posição 271 = é
 selectST executado em 0.00088 segundos.
+>>> Posição 260 = vale
+selectST executado em 0.000224 segundos.
+>>> Posição 261 = varius
+selectST executado em 0.000652 segundos.
+>>> Posição 262 = vehicula
+selectST executado em 0.000452 segundos.
+>>> Posição 263 = vel
+selectST executado em 0.000444 segundos.
+>>> Posição 264 = vermeio
+selectST executado em 0.00104 segundos.
+>>> Posição 265 = vidis
+selectST executado em 0.001286 segundos.
+>>> Posição 266 = vitae
+selectST executado em 0.001076 segundos.
+>>> Posição 267 = viverra
+selectST executado em 0.00044 segundos.
+>>> Posição 268 = volutpat
+selectST executado em 0.000929 segundos.
+>>> Posição 269 = vulputate
+selectST executado em 0.000929 segundos.
+>>> Posição 270 = vê
+selectST executado em 0.000155 segundos.
+>>> Posição 271 = é
+selectST executado em 0.000871 segundos.
 >>> Posição 272 = 
-selectST executado em 0.001319 segundos.
->>> Posição 273 = 
-selectST executado em 0.001312 segundos.
->>> Posição 274 = 
-selectST executado em 0.001312 segundos.
->>> Posição 275 = 
-selectST executado em 0.001317 segundos.
->>> Posição 276 = 
-selectST executado em 0.001312 segundos.
->>> Posição 277 = 
-selectST executado em 0.001311 segundos.
->>> Posição 278 = 
-selectST executado em 0.001321 segundos.
->>> Posição 279 = 
-selectST executado em 0.001312 segundos.
->>> Posição 280 = 
-selectST executado em 0.001312 segundos.
->>> Posição 281 = 
-selectST executado em 0.001317 segundos.
->>> Posição 282 = 
-selectST executado em 0.001311 segundos.
->>> Posição 283 = 
-selectST executado em 0.001312 segundos.
->>> Posição 284 = 
-selectST executado em 0.001319 segundos.
->>> Posição 285 = 
-selectST executado em 0.001312 segundos.
->>> Posição 286 = 
-selectST executado em 0.001312 segundos.
->>> Posição 287 = 
-selectST executado em 0.001318 segundos.
->>> Posição 288 = 
-selectST executado em 0.001312 segundos.
->>> Posição 289 = 
-selectST executado em 0.001312 segundos.
->>> Posição 290 = 
-selectST executado em 0.001319 segundos.
->>> Posição 291 = 
-selectST executado em 0.001312 segundos.
->>> Posição 292 = 
-selectST executado em 0.001312 segundos.
->>> Posição 293 = 
-selectST executado em 0.001321 segundos.
->>> Posição 294 = 
-selectST executado em 0.001312 segundos.
->>> Posição 295 = 
-selectST executado em 0.001311 segundos.
->>> Posição 296 = 
-selectST executado em 0.001322 segundos.
->>> Posição 297 = 
-selectST executado em 0.001311 segundos.
->>> Posição 298 = 
-selectST executado em 0.001311 segundos.
->>> Posição 299 = 
-selectST executado em 0.001318 segundos.
->>> Posição 300 = 
-selectST executado em 0.001311 segundos.
->>> Posição 301 = 
-selectST executado em 0.001311 segundos.
->>> Posição 302 = 
-selectST executado em 0.001319 segundos.
->>> Posição 303 = 
-selectST executado em 0.001312 segundos.
->>> Posição 304 = 
-selectST executado em 0.001312 segundos.
->>> Posição 305 = 
-selectST executado em 0.00132 segundos.
->>> Posição 306 = 
-selectST executado em 0.001312 segundos.
->>> Posição 307 = 
-selectST executado em 0.001311 segundos.
->>> Posição 308 = 
-selectST executado em 0.001319 segundos.
->>> Posição 309 = 
-selectST executado em 0.001311 segundos.
->>> Posição 310 = 
-selectST executado em 0.001312 segundos.
->>> Posição 311 = 
-selectST executado em 0.001317 segundos.
->>> Posição 312 = 
-selectST executado em 0.001312 segundos.
->>> Posição 313 = 
-selectST executado em 0.001312 segundos.
->>> Posição 314 = 
-selectST executado em 0.001319 segundos.
->>> Posição 315 = 
-selectST executado em 0.001312 segundos.
->>> Posição 316 = 
-selectST executado em 0.001312 segundos.
->>> Posição 317 = 
-selectST executado em 0.001322 segundos.
->>> Posição 318 = 
-selectST executado em 0.001312 segundos.
->>> Posição 319 = 
-selectST executado em 0.001311 segundos.
->>> Posição 320 = 
-selectST executado em 0.001318 segundos.
->>> Posição 321 = 
-selectST executado em 0.001312 segundos.
->>> Posição 322 = 
-selectST executado em 0.001312 segundos.
->>> Posição 323 = 
-selectST executado em 0.001319 segundos.
->>> Posição 324 = 
-selectST executado em 0.001312 segundos.
->>> Posição 325 = 
-selectST executado em 0.001311 segundos.
->>> Posição 326 = 
-selectST executado em 0.001324 segundos.
->>> Posição 327 = 
-selectST executado em 0.001312 segundos.
->>> Posição 328 = 
-selectST executado em 0.001311 segundos.
->>> Posição 329 = 
-selectST executado em 0.001318 segundos.
->>> Posição 330 = 
-selectST executado em 0.001311 segundos.
->>> Posição 331 = 
-selectST executado em 0.001312 segundos.
->>> Posição 332 = 
-selectST executado em 0.001326 segundos.
->>> Posição 333 = 
-selectST executado em 0.001312 segundos.
->>> Posição 334 = 
-selectST executado em 0.001311 segundos.
->>> Posição 335 = 
-selectST executado em 0.00132 segundos.
->>> Posição 336 = 
-selectST executado em 0.001311 segundos.
->>> Posição 337 = 
-selectST executado em 0.001311 segundos.
->>> Posição 338 = 
-selectST executado em 0.001319 segundos.
->>> Posição 339 = 
-selectST executado em 0.001311 segundos.
->>> Posição 340 = 
-selectST executado em 0.001312 segundos.
->>> Posição 341 = 
-selectST executado em 0.001322 segundos.
->>> Posição 342 = 
-selectST executado em 0.001311 segundos.
->>> Posição 343 = 
-selectST executado em 0.001311 segundos.
->>> Posição 344 = 
-selectST executado em 0.001318 segundos.
->>> Posição 345 = 
-selectST executado em 0.001312 segundos.
->>> Posição 346 = 
-selectST executado em 0.001312 segundos.
->>> Posição 347 = 
-selectST executado em 0.001318 segundos.
->>> Posição 348 = 
-selectST executado em 0.001311 segundos.
->>> Posição 349 = 
-selectST executado em 0.001311 segundos.
->>> Posição 350 = 
-selectST executado em 0.00132 segundos.
->>> Posição 351 = 
-selectST executado em 0.001312 segundos.
->>> Posição 352 = 
-selectST executado em 0.001311 segundos.
->>> Posição 353 = 
-selectST executado em 0.001319 segundos.
->>> Posição 354 = 
-selectST executado em 0.001311 segundos.
->>> Posição 355 = 
-selectST executado em 0.001311 segundos.
->>> Posição 356 = 
-selectST executado em 0.001317 segundos.
->>> Posição 357 = 
-selectST executado em 0.001311 segundos.
->>> Posição 358 = 
-selectST executado em 0.001311 segundos.
->>> Posição 359 = 
-selectST executado em 0.001318 segundos.
->>> Posição 360 = 
-selectST executado em 0.001317 segundos.
->>> Posição 361 = 
-selectST executado em 0.001312 segundos.
->>> Posição 362 = 
-selectST executado em 0.001316 segundos.
->>> Posição 363 = 
-selectST executado em 0.001312 segundos.
->>> Posição 364 = 
-selectST executado em 0.001317 segundos.
->>> Posição 365 = 
-selectST executado em 0.001318 segundos.
->>> Posição 366 = 
-selectST executado em 0.001311 segundos.
->>> Posição 367 = 
-selectST executado em 0.001311 segundos.
->>> Posição 368 = 
-selectST executado em 0.001319 segundos.
->>> Posição 369 = 
-selectST executado em 0.001311 segundos.
->>> Posição 370 = 
-selectST executado em 0.001311 segundos.
->>> Posição 371 = 
-selectST executado em 0.001319 segundos.
->>> Posição 372 = 
-selectST executado em 0.001311 segundos.
->>> Posição 373 = 
-selectST executado em 0.001312 segundos.
->>> Posição 374 = 
-selectST executado em 0.001318 segundos.
->>> Posição 375 = 
-selectST executado em 0.001312 segundos.
->>> Posição 376 = 
-selectST executado em 0.001311 segundos.
->>> Posição 377 = 
-selectST executado em 0.001329 segundos.
->>> Posição 378 = 
-selectST executado em 0.001312 segundos.
->>> Posição 379 = 
-selectST executado em 0.001312 segundos.
->>> Posição 380 = 
-selectST executado em 0.00132 segundos.
->>> Posição 381 = 
-selectST executado em 0.001311 segundos.
->>> Posição 382 = 
-selectST executado em 0.001312 segundos.
->>> Posição 383 = 
-selectST executado em 0.001317 segundos.
->>> Posição 384 = 
-selectST executado em 0.001312 segundos.
->>> Posição 385 = 
-selectST executado em 0.001311 segundos.
->>> Posição 386 = 
-selectST executado em 0.001319 segundos.
->>> Posição 387 = 
-selectST executado em 0.001312 segundos.
->>> Posição 388 = 
-selectST executado em 0.001311 segundos.
->>> Posição 389 = 
-selectST executado em 0.001317 segundos.
->>> Posição 390 = 
-selectST executado em 0.001312 segundos.
->>> Posição 391 = 
-selectST executado em 0.001312 segundos.
->>> Posição 392 = 
-selectST executado em 0.001318 segundos.
->>> Posição 393 = 
-selectST executado em 0.001311 segundos.
->>> Posição 394 = 
-selectST executado em 0.001311 segundos.
->>> Posição 395 = 
-selectST executado em 0.001318 segundos.
->>> Posição 396 = 
-selectST executado em 0.001312 segundos.
->>> Posição 397 = 
-selectST executado em 0.001311 segundos.
->>> Posição 398 = 
-selectST executado em 0.001319 segundos.
->>> Posição 399 = 
-selectST executado em 0.001312 segundos.
->>> Posição 400 = 
-selectST executado em 0.001311 segundos.
->>> Posição 401 = 
-selectST executado em 0.001316 segundos.
->>> Posição 402 = 
-selectST executado em 0.001312 segundos.
->>> Posição 403 = 
-selectST executado em 0.001312 segundos.
->>> Posição 404 = 
-selectST executado em 0.001319 segundos.
->>> Posição 405 = 
-selectST executado em 0.001312 segundos.
->>> Posição 406 = 
-selectST executado em 0.001312 segundos.
->>> Posição 407 = 
-selectST executado em 0.001323 segundos.
->>> Posição 408 = 
-selectST executado em 0.001312 segundos.
->>> Posição 409 = 
-selectST executado em 0.001312 segundos.
->>> Posição 410 = 
-selectST executado em 0.001324 segundos.
->>> Posição 411 = 
-selectST executado em 0.001312 segundos.
->>> Posição 412 = 
-selectST executado em 0.001313 segundos.
->>> Posição 413 = 
-selectST executado em 0.001334 segundos.
->>> Posição 414 = 
-selectST executado em 0.001312 segundos.
->>> Posição 415 = 
-selectST executado em 0.001313 segundos.
->>> Posição 416 = 
-selectST executado em 0.001324 segundos.
->>> Posição 417 = 
-selectST executado em 0.001312 segundos.
->>> Posição 418 = 
-selectST executado em 0.001312 segundos.
->>> Posição 419 = 
-selectST executado em 0.001325 segundos.
->>> Posição 420 = 
-selectST executado em 0.001312 segundos.
->>> Posição 421 = 
-selectST executado em 0.001312 segundos.
->>> Posição 422 = 
-selectST executado em 0.001325 segundos.
->>> Posição 423 = 
-selectST executado em 0.001312 segundos.
->>> Posição 424 = 
-selectST executado em 0.001312 segundos.
->>> Posição 425 = 
-selectST executado em 0.001322 segundos.
->>> Posição 426 = 
-selectST executado em 0.001311 segundos.
->>> Posição 427 = 
-selectST executado em 0.001312 segundos.
->>> Posição 428 = 
-selectST executado em 0.001321 segundos.
->>> Posição 429 = 
-selectST executado em 0.001311 segundos.
->>> Posição 430 = 
-selectST executado em 0.001311 segundos.
->>> Posição 431 = 
-selectST executado em 0.00132 segundos.
->>> Posição 432 = 
-selectST executado em 0.001312 segundos.
->>> Posição 433 = 
-selectST executado em 0.001312 segundos.
->>> Posição 434 = 
-selectST executado em 0.00132 segundos.
->>> Posição 435 = 
-selectST executado em 0.001312 segundos.
->>> Posição 436 = 
-selectST executado em 0.001313 segundos.
->>> Posição 437 = 
-selectST executado em 0.001321 segundos.
->>> Posição 438 = 
-selectST executado em 0.001312 segundos.
+selectST executado em 0.001296 segundos.
 >>> 

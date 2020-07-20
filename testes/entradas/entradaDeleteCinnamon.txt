@@ -1,7 +1,6 @@
 deleteST #61888
 deleteST $1
 deleteST $5,000
-deleteST 'AS-IS'
 deleteST 1
 deleteST 1.A
 deleteST 1.B
@@ -58,6 +57,7 @@ deleteST AMERICA
 deleteST AND
 deleteST ANY
 deleteST ANYTHING
+deleteST AS-IS
 deleteST ASCII
 deleteST About
 deleteST Above
