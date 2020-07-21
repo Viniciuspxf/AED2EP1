@@ -1,5 +1,5 @@
 criando ST...
-arquivo lido e ST construida em 0.068795 segundos
+arquivo lido e ST construida em 0.068037 segundos
 Possiveis operacoes do teste interativo:
 minST, delminST, getST <chave>; rankST <chave>, deleteST <chave>, selectST <int>
 CRTL-D para encerrar.
@@ -24,23 +24,23 @@ getST executado em 1e-06 segundos.
 >>> Diuretics: 40
 getST executado em 1e-06 segundos.
 >>> Em: 40
-getST executado em 2e-06 segundos.
+getST executado em 1e-06 segundos.
 >>> Forevis: 40
 getST executado em 1e-06 segundos.
 >>> In: 40
-getST executado em 1e-06 segundos.
+getST executado em 2e-06 segundos.
 >>> Interagi: 40
 getST executado em 1e-06 segundos.
 >>> Interessantiss: 40
-getST executado em 1e-06 segundos.
->>> Ipsum: 1
 getST executado em 2e-06 segundos.
+>>> Ipsum: 1
+getST executado em 1e-06 segundos.
 >>> Leite: 40
 getST executado em 1e-06 segundos.
 >>> Mais: 40
-getST executado em 1e-06 segundos.
->>> Manduma: 40
 getST executado em 2e-06 segundos.
+>>> Manduma: 40
+getST executado em 1e-06 segundos.
 >>> Mauris: 80
 getST executado em 1e-06 segundos.
 >>> Mussum: 1
@@ -56,51 +56,51 @@ getST executado em 1e-06 segundos.
 >>> Não: 40
 getST executado em 2e-06 segundos.
 >>> Paisis: 40
-getST executado em 2e-06 segundos.
+getST executado em 1e-06 segundos.
 >>> Per: 40
-getST executado em 1e-06 segundos.
->>> Posuere: 40
 getST executado em 2e-06 segundos.
->>> Pra: 40
+>>> Posuere: 40
 getST executado em 1e-06 segundos.
+>>> Pra: 40
+getST executado em 2e-06 segundos.
 >>> Praesent: 120
 getST executado em 1e-06 segundos.
 >>> Quem: 120
-getST executado em 2e-06 segundos.
+getST executado em 1e-06 segundos.
 >>> Sapien: 40
-getST executado em 1e-06 segundos.
+getST executado em 2e-06 segundos.
 >>> Sed: 80
-getST executado em 2e-06 segundos.
->>> Si: 80
 getST executado em 1e-06 segundos.
->>> Suco: 80
+>>> Si: 80
 getST executado em 2e-06 segundos.
+>>> Suco: 80
+getST executado em 1e-06 segundos.
 >>> Todo: 40
 getST executado em 2e-06 segundos.
 >>> Toma: 40
-getST executado em 1e-06 segundos.
+getST executado em 2e-06 segundos.
 >>> Tá: 40
 getST executado em 2e-06 segundos.
 >>> Ut: 40
-getST executado em 1e-06 segundos.
+getST executado em 2e-06 segundos.
 >>> Vehicula: 40
 getST executado em 2e-06 segundos.
 >>> Vide: 40
 getST executado em 2e-06 segundos.
 >>> Viva: 40
-getST executado em 2e-06 segundos.
+getST executado em 1e-06 segundos.
 >>> Vivamus: 40
-getST executado em 2e-06 segundos.
+getST executado em 1e-06 segundos.
 >>> a: 40
 getST executado em 1e-06 segundos.
 >>> abertis: 1
 getST executado em 2e-06 segundos.
 >>> ac: 40
-getST executado em 2e-06 segundos.
+getST executado em 1e-06 segundos.
 >>> accumsan: 40
 getST executado em 2e-06 segundos.
 >>> ad: 40
-getST executado em 2e-06 segundos.
+getST executado em 1e-06 segundos.
 >>> aguis: 40
 getST executado em 2e-06 segundos.
 >>> alcoolatra: 40
@@ -112,7 +112,7 @@ getST executado em 2e-06 segundos.
 >>> aliquet: 40
 getST executado em 2e-06 segundos.
 >>> altera: 40
-getST executado em 3e-06 segundos.
+getST executado em 2e-06 segundos.
 >>> amet: 80
 getST executado em 2e-06 segundos.
 >>> amistosis: 40
@@ -124,17 +124,17 @@ getST executado em 2e-06 segundos.
 >>> ante: 40
 getST executado em 2e-06 segundos.
 >>> aptent: 40
-getST executado em 2e-06 segundos.
+getST executado em 3e-06 segundos.
 >>> arcu: 80
-getST executado em 2e-06 segundos.
+getST executado em 1e-06 segundos.
 >>> arma: 40
-getST executado em 2e-06 segundos.
+getST executado em 1e-06 segundos.
 >>> as: 40
 getST executado em 2e-06 segundos.
 >>> augue: 40
 getST executado em 2e-06 segundos.
 >>> aumento: 40
-getST executado em 2e-06 segundos.
+getST executado em 3e-06 segundos.
 >>> aí: 40
 getST executado em 2e-06 segundos.
 >>> bebadis: 80
@@ -150,7 +150,7 @@ getST executado em 2e-06 segundos.
 >>> bota: 40
 getST executado em 2e-06 segundos.
 >>> cabeça: 40
-getST executado em 3e-06 segundos.
+getST executado em 2e-06 segundos.
 >>> cachacis: 80
 getST executado em 3e-06 segundos.
 >>> cacilds: 1
@@ -160,7 +160,7 @@ getST executado em 2e-06 segundos.
 >>> capivaris: 40
 getST executado em 3e-06 segundos.
 >>> caçá: 40
-getST executado em 3e-06 segundos.
+getST executado em 2e-06 segundos.
 >>> ce: 40
 getST executado em 2e-06 segundos.
 >>> cevadiss: 80
@@ -168,11 +168,11 @@ getST executado em 3e-06 segundos.
 >>> cochilar: 40
 getST executado em 3e-06 segundos.
 >>> commodo: 80
-getST executado em 3e-06 segundos.
+getST executado em 2e-06 segundos.
 >>> conhecidiss: 40
 getST executado em 3e-06 segundos.
 >>> conheço: 40
-getST executado em 2e-06 segundos.
+getST executado em 3e-06 segundos.
 >>> consectetur: 40
 getST executado em 3e-06 segundos.
 >>> consequat: 120
@@ -186,9 +186,9 @@ getST executado em 2e-06 segundos.
 >>> dapibus: 40
 getST executado em 3e-06 segundos.
 >>> de: 320
-getST executado em 3e-06 segundos.
+getST executado em 2e-06 segundos.
 >>> deitado: 40
-getST executado em 3e-06 segundos.
+getST executado em 2e-06 segundos.
 >>> deixa: 40
 getST executado em 3e-06 segundos.
 >>> denguis: 40
@@ -198,15 +198,15 @@ getST executado em 3e-06 segundos.
 >>> deprimidis: 40
 getST executado em 3e-06 segundos.
 >>> di: 80
-getST executado em 2e-06 segundos.
->>> dia: 40
 getST executado em 3e-06 segundos.
->>> diam: 40
+>>> dia: 40
 getST executado em 2e-06 segundos.
+>>> diam: 40
+getST executado em 3e-06 segundos.
 >>> disculpa: 40
 getST executado em 3e-06 segundos.
 >>> disputationi: 40
-getST executado em 3e-06 segundos.
+getST executado em 4e-06 segundos.
 >>> divinis: 40
 getST executado em 3e-06 segundos.
 >>> divoltis: 40
@@ -216,19 +216,19 @@ getST executado em 3e-06 segundos.
 >>> dormir: 40
 getST executado em 3e-06 segundos.
 >>> dos: 40
-getST executado em 2e-06 segundos.
+getST executado em 3e-06 segundos.
 >>> duris: 40
 getST executado em 3e-06 segundos.
 >>> e: 80
 getST executado em 2e-06 segundos.
 >>> egestas: 40
-getST executado em 3e-06 segundos.
->>> eget: 40
-getST executado em 3e-06 segundos.
->>> electram: 40
 getST executado em 4e-06 segundos.
->>> elementis: 40
+>>> eget: 40
+getST executado em 2e-06 segundos.
+>>> electram: 40
 getST executado em 3e-06 segundos.
+>>> elementis: 40
+getST executado em 4e-06 segundos.
 >>> elementum: 40
 getST executado em 3e-06 segundos.
 >>> então: 40
@@ -244,9 +244,9 @@ getST executado em 3e-06 segundos.
 >>> et: 80
 getST executado em 2e-06 segundos.
 >>> eu: 240
-getST executado em 2e-06 segundos.
+getST executado em 3e-06 segundos.
 >>> euismod: 40
-getST executado em 4e-06 segundos.
+getST executado em 3e-06 segundos.
 >>> euzis: 40
 getST executado em 3e-06 segundos.
 >>> ex: 40
@@ -256,25 +256,25 @@ getST executado em 3e-06 segundos.
 >>> faiz: 80
 getST executado em 3e-06 segundos.
 >>> fazendo: 40
-getST executado em 3e-06 segundos.
+getST executado em 4e-06 segundos.
 >>> felis: 41
 getST executado em 3e-06 segundos.
 >>> fermentis: 40
 getST executado em 4e-06 segundos.
 >>> filhis: 40
-getST executado em 3e-06 segundos.
+getST executado em 4e-06 segundos.
 >>> finis: 40
 getST executado em 3e-06 segundos.
 >>> furadis: 40
-getST executado em 3e-06 segundos.
+getST executado em 4e-06 segundos.
 >>> gatis: 80
-getST executado em 4e-06 segundos.
->>> gente: 40
 getST executado em 3e-06 segundos.
+>>> gente: 40
+getST executado em 4e-06 segundos.
 >>> gentis: 40
-getST executado em 4e-06 segundos.
+getST executado em 3e-06 segundos.
 >>> girarzis: 80
-getST executado em 4e-06 segundos.
+getST executado em 3e-06 segundos.
 >>> gosta: 80
 getST executado em 4e-06 segundos.
 >>> gostis: 40
@@ -282,7 +282,7 @@ getST executado em 4e-06 segundos.
 >>> hendrerit: 80
 getST executado em 4e-06 segundos.
 >>> i: 40
-getST executado em 3e-06 segundos.
+getST executado em 2e-06 segundos.
 >>> iaculis: 80
 getST executado em 4e-06 segundos.
 >>> im: 40
@@ -296,7 +296,7 @@ getST executado em 4e-06 segundos.
 >>> interessantis: 40
 getST executado em 4e-06 segundos.
 >>> ipsum: 40
-getST executado em 4e-06 segundos.
+getST executado em 3e-06 segundos.
 >>> lacinia: 40
 getST executado em 4e-06 segundos.
 >>> laoreet: 40
@@ -314,17 +314,17 @@ getST executado em 4e-06 segundos.
 >>> litora: 40
 getST executado em 4e-06 segundos.
 >>> litro: 1
-getST executado em 9e-06 segundos.
+getST executado em 4e-06 segundos.
 >>> lupuliz: 40
 getST executado em 4e-06 segundos.
 >>> lá: 40
-getST executado em 4e-06 segundos.
+getST executado em 3e-06 segundos.
 >>> magna: 40
 getST executado em 4e-06 segundos.
 >>> mais: 80
 getST executado em 4e-06 segundos.
 >>> malandris: 40
-getST executado em 5e-06 segundos.
+getST executado em 4e-06 segundos.
 >>> malesuada: 40
 getST executado em 4e-06 segundos.
 >>> manda: 40
@@ -332,7 +332,7 @@ getST executado em 4e-06 segundos.
 >>> manquis: 40
 getST executado em 4e-06 segundos.
 >>> mas: 40
-getST executado em 3e-06 segundos.
+getST executado em 4e-06 segundos.
 >>> matis: 40
 getST executado em 4e-06 segundos.
 >>> mim: 40
@@ -346,13 +346,13 @@ getST executado em 4e-06 segundos.
 >>> morreus: 40
 getST executado em 4e-06 segundos.
 >>> motivis: 40
-getST executado em 5e-06 segundos.
+getST executado em 4e-06 segundos.
 >>> muito: 40
 getST executado em 4e-06 segundos.
 >>> mula: 40
-getST executado em 4e-06 segundos.
+getST executado em 3e-06 segundos.
 >>> mundo: 120
-getST executado em 5e-06 segundos.
+getST executado em 4e-06 segundos.
 >>> mé: 160
 getST executado em 3e-06 segundos.
 >>> na: 40
@@ -360,15 +360,15 @@ getST executado em 4e-06 segundos.
 >>> nada: 40
 getST executado em 4e-06 segundos.
 >>> nadis: 40
-getST executado em 5e-06 segundos.
+getST executado em 4e-06 segundos.
 >>> nec: 80
 getST executado em 3e-06 segundos.
 >>> nibh: 40
-getST executado em 4e-06 segundos.
+getST executado em 3e-06 segundos.
 >>> ninguém: 40
-getST executado em 5e-06 segundos.
->>> nisi: 200
 getST executado em 4e-06 segundos.
+>>> nisi: 200
+getST executado em 3e-06 segundos.
 >>> nisl: 120
 getST executado em 3e-06 segundos.
 >>> no: 80
@@ -390,13 +390,13 @@ getST executado em 4e-06 segundos.
 >>> orci: 40
 getST executado em 4e-06 segundos.
 >>> ordem: 40
-getST executado em 5e-06 segundos.
+getST executado em 4e-06 segundos.
 >>> ornare: 40
 getST executado em 5e-06 segundos.
 >>> os: 80
-getST executado em 3e-06 segundos.
->>> pa: 40
 getST executado em 4e-06 segundos.
+>>> pa: 40
+getST executado em 3e-06 segundos.
 >>> paga: 40
 getST executado em 4e-06 segundos.
 >>> palavris: 40
@@ -410,19 +410,19 @@ getST executado em 4e-06 segundos.
 >>> per: 80
 getST executado em 4e-06 segundos.
 >>> pessoas: 40
-getST executado em 4e-06 segundos.
->>> pindureta: 80
 getST executado em 5e-06 segundos.
+>>> pindureta: 80
+getST executado em 6e-06 segundos.
 >>> pinga: 40
 getST executado em 5e-06 segundos.
 >>> pirulitá: 40
-getST executado em 6e-06 segundos.
+getST executado em 5e-06 segundos.
 >>> pode: 40
-getST executado em 4e-06 segundos.
+getST executado em 5e-06 segundos.
 >>> porris: 80
 getST executado em 5e-06 segundos.
 >>> pose: 40
-getST executado em 5e-06 segundos.
+getST executado em 4e-06 segundos.
 >>> pra: 40
 getST executado em 4e-06 segundos.
 >>> preta: 40
@@ -430,21 +430,21 @@ getST executado em 5e-06 segundos.
 >>> preto: 40
 getST executado em 5e-06 segundos.
 >>> pudia: 40
-getST executado em 4e-06 segundos.
+getST executado em 5e-06 segundos.
 >>> pão: 40
 getST executado em 4e-06 segundos.
 >>> pé: 40
 getST executado em 4e-06 segundos.
 >>> quam: 40
-getST executado em 5e-06 segundos.
+getST executado em 4e-06 segundos.
 >>> que: 240
 getST executado em 4e-06 segundos.
 >>> quem: 40
-getST executado em 5e-06 segundos.
->>> qui: 80
 getST executado em 4e-06 segundos.
->>> quis: 120
+>>> qui: 80
 getST executado em 5e-06 segundos.
+>>> quis: 120
+getST executado em 4e-06 segundos.
 >>> quisso: 40
 getST executado em 5e-06 segundos.
 >>> quium: 40
@@ -452,17 +452,17 @@ getST executado em 5e-06 segundos.
 >>> quo: 40
 getST executado em 4e-06 segundos.
 >>> receita: 40
-getST executado em 6e-06 segundos.
+getST executado em 5e-06 segundos.
 >>> reclamis: 40
 getST executado em 5e-06 segundos.
 >>> risus: 40
 getST executado em 5e-06 segundos.
 >>> sadipscing: 40
-getST executado em 6e-06 segundos.
+getST executado em 5e-06 segundos.
 >>> santis: 40
-getST executado em 6e-06 segundos.
+getST executado em 5e-06 segundos.
 >>> scelerisque: 40
-getST executado em 6e-06 segundos.
+getST executado em 5e-06 segundos.
 >>> se: 40
 getST executado em 4e-06 segundos.
 >>> sed: 40
@@ -470,25 +470,25 @@ getST executado em 4e-06 segundos.
 >>> sem: 160
 getST executado em 4e-06 segundos.
 >>> sentado: 40
-getST executado em 6e-06 segundos.
+getST executado em 5e-06 segundos.
 >>> significa: 40
 getST executado em 6e-06 segundos.
 >>> sit: 120
-getST executado em 4e-06 segundos.
+getST executado em 5e-06 segundos.
 >>> sociosqu: 40
 getST executado em 6e-06 segundos.
 >>> sou: 120
-getST executado em 5e-06 segundos.
->>> sua: 80
 getST executado em 4e-06 segundos.
+>>> sua: 80
+getST executado em 5e-06 segundos.
 >>> taciti: 40
 getST executado em 5e-06 segundos.
 >>> tellus: 40
-getST executado em 5e-06 segundos.
+getST executado em 6e-06 segundos.
 >>> tem: 80
 getST executado em 4e-06 segundos.
 >>> tempor: 40
-getST executado em 5e-06 segundos.
+getST executado em 6e-06 segundos.
 >>> tendi: 40
 getST executado em 5e-06 segundos.
 >>> terra: 40
@@ -496,23 +496,23 @@ getST executado em 5e-06 segundos.
 >>> tombis: 40
 getST executado em 5e-06 segundos.
 >>> tomo: 40
-getST executado em 4e-06 segundos.
+getST executado em 5e-06 segundos.
 >>> torquent: 40
 getST executado em 6e-06 segundos.
 >>> tratores: 40
 getST executado em 6e-06 segundos.
 >>> tristique: 40
-getST executado em 7e-06 segundos.
+getST executado em 6e-06 segundos.
 >>> turmis: 40
-getST executado em 5e-06 segundos.
+getST executado em 6e-06 segundos.
 >>> turpis: 40
-getST executado em 5e-06 segundos.
+getST executado em 6e-06 segundos.
 >>> tá: 40
-getST executado em 5e-06 segundos.
+getST executado em 4e-06 segundos.
 >>> u: 40
 getST executado em 3e-06 segundos.
 >>> ultrices: 40
-getST executado em 7e-06 segundos.
+getST executado em 6e-06 segundos.
 >>> um: 160
 getST executado em 4e-06 segundos.
 >>> uma: 120
@@ -522,7 +522,7 @@ getST executado em 5e-06 segundos.
 >>> ut: 120
 getST executado em 4e-06 segundos.
 >>> vai: 80
-getST executado em 5e-06 segundos.
+getST executado em 4e-06 segundos.
 >>> vale: 40
 getST executado em 5e-06 segundos.
 >>> varius: 40
@@ -534,7 +534,7 @@ getST executado em 5e-06 segundos.
 >>> vermeio: 40
 getST executado em 6e-06 segundos.
 >>> vidis: 41
-getST executado em 5e-06 segundos.
+getST executado em 6e-06 segundos.
 >>> vitae: 80
 getST executado em 6e-06 segundos.
 >>> viverra: 40
@@ -542,7 +542,7 @@ getST executado em 6e-06 segundos.
 >>> volutpat: 80
 getST executado em 6e-06 segundos.
 >>> vulputate: 40
-getST executado em 7e-06 segundos.
+getST executado em 6e-06 segundos.
 >>> vê: 80
 getST executado em 5e-06 segundos.
 >>> é: 200

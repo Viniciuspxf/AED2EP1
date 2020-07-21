@@ -3,62 +3,62 @@ Delete:
 
 AB:
 Mussum:
-soma: 0.000391
+soma: 0.000379
 quantidade: 275
-media: 1.42182e-06
+media: 1.37818e-06
 
 Cinnamon:
-soma: 0.007197
+soma: 0.006604
 quantidade: 4318
-media: 1.66674e-06
+media: 1.52941e-06
 
 
 A23:
 Mussum:
-soma: 0.000402
+soma: 0.000454
 quantidade: 275
-media: 1.46182e-06
+media: 1.65091e-06
 
 Cinnamon:
-soma: 0.007196
+soma: 0.006704
 quantidade: 4318
-media: 1.66651e-06
+media: 1.55257e-06
 
 
 TR:
 Mussum:
-soma: 0.000401
+soma: 0.000376
 quantidade: 275
-media: 1.45818e-06
+media: 1.36727e-06
 
 Cinnamon:
-soma: 0.007332
+soma: 0.006656
 quantidade: 4318
-media: 1.69801e-06
+media: 1.54145e-06
 
 
 RN:
 Mussum:
-soma: 0.000405
+soma: 0.000386
 quantidade: 275
-media: 1.47273e-06
+media: 1.40364e-06
 
 Cinnamon:
-soma: 0.007146
+soma: 0.006299
 quantidade: 4318
-media: 1.65493e-06
+media: 1.45878e-06
 
 
 VO:
 Mussum:
-soma: 0.00124
+soma: 0.001238
 quantidade: 275
-media: 4.50909e-06
+media: 4.50182e-06
 
 Cinnamon:
-soma: 0.246542
+soma: 0.239911
 quantidade: 4318
-media: 5.70963e-05
+media: 5.55607e-05
 
 
 VD:
@@ -68,43 +68,43 @@ quantidade: 275
 media: 3.94182e-06
 
 Cinnamon:
-soma: 0.205591
+soma: 0.204697
 quantidade: 4318
-media: 4.76126e-05
+media: 4.74055e-05
 
 
 LO:
 Mussum:
-soma: 0.000317
+soma: 0.000314
 quantidade: 275
-media: 1.15273e-06
+media: 1.14182e-06
 
 Cinnamon:
-soma: 0.005285
+soma: 0.004789
 quantidade: 4318
-media: 1.22395e-06
+media: 1.10908e-06
 
 
 LD:
 Mussum:
-soma: 0.000642
+soma: 0.000631
 quantidade: 275
-media: 2.33455e-06
+media: 2.29455e-06
 
 Cinnamon:
-soma: 0.080349
+soma: 0.080188
 quantidade: 4318
-media: 1.86079e-05
+media: 1.85706e-05
 
 
 HS:
 Mussum:
-soma: 0.000352
+soma: 0.000356
 quantidade: 275
-media: 1.28e-06
+media: 1.29455e-06
 
 Cinnamon:
-soma: 0.006223
+soma: 0.005786
 quantidade: 4318
-media: 1.44118e-06
+media: 1.33997e-06
 
