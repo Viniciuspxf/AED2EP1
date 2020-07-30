@@ -232,7 +232,7 @@ testeOperacoes(ST st)
             } else {
                 cout << key << "\n";
             }
-            cout << "minST executado em " << elapsed << "segundos." << endl;
+            cout << "minST executado em " << elapsed << " segundos." << endl;
         }
         /*---------------------------------*/
         else if (operacao == DELMIN_ST) {
@@ -248,7 +248,7 @@ testeOperacoes(ST st)
             }
             end = clock();
             elapsed = (double (end - start)/ CLOCKS_PER_SEC);
-            cout << "delminST executado em " << elapsed << "segundos." << endl;
+            cout << "delminST executado em " << elapsed << " segundos." << endl;
         }
         /*---------------------------------*/
         else if (operacao == "printST") {
@@ -274,7 +274,7 @@ testeOperacoes(ST st)
                 } else {
                     cout << key << ": " << frequencia << "\n";
                 }
-                cout << "getST executado em " << elapsed << "segundos." << endl;
+                cout << "getST executado em " << elapsed << " segundos." << endl;
             }
             /*---------------------------------*/
             else if (operacao == RANK_ST) {
@@ -283,7 +283,7 @@ testeOperacoes(ST st)
                 end = clock();
                 elapsed = (double (end - start)/ CLOCKS_PER_SEC);
                 cout << r << "\n";
-                cout << "rankST executado em " << elapsed << "segundos." << endl;
+                cout << "rankST executado em " << elapsed << " segundos." << endl;
             }
             /*---------------------------------*/
             else if (operacao == DELETE_ST) {
@@ -292,7 +292,7 @@ testeOperacoes(ST st)
                 end = clock();
                 elapsed = (double (end - start)/ CLOCKS_PER_SEC);             
                 cout << "\"" << key << "\" foi removida\n";
-                cout << "deleteST executado em " << elapsed << "segundos." << endl;
+                cout << "deleteST executado em " << elapsed << " segundos." << endl;
             }
             else if (operacao == SELECT_ST) {
                 int pos = stoi(key);
@@ -301,7 +301,7 @@ testeOperacoes(ST st)
                 end = clock();
                 elapsed = (double (end - start)/ CLOCKS_PER_SEC); 
                 cout << "Posição " << pos << " = " << chave << "\n";
-                cout << "selectST executado em " << elapsed << "segundos." << endl;
+                cout << "selectST executado em " << elapsed << " segundos." << endl;
             }
             else if (operacao == "insertST") {
                 int valor;
@@ -313,7 +313,7 @@ testeOperacoes(ST st)
                     st->insere(key, valor);
                     end = clock();
                     elapsed = (double (end - start)/ CLOCKS_PER_SEC);
-                    cout << "insertST executado em " << elapsed << "segundos." << endl;
+                    cout << "insertST executado em " << elapsed << " segundos." << endl;
                 }
             }
             else {

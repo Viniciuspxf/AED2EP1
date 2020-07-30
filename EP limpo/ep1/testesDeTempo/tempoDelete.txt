@@ -1,0 +1,110 @@
+Delete:
+
+
+AB:
+Mussum:
+soma: 0.000414
+quantidade: 275
+media: 1.50545e-06
+
+Cinnamon:
+soma: 0.006431
+quantidade: 4318
+media: 1.48935e-06
+
+
+A23:
+Mussum:
+soma: 0.000482
+quantidade: 275
+media: 1.75273e-06
+
+Cinnamon:
+soma: 0.00674
+quantidade: 4318
+media: 1.56091e-06
+
+
+TR:
+Mussum:
+soma: 0.000401
+quantidade: 275
+media: 1.45818e-06
+
+Cinnamon:
+soma: 0.006455
+quantidade: 4318
+media: 1.49491e-06
+
+
+RN:
+Mussum:
+soma: 0.000446
+quantidade: 275
+media: 1.62182e-06
+
+Cinnamon:
+soma: 0.006346
+quantidade: 4318
+media: 1.46966e-06
+
+
+VO:
+Mussum:
+soma: 0.001315
+quantidade: 275
+media: 4.78182e-06
+
+Cinnamon:
+soma: 0.240366
+quantidade: 4318
+media: 5.5666e-05
+
+
+VD:
+Mussum:
+soma: 0.001084
+quantidade: 275
+media: 3.94182e-06
+
+Cinnamon:
+soma: 0.205026
+quantidade: 4318
+media: 4.74817e-05
+
+
+LO:
+Mussum:
+soma: 0.000315
+quantidade: 275
+media: 1.14545e-06
+
+Cinnamon:
+soma: 0.005057
+quantidade: 4318
+media: 1.17114e-06
+
+
+LD:
+Mussum:
+soma: 0.000627
+quantidade: 275
+media: 2.28e-06
+
+Cinnamon:
+soma: 0.080268
+quantidade: 4318
+media: 1.85892e-05
+
+
+HS:
+Mussum:
+soma: 0.000356
+quantidade: 275
+media: 1.29455e-06
+
+Cinnamon:
+soma: 0.005552
+quantidade: 4318
+media: 1.28578e-06
+

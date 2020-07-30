@@ -1,0 +1,22 @@
+#!/bin/bash
+
+make
+make testando
+
+for ED in AB A23 TR RN VO VD LO LD HS
+do
+    for TEXTO in Mussum Cinnamon
+    do 
+    
+        valgrind --leak-check=full ./unit_test ${TEXTO}.txt ${ED} < entradas/entradaRemove${TEXTO}.txt > saidas/Saida${ED}Remove${TEXTO}.txt
+        echo Teste da estrutura de dado $ED com o texto $TEXTO concluído.
+        echo pressione enter para continuar.
+        read
+        if [ $ED != "AB" ]
+        then
+            echo comparando $ED com $ANTERIOR
+            echo saidas/Saida${ED}Remove${TEXTO}.txt saidas/Saida${ANTERIOR}Remove${TEXTO}.txt| ./testando
+        fi
+    done
+    ANTERIOR=$ED
+done
