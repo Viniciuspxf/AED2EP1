@@ -1,0 +1,29 @@
+#!/bin/bash
+
+make 
+make testando
+make contador
+
+for FUNCAO in Devolve Rank Delete Select
+do
+    echo -e "${FUNCAO}:\n" > testesDeTempo/tempo$FUNCAO.txt
+    for ED in AB A23 TR RN VO VD LO LD HS
+    do
+        echo -e "\n${ED}:" >> testesDeTempo/tempo$FUNCAO.txt
+        for TEXTO in Mussum Cinnamon
+        do
+            echo função: $FUNCAO Estrutura de dado: $ED Texto: $TEXTO
+            echo digite enter para continuar
+            read
+            echo ${TEXTO}: >> testesDeTempo/tempo$FUNCAO.txt
+            ./unit_test ${TEXTO}.txt ${ED} < entradas/entrada${FUNCAO}${TEXTO}.txt > saidas/Saida${ED}${FUNCAO}${TEXTO}.txt
+            ./contador < saidas/Saida${ED}${FUNCAO}${TEXTO}.txt >> testesDeTempo/tempo${FUNCAO}.txt
+            if [ $ED != "AB" ]
+            then
+                echo comparando $ED com $ANTERIOR
+                echo saidas/Saida${ED}${FUNCAO}${TEXTO}.txt saidas/Saida${ANTERIOR}${FUNCAO}${TEXTO}.txt| ./testando
+            fi
+        done
+        ANTERIOR=$ED
+    done
+done
